@@ -2,7 +2,7 @@
 
 ### 简介
 
-本项目最早是基于 [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，现已形成独有风格。
+本项目最早是 Fork [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来。
 
 ---
 * [支持应用](#application)
@@ -30,11 +30,12 @@
 
 ### Application
 
-Configuration | Source
-----|----
-Surge | [@lhie1](https://t.me/lhie1)
-Shadowrocket | [@lhie1](https://t.me/lhie1)
-Quantumult | [@Jacky Y](https://t.me/WatanabeMayu)
+Configuration | Source | Group
+----|----|----
+Rules | [@lhie1](https://t.me/lhie1) | [墙洞](https://t.me/lhie1x)
+Surge | [@lhie1](https://t.me/lhie1) | [Surge](https://t.me/loveapps)
+Shadowrocket | [@lhie1](https://t.me/lhie1) | [墙洞](https://t.me/lhie1x)
+Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/quantumultapp)
 
 ---
 
