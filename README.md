@@ -17,7 +17,7 @@
     	* Rule OTA
 * [证书的安装及信任](#mitm-1)
 * [Android SSR ACL](#android-ssr-acl)
-* [浏览器广告](#browser-ad)
+* [浏览器广告](#browser-ads)
 * [关于](#关于)
 * [Q&A](#qa)
 * [客户端](#客户端有r标示表示支持-ssr)
