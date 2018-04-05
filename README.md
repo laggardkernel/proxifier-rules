@@ -32,9 +32,9 @@
 
 Configuration | Source | Group
 ----|----|----
-Rules | [@lhie1](https://t.me/lhie1) | [墙洞](https://t.me/lhie1x)
+Rules | [墙洞 Channel](https://t.me/RuleNews) | [墙洞](https://t.me/lhie1x)
 Surge | [@lhie1](https://t.me/lhie1) | [Surge](https://t.me/loveapps)
-Shadowrocket | [@lhie1](https://t.me/lhie1) | [墙洞](https://t.me/lhie1x)
+Shadowrocket | [@lhie1](https://t.me/lhie1) | [Shadowrcoekt](https://t.me/ShadowrocketApp)
 Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/quantumultapp)
 
 ---
