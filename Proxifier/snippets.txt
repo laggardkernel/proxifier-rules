@@ -1,0 +1,10 @@
+^(?![/\*\s])
+
+cat delegated-apnic-latest.txt | awk -F '|' '/CN/&&/ipv4/ {print $4 "/" 32-log($5)/log(2)}'|cat >ip.txt
+
+
+    <Rule enabled="true">
+      <Name></Name>
+      <Targets></Targets>
+      <Action type="Proxy">100</Action>
+    </Rule>
