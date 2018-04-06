@@ -2,12 +2,12 @@
 <ProxifierProfile version="102" platform="MacOSX" product_id="2" product_minver="212">
   <Options>
     <Resolve>
-      <AutoModeDetection enabled="true" />
-      <ViaProxy enabled="false">
+      <AutoModeDetection enabled="false" />
+      <ViaProxy enabled="true">
         <TryLocalDnsFirst enabled="false" />
       </ViaProxy>
       <ExclusionList OnlyFromListMode="true" ExcludeSimpleHostnames="true" ExcludeLocalhost="true"
-        ExcludeSelfHostname="true" ExcludeLocalDomain="true">cdn.kindleren.kandouren.com;*line.naver.jp;*ptt.cc;*appledaily*;*beetalk*;*blogspot*;*dropbox*;*facebook*;*spotify*;*telegram*;*twitter*;*whatsapp*;*1e100.net;*2mdn.net;*abc.xyz;*akamai.net;*appspot.com;*autodraw.com;*bandwagonhost.com;*blogblog.com;*cdninstagram.com;*chromeexperiments.com;*creativelab5.com;*crittercism.com;*culturalspot.org;*dartlang.org;*fb.com;*fb.me;*fbcdn.net;*fbsbx.com;*gcr.io;*gmail.com;*google.com;*googlevideo.com;*gosetsuden.jp;*gvt1.com;*gwtproject.org;*heroku.com;*html5rocks.com;*humblebundle.com;*instagram.com;*keyhole.com;*kobo.com;*kobobooks.com;*madewithcode.com;*material.io;*messenger.com;*netmarble.com;*nianticlabs.com;*pinimg.com;*pubnub.com;*scdn.co;*t.co;*telegram.me;*telegram.org;*tensorflow.org;*thefacebook.com;*toggleable.com;*torproject.org;*twimg.com;*twitpic.com;*unfiltered.news;*waveprotocol.org;*webmproject.org;*webrtc.org;*whatsapp.com;*whatsapp.net;*youtube.com;*epicgames.com;thisisinsider.com;pixel.net;*.pixel.net;pximg.net;*.pximg.net;d.pixiv.org;m.googlemail.com;
+        ExcludeSelfHostname="true" ExcludeLocalDomain="true">cdn.kindleren.kandouren.com;*line.naver.jp;*ptt.cc;*appledaily*;*beetalk*;*blogspot*;*dropbox*;*facebook*;*spotify*;*telegram*;*twitter*;*whatsapp*;*1e100.net;*2mdn.net;*abc.xyz;*akamai.net;*appspot.com;*autodraw.com;*bandwagonhost.com;*blogblog.com;*cdninstagram.com;*chromeexperiments.com;*creativelab5.com;*crittercism.com;*culturalspot.org;*dartlang.org;*fb.com;*fb.me;*fbcdn.net;*fbsbx.com;*gcr.io;*gmail.com;*google.com;*googlevideo.com;*gosetsuden.jp;*gvt1.com;*gwtproject.org;*heroku.com;*html5rocks.com;*humblebundle.com;*instagram.com;*keyhole.com;*kobo.com;*kobobooks.com;*madewithcode.com;*material.io;*messenger.com;*netmarble.com;*nianticlabs.com;*pinimg.com;*pubnub.com;*scdn.co;*t.co;*telegram.me;*telegram.org;*tensorflow.org;*thefacebook.com;*toggleable.com;*torproject.org;*twimg.com;*twitpic.com;*unfiltered.news;*waveprotocol.org;*webmproject.org;*webrtc.org;*whatsapp.com;*whatsapp.net;*youtube.com;thisisinsider.com;pixel.net;*.pixel.net;pximg.net;*.pximg.net;d.pixiv.org;m.googlemail.com;
       </ExclusionList>
     </Resolve>
     <Encryption mode="basic" />
@@ -31,22 +31,22 @@
   </ProxyList>
   <ChainList/>
   <RuleList>
-    <Rule enabled="true">
+    <Rule enabled="false">
       <Name>Custom-Direct</Name>
-      <Targets>wyh.test;*kindleren.com;www.ultratools.com;</Targets>
+      <Targets>*kindleren.com;www.ultratools.com;</Targets>
       <Action type="Direct" />
     </Rule>
-    <Rule enabled="true">
+    <Rule enabled="false">
       <Name>Custom-REJECT</Name>
       <Targets>e.crashlytics.com</Targets>
       <Action type="Block" />
     </Rule>
-    <Rule enabled="true">
-      <Name>Custom-Proxy-1</Name>
+    <Rule enabled="false">
+      <Name>Custom-Proxy</Name>
       <Targets>cdn.kindleren.kandouren.com;www.v2ex.com;</Targets>
       <Action type="Proxy">100</Action>
     </Rule>
-    <Rule enabled="true">
+    <Rule enabled="false">
       <Name>Custom-Proxy-US</Name>
       <Targets>*e-hentai.org;*ehgt.org;*exhentai.org;*hentaiverse.org;</Targets>
       <Action type="Proxy">101</Action>
@@ -115,7 +115,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Proxy-1</Name>
-      <Targets>*uk-live*;*bbc.co;*bbc.com;*.jp;*lin.ee;*line.me;*line.naver.jp;*line-apps.com;*line-cdn.net;*line-scdn.net;*nhncorp.jp;*nowtv100*;*rthklive*;*mytvsuper.com;*tvb.com;*netflix.com;*netflix.net;*nflxext.com;*nflximg.com;*nflximg.net;*nflxvideo.net;*steamcommunity.com;*steamstatic.com;</Targets>
+      <Targets>*uk-live*;*bbc.co;*bbc.com;*.jp;*.tw;*lin.ee;*line.me;*line.naver.jp;*line-apps.com;*line-cdn.net;*line-scdn.net;*nhncorp.jp;*nowtv100*;*rthklive*;*mytvsuper.com;*tvb.com;*netflix.com;*netflix.net;*nflxext.com;*nflximg.com;*nflximg.net;*nflxvideo.net;*steamcommunity.com;*steamstatic.com;</Targets>
       <Action type="Proxy">100</Action>
     </Rule>
     <Rule enabled="true">
@@ -125,7 +125,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Force-remote-dns</Name>
-      <Targets>*appledaily*;*beetalk*;*blogspot*;*dropbox*;*facebook*;*spotify*;*telegram*;*twitter*;*whatsapp*;*1e100.net;*2mdn.net;*abc.xyz;*akamai.net;*appspot.com;*autodraw.com;*bandwagonhost.com;*blogblog.com;*cdninstagram.com;*chromeexperiments.com;*creativelab5.com;*crittercism.com;*culturalspot.org;*dartlang.org;*fb.com;*fb.me;*fbcdn.net;*fbsbx.com;*gcr.io;*gmail.com;*google.com;*googlevideo.com;*gosetsuden.jp;*gvt1.com;*gwtproject.org;*heroku.com;*html5rocks.com;*humblebundle.com;*instagram.com;*keyhole.com;*kobo.com;*kobobooks.com;*madewithcode.com;*material.io;*messenger.com;*netmarble.com;*nianticlabs.com;*pinimg.com;*pubnub.com;*scdn.co;*t.co;*telegram.me;*telegram.org;*tensorflow.org;*thefacebook.com;*toggleable.com;*torproject.org;*twimg.com;*twitpic.com;*unfiltered.news;*waveprotocol.org;*webmproject.org;*webrtc.org;*whatsapp.com;*whatsapp.net;*youtube.com;*epicgames.com;</Targets>
+      <Targets>*appledaily*;*beetalk*;*blogspot*;*dropbox*;*facebook*;*spotify*;*telegram*;*twitter*;*whatsapp*;*1e100.net;*2mdn.net;*abc.xyz;*akamai.net;*appspot.com;*autodraw.com;*bandwagonhost.com;*blogblog.com;*cdninstagram.com;*chromeexperiments.com;*creativelab5.com;*crittercism.com;*culturalspot.org;*dartlang.org;*fb.com;*fb.me;*fbcdn.net;*fbsbx.com;*gcr.io;*gmail.com;*google.com;*googlevideo.com;*gosetsuden.jp;*gvt1.com;*gwtproject.org;*heroku.com;*html5rocks.com;*humblebundle.com;*instagram.com;*keyhole.com;*kobo.com;*kobobooks.com;*madewithcode.com;*material.io;*messenger.com;*netmarble.com;*nianticlabs.com;*pinimg.com;*pubnub.com;*scdn.co;*t.co;*telegram.me;*telegram.org;*tensorflow.org;*thefacebook.com;*toggleable.com;*torproject.org;*twimg.com;*twitpic.com;*unfiltered.news;*waveprotocol.org;*webmproject.org;*webrtc.org;*whatsapp.com;*whatsapp.net;*youtube.com;</Targets>
       <Action type="Proxy">100</Action>
     </Rule>
     <Rule enabled="true">
@@ -175,7 +175,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>LAN</Name>
-      <Targets>*local;10.0.0.0-10.255.255.255;100.64.0.0-100.127.255.255;127.0.0.0-127.255.255.255;172.0.0.0-172.15.255.255;192.168.0.0-192.168.255.255;172.16.0.0-172.31.255.255;0:0:0:0:0:0:0:0-7fff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;e.crashlytics.com;captive.apple.com;1.0.0.1;</Targets>
+      <Targets>*local;10.0.0.0-10.255.255.255;100.64.0.0-100.127.255.255;127.0.0.0-127.255.255.255;172.0.0.0-172.15.255.255;192.168.0.0-192.168.255.255;172.16.0.0-172.31.255.255;0:0:0:0:0:0:0:0-7fff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;captive.apple.com;1.0.0.1;</Targets>
       <Action type="Direct" />
     </Rule>
     <Rule enabled="true">
