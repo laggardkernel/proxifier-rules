@@ -8,3 +8,6 @@ cat delegated-apnic-latest.txt | awk -F '|' '/CN/&&/ipv4/ {print $4 "/" 32-log($
       <Targets></Targets>
       <Action type="Proxy">100</Action>
     </Rule>
+
+^\*(?!\.)(.*(?<!\*))$
+\1\n*.\1
