@@ -60,6 +60,18 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>iTunes-Direct</Name>
+            <Targets>buy.itunes.apple.com;*-buy.itunes.apple.com;osxapps.itunes.apple.com;aod.itunes.apple.com;mvod.itunes.apple.com;streamingaudio.itunes.apple.com;</Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="false">
+            <Name>iTunes-in-Browser</Name>
+            <Applications>"Google Chrome";firefox;com.apple.WebKit.Networking;</Applications>
+            <Targets>itunes.apple.com;</Targets>
+            <Ports>80;443;</Ports>
+            <Action type="Proxy">101</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>Apple App</Name>
             <Applications>storedownloadd;</Applications>
             <Action type="Direct"/>
