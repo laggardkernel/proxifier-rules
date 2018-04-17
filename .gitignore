@@ -27,4 +27,5 @@ Temporary Items
 .apdisk
 
 # Custom
-Proxifier/custom.ppx
+Proxifier/custom*.ppx
+Proxifier/Custom*.ppx

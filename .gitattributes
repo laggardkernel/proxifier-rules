@@ -1,0 +1,4 @@
+* text=auto
+./Proxifier.ppx binary
+Proxifier/*.ppx text
+
