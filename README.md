@@ -12,6 +12,7 @@
 * [可实现功能](#function)
 * 导入方式
     * [URL](#url)
+    * [JSBox](#jsbox)
     * [Workflow](#workflow关注微信公众号墙洞说发送rule-即可获取最新-user-data--rule-ota)
     	* User Data
     	* Rule OTA
@@ -69,6 +70,18 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 Surge：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
+
+Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
+
+Quantumult_Rejection：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+````
+
+---
+
+### JSBox
+
+````
+Surge：https://xteko.com/redir?name=Surge&url=https://raw.githubusercontent.com/lhie1/Rules/master/JSBox/Surge.js
 ````
 
 ---
