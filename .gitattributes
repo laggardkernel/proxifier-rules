@@ -1,4 +1,3 @@
 * text=auto
-./Proxifier.ppx binary
-Proxifier/*.ppx text
-
+*.ppx binary
+Proxifier/*.ppx crlf diff
