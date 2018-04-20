@@ -36,6 +36,7 @@ for item in Proxifier.ppx Custom.ppx; do
     tr <"$inputfile" -d '\n' | tr -s ' ' | sed 's/; /;/g' >"$outputfile"
     # TODO: auto format file as XML
     # output may be truncated by pipe, use temporary file
+    # https://backreference.org/2011/01/29/in-place-editing-of-files/
     < "$outputfile" ${cmd[@]} >| "$tempfile"
     cp -f "$tempfile" "$outputfile"
   fi
