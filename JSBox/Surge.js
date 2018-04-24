@@ -1,8 +1,8 @@
 /*
     Surge conf builder
-    
+
     作者：https://t.me/miniers
-    
+
     修改：lhie1
 */
 const _ = require('lodash');
@@ -41,7 +41,7 @@ const fields = [{
   },
   {
     name: 'AutoGroup',
-    text: '自定义Auto组自动切换的节点，只需填入节点名称且务必与Proxy中保持一致，用英文逗号分隔(必填)'
+    text: '自定义Auto组自动切换的节点，只需填入节点名称且务必与Proxy中保持一致，留空默认全选，用英文逗号分隔（样例请务必删除或替换掉，若出错则说明输入有误）'
   },
   {
     name: 'Custom',
@@ -94,7 +94,7 @@ function initConfig() {
 loglevel = notify
 dns-server = system,1.2.4.8,80.80.80.80,80.80.81.81,1.1.1.1,1.0.0.1
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,*.crashlytics.com,::ffff:0.0.0.0/1,::ffff:128.0.0.0/1
-  
+
 // iOS
 external-controller-access = lhie1@0.0.0.0:6170
 
@@ -154,11 +154,12 @@ function saveConfig() {
 
 function buildFile() {
   var ProxyList = getProxyName(config.Proxy).join(',');
+  var AutoList = (`${config.AutoGroup}` != "") ? `${config.AutoGroup}`:`${ProxyList}`;
   var cushostname = config.hostname.split('\n').join(',')
   var result = `
 [General]
 ${config.General}
-[Proxy] 
+[Proxy]
 🚀 Direct = direct
 # my Proxy
 ${config.Proxy}
@@ -170,9 +171,9 @@ ${config.extProxy}
 🍂 Domestic = select, 🚀 Direct, 🍃 Proxy
 🍎 Only = select, 🚀 Direct,${ProxyList}
 ☁️ Others =  select,🚀 Direct,🍃 Proxy
-🏃 Auto = url-test,${config.AutoGroup},url = http://www.gstatic.com/generate_204, interval = 1200
+🏃 Auto = url-test,${AutoList},url = http://www.gstatic.com/generate_204, interval = 1200
 # my extProxyGroup
-${config.extProxyGroup}  
+${config.extProxyGroup}
 
 [Rule]
 # my custom
@@ -186,7 +187,7 @@ ${remoteRule.PROXY}
 # remote DIRECT
 ${remoteRule.DIRECT}
 
-# my ipRule  
+# my ipRule
 ${config.ipRule}
 // Detect local network
 GEOIP,CN,🍂 Domestic
@@ -194,13 +195,13 @@ GEOIP,CN,🍂 Domestic
 FINAL,☁️ Others,dns-failed
 
 [Host]
-# my host  
+# my host
 ${config.Host}
 # remote HOST
 ${remoteRule['HOST']}
 
- 
-[URL Rewrite] 
+
+[URL Rewrite]
 # my Rewrite
 ${config.Rewrite}
 # remote URL Rewrite
@@ -208,7 +209,7 @@ ${remoteRule['URL Rewrite']}
 # remote URL REJECT
 ${remoteRule['URL REJECT']}
 
-[Header Rewrite] 
+[Header Rewrite]
 # remote Header Rewrite
 ${remoteRule['Header Rewrite']}
 
@@ -219,7 +220,7 @@ ${remoteRule['TestFlight']}
 [SSID Setting]
 # my SSID
 ${config.SSID}
- 
+
 # MITM
 ${config.MITM?'[MITM]':''}
 ${config.MITM?`hostname = ${cushostname?cushostname+",":""}${remoteRule.Hostname.split('\n').join(',')}`:''}
