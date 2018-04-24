@@ -63,6 +63,10 @@ const fields = [{
     text: 'MITM中的hostname'
   },
   {
+    name: 'AutoGroup',
+    text: '自定义Auto组所用节点，节点名称务必与前面保持一致，用英文逗号分隔(必填)'
+  },
+  {
     name: 'extProxyGroup',
     text: '自定义代理组'
   },
@@ -128,6 +132,7 @@ use-keyword-filter = false`,
     'SSID': "",
     'extProxy': "",
     'hostname': "",
+    'AutoGroup': `🇺🇸 US,🇭🇰 HK,🇯🇵 JP,🇸🇬 SG`,
     'extProxyGroup': "",
     'MITM': `skip-server-cert-verify = true
 tcp-connection = false
@@ -165,7 +170,7 @@ ${config.extProxy}
 🍂 Domestic = select, 🚀 Direct, 🍃 Proxy
 🍎 Only = select, 🚀 Direct,${ProxyList}
 ☁️ Others =  select,🚀 Direct,🍃 Proxy
-🏃 Auto = url-test,${ProxyList},url = http://www.gstatic.com/generate_204, interval = 1200
+🏃 Auto = url-test,${config.AutoGroup},url = http://www.gstatic.com/generate_204, interval = 1200
 # my extProxyGroup
 ${config.extProxyGroup}  
 
