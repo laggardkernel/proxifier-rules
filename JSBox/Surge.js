@@ -40,6 +40,10 @@ const fields = [{
     text: '(必填)'
   },
   {
+    name: 'AutoGroup',
+    text: '自定义Auto组自动切换的节点，只需填入节点名称且务必与Proxy中保持一致，用英文逗号分隔(必填)'
+  },
+  {
     name: 'Custom',
   },
   {
@@ -61,10 +65,6 @@ const fields = [{
   {
     name: 'hostname',
     text: 'MITM中的hostname'
-  },
-  {
-    name: 'AutoGroup',
-    text: '自定义Auto组所用节点，节点名称务必与前面保持一致，用英文逗号分隔(必填)'
   },
   {
     name: 'extProxyGroup',
@@ -125,6 +125,7 @@ use-keyword-filter = false`,
 
 🇸🇬 SG = custom,sg.com,1234,rc4-md5,password,http://omgib13x8.bkt.clouddn.com/SSEncrypt.module
 `,
+    'AutoGroup': `🇺🇸 US,🇭🇰 HK,🇯🇵 JP,🇸🇬 SG`,
     'Custom': "",
     'Rewrite': "",
     'Delete': "",
@@ -132,7 +133,6 @@ use-keyword-filter = false`,
     'SSID': "",
     'extProxy': "",
     'hostname': "",
-    'AutoGroup': `🇺🇸 US,🇭🇰 HK,🇯🇵 JP,🇸🇬 SG`,
     'extProxyGroup': "",
     'MITM': `skip-server-cert-verify = true
 tcp-connection = false
