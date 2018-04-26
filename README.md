@@ -2,7 +2,7 @@
 
 ### 简介
 
-本项目最早是基于 [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，现已形成独有风格。
+本项目最早是 Fork [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来。
 
 ---
 * [支持应用](#application)
@@ -12,12 +12,13 @@
 * [可实现功能](#function)
 * 导入方式
     * [URL](#url)
+    * [JSBox](#jsbox)
     * [Workflow](#workflow关注微信公众号墙洞说发送rule-即可获取最新-user-data--rule-ota)
     	* User Data
     	* Rule OTA
 * [证书的安装及信任](#mitm-1)
 * [Android SSR ACL](#android-ssr-acl)
-* [浏览器广告](#browser-ad)
+* [浏览器广告](#browser-ads)
 * [关于](#关于)
 * [Q&A](#qa)
 * [客户端](#客户端有r标示表示支持-ssr)
@@ -30,11 +31,12 @@
 
 ### Application
 
-Configuration | Source
-----|----
-Surge | [@lhie1](https://t.me/lhie1)
-Shadowrocket | [@lhie1](https://t.me/lhie1)
-Quantumult | [@Jacky Y](https://t.me/WatanabeMayu)
+Configuration | Source | Group
+----|----|----
+Rules | [墙洞 Channel](https://t.me/RuleNews) | [墙洞](https://t.me/lhie1x)
+Surge | [@lhie1](https://t.me/lhie1) | [Surge](https://t.me/loveapps)
+Shadowrocket | [@lhie1](https://t.me/lhie1) | [Shadowrcoekt](https://t.me/ShadowrocketApp)
+Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/quantumultapp)
 
 ---
 
@@ -68,6 +70,18 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu)
 Surge：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
+
+Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
+
+Quantumult_Rejection：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+````
+
+---
+
+### JSBox
+
+````
+Surge：https://xteko.com/redir?name=Surge&url=https://raw.githubusercontent.com/lhie1/Rules/master/JSBox/Surge.js
 ````
 
 ---
@@ -154,9 +168,19 @@ Proxy_name
 开启此功能为`Spotify`单独选择一个专用节点
 ````
 
+* ##### YouTube
+````
+开启此功能为`YouTube`单独选择一个专用节点
+````
+
 * ##### MytvSUPRE
 ````
 开启此功能为`MytvSUPRE`单独选择一个专用节点
+````
+
+* ##### BBC
+````
+开启此功能为`BBC`单独选择一个专用节点
 ````
 
 * ##### LINE
