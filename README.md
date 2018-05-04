@@ -13,7 +13,7 @@
 * 导入方式
     * [URL](#remote-files)
     * [JSBox](#jsbox)
-    * [Workflow](#workflow关注微信公众号墙洞说发送rule-即可获取最新-user-data--rule-ota)
+    * [Workflow](#workflow关注微信公众号墙洞说发送rule-获取)
     	* User Data
     	* Rule OTA
 * [证书的安装及信任](#mitm-1)
@@ -67,9 +67,9 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 ### Remote Files
 
 ````
-Surge：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
+Surge（阉割版）：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
 
-Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
+Shadowrocket（阉割版）：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
 
 
 Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
