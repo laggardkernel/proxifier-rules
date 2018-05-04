@@ -5,13 +5,13 @@
 本项目最早是 Fork [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来。
 
 ---
-* [支持应用](#application)
+* [兼容](#application)
 	* Surge
 	* Shadowrocket
 	* Quantumult
 * [可实现功能](#function)
 * 导入方式
-    * [URL](#url)
+    * [URL](#remote-files)
     * [JSBox](#jsbox)
     * [Workflow](#workflow关注微信公众号墙洞说发送rule-即可获取最新-user-data--rule-ota)
     	* User Data
@@ -64,12 +64,13 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 
 ---
 
-### URL
+### Remote Files
 
 ````
 Surge：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
+
 
 Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
 
@@ -81,12 +82,12 @@ Quantumult_Rejection：https://raw.githubusercontent.com/lhie1/Rules/master/Quan
 ### JSBox
 
 ````
-Surge：https://xteko.com/redir?name=Surge&url=https://raw.githubusercontent.com/lhie1/Rules/master/JSBox/Surge.js
+Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/Fndroid/jsbox_script/master/Rules-lhie1/.output/Rules-lhie1.box
 ````
 
 ---
 
-### Workflow（关注微信公众号：墙洞说；发送“Rule” 即可获取最新 User Data + Rule OTA）
+### Workflow（关注微信公众号：墙洞说；发送“Rule” 获取）
 
 * [User Data](#user-data)
     * [自定义[Proxy]节点](#proxy)
@@ -130,7 +131,7 @@ Proxy_name = custom,host.com,1234,rc4-md5,password,http://omgib13x8.bkt.clouddn.
 
 * ##### Surge：
 ````
-Managed_url
+Managed config_url
 ````
 
 * ##### Shadowrocket：
@@ -447,13 +448,14 @@ SSR for Android：https://yhyy135.github.io/how-to-use-ssr-android/
 ---
 
 ### 鸣谢
-* [@Eval](https://twitter.com/OAuth4)
-* [@Scomper](https://medium.com/@scomper)
-* [@Neurogram](http://www.taguage.com/user?id=181456)
+* @Eval](https://twitter.com/OAuth4)
+* @Scomper](https://medium.com/@scomper)
+* @Neurogram](http://www.taguage.com/user?id=181456)
 * @suisr9255
-* [@Hackl0us](https://github.com/Hackl0us)
-* [@unknownTokyo](https://t.me/unknownTokyo)
-* [@Jacky Y](https://t.me/WatanabeMayu)
+* @Hackl0us
+* @unknownTokyo
+* @Jacky Y
+* @Fndroid
 
 ---
 
