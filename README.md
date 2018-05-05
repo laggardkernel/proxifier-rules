@@ -69,7 +69,7 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 ````
 Surge（阉割版）：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
 
-Shadowrocket（阉割版）：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
+Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
 
 
 Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
