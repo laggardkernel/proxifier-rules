@@ -33,7 +33,7 @@
 
 Configuration | Source | Group
 ----|----|----
-Rules | [墙洞 Channel](https://t.me/RuleNews) | [墙洞](https://t.me/lhie1x)
+Rules | [Rules Channel](https://t.me/RuleNews) | [Rules](https://t.me/lhie1x)
 Surge | [@lhie1](https://t.me/lhie1) | [Surge](https://t.me/loveapps)
 Shadowrocket | [@lhie1](https://t.me/lhie1) | [Shadowrcoekt](https://t.me/ShadowrocketApp)
 Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/quantumultapp)
@@ -231,11 +231,9 @@ macOS：
 
 微博：[lhie1](http://weibo.com/1748625493)
 
-墙洞（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.me/lhie1x)
+Rules（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.me/lhie1x)
 
 规则更新通知（新特性/教程/说明）：[http://t.me/RuleNews](http://t.me/RuleNews)
-
-购买翻墙服务：[https://墙洞.com](https://墙洞.com)（[了解详情](https://github.com/lhie1/tuClub/blob/master/README.md)）
 
 长时间的维护和分享离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
 
