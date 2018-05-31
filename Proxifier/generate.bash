@@ -33,7 +33,8 @@ for item in Proxifier.ppx Custom.ppx; do
   outputfile="${repodir}/${item}"
   if [[ -f "$inputfile" ]]; then
     rm -f "$outputfile" 2>/dev/null
-    <"$inputfile" tr -d '\n' | tr -s ' ' | sed 's/; /;/g' >"$outputfile"
+    <"$inputfile" sed '/<!--/d' | tr -d '\n' | tr -s ' ' | \
+      sed 's/; /;/g' >"$outputfile"
     # output may be truncated by pipe, use temporary file
     # https://backreference.org/2011/01/29/in-place-editing-of-files/
     < "$outputfile" ${cmd[@]} >| "$tempfile"
