@@ -679,7 +679,7 @@
                 *.ers.baidu.com;
                 *.f10.baidu.com;
                 *.fclick.baidu.com;
-                *.feed.baidu.com;
+                *.fc-feed.cdn.bcebos.com;
                 *.fexclick.baidu.com;
                 *.g.baidu.com;
                 *.gimg.baidu.com;
@@ -708,9 +708,7 @@
                 *.pos.baidu.com;
                 *.push.zhanzhang.baidu.com;
                 *.qianclick.baidu.com;
-                *.r6.mo.baidu.com;
                 *.release.baidu.com;
-                *.res.mi.baidu.com;
                 *.rigel.baidustatic.com;
                 *.river.zhidao.baidu.com;
                 *.rj.baidu.com;
@@ -1033,7 +1031,6 @@
                 *.goto.sogou.com;
                 *.ht.www.sogou.com;
                 *.image.p4p.sogou.com;
-                *.img.shouji.sogou.com;
                 *.info.pinyin.sogou.com;
                 *.input.shouji.sogou.com;
                 *.iwan.sogou.com;
@@ -1091,6 +1088,7 @@
                 *.dp3.qq.com;
                 *.e.qq.com;
                 *.etg.qq.com;
+                *.fiction.b0.upaiyun.com;
                 *.fm.qzone.qq.com;
                 *.fodder.qq.com;
                 *.fodder.tc.qq.com;
@@ -1099,7 +1097,6 @@
                 *.httpring.qq.com;
                 *.if.mingxing.qq.com;
                 *.img1.sj.qq.com;
-                *.imtt.qq.com;
                 *.ios.bugly.qq.com;
                 *.isdspeed.qq.com;
                 *.j.wit.qq.com;
@@ -1112,6 +1109,7 @@
                 *.mapp.qzone.qq.com;
                 *.mcgi.v.qq.com;
                 *.mdevstat.qqlive.qq.com;
+                *.mi.gdt.qq.com;
                 *.mini2015.qq.com;
                 *.monitor.uu.qq.com;
                 *.mqqad.cs0309.html5.qq.com;
@@ -1231,8 +1229,11 @@
                 *.vs2.gzcu.u3.ucweb.com;
                 *.wap3.ucweb.com;
                 *.woodpecker.uc.cn;
+
+                <!-- Feng -->
                 *.aoodoo.feng.com;
                 *.fengbuy.com;
+                *.push.feng.com;
                 *.we.tm;
                 wifiapi01.51y5.net;
                 wifiapi02.51y5.net;
@@ -1457,13 +1458,13 @@
                 *.1d1px.net;
                 *.1i580.com;
                 *.1kmb.cn;
+                *.1kxun.mobi;
                 *.1kzh.com;
                 *.1l1.cc;
                 *.1lib.cn;
                 *.1o26.com;
                 *.1qwe3r.com;
                 *.1tlm.cn;
-                *.1uandun.com;
                 *.1x3x.com;
                 *.2.5aigushi.com;
                 *.2.heiyange.com;
@@ -1566,6 +1567,7 @@
                 *.5vz3cfs0yd.me;
                 *.5y9nfpes.52pk.com;
                 *.600ad.com;
+                *.60608787.com;
                 *.626uc.com;
                 *.644446.com;
                 *.654mmm.com;
@@ -2388,6 +2390,7 @@
                 *.c1.minisplat.cn;
                 *.c1.popads.net;
                 *.c2.popads.net;
+                *.c8b.jcdb88.com;
                 *.caamei.com;
                 *.cacaca.0571yy.com;
                 *.cacafly.net;
@@ -3404,6 +3407,7 @@
                 *.jiaheyonggu.com;
                 *.jiajv.net;
                 *.jianbaimei.com;
+                *.jianduankm.com;
                 *.jianmei123.com;
                 *.jiaoben.eastday.com;
                 *.jiaoben.ganji.cn;
@@ -3414,7 +3418,6 @@
                 *.jiehantai.com;
                 *.jiehunmishu.com;
                 *.jifeidandar.com;
-                *.jiguang.cn;
                 *.jimdo.com;
                 *.jimeilm.com;
                 *.jindu179.com;
@@ -3901,8 +3904,6 @@
                 *.nr1234.com;
                 *.nsnmiaomu.cn;
                 *.ntalker.com;
-                *.ntdtv.com;
-                *.ntdtv.org;
                 *.nterbx.com;
                 *.nthyn.com;
                 *.nwwap.com;
@@ -4881,7 +4882,6 @@
                 *.x.cnxad.com;
                 *.x.eroticity.net;
                 *.x.heyzap.com;
-                *.x.jd.com;
                 *.x.ligatus.com;
                 *.x.vipergirls.to;
                 *.x9377a.com;
@@ -5352,22 +5352,22 @@
             <Applications>
                 "Backup and Sync";
                 "Day One";
-                "Dropbox";
-                "node-webkit";
+                Dropbox;
                 "Google Drive File Stream";
-                "Spotify";
-                "Telegram";
-                "Tweetbot";
-                "Twitter";
-                "Twitterrific";
+                LINE;
+                node-webkit;
+                Spotify;
+                Telegram;
+                Tweetbot;
+                Twitter;
+                Twitterrific;
+                viu;
             </Applications>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
             <Name>Proxy-General</Name>
             <Targets>
-                *.jp;
-                *.tw;
                 *co.uk*;
                 *uk-live*;
                 *.bbc.co;
@@ -5386,6 +5386,18 @@
                 *rthklive*;
                 *.mytvsuper.com;
                 *.tvb.com;
+
+                <!-- Microsoft -->
+                *microsoft*;
+                *.bing.com;
+                *.hotmail.com;
+                *.live.com;
+                *.live.net;
+                *.msn.com;
+                *.office.com;
+                *.office.net;
+                *.outlook.com;
+
                 *.netflix.com;
                 *.netflix.net;
                 *.nflxext.com;
@@ -10842,9 +10854,9 @@
                 *.apigee.com;
                 *.apk-dl.com;
                 *.apkpure.com;
-                *.app-measurement.com;
                 *.appdownloader.net;
                 *.apple-dns.net;
+                *.app-measurement.com;
                 *.appshopper.com;
                 *.arcgis.com;
                 *.archive.is;
@@ -10927,6 +10939,7 @@
                 *.disq.us;
                 *.disqus.com;
                 *.disquscdn.com;
+                *.dmm.co.jp;
                 *.dnsimple.com;
                 *.docker.com;
                 *.dribbble.com;
@@ -10947,8 +10960,8 @@
                 *.eyny.com;
                 *.fabric.io;
                 *.fast.com;
-                *.fastmail.com;
                 *.fastly.net;
+                *.fastmail.com;
                 *.fc2.com;
                 *.feedburner.com;
                 *.feedly.com;
@@ -10999,6 +11012,7 @@
                 *.gstatic.com;
                 *.gunsamerica.com;
                 *.gvt0.com;
+                *.gvt1.com;
                 *.helpshift.com;
                 *.hinet.net;
                 *.hockeyapp.net;
@@ -11019,6 +11033,7 @@
                 *.instapaper.com;
                 *.instructables.com;
                 *.io.io;
+                *.ip.sb;
                 *.ipaddress.com;
                 *.ipn.li;
                 *.is.gd;
@@ -11027,6 +11042,7 @@
                 *.itun.es;
                 *.ixquick.com;
                 *.j.mp;
+                *.javbus.com;
                 *.js.revsci.net;
                 *.jshint.com;
                 *.jtvnw.net;
@@ -11036,10 +11052,11 @@
                 *.kakaocdn.net;
                 *.kat.cr;
                 *.kenengba.com;
-                *.klip.me;
                 *.kik.com;
+                *.klip.me;
                 *.leancloud.com;
                 *.leetcode.com;
+                *.lhie1.com;
                 *.libsyn.com;
                 *.licdn.com;
                 *.lightboxcdn.com;
@@ -11126,6 +11143,7 @@
                 *.pokemon.com;
                 *.polymer-project.org;
                 *.popo.tw;
+                *.potato.im;
                 *.prfct.co;
                 *.proxfree.com;
                 *.psiphon3.com;
@@ -11152,8 +11170,8 @@
                 *.servebom.com;
                 *.sfx.ms;
                 *.shadowsocks.org;
-                *.sharethis.com;
                 *.shadowverse.jp;
+                *.sharethis.com;
                 *.shazam.com;
                 *.shutterstock.com;
                 *.sidelinesnews.com;
@@ -11221,9 +11239,9 @@
                 *.theverge.com;
                 *.thewgo.org;
                 *.tiltbrush.com;
-                *.tinder.com;
                 *.time.com;
                 *.timeinc.net;
+                *.tinder.com;
                 *.tiny.cc;
                 *.tinychat.com;
                 *.tinypic.com;
@@ -11237,6 +11255,7 @@
                 *.torrentproject.se;
                 *.torrentz.eu;
                 *.traffichaus.com;
+                *.trakt.tv;
                 *.transparency.org;
                 *.trello.com;
                 *.trendsmap.com;
@@ -11299,6 +11318,7 @@
                 *.vimperator.org;
                 *.vine.co;
                 *.visibletweets.com;
+                *.viu.com;
                 *.vivaldi.com;
                 *.voachinese.com;
                 *.vocativ.com;
@@ -11336,16 +11356,16 @@
                 *.worldcat.org;
                 *.wow.com;
                 *.wp.com;
-                *.xclient.info;
                 *.wsj.com;
                 *.wsj.net;
                 *.wwitv.com;
                 *.xanga.com;
+                *.xclient.info;
                 *.xda-developers.com;
                 *.xeeno.com;
                 *.xiti.com;
-                *.xn--h5qz41fzgdxxl.com;
                 *.xuite.net;
+                *.xvideos.com;
                 *.yahoo.com;
                 *.yahooapis.com;
                 *.yasni.co.uk;
@@ -11462,7 +11482,12 @@
             <Targets>
                 109.239.140.0-109.239.140.255;
                 149.154.160.0-149.154.175.255;
-                91.108.0.0-91.108.255.255;
+                149.154.164.0-149.154.167.255;
+                149.154.168.0-149.154.171.255;
+                149.154.172.0-149.154.175.255;
+                91.108.4.0-91.108.7.255;
+                91.108.56.0-91.108.59.255;
+                91.108.8.0-91.108.11.255;
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
@@ -11479,15 +11504,33 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
+            <Name>Potato-Chat-IP</Name>
+            <Targets>
+                13.251.24.0-13.251.24.255;
+                13.251.41.0-13.251.41.255;
+                17.252.156.0-17.252.156.255;
+                17.252.157.0-17.252.157.255;
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>Direct-Client</Name>
             <Applications>
                 "Paws for Trello";
                 "Resilio Sync";
-                "Thunder";
-                "TeamViewer";
-                "trustd";
-                "WebTorrent";
-                "WeChat";
+                Thunder;
+                TeamViewer;
+                trustd;
+                WebTorrent;
+                WeChat;
+
+                <!-- TODO: UA, incompatible -->
+                BestTrace;
+                LastPass;
+                Microsoft*;
+                OneDrive;
+                QQ;
+                TIM;
             </Applications>
             <Action type="Direct"/>
         </Rule>
@@ -11497,16 +11540,8 @@
                 *.battle.net;
                 *.battlenet.com;
                 *.blizzard.com;
-                *microsoft*;
-                *.bing.com;
-                *.hotmail.com;
-                *.live.com;
-                *.live.net;
-                *.microsoft.com;
-                *.msn.com;
-                *.office.com;
-                *.office.net;
-                *.outlook.com;
+
+                <!-- Prior -->
                 client.amplifi.com;
                 ip.bjango.com;
                 *.alphassl.com;
@@ -11542,6 +11577,7 @@
                 *.360buyimg.com;
                 *.36kr.com;
                 *.58.com;
+                *.8686c.com;
                 *.abercrombie.com;
                 *.acfun.tv;
                 *.acgvideo.com;
@@ -11578,6 +11614,7 @@
                 *.chunboimg.com;
                 *.clashroyaleapp.com;
                 *.clouddn.com;
+                *.cloudsigma.com;
                 *.cloudxns.net;
                 *.cmfu.com;
                 *.cnbeta.com;
@@ -11661,10 +11698,10 @@
                 *.myqcloud.com;
                 *.myunlu.com;
                 *.netease.com;
+                *.nfoservers.com;
                 *.nssurge.com;
                 *.nuomi.com;
                 *.ourdvs.com;
-                *.outlook.com;
                 *.overcast.fm;
                 *.paypal.com;
                 *.paypalobjects.com;
@@ -11695,6 +11732,7 @@
                 *.sinaapp.com;
                 *.sinaimg.cn;
                 *.sinaimg.com;
+                *.sm.ms;
                 *.smzdm.com;
                 *.snwx.com;
                 *.so.com;
@@ -11714,6 +11752,7 @@
                 *.tenpay.com;
                 *.tietuku.com;
                 *.tmall.com;
+                *.tmzvps.com;
                 *.trello.com;
                 *.trellocdn.com;
                 *.ttmeiju.com;
@@ -11725,7 +11764,6 @@
                 *.uxengine.net;
                 *.v2ex.co;
                 *.v2ex.com;
-                *.vultr.com;
                 *.wandoujia.com;
                 *.weather.bjango.com;
                 *.weather.com;
@@ -11734,6 +11772,7 @@
                 *.weico.cc;
                 *.weiphone.com;
                 *.weiphone.net;
+                *.werewolf.53site.com;
                 *.windowsupdate.com;
                 *.workflowy.com;
                 *.xdrig.com;
