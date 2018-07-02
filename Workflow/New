@@ -1,12 +1,5 @@
-与商店版同步
-
-UDP：本来应该自己到 User Data 的 [Proxy] 部分自己加入，此版本暂时保留开关并自动添加。
-
-[Proxy]
-Policy = custom, …………, udp-relay=true
-
-
-详情：https://trello.com/c/ugOMxD3u/53-udp-转发
+移除 UDP 开关（请自行到 [Proxy] 进行设置）
+修复 Shadowrocket 无法开启 MitM 功能
 
 
 微信公众号：墙洞说
