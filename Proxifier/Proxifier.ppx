@@ -182,7 +182,7 @@
         <Rule enabled="true">
             <Name>Ads in Video apps</Name>
             <Targets>
-                *.log.snssdk.com;
+                <!-- iqiqyi -->
                 *.a.ckm.iqiyi.com;
                 *.ad.m.iqiyi.com;
                 *.afp.iqiyi.com;
@@ -394,6 +394,7 @@
                 *.i.clkservice.youdao.com;
                 *.iad.g.163.com;
                 *.iadmat.nosdn.127.net;
+                *.iadmatvideo.nosdn.127.net;
                 *.img1.126.net;
                 *.img2.126.net;
                 *.impservice.chnl.youdao.com;
@@ -560,7 +561,6 @@
                 *.alipaylog.com;
                 *.api.wapa.taobao.com;
                 *.api.waptest.taobao.com;
-                *.appdownload.alicdn.com;
                 *.asearch.alicdn.com;
                 *.cdn-ads.oss-cn-shanghai.aliyuncs.com;
                 *.dmtracking.alibaba.com;
@@ -632,7 +632,6 @@
                 *.baidutv.baidu.com;
                 *.banlv.baidu.com;
                 *.bar.baidu.com;
-                *.bce.baidu.com;
                 *.bdimg.share.baidu.com;
                 *.bdplus.baidu.com;
                 *.btlaunch.baidu.com;
@@ -1369,7 +1368,6 @@
                 *omgmta*;
                 *openx*;
                 *partnerad*;
-                *pingfore*;
                 *securepubads*;
                 *socdm*;
                 *supersonicads*;
@@ -1560,6 +1558,7 @@
                 *.57union.com;
                 *.58lm.vip;
                 *.592man.com;
+                *.5dg.me;
                 *.5dian.org;
                 *.5egk.com;
                 *.5imoney.com;
@@ -3618,6 +3617,7 @@
                 *.log.tu.baixing.com;
                 *.log.umsns.com;
                 *.log.voicecloud.cn;
+                *.logs.chelaile.net.cn;
                 *.logs.dashlane.com;
                 *.lomark.cn;
                 *.londonprivaterentals.standard.co.uk;
@@ -3832,6 +3832,7 @@
                 *.mtj.baidu.com;
                 *.mtty-cdn.mtty.xin;
                 *.mtxsk.com;
+                *.mubite.cn;
                 *.music.adcome.cn;
                 *.musik-mp3.info;
                 *.mw.adwo.com;
@@ -4343,6 +4344,7 @@
                 *.shama5.com;
                 *.shanghaironghua.com;
                 *.shanglinli.com;
+                *.shangz99991.com;
                 *.share.gzdsw.com;
                 *.sharedaddomain.com;
                 *.sharrysweb.com;
@@ -5404,6 +5406,11 @@
                 *.nflximg.com;
                 *.nflximg.net;
                 *.nflxvideo.net;
+
+                <!-- Spark -->
+                *smartmailcloud.com;
+
+                <!-- Steam -->
                 *.fanatical.com;
                 *.humblebundle.com;
                 *.steamcommunity.com;
@@ -10837,7 +10844,6 @@
                 *.allconnected.co;
                 *.amazon.com;
                 *.amazonaws.com;
-                *.amplitude.com;
                 *.ampproject.com;
                 *.ampproject.net;
                 *.ampproject.org;
@@ -10973,6 +10979,7 @@
                 *.flipboard.com;
                 *.flipkart.com;
                 *.flitto.com;
+                *.flurry.com;
                 *.freeopenProxy.com;
                 *.fullstory.com;
                 *.fzlm.net;
@@ -11037,6 +11044,7 @@
                 *.ipaddress.com;
                 *.ipn.li;
                 *.is.gd;
+                *.ishowsapp.com;
                 *.issuu.com;
                 *.itgonglun.com;
                 *.itun.es;
@@ -11184,7 +11192,6 @@
                 *.slack-msgs.com;
                 *.slideshare.net;
                 *.smartdnsproxy.com;
-                *.smartmailcloud.com;
                 *.smh.com.au;
                 *.snapchat.com;
                 *.sndcdn.com;
@@ -11291,6 +11298,7 @@
                 *.untraceable.us;
                 *.uploaded.net;
                 *.uProxy.org;
+                *.upwork.com;
                 *.urchin.com;
                 *.urlparser.com;
                 *.us.to;
@@ -11364,6 +11372,7 @@
                 *.xda-developers.com;
                 *.xeeno.com;
                 *.xiti.com;
+                *.xn--nos809b.com;
                 *.xuite.net;
                 *.xvideos.com;
                 *.yahoo.com;
@@ -11517,6 +11526,7 @@
             <Name>Direct-Client</Name>
             <Applications>
                 "Paws for Trello";
+                ss-local;
                 "Resilio Sync";
                 Thunder;
                 TeamViewer;
@@ -11537,6 +11547,10 @@
         <Rule enabled="true">
             <Name>Direct-Foreign</Name>
             <Targets>
+                <!-- Beplay -->
+                *beplay*;
+
+                <!-- Blizzard -->
                 *.battle.net;
                 *.battlenet.com;
                 *.blizzard.com;
@@ -11546,10 +11560,11 @@
                 ip.bjango.com;
                 *.alphassl.com;
                 *.edu.cn;
-                api.amplitude.com;
-                app.smartmailcloud.com;
-                gate.hockeyapp.net;
+
+                <!-- Spark -->
+                *.amplitude.com;
                 *.firebaseio.com;
+                *.gate.hockeyapp.net;
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -11600,6 +11615,7 @@
                 *.bababian.com;
                 *.baidu.com;
                 *.battle.net;
+                *.bet365.com;
                 *.bdimg.com;
                 *.bdstatic.com;
                 *.beatsbydre.com;
@@ -11660,6 +11676,7 @@
                 *.ifengimg.com;
                 *.images.unsplash.com;
                 *.images-amazon.com;
+                *.ipify.org;
                 *.ipip.net;
                 *.iqiyi.com;
                 *.ithome.com;
