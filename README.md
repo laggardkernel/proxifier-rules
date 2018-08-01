@@ -237,7 +237,7 @@ Rules（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.m
 
 长时间的维护和分享离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
 
-![](https://raw.githubusercontent.com/lhie1/Rules/master/images/Pay.jpeg)
+![](https://raw.githubusercontent.com/lhie1/Rules/master/images/Pay.jpg)
 
 ---
 
