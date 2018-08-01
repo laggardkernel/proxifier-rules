@@ -431,7 +431,6 @@
                 *.push.yuedu.163.com;
                 *.qt002x.corp.youdao.com;
                 *.r.mail.163.com;
-                *.rd.da.netease.com;
                 *.rec.g.163.com;
                 *.rlogs.youdao.com;
                 *.s.clkservice.youdao.com;
@@ -759,6 +758,7 @@
                 *.assets.easou.com;
                 *.bbcoe.cn;
                 *.cj.qidian.com;
+                *.dcw.hdswgc.com;
                 *.dkeyn.com;
                 *.drdwy.com;
                 *.e.aa985.cn;
@@ -1026,7 +1026,6 @@
                 *.feed.theta.sogou.com;
                 *.files2.sogou.com;
                 *.galaxy.sogoucdn.com;
-                *.get.sogou.com;
                 *.goto.sogou.com;
                 *.ht.www.sogou.com;
                 *.image.p4p.sogou.com;
@@ -1372,7 +1371,6 @@
                 *socdm*;
                 *supersonicads*;
                 *taboola*;
-                *tanx*;
                 *uedas*;
                 *umeng*;
                 *umtrack*;
@@ -2986,7 +2984,6 @@
                 *.fjmeyer.com;
                 *.flashtalking.com;
                 *.flowcodeapp.com;
-                *.flurry.com;
                 *.fm.p0y.cn;
                 *.fmgoal.com;
                 *.fms.ipinyou.com;
@@ -3663,7 +3660,6 @@
                 *.m.guanren9.com;
                 *.m.hellomingpian.com;
                 *.m.hmzsfmjc.com;
-                *.m.irs01.com;
                 *.m.kubiqq.com;
                 *.m.laojiayoufang.com;
                 *.m.reachmax.cn;
@@ -3981,7 +3977,6 @@
                 *.p8u.hinet.net;
                 *.package01.com;
                 *.padsdel2.cdnads.com;
-                *.page.amap.com;
                 *.pagechoice.com;
                 *.painiuimg.com;
                 *.panda.kdnet.net;
@@ -5280,6 +5275,7 @@
                 60.190.139.164-60.190.139.164;
                 60.191.124.196-60.191.124.196;
                 60.210.17.0-60.210.17.255;
+                61.129.70.132-61.129.70.132;
                 61.132.216.232-61.132.216.232;
                 61.132.221.146-61.132.221.146;
                 61.132.255.212-61.132.255.212;
@@ -5297,6 +5293,9 @@
                 2001:67c:4e8:0:0:0:0:0-2001:67c:4e8:ffff:ffff:ffff:ffff:ffff;
                 2001:b28:f23d:0:0:0:0:0-2001:b28:f23d:ffff:ffff:ffff:ffff:ffff;
                 2001:b28:f23f:0:0:0:0:0-2001:b28:f23f:ffff:ffff:ffff:ffff:ffff;
+
+                <!-- iqiyi -->
+                101.227.200.1-101.227.200.255;
             </Targets>
             <Action type="Block"/>
         </Rule>
@@ -5602,6 +5601,8 @@
                 *.ai-wen.net;
                 *.akademiye.org;
                 *.akamaihd.net;
+                *.alibaba.com;
+                *.alibabacloud.com;
                 *.akiba-online.com;
                 *.akiba-web.com;
                 *.akow.org;
@@ -10896,6 +10897,7 @@
                 *.bloglovin.com;
                 *.blogsmithmedia.com;
                 *.blogspot.hk;
+                *.bloomberg.cn;
                 *.bloomberg.com;
                 *.books.com.tw;
                 *.boomtrain.com;
@@ -11142,6 +11144,7 @@
                 *.ping.pe;
                 *.pinterest.com;
                 *.pixelmator.com;
+                *.pixiv.net;
                 *.pixnet.net;
                 *.playpcesor.com;
                 *.playstation.com;
@@ -11282,6 +11285,7 @@
                 *.twtkr.com;
                 *.twttr.com;
                 *.txmblr.com;
+                *.typcn.com;
                 *.typekit.net;
                 *.typography.com;
                 *.ubertags.com;
@@ -11295,6 +11299,7 @@
                 *.unblockdmm.com;
                 *.unblocksites.co;
                 *.unpo.org;
+                *.unsplash.com;
                 *.untraceable.us;
                 *.uploaded.net;
                 *.uProxy.org;
@@ -11372,7 +11377,6 @@
                 *.xda-developers.com;
                 *.xeeno.com;
                 *.xiti.com;
-                *.xn--nos809b.com;
                 *.xuite.net;
                 *.xvideos.com;
                 *.yahoo.com;
@@ -11565,6 +11569,9 @@
                 *.amplitude.com;
                 *.firebaseio.com;
                 *.gate.hockeyapp.net;
+
+                <!-- Stem -->
+                *.steamcontent.com;
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -11635,7 +11642,6 @@
                 *.cmfu.com;
                 *.cnbeta.com;
                 *.cnbetacdn.com;
-                *.conoha.jp;
                 *.culturedcode.com;
                 *.dct-cloud.com;
                 *.didialift.com;
@@ -11718,6 +11724,7 @@
                 *.nfoservers.com;
                 *.nssurge.com;
                 *.nuomi.com;
+                *.onevps.com;
                 *.ourdvs.com;
                 *.overcast.fm;
                 *.paypal.com;
@@ -11784,6 +11791,7 @@
                 *.wandoujia.com;
                 *.weather.bjango.com;
                 *.weather.com;
+                *.webqxs.com;
                 *.weibo.cn;
                 *.weibo.com;
                 *.weico.cc;
