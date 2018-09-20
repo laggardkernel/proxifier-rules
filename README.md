@@ -13,7 +13,7 @@
 * 导入方式
     * [URL](#remote-files)
     * [JSBox](#jsbox)
-    * [Workflow](#workflow关注微信公众号墙洞说发送rule-获取)
+    * [Shortcuts](#shortcuts关注微信公众号墙洞说发送关键词获取)
     	* User Data
     	* Rule OTA
 * [证书的安装及信任](#mitm-1)
@@ -87,7 +87,7 @@ Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubuserconte
 
 ---
 
-### Workflow（关注微信公众号：墙洞说；发送“Rule” 获取）
+### shortcuts（关注微信公众号：墙洞说；发送关键词获取）
 
 * [User Data](#user-data)
     * [自定义[Proxy]节点](#proxy)
