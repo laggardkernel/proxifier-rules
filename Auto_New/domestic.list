@@ -1,3 +1,40 @@
+// Client
+PROCESS-NAME,Paws for Trello
+PROCESS-NAME,ss-local
+PROCESS-NAME,Thunder
+PROCESS-NAME,TeamViewer
+PROCESS-NAME,trustd
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WeChat
+
+// UA
+USER-AGENT, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
+USER-AGENT,%E5%8D%B3%E5%88%BB*
+USER-AGENT,*Vainglory* 
+USER-AGENT,AdBlock*
+USER-AGENT,arrowio*
+USER-AGENT,balls*
+USER-AGENT,Beplay*
+USER-AGENT,Best%20Trace*
+USER-AGENT,cmblife*
+USER-AGENT,eusoft_ting_en_iphone
+USER-AGENT,hide*
+USER-AGENT,JDLife*
+USER-AGENT,LastPass*
+USER-AGENT,MegaWerewolf*
+USER-AGENT,MicroMessenger*
+USER-AGENT,Microsoft*
+USER-AGENT,Moke*
+USER-AGENT,osee2unifiedRelease*
+USER-AGENT,PayPal*
+USER-AGENT,QQ*
+USER-AGENT,Speedtest*
+USER-AGENT,TeamViewer*
+USER-AGENT,TIM*
+USER-AGENT,ting_en
+USER-AGENT,WebTorrent*
+USER-AGENT,WeChat*
+
 // Beplay
 DOMAIN-KEYWORD,beplay
 

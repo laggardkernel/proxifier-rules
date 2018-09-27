@@ -1,3 +1,25 @@
+// Client
+PROCESS-NAME,Backup and Sync
+PROCESS-NAME,Day One
+PROCESS-NAME,Dropbox
+PROCESS-NAME,LINE
+PROCESS-NAME,node-webkit
+PROCESS-NAME,Resilio Sync
+PROCESS-NAME,Tweetbot
+PROCESS-NAME,Twitter
+PROCESS-NAME,Twitterrific
+PROCESS-NAME,viu
+
+// UA
+USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*
+USER-AGENT,Argo*
+USER-AGENT,AwemeI18n*
+USER-AGENT,Coinbase*
+USER-AGENT,Instagram*
+USER-AGENT,Resilio Sync*
+USER-AGENT,viu*
+USER-AGENT,WhatsApp*
+
 // Line
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line.me
@@ -8,6 +30,8 @@ DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,nhncorp.jp
 
 // Microsoft
+USER-AGENT,OneDrive*
+
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com

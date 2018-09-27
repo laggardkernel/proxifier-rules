@@ -1,4 +1,5 @@
 // BBC
+USER-AGENT,BBCiPlayer*
 DOMAIN-KEYWORD,co.uk
 DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co
@@ -30,9 +31,14 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxvideo.net
 
 // WeMusic
+USER-AGENT,WeMusic*
 DOMAIN-KEYWORD,joox
 
+// SoundCloud
+USER-AGENT,SoundCloud*
+
 // Spotify
+PROCESS-NAME,Spotify
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,spoto.fi
 
