@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,helpshift.com
 
 // Hulu
 DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
 
 // MytvSUPER
 DOMAIN-KEYWORD,nowtv100
@@ -28,6 +29,7 @@ DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 
 // WeMusic
