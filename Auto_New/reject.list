@@ -9035,7 +9035,7 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com
 DOMAIN-SUFFIX,zzz7.52896368.com
 DOMAIN-SUFFIX,zzzzz4.52896368.com
 
-URL-REGEX,^https?:\/\/(\w+\.)?(ads|log|tj|tongji|stat|static|trace|track|tracking|click)\.\w+\.(com|cn|net)
+URL-REGEX,^https?:\/\/(\w+\.)?(ads|log|tj|tongji|stat|trace|track|tracking|click)\.\w+\.(com|cn|net)
 URL-REGEX,^https?:\/\/(e|m)\..+/((uu|oo)\.php.+|\d+\.x?html\?$)
 URL-REGEX,^https?:\/\/.+\.beacon\.qq\.com
 URL-REGEX,^https?:\/\/.+\.gdt\.qq\.com
