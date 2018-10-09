@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,afp.iqiyi.com
 DOMAIN-SUFFIX,androidgo.duapp.com
 DOMAIN-SUFFIX,api.cupid.iqiyi.com
 DOMAIN-SUFFIX,api.cupid.qiyi.com
-DOMAIN-SUFFIX,api.yuedu.iqiyi.com
 DOMAIN-SUFFIX,c.uaa.iqiyi.com
 DOMAIN-SUFFIX,cloudpush.iqiyi.com
 DOMAIN-SUFFIX,cm.passport.iqiyi.com
@@ -205,12 +204,13 @@ DOMAIN-SUFFIX,stat.pptv.com
 DOMAIN-SUFFIX,static.g.pptv.com
 URL-REGEX,^https?:\/\/img\w\.g\.pptv\.com
 
-
 // Site
 DOMAIN-SUFFIX,deliver.ifeng.com
 DOMAIN-SUFFIX,hxjs.tool.hexun.com
 DOMAIN-SUFFIX,hxsame.hexun.com
 DOMAIN-SUFFIX,itv.hexun.com
+DOMAIN-SUFFIX,utrack.hexun.com
+URL-REGEX,^https?:\/\/h\w{2}\.hxsame\.hexun\.com
 
 // Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn
@@ -914,12 +914,6 @@ DOMAIN-SUFFIX,a-ad.adwo.com
 DOMAIN-SUFFIX,aafanke.cc
 DOMAIN-SUFFIX,aa-gb.mgid.com
 DOMAIN-SUFFIX,aam.adsremote.scrippsnetworks.com
-DOMAIN-SUFFIX,aax.amazon-adsystem.com
-DOMAIN-SUFFIX,aax-eu.amazon-adsystem.com
-DOMAIN-SUFFIX,aax-fe.amazon-adsystem.com
-DOMAIN-SUFFIX,aax-fe-pek.amazon-adsystem.com
-DOMAIN-SUFFIX,aax-fe-sin.amazon-adsystem.com
-DOMAIN-SUFFIX,aax-us-east.amazon-adsystem.com
 DOMAIN-SUFFIX,ab.dydab.com
 DOMAIN-SUFFIX,ab.goodsblock.mgid.com
 DOMAIN-SUFFIX,ab.hysdknb.com
@@ -1650,7 +1644,6 @@ DOMAIN-SUFFIX,aos.wall.youmi.net
 DOMAIN-SUFFIX,aos-creative.prf.hn
 DOMAIN-SUFFIX,apas.aipai.com
 DOMAIN-SUFFIX,api.0.0.0.0.cn
-DOMAIN-SUFFIX,api.ad.xiaomi.com
 DOMAIN-SUFFIX,api.adbana.com
 DOMAIN-SUFFIX,api.adcome.cn
 DOMAIN-SUFFIX,api.adfurikun.jp
@@ -1673,7 +1666,6 @@ DOMAIN-SUFFIX,api.bs.zui.com
 DOMAIN-SUFFIX,api.cloudmobi.net
 DOMAIN-SUFFIX,api.cmt.mob.com
 DOMAIN-SUFFIX,api.coolguang.com
-DOMAIN-SUFFIX,api.cpu.baidu.com
 DOMAIN-SUFFIX,api.dewmobile.net
 DOMAIN-SUFFIX,api.dianru.com
 DOMAIN-SUFFIX,api.doumob.com
@@ -1714,7 +1706,6 @@ DOMAIN-SUFFIX,api.shuaji.360.cn
 DOMAIN-SUFFIX,api.shuzilm.cn
 DOMAIN-SUFFIX,api.similarweb.com
 DOMAIN-SUFFIX,api.tr.blismedia.com
-DOMAIN-SUFFIX,api.tuisong.baidu.com
 DOMAIN-SUFFIX,api.tw06.xlmc.sec.miui.com
 DOMAIN-SUFFIX,api.ujian.cc
 DOMAIN-SUFFIX,api.union.vip.com
@@ -2226,7 +2217,6 @@ DOMAIN-SUFFIX,c.agrant.cn
 DOMAIN-SUFFIX,c.agrantsem.com
 DOMAIN-SUFFIX,c.alimama.com
 DOMAIN-SUFFIX,c.am15.net
-DOMAIN-SUFFIX,c.amazon-adsystem.com
 DOMAIN-SUFFIX,c.anmeilai.net
 DOMAIN-SUFFIX,c.appjiagu.com
 DOMAIN-SUFFIX,c.atdmt.com
@@ -2407,7 +2397,6 @@ DOMAIN-SUFFIX,cdgxq.com
 DOMAIN-SUFFIX,cdhoc.piyaji.cn
 DOMAIN-SUFFIX,cdn.0i-i0.com
 DOMAIN-SUFFIX,cdn.5bong.com
-DOMAIN-SUFFIX,cdn.ad.xiaomi.com
 DOMAIN-SUFFIX,cdn.ad4game.com
 DOMAIN-SUFFIX,cdn.adc.eamobile.com
 DOMAIN-SUFFIX,cdn.adinall.com
@@ -3379,7 +3368,6 @@ DOMAIN-SUFFIX,e.a907907.com
 DOMAIN-SUFFIX,e.aa985.cn
 DOMAIN-SUFFIX,e.acaog.com
 DOMAIN-SUFFIX,e.acaox.com
-DOMAIN-SUFFIX,e.ad.xiaomi.com
 DOMAIN-SUFFIX,e.admin60.com
 DOMAIN-SUFFIX,e.afvfe.cn
 DOMAIN-SUFFIX,e.aishowbger.com
@@ -4176,17 +4164,7 @@ DOMAIN-SUFFIX,h.msn.com
 DOMAIN-SUFFIX,h.pcd.autohome.com.cn
 DOMAIN-SUFFIX,h.sora.yoyi.com.cn
 DOMAIN-SUFFIX,h01.hotrank.com.tw
-DOMAIN-SUFFIX,h01.hxsame.hexun.com
-DOMAIN-SUFFIX,h02.hxsame.hexun.com
-DOMAIN-SUFFIX,h03.hxsame.hexun.com
-DOMAIN-SUFFIX,h04.hxsame.hexun.com
-DOMAIN-SUFFIX,h05.hxsame.hexun.com
-DOMAIN-SUFFIX,h06.hxsame.hexun.com
-DOMAIN-SUFFIX,h07.hxsame.hexun.com
-DOMAIN-SUFFIX,h08.hxsame.hexun.com
-DOMAIN-SUFFIX,h09.hxsame.hexun.com
 DOMAIN-SUFFIX,h1.18sd.cn
-DOMAIN-SUFFIX,h10.hxsame.hexun.com
 DOMAIN-SUFFIX,h2.18sd.cn
 DOMAIN-SUFFIX,h5.holalauncher.com
 DOMAIN-SUFFIX,h5.jiumaster.com
@@ -5275,7 +5253,6 @@ DOMAIN-SUFFIX,location.ximalaya.com
 DOMAIN-SUFFIX,locdrop.query.yahoo.com
 DOMAIN-SUFFIX,log.120ask.com
 DOMAIN-SUFFIX,log.51network.com
-DOMAIN-SUFFIX,log.ad.xiaomi.com
 DOMAIN-SUFFIX,log.bitauto.com
 DOMAIN-SUFFIX,log.collect.yinyuetai.com
 DOMAIN-SUFFIX,log.coolguang.com
@@ -5493,7 +5470,6 @@ DOMAIN-SUFFIX,m.fstaw.com
 DOMAIN-SUFFIX,m.fwjoi.com
 DOMAIN-SUFFIX,m.fxbga.com
 DOMAIN-SUFFIX,m.fzyda.com
-DOMAIN-SUFFIX,m.game.weibo.cn
 DOMAIN-SUFFIX,m.gameyun907.net
 DOMAIN-SUFFIX,m.ganrs.com
 DOMAIN-SUFFIX,m.gbieg.com
@@ -5770,7 +5746,6 @@ DOMAIN-SUFFIX,m-adash.m.taobao.com
 DOMAIN-SUFFIX,madhouse.cn
 DOMAIN-SUFFIX,madmini.com
 DOMAIN-SUFFIX,mads.amazon.com
-DOMAIN-SUFFIX,mads.amazon-adsystem.com
 DOMAIN-SUFFIX,mads.aol.com
 DOMAIN-SUFFIX,mads.dailymail.co.uk
 DOMAIN-SUFFIX,madserving.com
@@ -7058,7 +7033,6 @@ DOMAIN-SUFFIX,s.6travel.com
 DOMAIN-SUFFIX,s.abcache.com
 DOMAIN-SUFFIX,s.adyun.com
 DOMAIN-SUFFIX,s.alitui.weibo.com
-DOMAIN-SUFFIX,s.amazon-adsystem.com
 DOMAIN-SUFFIX,s.appjiagu.com
 DOMAIN-SUFFIX,s.baidu.com
 DOMAIN-SUFFIX,s.bmgan.com
@@ -7178,7 +7152,6 @@ DOMAIN-SUFFIX,s8.001fzc.com
 DOMAIN-SUFFIX,s8.dnaxddnc.com
 DOMAIN-SUFFIX,s8x1.com
 DOMAIN-SUFFIX,s9w.cc
-DOMAIN-SUFFIX,sa.tuisong.baidu.com
 DOMAIN-SUFFIX,sa909.com
 DOMAIN-SUFFIX,sad.qeo.cn
 DOMAIN-SUFFIX,safe.tsgpay.cn
@@ -7260,7 +7233,6 @@ DOMAIN-SUFFIX,sdkapp.mobile.sina.cn
 DOMAIN-SUFFIX,sdkapp.uve.weibo.com
 DOMAIN-SUFFIX,sdkclick.mobile.sina.cn
 DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com
-DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
 DOMAIN-SUFFIX,sdkdm.com
 DOMAIN-SUFFIX,sdklog.cmgame.com
 DOMAIN-SUFFIX,sdklog.uu.cc
@@ -7544,7 +7516,6 @@ DOMAIN-SUFFIX,ssp.08160.cn
 DOMAIN-SUFFIX,ssp.1rtb.com
 DOMAIN-SUFFIX,ssp.4hw.com.cn
 DOMAIN-SUFFIX,ssp.86str.com
-DOMAIN-SUFFIX,ssp.ad.xiaomi.com
 DOMAIN-SUFFIX,ssp.adpush.cn
 DOMAIN-SUFFIX,ssp.adriver.ru
 DOMAIN-SUFFIX,ssp.chaohutechan.com
@@ -7853,12 +7824,9 @@ DOMAIN-SUFFIX,temai.taobao.com
 DOMAIN-SUFFIX,temp.163.com
 DOMAIN-SUFFIX,tencentmind.com
 DOMAIN-SUFFIX,tenddata.com
-DOMAIN-SUFFIX,test.ad.xiaomi.com
 DOMAIN-SUFFIX,test.api.xlmc.sandai.net
-DOMAIN-SUFFIX,test.e.ad.xiaomi.com
 DOMAIN-SUFFIX,test.eduancm.com
 DOMAIN-SUFFIX,test.surepush.cn
-DOMAIN-SUFFIX,test.zeus.ad.xiaomi.com
 DOMAIN-SUFFIX,test2014.adview.cn
 DOMAIN-SUFFIX,textlink.simba.taobao.com
 DOMAIN-SUFFIX,tf.360.cn
@@ -8191,7 +8159,6 @@ DOMAIN-SUFFIX,utility.baidu.com
 DOMAIN-SUFFIX,utility.rogersmedia.com
 DOMAIN-SUFFIX,utk.baidu.com
 DOMAIN-SUFFIX,utp.ucweb.com
-DOMAIN-SUFFIX,utrack.hexun.com
 DOMAIN-SUFFIX,uu.85655095.com
 DOMAIN-SUFFIX,uu.feipukeplus.com
 DOMAIN-SUFFIX,uu.zeverdg.com
@@ -8968,7 +8935,6 @@ DOMAIN-SUFFIX,zdjby.cn
 DOMAIN-SUFFIX,zdw.w8.com.cn
 DOMAIN-SUFFIX,ze5.com
 DOMAIN-SUFFIX,zedo.com
-DOMAIN-SUFFIX,zeus.ad.xiaomi.com
 DOMAIN-SUFFIX,zeus.qj.net
 DOMAIN-SUFFIX,zgc66.com
 DOMAIN-SUFFIX,zgdfz6h7po.me
