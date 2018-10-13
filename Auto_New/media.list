@@ -48,3 +48,6 @@ DOMAIN-SUFFIX,spoto.fi
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtu.be
+
+// IQIYI
+DOMAIN-SUFFIX,tw.iqiyi.com
