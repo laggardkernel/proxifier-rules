@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
 
 // CHOCO TV
-USER-AGENT,TwDramas
+USER-AGENT,TwDramas*
 DOMAIN-SUFFIX,chocotv.com.tw
 
 // Epicgames
@@ -14,8 +14,9 @@ DOMAIN-KEYWORD,epicgames
 DOMAIN-SUFFIX,helpshift.com
 
 // Hulu
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
+USER-AGENT,Hulu*
+DOMAIN-KEYWORD,hulu
+DOMAIN-SUFFIX,happyon.jp
 
 // MytvSUPER
 DOMAIN-KEYWORD,nowtv100
@@ -42,7 +43,7 @@ USER-AGENT,SoundCloud*
 // Spotify
 PROCESS-NAME,Spotify
 DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,spoto.fi
+DOMAIN-SUFFIX,spoti.fi
 
 // Youtube
 DOMAIN-KEYWORD,youtube
@@ -50,3 +51,10 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,youtu.be
+
+// AbemaTV
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,amebame.com
+DOMAIN-SUFFIX,akamaized.net
