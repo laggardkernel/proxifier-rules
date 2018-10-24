@@ -41,8 +41,9 @@ DOMAIN-KEYWORD,joox
 USER-AGENT,SoundCloud*
 
 // Spotify
-PROCESS-NAME,Spotify
+USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
+DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 
 // Youtube
@@ -56,5 +57,9 @@ DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,akamaized.net
 
 // viuTV
-
 DOMAIN-SUFFIX,viu.tv
+
+// JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-KEYWORD,joox
