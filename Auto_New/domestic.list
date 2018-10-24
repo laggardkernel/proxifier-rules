@@ -1,34 +1,9 @@
 // Client
-PROCESS-NAME,Paws for Trello
 PROCESS-NAME,ss-local
-PROCESS-NAME,Thunder
-PROCESS-NAME,TeamViewer
-PROCESS-NAME,trustd
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WeChat
 
 // UA
-USER-AGENT, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
-USER-AGENT,%E5%8D%B3%E5%88%BB*
-USER-AGENT,*Vainglory* 
-USER-AGENT,AdBlock*
-USER-AGENT,arrowio*
-USER-AGENT,balls*
-USER-AGENT,Beplay*
-USER-AGENT,Best%20Trace*
-USER-AGENT,cmblife*
-USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hide*
-USER-AGENT,JDLife*
-USER-AGENT,LastPass*
-USER-AGENT,MegaWerewolf*
-USER-AGENT,MicroMessenger*
-USER-AGENT,Microsoft*
-USER-AGENT,Moke*
-USER-AGENT,osee2unifiedRelease*
 USER-AGENT,PayPal*
-USER-AGENT,QQ*
-USER-AGENT,Speedtest*
 USER-AGENT,TeamViewer*
 USER-AGENT,TIM*
 USER-AGENT,ting_en
@@ -45,7 +20,7 @@ DOMAIN-SUFFIX,blizzard.com
 
 // Prior
 DOMAIN,client.amplifi.com
-DOMAIN,ip.bjango.com // iStat Menu IP Test
+DOMAIN,ip.bjango.com
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,edu.cn
 
@@ -78,7 +53,6 @@ DOMAIN-SUFFIX,58.com
 DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,acfun.tv
-DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,air-matters.com
@@ -104,8 +78,6 @@ DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
-DOMAIN-SUFFIX,bilibili.cn
-DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -148,8 +120,6 @@ DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,haosou.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,hdslb.net
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hxcdn.net
@@ -161,7 +131,6 @@ DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,img4me.com
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,ixdzs.com
 DOMAIN-SUFFIX,jd.com
@@ -220,8 +189,6 @@ DOMAIN-SUFFIX,qingmang.me
 DOMAIN-SUFFIX,qingmang.mobi
 DOMAIN-SUFFIX,qiniucdn.com
 DOMAIN-SUFFIX,qiniudn.com
-DOMAIN-SUFFIX,qiyi.com
-DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqurl.com
 DOMAIN-SUFFIX,rarbg.to
@@ -312,4 +279,3 @@ URL-REGEX,(Subject|HELO|SMTP)
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
 URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com)
 URL-REGEX,(ed2k|torrent|\.torrent|peer_id=|announce|info_hash|get_peers|find_node|BitTorrent|announce_peer|protocol|announce\.php\?passkey=|magnet:|xunlei|sandai|Thunder|XLLiveUD|bt_key)
-URL-REGEX,/^.*@(guerrillamail\.(info|biz|com|de|net|org)|guerrillamailblock\.com|sharklasers\.com|grr\.la|pokemail\.net|spam4\.me|(mail\.)?bccto\.me|chacuo\.net|027168\.com)$/i
