@@ -54,9 +54,9 @@ DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,adobesc.com
-DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
+DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,alicdn.com
@@ -64,20 +64,20 @@ DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,aweme.snssdk.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.crisp.chat
 DOMAIN-SUFFIX,api.termius.com
 DOMAIN-SUFFIX,appshike.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,aweme.snssdk.com
 DOMAIN-SUFFIX,bababian.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
+DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -241,8 +241,10 @@ DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weico.cc
 DOMAIN-SUFFIX,weiphone.com
 DOMAIN-SUFFIX,weiphone.net
+DOMAIN-SUFFIX,wenku8.net
 DOMAIN-SUFFIX,werewolf.53site.com
 DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,workflowy.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,xiami.com
@@ -270,8 +272,8 @@ DOMAIN-SUFFIX,zealer.com
 DOMAIN-SUFFIX,zgslb.net
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
-DOMAIN-SUFFIX,zmz002.com
 DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmz002.com
 
 // Accelerate direct sites
 DOMAIN-KEYWORD,torrent
