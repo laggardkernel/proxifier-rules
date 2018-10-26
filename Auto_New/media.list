@@ -33,10 +33,6 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 
-// WeMusic
-USER-AGENT,WeMusic*
-DOMAIN-KEYWORD,joox
-
 // SoundCloud
 USER-AGENT,SoundCloud*
 
