@@ -8277,7 +8277,7 @@ URL-REGEX,^https?:\/\/sax\d\.sina\.com\.cn
 URL-REGEX,^https?:\/\/sax\w?\.sina\.cn
 URL-REGEX,^https?:\/\/sax\w?\.sina\.com\.cn
 URL-REGEX,^https?:\/\/server-\w+\.imrworldwide\.com
-URL-REGEX,^https?:\/\/t\w{2}\.baidu\.com
+URL-REGEX,^https?:\/\/t\d{2}\.baidu\.com
 
 IP-CIDR,1.3.0.10/32,no-resolve
 IP-CIDR,10.72.25.0/24,no-resolve
