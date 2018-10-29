@@ -18,12 +18,6 @@ USER-AGENT,Hulu*
 DOMAIN-KEYWORD,hulu
 DOMAIN-SUFFIX,happyon.jp
 
-// MytvSUPER
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-KEYWORD,rthklive
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
-
 // Netflix
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
