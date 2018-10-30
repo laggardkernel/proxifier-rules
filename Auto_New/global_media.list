@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,helpshift.com
 USER-AGENT,Hulu*
 DOMAIN-KEYWORD,hulu
 DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulustream.com
 
 // Netflix
 DOMAIN-SUFFIX,netflix.com
@@ -53,3 +54,16 @@ DOMAIN-SUFFIX,viu.tv
 USER-AGENT,WeMusic*
 USER-AGENT,JOOX*
 DOMAIN-KEYWORD,joox
+
+// Amazon
+DOMAIN-SUFFIX,amazonaws.com
+
+// ABC
+DOMAIN-SUFFIX,edgedatg.com
+DOMAIN-SUFFIX,go.com
+
+// Foxnow
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,.foxdcg.com
+DOMAIN-SUFFIX,foxnow.com
+DOMAIN-SUFFIX,config.fox.com
