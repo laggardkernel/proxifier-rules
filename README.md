@@ -67,8 +67,6 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 ### Remote Files
 
 ````
-Surge（阉割版）：https://raw.githubusercontent.com/lhie1/Rules/master/Surge.conf
-
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
 
 
