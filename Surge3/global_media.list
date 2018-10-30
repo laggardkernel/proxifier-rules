@@ -61,8 +61,11 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,go.com
 
-// Foxnow
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,.foxdcg.com
-DOMAIN-SUFFIX,foxnow.com
+// Fox+
+USER-AGENT,FOX%20NOW*
+USER-AGENT,FOXPlus*
 DOMAIN-SUFFIX,config.fox.com
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,foxnow.com
+DOMAIN-SUFFIX,foxplus.com
