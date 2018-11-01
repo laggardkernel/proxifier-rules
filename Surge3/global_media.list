@@ -64,8 +64,13 @@ DOMAIN-SUFFIX,go.com
 // Fox+
 USER-AGENT,FOX%20NOW*
 USER-AGENT,FOXPlus*
+DOMAIN-KEYWORD,foxplus
 DOMAIN-SUFFIX,config.fox.com
+DOMAIN-SUFFIX,emome.net
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,foxnow.com
-DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,mstage.io
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,theplatform.com
