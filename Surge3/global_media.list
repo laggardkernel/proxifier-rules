@@ -1,77 +1,103 @@
-// BBC
-USER-AGENT,BBCiPlayer*
-DOMAIN-KEYWORD,co.uk
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.com
-
-// CHOCO TV
-USER-AGENT,TwDramas*
-DOMAIN-SUFFIX,chocotv.com.tw
-
-// Epicgames
-DOMAIN-KEYWORD,epicgames
-DOMAIN-SUFFIX,helpshift.com
-
-// Hulu
-USER-AGENT,Hulu*
-DOMAIN-KEYWORD,hulu
-DOMAIN-SUFFIX,happyon.jp
-
-// Netflix
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
-
-// SoundCloud
-USER-AGENT,SoundCloud*
-
-// Spotify
-USER-AGENT,*Spotify*
-DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-
-// Youtube
-DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
+// ABC
+DOMAIN-SUFFIX,edgedatg.com,Media
+DOMAIN-SUFFIX,go.com,Media
 
 // AbemaTV
-DOMAIN-SUFFIX,abema.tv
-DOMAIN-SUFFIX,akamaized.net
-
-// viuTV
-DOMAIN-SUFFIX,viu.tv
-
-// JOOX
-USER-AGENT,WeMusic*
-USER-AGENT,JOOX*
-DOMAIN-KEYWORD,joox
+USER-AGENT,AbemaTV*,Media
+DOMAIN,linear-abematv.akamaized.net,Media
+DOMAIN-SUFFIX,abema.io,Media
+DOMAIN-SUFFIX,abema.tv,Media
+DOMAIN-SUFFIX,akamaized.net,Media
+DOMAIN-SUFFIX,ameba.jp,Media
+DOMAIN-SUFFIX,hayabusa.io,Media
 
 // Amazon
-DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazonaws.com,Media
 
-// ABC
-DOMAIN-SUFFIX,edgedatg.com
-DOMAIN-SUFFIX,go.com
+// Bahamut
+USER-AGENT,Anime*,Media
+DOMAIN-SUFFIX,bahamut.com.tw,Media
+DOMAIN-SUFFIX,gamer.com.tw,Media
+DOMAIN-SUFFIX,hinet.net,Media
+
+// BBC
+USER-AGENT,BBCiPlayer*,Media
+DOMAIN-KEYWORD,bbcfmt,Media
+DOMAIN-KEYWORD,co.uk,Media
+DOMAIN-KEYWORD,uk-live,Media
+DOMAIN-SUFFIX,bbc.co,Media
+DOMAIN-SUFFIX,bbc.co.uk,Media
+DOMAIN-SUFFIX,bbc.com,Media
+DOMAIN-SUFFIX,bbci.co,Media
+DOMAIN-SUFFIX,bbci.co.uk,Media
+
+// CHOCO TV
+USER-AGENT,TwDramas*,Media
+DOMAIN-SUFFIX,chocotv.com.tw,Media
+
+// Epicgames
+DOMAIN-KEYWORD,epicgames,Media
+DOMAIN-SUFFIX,helpshift.com,Media
 
 // Fox+
-USER-AGENT,FOX%20NOW*
-USER-AGENT,FOXPlus*
-DOMAIN-KEYWORD,foxplus
-DOMAIN-SUFFIX,config.fox.com
-DOMAIN-SUFFIX,emome.net
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,foxnow.com
-DOMAIN-SUFFIX,foxplay.com
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,mstage.io
-DOMAIN-SUFFIX,now.com
-DOMAIN-SUFFIX,theplatform.com
+USER-AGENT,FOX%20NOW*,Media
+USER-AGENT,FOXPlus*,Media
+DOMAIN-KEYWORD,foxplus,Media
+DOMAIN-SUFFIX,config.fox.com,Media
+DOMAIN-SUFFIX,emome.net,Media
+DOMAIN-SUFFIX,fox.com,Media
+DOMAIN-SUFFIX,foxdcg.com,Media
+DOMAIN-SUFFIX,foxnow.com,Media
+DOMAIN-SUFFIX,foxplus.com,Media
+DOMAIN-SUFFIX,foxplay.com,Media
+DOMAIN-SUFFIX,ipinfo.io,Media
+DOMAIN-SUFFIX,mstage.io,Media
+DOMAIN-SUFFIX,now.com,Media
+DOMAIN-SUFFIX,theplatform.com,Media
+
+// HBO
+USER-AGENT,HBO%20NOW*,Media
+DOMAIN-SUFFIX,hbo.com,Media
+DOMAIN-SUFFIX,hbogo.com,Media
+
+// HBO Go
+DOMAIN-SUFFIX,hbogoasia.hk
+
+// Hulu
+USER-AGENT,Hulu*,Media
+DOMAIN-SUFFIX,happyon.jp,Media
+DOMAIN-SUFFIX,hulu.com,Media
+DOMAIN-SUFFIX,huluim.com,Media
+
+// JOOX
+USER-AGENT,WeMusic*,Media
+USER-AGENT,JOOX*,Media
+DOMAIN-SUFFIX,joox.com,Media
+
+// Netflix
+USER-AGENT,Argo*,Media
+DOMAIN-SUFFIX,netflix.com,Media
+DOMAIN-SUFFIX,netflix.net,Media
+DOMAIN-SUFFIX,nflxext.com,Media
+DOMAIN-SUFFIX,nflximg.com,Media
+DOMAIN-SUFFIX,nflximg.net,Media
+DOMAIN-SUFFIX,nflxso.net,Media
+DOMAIN-SUFFIX,nflxvideo.net,Media
+
+// SoundCloud
+USER-AGENT,SoundCloud*,Media
+
+// Spotify
+USER-AGENT,*Spotify*,Media
+DOMAIN-KEYWORD,spotify,Media
+DOMAIN-SUFFIX,scdn.co,Media
+DOMAIN-SUFFIX,spoti.fi,Media
+
+// viuTV
+DOMAIN-SUFFIX,viu.tv,Media
+
+// Youtube
+DOMAIN-KEYWORD,youtube,Media
+DOMAIN-SUFFIX,googlevideo.com,Media
+DOMAIN-SUFFIX,gvt2.com,Media
+DOMAIN-SUFFIX,youtu.be,Media
