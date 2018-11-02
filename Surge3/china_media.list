@@ -1,5 +1,7 @@
 // Bilibili
 USER-AGENT,*bili*
+PROCESS-NAME,com.bilibili.app.in,MEDIA
+PROCESS-NAME,tv.danmaku.bili,MEDIA
 DOMAIN-KEYWORD,bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,hdslb.com
