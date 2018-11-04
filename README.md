@@ -13,9 +13,6 @@
 * 导入方式
     * [URL](#remote-files)
     * [JSBox](#jsbox)
-    * [Shortcuts](#shortcuts关注微信公众号墙洞说发送关键词获取)
-    	* User Data
-    	* Rule OTA
 * [证书的安装及信任](#mitm-1)
 * [Android SSR ACL](#android-ssr-acl)
 * [浏览器广告](#browser-ads)
@@ -64,6 +61,14 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 
 ---
 
+### JSBox
+
+````
+Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/Fndroid/jsbox_script/master/Rules-lhie1/.output/Rules-lhie1.box
+````
+
+---
+
 ### Remote Files
 
 ````
@@ -75,117 +80,6 @@ Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantum
 Quantumult_Rejection：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
 ````
 
----
-
-### JSBox
-
-````
-Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/Fndroid/jsbox_script/master/Rules-lhie1/.output/Rules-lhie1.box
-````
-
----
-
-### shortcuts（关注微信公众号：墙洞说；发送关键词获取）
-
-* [User Data](#user-data)
-    * [自定义[Proxy]节点](#proxy)
-    * 自动根据[Proxy]内容生成[Proxy Group]
-    * 自定义添加[Rule]规则
-    * 自定义添加[Host]规则
-    * 自定义添加[URL Rewrite]规则
-    * 自定义添加[SSID Setting]规则
-    * 自定义添加 DNS
-    * 自定义删除规则（All）
-    * 运行时检查更新
-    * 生成证书
-    * [Widget 策略](#widget-策略)
-* [Rule OTA](#rule-ota)
-    * [Module](#module)
-        * Ads
-        * mitm
-    * [Special_Proxy](#special_proxy)
-        * Netflix
-        * Spotify
-        * MytvSUPER
-        * LINE
-    * 运行时检查更新并自动下载
-    * 自动修复`module`模块地址
-    * 更新规则
-    * 生成规则
-    * 提交自定义规则
-    * [安装证书](#mitm)
-    * [常见问题](#workflow_qa)
-
----
-
-### User Data
-
-#### Proxy
-
-* ##### Surge / Shadowrocket：
-````
-Proxy_name = custom,host.com,1234,rc4-md5,password,http://omgib13x8.bkt.clouddn.com/SSEncrypt.module
-````
-
-* ##### Surge：
-````
-Managed config_url
-````
-
-* ##### Shadowrocket：
-````
-Proxy_name
-````
-
-
-#### Widget 策略
-
-![](https://raw.githubusercontent.com/lhie1/Rules/master/images/Widget.JPG)
-
-### Rule OTA
-
-#### Module
-* ##### Ads
-````
-关闭此功能将不再屏蔽广告
-````
-
-* ##### MITM
-````
-关闭此功能可能会无法拦截部分广告
-````
----
-
-#### Special_Proxy
-* ##### Netflix
-````
-开启此功能为`Netflix`单独选择一个专用节点
-````
-
-* ##### Spotify
-````
-开启此功能为`Spotify`单独选择一个专用节点
-````
-
-* ##### YouTube
-````
-开启此功能为`YouTube`单独选择一个专用节点
-````
-
-* ##### MytvSUPRE
-````
-开启此功能为`MytvSUPRE`单独选择一个专用节点
-````
-
-* ##### BBC
-````
-开启此功能为`BBC`单独选择一个专用节点
-````
-
-* ##### LINE
-````
-开启此功能为`LINE`单独选择一个专用节点
-````
 ---
 
 ### MitM
@@ -211,17 +105,6 @@ iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书�
 macOS：
 
 ![](https://raw.githubusercontent.com/lhie1/Rules/master/images/macOS_MitM.jpg)
-
----
-
-### Workflow_Q&A
-
-![](https://raw.githubusercontent.com/lhie1/Rules/master/images/Workflow_Q&A.JPG)
-
-1. 网络连接失败，切换节点或者更换网络环境
-2. 证书效验失败，[检查证书](#mitm)
-3. 获取文件出错，更新 User Data
-4. 脚本缺失，获取 Rule OTA
 
 ---
 
