@@ -103,7 +103,6 @@ URL-REGEX,^https?:\/\/.+\.atm\.youku\.com
 
 // MGTV
 DOMAIN-SUFFIX,ads-api.videojj.com
-DOMAIN-SUFFIX,as.mgtv.com
 DOMAIN-SUFFIX,cdn.cmop.mgtv.com
 DOMAIN-SUFFIX,click.hunantv.com
 DOMAIN-SUFFIX,cmop.mgtv.com
