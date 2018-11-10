@@ -18,13 +18,6 @@ IP-CIDR,119.176.0.0/12,no-resolve
 // letv
 DOMAIN-SUFFIX,api.mob.app.letv.com
 
-// MytvSUPER
-USER-AGENT,mytv*
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-KEYWORD,rthklive
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
-
 // NeteaseMusic
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,NeteaseMusic*
