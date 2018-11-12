@@ -146,7 +146,6 @@ Rule:
 
 # 国内网站
 - DOMAIN-SUFFIX,cn,Domestic
-- DOMAIN-KEYWORD,-cn,Domestic
 
 - DOMAIN-SUFFIX,126.com,Domestic
 - DOMAIN-SUFFIX,126.net,Domestic
