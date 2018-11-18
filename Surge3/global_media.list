@@ -11,8 +11,10 @@ DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 
-// Amazon
+// Amazon Prime Video
+USER-AGENT,Prime%20Video*
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazonvideo.com
 
 // Bahamut
 USER-AGENT,Anime*
