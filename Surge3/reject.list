@@ -8247,7 +8247,7 @@ URL-REGEX,^https?:\/\/api\d\.tuisong\.baidu\.com
 URL-REGEX,^https?:\/\/d\d\.sina\.com\.cn
 URL-REGEX,^https?:\/\/d\d\.sinaimg\.cn
 URL-REGEX,^https?:\/\/dl\.app\.gtja\.com/.+\d+\.jpg$
-URL-REGEX,^https?:\/\/impservice\..+\.youdao.com
+URL-REGEX,^https?:\/\/impservice.+?\.(.+\.)?youdao\.com
 URL-REGEX,^https?:\/\/log\..+\.baidu\.com
 URL-REGEX,^https?:\/\/notice\.send-anywhere\.com\/banner
 URL-REGEX,^https?:\/\/pic\d\.zhimg\.com\/v2.+
