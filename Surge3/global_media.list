@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,mstage.io
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,urlload.net
 
 // HBO
 USER-AGENT,HBO%20NOW*
@@ -70,6 +71,7 @@ USER-AGENT,Hulu*
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
 
 // Imkan
 DOMAIN-SUFFIX,imkan.tv
