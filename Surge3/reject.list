@@ -39,6 +39,10 @@ DOMAIN-SUFFIX,tracker.sns.iqiyi.com
 DOMAIN-SUFFIX,yuedu.iqiyi.com
 URL-REGEX,^https?:\/\/.+/videos/other/.+
 URL-REGEX,^https?:\/\/paopao\w?\.qiyipic\.com
+IP-CIDR,101.227.97.240/32,no-resolve
+IP-CIDR,101.227.200.11/32,no-resolve
+IP-CIDR,101.227.200.28/32,no-resolve
+IP-CIDR,124.192.153.42/32,no-resolve
 
 // Youku & Tudou
 DOMAIN-SUFFIX,actives.youku.com
@@ -518,7 +522,6 @@ DOMAIN-SUFFIX,3rd.t.sohu.com
 DOMAIN-SUFFIX,3wz6z.bchuangpi.cn
 DOMAIN-SUFFIX,3ygww.com
 DOMAIN-SUFFIX,404.safedog.cn
-DOMAIN-SUFFIX,4171764.fls.doubleclick.net
 DOMAIN-SUFFIX,4207008.com
 DOMAIN-SUFFIX,4242jj.com
 DOMAIN-SUFFIX,4242lll.com
@@ -913,7 +916,6 @@ DOMAIN-SUFFIX,ad.digitimes.com.tw
 DOMAIN-SUFFIX,ad.directmirror.com
 DOMAIN-SUFFIX,ad.dokrmob.com
 DOMAIN-SUFFIX,ad.doubanio.com
-DOMAIN-SUFFIX,ad.doubleclick.net
 DOMAIN-SUFFIX,ad.download.cnet.com
 DOMAIN-SUFFIX,ad.dqwjzm.com
 DOMAIN-SUFFIX,ad.duapps.com
@@ -955,7 +957,6 @@ DOMAIN-SUFFIX,ad.jamba.net
 DOMAIN-SUFFIX,ad.jamster.co.uk
 DOMAIN-SUFFIX,ad.jamster.com
 DOMAIN-SUFFIX,ad.jiemian.com
-DOMAIN-SUFFIX,ad.jp.doubleclick.net
 DOMAIN-SUFFIX,ad.jsnbrynb.com
 DOMAIN-SUFFIX,ad.jxnews.com.cn
 DOMAIN-SUFFIX,ad.kissanime.io
@@ -1072,7 +1073,6 @@ DOMAIN-SUFFIX,adadmin.house365.com
 DOMAIN-SUFFIX,adadvisor.net
 DOMAIN-SUFFIX,ad-android.51wnl.com
 DOMAIN-SUFFIX,adap.tv
-DOMAIN-SUFFIX,ad-apac.doubleclick.net
 DOMAIN-SUFFIX,adapi.lenovogame.com
 DOMAIN-SUFFIX,adasad.myweb.hinet.net
 DOMAIN-SUFFIX,adash.m.taobao.com
@@ -1091,7 +1091,6 @@ DOMAIN-SUFFIX,adchina.com
 DOMAIN-SUFFIX,adcitrus.com
 DOMAIN-SUFFIX,adcl.pchome.com.tw
 DOMAIN-SUFFIX,adclick.g.doublecklick.net
-DOMAIN-SUFFIX,adclick.g.doubleclick.net
 DOMAIN-SUFFIX,adclient.uimserv.net
 DOMAIN-SUFFIX,adclock.zdworks.com
 DOMAIN-SUFFIX,adcloud.jp
@@ -1896,7 +1895,6 @@ DOMAIN-SUFFIX,bglog.bitauto.com
 DOMAIN-SUFFIX,bgrndi.com
 DOMAIN-SUFFIX,bh.contextweb.com
 DOMAIN-SUFFIX,bhjac.azvub.cn
-DOMAIN-SUFFIX,bid.g.doubleclick.net
 DOMAIN-SUFFIX,biddingos.com
 DOMAIN-SUFFIX,biddingx.com
 DOMAIN-SUFFIX,bidvertiser.com
@@ -2352,7 +2350,6 @@ DOMAIN-SUFFIX,cm.baidu.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-SUFFIX,cm.ctnsnet.com
 DOMAIN-SUFFIX,cm.eyereturn.com
-DOMAIN-SUFFIX,cm.g.doubleclick.net
 DOMAIN-SUFFIX,cm.jd.com
 DOMAIN-SUFFIX,cm.mct01.com
 DOMAIN-SUFFIX,cm.netseer.com
@@ -3727,11 +3724,12 @@ DOMAIN-SUFFIX,godloveme.cn
 DOMAIN-SUFFIX,gog9.qzdfc.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,good.ta80.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googlecommerce.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,googletakes.com
 DOMAIN-SUFFIX,goolpter.com
 DOMAIN-SUFFIX,gopig.io
 DOMAIN-SUFFIX,gorgon.youdao.com
@@ -4137,7 +4135,6 @@ DOMAIN-SUFFIX,img.yingshidiguo.cn
 DOMAIN-SUFFIX,img.yuyue007.cn
 DOMAIN-SUFFIX,img.zsj18.com
 DOMAIN-SUFFIX,img.zuowen8.com
-DOMAIN-SUFFIX,img.zuoyebang.cc
 DOMAIN-SUFFIX,img.zx590.com
 DOMAIN-SUFFIX,img0.egou.com
 DOMAIN-SUFFIX,img01.taotaosou.cn
@@ -5824,7 +5821,6 @@ DOMAIN-SUFFIX,page.xywy.com
 DOMAIN-SUFFIX,pagead.google.com
 DOMAIN-SUFFIX,pagead.l.google.com
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
-DOMAIN-SUFFIX,pagead46.l.doubleclick.net
 DOMAIN-SUFFIX,pagead-tpc.l.google.com
 DOMAIN-SUFFIX,pagechoice.com
 DOMAIN-SUFFIX,pagechoice.net
@@ -6074,7 +6070,6 @@ DOMAIN-SUFFIX,pub.chinadailyasia.com
 DOMAIN-SUFFIX,pub.funshion.com
 DOMAIN-SUFFIX,pub.mop.com
 DOMAIN-SUFFIX,pub1.cope.es
-DOMAIN-SUFFIX,pubads.g.doubleclick.net
 DOMAIN-SUFFIX,pubbirdf.com
 DOMAIN-SUFFIX,public.app.autohome.com.cn
 DOMAIN-SUFFIX,public6.com
