@@ -64,7 +64,9 @@ DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 
 // HBO Go
+DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,ap-southeast-1.amazonaws.com
 
 // Hulu
 USER-AGENT,Hulu*
