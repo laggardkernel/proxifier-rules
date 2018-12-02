@@ -129,57 +129,6 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>iTunes-Direct</Name>
-            <Targets>
-                buy.itunes.apple.com;
-                *-buy.itunes.apple.com;
-                osxapps.itunes.apple.com;
-                aod.itunes.apple.com;
-                mvod.itunes.apple.com;
-                streamingaudio.itunes.apple.com;
-            </Targets>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="false">
-            <Name>iTunes-in-Browser</Name>
-            <Applications>
-                "Google Chrome";
-                firefox;
-                com.apple.WebKit.Networking;
-            </Applications>
-            <Targets>itunes.apple.com</Targets>
-            <Ports>
-                80;
-                443;
-            </Ports>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Apple App</Name>
-            <Applications>storedownloadd</Applications>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Apple Domain</Name>
-            <Targets>
-                *.aaplimg.com;
-                *.apple.co;
-                *.apple.com;
-                *.icloud.com;
-                *.icloud-content.com;
-                *.itunes.com;
-                *.me.com;
-                *.mzstatic.com;
-                *.push-apple.com.akadns.net;
-            </Targets>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Apple IP</Name>
-            <Targets>17.0.0.0-17.255.255.255</Targets>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="true">
             <Name>Ads in Video apps</Name>
             <Targets>
                 <!-- iqiqyi -->
@@ -5301,6 +5250,117 @@
             </Targets>
             <Ports>8080</Ports>
             <Action type="Block"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>iTunes-Direct</Name>
+            <Targets>
+                buy.itunes.apple.com;
+                *-buy.itunes.apple.com;
+                iosapps.itunes.apple.com;
+                osxapps.itunes.apple.com;
+                aod.itunes.apple.com;
+                mvod.itunes.apple.com;
+                streamingaudio.itunes.apple.com;
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>iTunes-in-Browser</Name>
+            <Applications>
+                "Google Chrome";
+                firefox;
+                Safari;
+                com.apple.WebKit.Networking;
+                storeassetd;
+            </Applications>
+            <Targets>
+                itunes.apple.com;
+                *.itunes-apple.com.akadns.net;
+                *.akamaiedge.net;
+                itunes.apple.com.mwcloudcdn.com;
+            </Targets>
+            <Ports>
+                80;
+                443;
+            </Ports>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Apple App</Name>
+            <Applications>storedownloadd</Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Apple Domain</Name>
+            <Targets>
+                *.aaplimg.com;
+                *.apple.co;
+                *.apple.com;
+                *.icloud.com;
+                *.icloud-content.com;
+                *.itunes.com;
+                *.me.com;
+                *.mzstatic.com;
+                *.push-apple.com.akadns.net;
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Apple IP</Name>
+            <Targets>17.0.0.0-17.255.255.255</Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Apple-China-Dnsmasq</Name>
+            <Targets>
+                adcdownload.apple.com;
+                appldnld.apple.com;
+                cdn-cn1.apple-mapkit.com;
+                cdn-cn2.apple-mapkit.com;
+                cdn-cn3.apple-mapkit.com;
+                cdn-cn4.apple-mapkit.com;
+                cdn.apple-mapkit.com;
+                cdn1.apple-mapkit.com;
+                cdn2.apple-mapkit.com;
+                cdn3.apple-mapkit.com;
+                cdn4.apple-mapkit.com;
+                cds.apple.com;
+                cl1.apple.com;
+                cl2.apple.com.edgekey.net.globalredir.akadns.net;
+                cl2.apple.com.edgekey.net;
+                cl2.apple.com;
+                cl3.apple.com;
+                cl4.apple.com;
+                cl5.apple.com;
+                gsp11-cn.ls.apple.com;
+                gsp12-cn.ls.apple.com;
+                gsp13-cn.ls.apple.com;
+                gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net;
+                gsp4-cn.ls.apple.com.edgekey.net;
+                gsp4-cn.ls.apple.com;
+                gsp5-cn.ls.apple.com;
+                gspe19-cn.ls-apple.com.akadns.net;
+                gspe19-cn.ls.apple.com;
+                gspe21.ls.apple.com;
+                gspe21-ssl.ls.apple.com;
+                gspe35-ssl.ls.apple.com;
+                icloud.cdn-apple.com;
+                images.apple.com;
+                itunes-apple.com.akadns.net;
+                itunes.apple.com;
+                itunesconnect.apple.com;
+                mesu.apple.com;
+                mesu-china.apple.com.akadns.net;
+                phobos-apple.com.akadns.net;
+                phobos.apple.com;
+                store.apple.com;
+                store.storeimages.cdn-apple.com;
+                support.apple.com;
+                swcdn.apple.com;
+                swdist.apple.com;
+                www.apple.com;
+            </Targets>
+            <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
             <Name>Proxy-Client</Name>
