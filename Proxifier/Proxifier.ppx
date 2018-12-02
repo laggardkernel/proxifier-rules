@@ -517,7 +517,6 @@
                 *.adashxgc.ut.taobao.com;
                 *.amdc.m.taobao.com;
                 *.apoll.m.taobao.com;
-                *.nbsdk-baichuan.alicdn.com;
 
                 <!-- Apple -->
                 *.adserver.unityads.unity3d.com;
@@ -1025,7 +1024,6 @@
                 *.dol.tianya.cn;
                 *.lbszb.tongbu.com;
                 *.ad.toutiao.com;
-                *.d.toutiao.com;
                 *.dm.toutiao.com;
                 *.dsp.toutiao.com;
                 *.nativeapp.toutiao.com;
@@ -2292,7 +2290,6 @@
                 *.cdn.popcash.net;
                 *.cdn.popmyads.com;
                 *.cdn.puata.info;
-                *.cdn.segment.com;
                 *.cdn0.mobmore.com;
                 *.cdnads.com;
                 *.cdnimg.liehu.ijinshan.com;
@@ -4659,6 +4656,7 @@
                 *.vt.ipinyou.com;
                 *.vtale.org;
                 *.vungle.cn;
+                *.vungle.com;
                 *.vupload.duowan.com;
                 *.vv84.bj.bcebos.com;
                 *.vvv.ieduw.com;
@@ -5293,21 +5291,20 @@
         <Rule enabled="true">
             <Name>Apple Domain</Name>
             <Targets>
+                guzzoni.apple.com;
                 *.aaplimg.com;
                 *.apple.co;
                 *.apple.com;
+                *.apple-cloudkit.com;
+                *.cdn-apple.com;
                 *.icloud.com;
                 *.icloud-content.com;
+                *.itunes.apple.com;
                 *.itunes.com;
+                *.lookup-api.apple.com;
                 *.me.com;
                 *.mzstatic.com;
-                *.push-apple.com.akadns.net;
             </Targets>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Apple IP</Name>
-            <Targets>17.0.0.0-17.255.255.255</Targets>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
@@ -5368,7 +5365,6 @@
                 "Backup and Sync";
                 "Day One";
                 Dropbox;
-                "Google Drive File Stream";
                 LINE;
                 node-webkit;
                 Spotify;
@@ -5389,6 +5385,11 @@
                 *.chocotv.com.tw;
                 *epicgames*;
                 *.helpshift.com;
+
+                <!-- Hulu -->
+                *.hulu.com;
+
+                <!-- Line -->
                 *.lin.ee;
                 *.line.me;
                 *.line.naver.jp;
@@ -10872,6 +10873,7 @@
                 *.anthonycalzadilla.com;
                 *.aol.com;
                 *.aolcdn.com;
+                *.api.mixpanel.com;
                 *.api.tiktokv.com;
                 *.api.urbandictionary.com;
                 *.apigee.com;
@@ -10966,6 +10968,7 @@
                 *.dmm.co.jp;
                 *.dnsimple.com;
                 *.docker.com;
+                *.doub.io;
                 *.dribbble.com;
                 *.droplr.com;
                 *.duckduckgo.com;
@@ -11004,6 +11007,7 @@
                 *.g.co;
                 *.gabia.net;
                 *.garena.com;
+                *.gameloft.com;
                 *.geni.us;
                 *.get.how;
                 *.getcloudapp.com;
@@ -11094,6 +11098,7 @@
                 *.macid.co;
                 *.macromedia.com;
                 *.macrumors.com;
+                *.manhuaren.com;
                 *.marketwatch.com;
                 *.mashable.com;
                 *.mathjax.org;
@@ -11151,6 +11156,7 @@
                 *.pdfexpert.com;
                 *.periscope.tv;
                 *.piaotian.net;
+                *.picacomic.com;
                 *.picasaweb.com;
                 *.pinboard.in;
                 *.ping.pe;
@@ -11176,6 +11182,8 @@
                 *.pushbullet.com;
                 *.pushwoosh.com;
                 *.pximg.net;
+                *.quora.com;
+                *.quoracdn.net;
                 *.readingtimes.com.tw;
                 *.readmoo.com;
                 *.recaptcha.net;
@@ -11253,6 +11261,7 @@
                 *.techcrunch.com;
                 *.technorati.com;
                 *.techsmith.com;
+                *.teddysun.com;
                 *.telegra.ph;
                 *.textnow.me;
                 *.thebobs.com;
@@ -11424,12 +11433,13 @@
                 *dropbox*;
                 *facebook*;
                 *github*;
-                *google*;
+                *porn*;
                 *spotify*;
                 *telegram*;
                 *twitter*;
                 *whatsapp*;
                 *youtube*;
+                *google*;
                 *.1e100.net;
                 *.2mdn.net;
                 *.abc.xyz;
@@ -11468,10 +11478,7 @@
                 *.pubnub.com;
                 *.scdn.co;
                 *.t.co;
-                *.telegram.me;
-                *.telegram.org;
                 *.tensorflow.org;
-                *.thefacebook.com;
                 *.toggleable.com;
                 *.torproject.org;
                 *.twimg.com;
@@ -11666,12 +11673,14 @@
                 *.360buy.com;
                 *.360buyimg.com;
                 *.36kr.com;
+                *.51ym.me;
                 *.58.com;
                 *.8686c.com;
                 *.abercrombie.com;
                 *.acfun.tv;
                 *.acgvideo.com;
                 *.adobesc.com;
+                *.airtable.com;
                 *.air-matters.com;
                 *.air-matters.io;
                 *.aixifan.com;
@@ -11750,6 +11759,7 @@
                 *.ifengimg.com;
                 *.images.unsplash.com;
                 *.images-amazon.com;
+                *.img4me.com;
                 *.ipify.org;
                 *.ipip.net;
                 *.iqiyi.com;
@@ -11793,13 +11803,11 @@
                 *.nfoservers.com;
                 *.nssurge.com;
                 *.nuomi.com;
-                *.onevps.com;
                 *.ourdvs.com;
                 *.overcast.fm;
                 *.paypal.com;
                 *.paypalobjects.com;
                 *.pgyer.com;
-                *.pixiv.net;
                 *.pstatp.com;
                 *.qbox.me;
                 *.qcloud.com;
@@ -11827,6 +11835,7 @@
                 *.sinaimg.com;
                 *.sm.ms;
                 *.smzdm.com;
+                *.sdssdk.com;
                 *.snwx.com;
                 *.so.com;
                 *.sogou.com;
