@@ -5308,6 +5308,11 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>Apple IP</Name>
+            <Targets>17.0.0.0-17.255.255.255</Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
             <Name>Apple-China-Dnsmasq</Name>
             <Targets>
                 adcdownload.apple.com;
