@@ -131,7 +131,7 @@
         <Rule enabled="true">
             <Name>Ads in Video apps</Name>
             <Targets>
-                <!-- iqiqyi -->
+                <!-- iqiyi -->
                 *.a.ckm.iqiyi.com;
                 *.ad.m.iqiyi.com;
                 *.afp.iqiyi.com;
@@ -201,20 +201,8 @@
                 *.wan.youku.com;
                 *.ykatr.youku.com;
                 *.ykrec.youku.com;
-                117.177.248.17;
-                117.177.248.41;
-                223.87.176.139;
-                223.87.176.176;
-                223.87.177.180;
-                223.87.177.182;
-                223.87.177.184;
-                223.87.177.43;
-                223.87.177.47;
-                223.87.177.80;
-                223.87.182.101;
-                223.87.182.102;
-                223.87.182.11;
-                223.87.182.52;
+
+                <!-- Letv -->
                 *.api.game.letvstore.com;
                 *.ark.letv.com;
                 *.dc.letv.com;
@@ -228,6 +216,8 @@
                 *.stat.letv.com;
                 *.static.app.m.letv.com;
                 *.webp2p.letv.com;
+
+                <!-- Youtube -->
                 *.ads.youtube.com;
                 *.azabu-u.ac.jp;
                 *.couchcoaster.jp;
@@ -268,6 +258,8 @@
                 *.hxjs.tool.hexun.com;
                 *.hxsame.hexun.com;
                 *.itv.hexun.com;
+
+                <!-- Vod -->
                 *.ad.cmvideo.cn;
                 *.atm.cp31.ott.cibntv.net;
                 *.aty.cp45.ott.cibntv.net;
@@ -278,6 +270,8 @@
                 *.iadctest.qwapi.com;
                 *.log.moviebox.baofeng.com;
                 *.logger.baofeng.com;
+
+                <!-- Other -->
                 *.ad.video.51togic.com;
                 *.ads.cdn.tvb.com;
                 *.biz5.kankan.com;
@@ -322,17 +316,16 @@
                 *.union.6.cn;
                 *.wa.gtimg.com;
                 *.bfshan.cn;
+
             </Targets>
-            <Action type="Block"/>
-        </Rule>
-        <Rule enabled="true">
-            <Name>REJECT-Client</Name>
-            <Applications>Jietu</Applications>
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
             <Name>REJECT-AD</Name>
             <Targets>
+                <!-- Client -->
+
+                <!-- 163 -->
                 *.a.youdao.com;
                 *.ad.yixin.im;
                 *.adgeo.163.com;
@@ -404,7 +397,6 @@
                 *.wanproxy.127.net;
                 *.wr.da.netease.com;
                 *.ydpushserver.youdao.com;
-                impservice.*.youdao.com;
 
                 <!-- 10000 -->
                 *.114so.cn;
@@ -415,8 +407,12 @@
                 *.xxguan.cn;
                 *.yunanfuwuqi.com;
                 *.zhiong.net;
+
+                <!-- 10086 -->
                 *.hivedata.cc;
                 *.navi.gd.chinamobile.com;
+
+                <!-- 17173 -->
                 *.cvda.17173.com;
                 *.imgapp.yeyou.com;
                 *.log1.17173.com;
@@ -435,6 +431,8 @@
                 *.tg.jifen.2345.com;
                 *.update.minipage.2345.com;
                 *.zhushou.2345.com;
+
+                <!-- 360 -->
                 *.3600.com;
                 *.ad.dev.360.cn;
                 *.adapi.shouji.360.cn;
@@ -480,6 +478,8 @@
                 *.tf.360.cn;
                 *.top.h.qhimg.com;
                 *.update.360safe.com;
+
+                <!-- 58 -->
                 *.58.xgo.com.cn;
                 *.brandshow.58.com;
                 *.imp.xgo.com.cn;
@@ -487,6 +487,8 @@
                 *.jump.luna.58.com;
                 *.stat.xgo.com.cn;
                 *.track.58.com;
+
+                <!-- Adobe -->
                 *.3dns-2.adobe.com;
                 *.3dns-3.adobe.com;
                 *.activate.adobe.com;
@@ -522,6 +524,8 @@
                 *.adserver.unityads.unity3d.com;
                 *.config.unityads.unity3d.com;
                 *.iadsdk.apple.com;
+
+                <!-- Auto home -->
                 *.33.autohome.com.cn;
                 *.adm0.autoimg.cn;
                 *.adm1.autoimg.cn;
@@ -657,7 +661,6 @@
                 *.rj.baidu.com;
                 *.rplog.baidu.com;
                 *.s.baidu.com;
-                *.s.baidu.com;
                 *.s.cpro.baidu.com;
                 *.sa.tuisong.baidu.com;
                 *.sclick.baidu.com;
@@ -704,6 +707,7 @@
                 *.zz.bdstatic.com;
                 *.zzy1.quyaoya.com;
 
+                <!-- Book -->
                 *.1uandun.com;
                 *.70e.com;
                 *.ad.zhangyue.com;
@@ -747,19 +751,31 @@
                 *.xtzxmy.com;
                 *.xyrkl.com;
                 *.zhuanfakong.com;
+
+                <!-- Caiyun -->
                 *.ad.caiyunapp.com;
+
+                <!-- Dangdang -->
                 *.a.dangdang.com;
                 *.click.dangdang.com;
                 *.schprompt.dangdang.com;
                 *.t.dangdang.com;
+
+                <!-- Duomi -->
                 *.ad.duomi.com;
                 *.boxshows.com;
+
+                <!-- Facebook -->
                 *.staticxx.facebook.com;
+
+                <!-- ele -->
                 *.app-monitor.ele.me;
                 *.client-api.ele.me;
                 *.grand.ele.me;
                 *.mobile-pubt.ele.me;
                 *.newton-api.ele.me;
+
+                <!-- Ganji -->
                 *.ad.ganji.com;
                 *.click.ganji.com;
                 *.ganjituiguang.ganji.com;
@@ -781,12 +797,16 @@
                 *.pagead.google.com;
                 *.pagead.l.google.com;
                 *.pagead-tpc.l.google.com;
+
+                <!-- JD -->
                 *.ads.union.jd.com;
                 *.c-nfa.jd.com;
                 *.cps.360buy.com;
                 *.jzt.jd.com;
                 *.stat.m.jd.com;
                 *.img-x.jd.com;
+
+                <!-- Kugou -->
                 *.ads.bssdl.kugou.com;
                 *.ads.service.kugou.com;
                 *.adsfile.bssdlbig.kugou.com;
@@ -817,6 +837,8 @@
                 *.song.fanxing.kugou.com;
                 *.tj.kugou.com;
                 *.update.mobile.kugou.com;
+
+                <!-- Kuwo -->
                 *.deliver.kuwo.cn;
                 *.g.koowo.com;
                 *.game.kuwo.cn;
@@ -829,9 +851,13 @@
                 *.updatepage.kuwo.cn;
                 *.wa.kuwo.cn;
                 *.webstat.kuwo.cn;
+
+                <!-- Laozikanshu/Laozisoushu -->
                 *.com-eonsun-owl-user.oss-cn-hangzhou.aliyuncs.com;
                 *.pat.farvd.com;
                 *.sdk.cferw.com;
+
+                <!-- Meitu -->
                 *.a.koudai.com;
                 *.adui.tg.meitu.com;
                 *.corp.meitu.com;
@@ -845,6 +871,8 @@
                 *.tuiguang.meitu.com;
                 *.xiuxiu.android.dl.meitu.com;
                 *.xiuxiu.mobile.meitudata.com;
+
+                <!-- Meizu -->
                 *.aider-res.meizu.com;
                 *.api-flow.flyme.cn;
                 *.api-game.meizu.com;
@@ -867,6 +895,8 @@
                 *.umid.orion.meizu.com;
                 *.upush.res.meizu.com;
                 *.uxip.meizu.com;
+
+                <!-- Moji -->
                 *.ad.api.moji.com;
                 *.app.moji001.com;
                 *.cdn.moji.com;
@@ -880,15 +910,23 @@
 
                 <!-- Mop -->
                 *.pub.mop.com;
+
+                <!-- Qingting.fm -->
                 *.ad.qingting.fm;
                 *.admgr.qingting.fm;
                 *.dload.qd.qingting.fm;
                 *.logger.qingting.fm;
                 *.s.qd.qingting.fm;
                 *.s.qd.qingtingfm.com;
+
+                <!-- renren -->
                 *.ebp.renren.com;
                 *.jebe.renren.com;
                 *.jebe.xnimg.cn;
+
+                <!-- Sendanywhere -->
+
+                <!-- Sina -->
                 *.2016.sina.cn;
                 *.ad.sina.com.cn;
                 *.adbox.sina.com.cn;
@@ -974,6 +1012,7 @@
                 *.zc.biz.weibo.com;
                 *.zymo.mps.weibo.com;
 
+                <!-- Sogou -->
                 *.123.sogou.com;
                 *.adsence.sogou.com;
                 *.adstream.123.sogoucdn.com;
@@ -1007,14 +1046,19 @@
                 *.rjgw.theta.sogou.com;
                 *.wangmeng.sogou.com;
                 *.web.sogou.com;
+
+                <!-- Teleplus -->
                 *.guangzhuiyuan.com;
-                .*btrace.qq.com;
+
+                <!-- Tencent -->
+                *.btrace.qq.com;
                 *.e.qq.com;
                 *.l.qq.com;
                 *.mi.gdt.qq.com;
                 *.mtrace.qq.com;
                 *.pingma.qq.com;
 
+                <!-- Tianya -->
                 *.801.tianya.cn;
                 *.803.tianya.cn;
                 *.806.tianya.cn;
@@ -1022,17 +1066,25 @@
                 *.bdj.tianya.cn;
                 *.click.tianyaui.com;
                 *.dol.tianya.cn;
+
+                <!-- Tongbutui -->
                 *.lbszb.tongbu.com;
+
+                <!-- Toutiao -->
                 *.ad.toutiao.com;
                 *.dm.toutiao.com;
                 *.dsp.toutiao.com;
                 *.nativeapp.toutiao.com;
                 *.partner.toutiao.com;
+
+                <!-- Tumblr -->
                 *.31.media.tumblr.com;
                 *.92x.tumblr.com;
                 *.its-dori.tumblr.com;
                 *.tumblrprobes.cedexis.com;
                 *.tumblrreports.cedexis.com;
+
+                <!-- Twitter -->
                 *.ads.twitter.com;
                 *.ads-twitter.com;
                 *.p.twitter.com;
@@ -1040,6 +1092,8 @@
                 *.syndication.twitter.com;
                 *.syndication-o.twitter.com;
                 *.urls.api.twitter.com;
+
+                <!-- UC -->
                 *.adn.insight.ucweb.com;
                 *.adtrack.ucweb.com;
                 *.alissl.ucdl.pp.uc.cn;
@@ -1080,6 +1134,8 @@
                 *.fengbuy.com;
                 *.push.feng.com;
                 *.we.tm;
+
+                <!-- Wi-Fi key -->
                 wifiapi01.51y5.net;
                 wifiapi02.51y5.net;
                 *.c.51y5.net;
@@ -1087,9 +1143,13 @@
                 *.ios-dc.51y5.net;
                 *.news-img.51y5.net;
                 *.wkanc.com;
+
+                <!-- WPS -->
                 *.ios-informationplatform.wps.cn;
                 *.minfo.wps.cn;
                 *.mo.res.wpscdn.cn;
+
+                <!-- Xiaomi -->
                 *.a.hl.mi.com;
                 *.a.union.mi.com;
                 *.abtest.mistat.xiaomi.com;
@@ -1155,6 +1215,8 @@
                 *.ws.ksmobile.net;
                 *.wtradv.market.xiaomi.com;
                 *.xmpush.xiaomi.com;
+
+                <!-- Ximalaya -->
                 *.ad.test.ximalaya.com;
                 *.ad.ximalaya.com;
                 *.adse.test.ximalaya.com;
@@ -1164,6 +1226,8 @@
                 *.linkeye.ximalaya.com;
                 *.location.ximalaya.com;
                 *.xdcs-collector.ximalaya.com;
+
+                <!-- Yahoo -->
                 *.ads.yahoo.com;
                 *.adserver.yahoo.com;
                 *.adss.yahoo.com;
@@ -1182,8 +1246,14 @@
                 *.rd.ane.yahoo.co.jp;
                 *.uservoice.com;
                 *.ws.progrss.yahoo.com;
+
+                <!-- Zhangyue -->
                 *.sys.zhangyue.com;
+
+                <!-- Zhihu -->
                 *.sugar.zhihu.com;
+
+                <!-- AD Block -->
                 *admarvel*;
                 *admaster*;
                 *admdfs*;
@@ -1589,7 +1659,6 @@
                 *.aa.xiangxiangmf.com;
                 *.aa.zldh123.com;
                 *.a-ad.adwo.com;
-                *.aidalan.com;
                 *.ab.sc115.com;
                 *.abc.hkepc.com;
                 *.abc.xtyx918.com;
@@ -1618,6 +1687,7 @@
                 *.ad.accessmediaproductions.com;
                 *.ad.adhouyi.cn;
                 *.ad.adwo.com;
+                *.ad.aidalan.com;
                 *.ad.api.3g.tudou.com;
                 *.ad.bitmedia.io;
                 *.ad.bjmama.net;
@@ -3194,7 +3264,6 @@
                 *.img.taotaosou.cn;
                 *.img.toppr.com.cn;
                 *.img.users.51.la;
-                *.js.wo-x.cn;
                 *.img.xuenb.com;
                 *.img.zuowen8.com;
                 *.img0.egou.com;
@@ -3331,6 +3400,7 @@
                 *.js.ubaike.cn;
                 *.js.union-wifi.com;
                 *.js.users.51.la;
+                *.js.wo-x.cn;
                 *.js1.2abc8.com;
                 *.js1.xbaixing.com;
                 *.js1.zuocai.tv;
@@ -4939,7 +5009,6 @@
                 *.yrxmr.com;
                 *.ysjwj.com;
                 *.ysm.yahoo.com;
-                *.yt.mmstat.com;
                 *.ytguowang.com;
                 *.yuanming.net;
                 *.yueyelive.com;
@@ -5038,12 +5107,40 @@
                 *.zzimg.51.la;
                 *.zzrcz.com;
                 *.zzsx8.com;
+
             </Targets>
+            <Action type="Block"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>REJECT-PROCESS</Name>
+            <Applications>
+                Jietu
+
+            </Applications>
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
             <Name>REJECT-IP</Name>
             <Targets>
+                101.227.200.0-101.227.200.255;
+                101.227.200.11;
+                101.227.200.28;
+                101.227.97.240;
+                124.192.153.42;
+                117.177.248.17;
+                117.177.248.41;
+                223.87.176.139;
+                223.87.176.176;
+                223.87.177.180;
+                223.87.177.182;
+                223.87.177.184;
+                223.87.177.43;
+                223.87.177.47;
+                223.87.177.80;
+                223.87.182.101;
+                223.87.182.102;
+                223.87.182.11;
+                223.87.182.52;
                 1.3.0.10;
                 10.72.25.0-10.72.25.255;
                 101.201.29.182;
@@ -5199,17 +5296,10 @@
                 69.28.57.245;
                 74.117.182.77;
                 78.140.131.214;
+                2001:67c:4e8::-2001:67c:4e8:ffff:ffff:ffff:ffff:ffff;
+                2001:b28:f23d::-2001:b28:f23d:ffff:ffff:ffff:ffff:ffff;
+                2001:b28:f23f::-2001:b28:f23f:ffff:ffff:ffff:ffff:ffff;
 
-                2001:67c:4e8:0:0:0:0:0-2001:67c:4e8:ffff:ffff:ffff:ffff:ffff;
-                2001:b28:f23d:0:0:0:0:0-2001:b28:f23d:ffff:ffff:ffff:ffff:ffff;
-                2001:b28:f23f:0:0:0:0:0-2001:b28:f23f:ffff:ffff:ffff:ffff:ffff;
-
-                <!-- iqiyi -->
-                101.227.200.1-101.227.200.255;
-                101.227.200.11;
-                101.227.200.28;
-                101.227.97.240;
-                124.192.153.42;
             </Targets>
             <Action type="Block"/>
         </Rule>
