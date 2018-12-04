@@ -182,3 +182,4 @@ GitHub.sublime-settings
 ### Custom ###
 [Cc]ustom*.ppx
 Proxifier/Current.ppx
+*.log
