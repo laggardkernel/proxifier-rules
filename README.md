@@ -1,3 +1,13 @@
+**Warning**: "Detect DNS settings automatically" and "Resolve hostnames through
+proxy" are not designed for handling DNS pollution. Please **use a clean DNS**.
+
+[shawn1m/overture][overture] is recommended if you wanna setup a local
+stub/forwarding DNS.
+> overture, A customized DNS forwarder written in Go
+
+Another setup with "dnsmasq/unbound + chinadns + dnsforwarder/cdns/..." is also
+popular, and may be lighter than overture.
+
 ## Proxifier Rules
 
 Rules for proxifier based on [lhie1/Rules][Rules].
@@ -28,8 +38,11 @@ compressed to speedup config loading.
 
 ### F.A.Q.
 #### Proxy Rules doesn't Work on macOS
-Proxifier macOS may have some problem handling DNS pollution.
-Set a clean DNS in your Network Setting.
+The DNS resolution feature from Proxifier macOS is not designed for handling DNS pollution.
+There's performance issue in real use for handling DNS pollution. In case that
+is causes problem for users, I disabled this feature in the config file.
+
+Please set a clean DNS in your Network Setting.
 
 #### Why do you use Proxifier instead of Surge?
 
@@ -75,6 +88,7 @@ At last, I'm poor and not that stupid to spend ￥100 just for a watermelon, **f
 Just non-commercial.
 
 [Rules]: https://github.com/lhie1/Rules
+[overture]: https://github.com/shawn1m/overture
 [gfwlist]: https://github.com/gfwlist/gfwlist
 [china_ip_list]: https://github.com/17mon/china_ip_list
 [jamesits-rules]: https://github.com/Jamesits/proxifier-profiles
