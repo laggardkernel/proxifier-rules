@@ -2,11 +2,11 @@
 <ProxifierProfile version="102" platform="MacOSX" product_id="2" product_minver="212">
   <Options>
     <Resolve>
-      <AutoModeDetection enabled="true"/>
+      <AutoModeDetection enabled="false"/>
       <ViaProxy enabled="false">
         <TryLocalDnsFirst enabled="false"/>
       </ViaProxy>
-      <ExclusionList OnlyFromListMode="true" ExcludeSimpleHostnames="true" ExcludeLocalhost="true" ExcludeSelfHostname="true" ExcludeLocalDomain="true"> *epicgames*;*.helpshift.com;*.line.naver.jp;*.ptt.cc;*appledaily*;*beetalk*;*blogspot*;*dropbox*;*facebook*;*google*;*spotify*;*telegram*;*twitter*;*whatsapp*;*.1e100.net;*.2mdn.net;*.abc.xyz;*.akamai.net;*.appspot.com;*.autodraw.com;*.bandwagonhost.com;*.blogblog.com;*.cdninstagram.com;*.chromeexperiments.com;*.creativelab5.com;*.crittercism.com;*.culturalspot.org;*.dartlang.org;*.fb.com;*.fb.me;*.fbcdn.net;*.fbsbx.com;*.gcr.io;*.gmail.com;*.googlevideo.com;*.gosetsuden.jp;*.gvt1.com;*.gwtproject.org;*.heroku.com;*.html5rocks.com;*.instagram.com;*.keyhole.com;*.kobo.com;*.kobobooks.com;*.madewithcode.com;*.material.io;*.messenger.com;*.netmarble.com;*.nianticlabs.com;*.pinimg.com;*.pubnub.com;*.scdn.co;*.t.co;*.telegram.me;*.telegram.org;*.tensorflow.org;*.thefacebook.com;*.toggleable.com;*.torproject.org;*.twimg.com;*.twitpic.com;*.unfiltered.news;*.waveprotocol.org;*.webmproject.org;*.webrtc.org;*.whatsapp.com;*.whatsapp.net;*.youtube.com;thisisinsider.com;*.pixel.net;*.pximg.net;d.pixiv.org;m.googlemail.com;</ExclusionList>
+      <ExclusionList ExcludeSimpleHostnames="true" ExcludeLocalhost="true" ExcludeSelfHostname="true" ExcludeLocalDomain="true"> localhost;%SimpleHostnames%;%ComputerName%;*.local;</ExclusionList>
     </Resolve>
     <Encryption mode="basic"/>
     <HttpProxiesSupport enabled="true"/>
@@ -24,6 +24,11 @@
   </ProxyList>
   <ChainList/>
   <RuleList>
+    <Rule enabled="false">
+      <Name>Homepage: https://github.com/laggardkernel/proxifier-rules</Name>
+      <Applications> "Proxifier" </Applications>
+      <Action type="Direct"/>
+    </Rule>
     <Rule enabled="true">
       <Name>LAN</Name>
       <Targets> localhost;127.0.0.1;0.0.0.0;::1;%ComputerName%;*.local;0:0:0:0:0:0:0:0-7fff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;127.0.0.0-127.255.255.255;10.0.0.0-10.255.255.255;172.16.0.0-172.31.255.255;192.168.0.0-192.168.255.255;100.64.0.0-100.127.255.255;17.0.0.0-17.255.255.255;captive.apple.com;*.crashlytics.com;1.0.0.1;</Targets>
