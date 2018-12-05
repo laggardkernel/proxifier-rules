@@ -98,6 +98,13 @@
     </ProxyList>
     <ChainList/>
     <RuleList>
+        <Rule enabled="false">
+            <Name>Homepage: https://github.com/laggardkernel/proxifier-rules</Name>
+            <Applications>
+                "Proxifier"
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
         <Rule enabled="true">
             <Name>LAN</Name>
             <Targets>
