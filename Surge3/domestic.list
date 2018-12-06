@@ -9,7 +9,6 @@ USER-AGENT,TIM*
 USER-AGENT,ting_en
 USER-AGENT,WebTorrent*
 USER-AGENT,WeChat*
-USER-AGENT,MicroMessenger*
 
 // Beplay
 DOMAIN-KEYWORD,beplay
@@ -18,6 +17,18 @@ DOMAIN-KEYWORD,beplay
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
+
+// Microsoft
+USER-AGENT,MicroMessenger*
+USER-AGENT,OneDrive*
+DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
 
 // Prior
 DOMAIN,client.amplifi.com
@@ -98,6 +109,7 @@ DOMAIN-SUFFIX,cnbetacdn.com
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,dct-cloud.com
 DOMAIN-SUFFIX,didialift.com
+DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douyu.com
