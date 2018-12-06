@@ -58,14 +58,12 @@ DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,theplatform.com
 DOMAIN-SUFFIX,urlload.net
 
-// HBO
+// HBO && HBO Go
 USER-AGENT,HBO%20NOW*
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-
-// HBO Go
 DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbogoasia.hk
 
 // Hulu
@@ -112,13 +110,11 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 
+// Vidol & 动画疯
+USER-AGENT,Anime*
+USER-AGENT,Vidol*
+DOMAIN-SUFFIX,cdn.hinet.net
+DOMAIN-SUFFIX,vidol.tv
+
 // viuTV
 DOMAIN-SUFFIX,viu.tv
-
-// Youtube
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
-DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
