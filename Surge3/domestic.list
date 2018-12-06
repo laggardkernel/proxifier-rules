@@ -9,7 +9,6 @@ USER-AGENT,TIM*
 USER-AGENT,ting_en
 USER-AGENT,WebTorrent*
 USER-AGENT,WeChat*
-USER-AGENT,MicroMessenger*
 
 // Beplay
 DOMAIN-KEYWORD,beplay
