@@ -101,6 +101,13 @@ DOMAIN-SUFFIX,nflxvideo.net
 // Pandora
 DOMAIN-SUFFIX,pandora.com
 
+// Prime Video
+USER-AGENT,Prime%20Video*
+USER-AGENT,InstantVideo.US*
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,llnwd.net
+
 // SoundCloud
 USER-AGENT,SoundCloud*
 
