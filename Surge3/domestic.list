@@ -3,6 +3,7 @@ PROCESS-NAME,ss-local
 
 // UA
 USER-AGENT,hide*
+USER-AGENT,MicroMessenger*
 USER-AGENT,PayPal*
 USER-AGENT,TeamViewer*
 USER-AGENT,TIM*
@@ -19,7 +20,6 @@ DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
 // Microsoft
-USER-AGENT,MicroMessenger*
 USER-AGENT,OneDrive*
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,hotmail.com
