@@ -12,9 +12,12 @@ DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 
 // Amazon Prime Video
+USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
+DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,llnwd.net
 
 // Bahamut
 USER-AGENT,Anime*
@@ -100,13 +103,6 @@ DOMAIN-SUFFIX,nflxvideo.net
 
 // Pandora
 DOMAIN-SUFFIX,pandora.com
-
-// Prime Video
-USER-AGENT,Prime%20Video*
-USER-AGENT,InstantVideo.US*
-DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,llnwd.net
 
 // SoundCloud
 USER-AGENT,SoundCloud*
