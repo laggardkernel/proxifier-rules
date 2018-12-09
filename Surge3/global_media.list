@@ -113,12 +113,6 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 
-// Vidol & 动画疯
-USER-AGENT,Anime*
-USER-AGENT,Vidol*
-DOMAIN-SUFFIX,cdn.hinet.net
-DOMAIN-SUFFIX,vidol.tv
-
 // viuTV
 DOMAIN-SUFFIX,viu.tv
 
