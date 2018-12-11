@@ -8228,7 +8228,7 @@ URL-REGEX,^https?:\/\/.+\.gdt\.qq\.com
 URL-REGEX,^https?:\/\/.+\.kingsoft-office-service\.com
 URL-REGEX,^https?:\/\/.+\.l\.qq\.com
 URL-REGEX,^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js)
-URL-REGEX,^https?:\/\/\w{3}\.tianya\.cn
+URL-REGEX,^https?:\/\/\d{3}\.tianya\.cn
 URL-REGEX,^https?:\/\/\w{6}\.com1\.z0\.glb\.clouddn\.com
 URL-REGEX,^https?:\/\/\w{8}\.logic\.cpm\.cm\.kankan\.com
 URL-REGEX,^https?:\/\/\w+\.cloudfront\.net\/banner
