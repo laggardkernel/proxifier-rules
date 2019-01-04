@@ -1,0 +1,17 @@
+port: 8888
+socks-port: 8889
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:6170
+dns:
+  enable: true
+  ipv6: false
+  nameserver:
+  - 114.114.114.114
+  - 223.5.5.5
+  - tls://dns.rubyfish.cn:853
+  fallback:
+  - 114.114.114.114
+  - tls://dns.rubyfish.cn:853
+  - 8.8.8.8
