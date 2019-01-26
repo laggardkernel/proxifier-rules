@@ -113,8 +113,6 @@ Rule:
 - DOMAIN-SUFFIX,youtu.be,Global_media
 
 
-- DOMAIN-SUFFIX,cn,Domestic
-
 - DOMAIN-SUFFIX,126.com,Domestic
 - DOMAIN-SUFFIX,126.net,Domestic
 - DOMAIN-SUFFIX,127.net,Domestic
