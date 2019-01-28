@@ -2,7 +2,7 @@ port: 8888
 socks-port: 8889
 allow-lan: true
 mode: Rule
-log-level: info
+log-level: silent
 external-controller: 127.0.0.1:6170
 dns:
   enable: true
