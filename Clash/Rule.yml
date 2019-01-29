@@ -1,12 +1,10 @@
 Rule:
-- DOMAIN,gs.apple.com,Proxy
+- DOMAIN-SUFFIX,digicert.com,DIRECT
 - DOMAIN-SUFFIX,mzstatic.com,Domestic
 - DOMAIN-SUFFIX,akadns.net,Domestic
 - DOMAIN-SUFFIX,aaplimg.com,Domestic
 - DOMAIN-SUFFIX,cdn-apple.com,Domestic
 
-- DOMAIN,itunes.apple.com, Domestic
-- DOMAIN,beta.itunes.apple.com, Domestic
 - DOMAIN-SUFFIX,apple.com, Domestic
 - DOMAIN-SUFFIX,icloud.com,Domestic
 - DOMAIN-SUFFIX,icloud-content.com,Domestic
