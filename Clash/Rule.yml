@@ -1,6 +1,4 @@
 Rule:
-- DOMAIN-KEYWORD,smtp,DIRECT
-  
 - DOMAIN-SUFFIX,digicert.com,DIRECT
 - DOMAIN-SUFFIX,mzstatic.com,Domestic
 - DOMAIN-SUFFIX,akadns.net,Domestic
