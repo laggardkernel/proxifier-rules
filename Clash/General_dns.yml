@@ -8,10 +8,10 @@ dns:
   enable: true
   ipv6: false
   nameserver:
-  - 1.2.4.8
-  - 114.114.114.114
+  - 117.50.10.10
+  - 119.29.29.29
   - 223.5.5.5
   - tls://dns.rubyfish.cn:853
   fallback:
-  - tls://dns.rubyfish.cn:853
-  - tls://dns.google
+  - tls://1.1.1.1:853
+  - tls://1.0.0.1:853
