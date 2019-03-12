@@ -15,3 +15,4 @@ dns:
   fallback:
   - tls://1.1.1.1:853
   - tls://1.0.0.1:853
+  - tls://dns.rubyfish.cn:853
