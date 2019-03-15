@@ -184,82 +184,82 @@ Rule:
 - DOMAIN-SUFFIX,zunmi.cn,AdBlock
 
 # Global Area Network
-# (Foreign_media)
+# (GlobalTV)
 # (Video)
-- DOMAIN,content.jwplatform.com,Foreign_media
-- DOMAIN,videos-f.jwpsrv.com,Foreign_media
+- DOMAIN,content.jwplatform.com,GlobalTV
+- DOMAIN,videos-f.jwpsrv.com,GlobalTV
 # > Youtube
-# USER-AGENT,*youtube*,Foreign_media
-# USER-AGENT,YouTube*,Foreign_media
-- DOMAIN-SUFFIX,googlevideo.com,Foreign_media
-- DOMAIN-SUFFIX,youtube.com,Foreign_media
-- DOMAIN,youtubei.googleapis.com,Foreign_media
+# USER-AGENT,*youtube*,GlobalTV
+# USER-AGENT,YouTube*,GlobalTV
+- DOMAIN-SUFFIX,googlevideo.com,GlobalTV
+- DOMAIN-SUFFIX,youtube.com,GlobalTV
+- DOMAIN,youtubei.googleapis.com,GlobalTV
 # > Netflix
-# USER-AGENT,Argo*,Foreign_media
-- DOMAIN-SUFFIX,netflix.com,Foreign_media
-- DOMAIN-SUFFIX,netflix.net,Foreign_media
-- DOMAIN-SUFFIX,nflxext.com,Foreign_media
-- DOMAIN-SUFFIX,nflximg.com,Foreign_media
-- DOMAIN-SUFFIX,nflximg.net,Foreign_media
-- DOMAIN-SUFFIX,nflxso.net,Foreign_media
-- DOMAIN-SUFFIX,nflxvideo.net,Foreign_media
+# USER-AGENT,Argo*,GlobalTV
+- DOMAIN-SUFFIX,netflix.com,GlobalTV
+- DOMAIN-SUFFIX,netflix.net,GlobalTV
+- DOMAIN-SUFFIX,nflxext.com,GlobalTV
+- DOMAIN-SUFFIX,nflximg.com,GlobalTV
+- DOMAIN-SUFFIX,nflximg.net,GlobalTV
+- DOMAIN-SUFFIX,nflxso.net,GlobalTV
+- DOMAIN-SUFFIX,nflxvideo.net,GlobalTV
 # > HBO
-# USER-AGENT,HBO%20NOW*,Foreign_media
-- DOMAIN-SUFFIX,hbo.com,Foreign_media
-- DOMAIN-SUFFIX,hbogo.com,Foreign_media
+# USER-AGENT,HBO%20NOW*,GlobalTV
+- DOMAIN-SUFFIX,hbo.com,GlobalTV
+- DOMAIN-SUFFIX,hbogo.com,GlobalTV
 # > Hulu
-# USER-AGENT,Hulu*,Foreign_media
-- DOMAIN-SUFFIX,hulu.com,Foreign_media
-- DOMAIN-SUFFIX,huluim.com,Foreign_media
+# USER-AGENT,Hulu*,GlobalTV
+- DOMAIN-SUFFIX,hulu.com,GlobalTV
+- DOMAIN-SUFFIX,huluim.com,GlobalTV
 # > Hulu(フールー)
-- DOMAIN-SUFFIX,happyon.jp,Foreign_media
+- DOMAIN-SUFFIX,happyon.jp,GlobalTV
 # > BBC iPlayer
-# USER-AGENT,BBCiPlayer*,Foreign_media
-- DOMAIN-SUFFIX,bbc.co.uk,Foreign_media
-- DOMAIN-SUFFIX,bbci.co.uk,Foreign_media
-- DOMAIN-KEYWORD,bbcfmt,Foreign_media
-- DOMAIN-KEYWORD,uk-live,Foreign_media
+# USER-AGENT,BBCiPlayer*,GlobalTV
+- DOMAIN-SUFFIX,bbc.co.uk,GlobalTV
+- DOMAIN-SUFFIX,bbci.co.uk,GlobalTV
+- DOMAIN-KEYWORD,bbcfmt,GlobalTV
+- DOMAIN-KEYWORD,uk-live,GlobalTV
 # > Bahamut
-# USER-AGENT,Anime*,Foreign_media
-- DOMAIN-SUFFIX,bahamut.com.tw,Foreign_media
-- DOMAIN-SUFFIX,gamer.com.tw,Foreign_media
-- DOMAIN-SUFFIX,hinet.net,Foreign_media
+# USER-AGENT,Anime*,GlobalTV
+- DOMAIN-SUFFIX,bahamut.com.tw,GlobalTV
+- DOMAIN-SUFFIX,gamer.com.tw,GlobalTV
+- DOMAIN-SUFFIX,hinet.net,GlobalTV
 # > myTV_SUPER
-# USER-AGENT,mytv*,Foreign_media
-- DOMAIN-SUFFIX,mytvsuper.com,Foreign_media
-- DOMAIN-SUFFIX,tvb.com,Foreign_media
+# USER-AGENT,mytv*,GlobalTV
+- DOMAIN-SUFFIX,mytvsuper.com,GlobalTV
+- DOMAIN-SUFFIX,tvb.com,GlobalTV
 # > AbemaTV
-# USER-AGENT,AbemaTV*,Foreign_media
-- DOMAIN-SUFFIX,abema.io,Foreign_media
-- DOMAIN-SUFFIX,ameba.jp,Foreign_media
-- DOMAIN-SUFFIX,hayabusa.io,Foreign_media
-- DOMAIN,linear-abematv.akamaized.net,Foreign_media
+# USER-AGENT,AbemaTV*,GlobalTV
+- DOMAIN-SUFFIX,abema.io,GlobalTV
+- DOMAIN-SUFFIX,ameba.jp,GlobalTV
+- DOMAIN-SUFFIX,hayabusa.io,GlobalTV
+- DOMAIN,linear-abematv.akamaized.net,GlobalTV
 # > encoreTVB
-# USER-AGENT,encoreTVB*,Foreign_media
+# USER-AGENT,encoreTVB*,GlobalTV
 # > PBS
-# USER-AGENT,PBS*,Foreign_media
-- DOMAIN-SUFFIX,pbs.org,Foreign_media
+# USER-AGENT,PBS*,GlobalTV
+- DOMAIN-SUFFIX,pbs.org,GlobalTV
 # > Amazon Prime Video
-# USER-AGENT,InstantVideo.US*,Foreign_media
-# USER-AGENT,Prime%20Video*,Foreign_media
+# USER-AGENT,InstantVideo.US*,GlobalTV
+# USER-AGENT,Prime%20Video*,GlobalTV
 
 # (Music)
 # > Spotify
-# USER-AGENT,Spotify*,Foreign_media
-- DOMAIN-SUFFIX,scdn.co,Foreign_media
-- DOMAIN-SUFFIX,spotify.com,Foreign_media
-- DOMAIN-SUFFIX,spoti.fi,Foreign_media
+# USER-AGENT,Spotify*,GlobalTV
+- DOMAIN-SUFFIX,scdn.co,GlobalTV
+- DOMAIN-SUFFIX,spotify.com,GlobalTV
+- DOMAIN-SUFFIX,spoti.fi,GlobalTV
 # > JOOX
-# USER-AGENT,WeMusic*,Foreign_media
-# USER-AGENT,JOOX*,Foreign_media
-- DOMAIN-SUFFIX,joox.com,Foreign_media
+# USER-AGENT,WeMusic*,GlobalTV
+# USER-AGENT,JOOX*,GlobalTV
+- DOMAIN-SUFFIX,joox.com,GlobalTV
 # > Pandora
-- DOMAIN-SUFFIX,pandora.com,Foreign_media
+- DOMAIN-SUFFIX,pandora.com,GlobalTV
 
-# (Domestic_media)
+# (AsianTV)
 # > 愛奇藝台灣站
-- DOMAIN-SUFFIX,iqiyi.com,Domestic_media
-- DOMAIN-SUFFIX,71.am,Domestic_media
+- DOMAIN-SUFFIX,iqiyi.com,AsianTV
+- DOMAIN-SUFFIX,71.am,AsianTV
 
 # (DNS Cache Pollution Protection)
 # > Google
