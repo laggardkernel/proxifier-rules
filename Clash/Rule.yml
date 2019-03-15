@@ -861,4 +861,4 @@ Rule:
 # GeoIP China
 - GEOIP,CN,Domestic
 
-- MATCH,Final
+- MATCH,Others
