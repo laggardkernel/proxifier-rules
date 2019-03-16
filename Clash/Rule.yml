@@ -1,114 +1,114 @@
 Rule:
 # (GlobalTV)
 // ABC
-DOMAIN-SUFFIX,edgedatg.com,GlobalTV
-DOMAIN-SUFFIX,go.com,GlobalTV
+- DOMAIN-SUFFIX,edgedatg.com,GlobalTV
+- DOMAIN-SUFFIX,go.com,GlobalTV
 
 // AbemaTV
-DOMAIN,linear-abematv.akamaized.net,GlobalTV
-DOMAIN-SUFFIX,abema.io,GlobalTV
-DOMAIN-SUFFIX,abema.tv,GlobalTV
-DOMAIN-SUFFIX,akamaized.net,GlobalTV
-DOMAIN-SUFFIX,ameba.jp,GlobalTV
-DOMAIN-SUFFIX,hayabusa.io,GlobalTV
+- DOMAIN,linear-abematv.akamaized.net,GlobalTV
+- DOMAIN-SUFFIX,abema.io,GlobalTV
+- DOMAIN-SUFFIX,abema.tv,GlobalTV
+- DOMAIN-SUFFIX,akamaized.net,GlobalTV
+- DOMAIN-SUFFIX,ameba.jp,GlobalTV
+- DOMAIN-SUFFIX,hayabusa.io,GlobalTV
 
 // Amazon Prime Video
-DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
-DOMAIN-SUFFIX,amazonaws.com,GlobalTV
-DOMAIN-SUFFIX,amazonvideo.com,GlobalTV
-DOMAIN-SUFFIX,llnwd.net,GlobalTV
+- DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
+- DOMAIN-SUFFIX,amazonaws.com,GlobalTV
+- DOMAIN-SUFFIX,amazonvideo.com,GlobalTV
+- DOMAIN-SUFFIX,llnwd.net,GlobalTV
 
 // Bahamut
-DOMAIN-SUFFIX,bahamut.com.tw,GlobalTV
-DOMAIN-SUFFIX,gamer.com.tw,GlobalTV
-DOMAIN-SUFFIX,hinet.net,GlobalTV
+- DOMAIN-SUFFIX,bahamut.com.tw,GlobalTV
+- DOMAIN-SUFFIX,gamer.com.tw,GlobalTV
+- DOMAIN-SUFFIX,hinet.net,GlobalTV
 
 // BBC
-DOMAIN-KEYWORD,bbcfmt,GlobalTV
-DOMAIN-KEYWORD,co.uk,GlobalTV
-DOMAIN-KEYWORD,uk-live,GlobalTV
-DOMAIN-SUFFIX,bbc.co,GlobalTV
-DOMAIN-SUFFIX,bbc.co.uk,GlobalTV
-DOMAIN-SUFFIX,bbc.com,GlobalTV
-DOMAIN-SUFFIX,bbci.co,GlobalTV
-DOMAIN-SUFFIX,bbci.co.uk,GlobalTV
+- DOMAIN-KEYWORD,bbcfmt,GlobalTV
+- DOMAIN-KEYWORD,co.uk,GlobalTV
+- DOMAIN-KEYWORD,uk-live,GlobalTV
+- DOMAIN-SUFFIX,bbc.co,GlobalTV
+- DOMAIN-SUFFIX,bbc.co.uk,GlobalTV
+- DOMAIN-SUFFIX,bbc.com,GlobalTV
+- DOMAIN-SUFFIX,bbci.co,GlobalTV
+- DOMAIN-SUFFIX,bbci.co.uk,GlobalTV
 
 // CHOCO TV
-DOMAIN-SUFFIX,chocotv.com.tw,GlobalTV
+- DOMAIN-SUFFIX,chocotv.com.tw,GlobalTV
 
 // Epicgames
-DOMAIN-KEYWORD,epicgames,GlobalTV
-DOMAIN-SUFFIX,helpshift.com,GlobalTV
+- DOMAIN-KEYWORD,epicgames,GlobalTV
+- DOMAIN-SUFFIX,helpshift.com,GlobalTV
 
 // Fox+
-DOMAIN-KEYWORD,foxplus,GlobalTV
-DOMAIN-SUFFIX,config.fox.com,GlobalTV
-DOMAIN-SUFFIX,emome.net,GlobalTV
-DOMAIN-SUFFIX,fox.com,GlobalTV
-DOMAIN-SUFFIX,foxdcg.com,GlobalTV
-DOMAIN-SUFFIX,foxnow.com,GlobalTV
-DOMAIN-SUFFIX,foxplus.com,GlobalTV
-DOMAIN-SUFFIX,foxplay.com,GlobalTV
-DOMAIN-SUFFIX,ipinfo.io,GlobalTV
-DOMAIN-SUFFIX,mstage.io,GlobalTV
-DOMAIN-SUFFIX,now.com,GlobalTV
-DOMAIN-SUFFIX,theplatform.com,GlobalTV
-DOMAIN-SUFFIX,urlload.net,GlobalTV
+- DOMAIN-KEYWORD,foxplus,GlobalTV
+- DOMAIN-SUFFIX,config.fox.com,GlobalTV
+- DOMAIN-SUFFIX,emome.net,GlobalTV
+- DOMAIN-SUFFIX,fox.com,GlobalTV
+- DOMAIN-SUFFIX,foxdcg.com,GlobalTV
+- DOMAIN-SUFFIX,foxnow.com,GlobalTV
+- DOMAIN-SUFFIX,foxplus.com,GlobalTV
+- DOMAIN-SUFFIX,foxplay.com,GlobalTV
+- DOMAIN-SUFFIX,ipinfo.io,GlobalTV
+- DOMAIN-SUFFIX,mstage.io,GlobalTV
+- DOMAIN-SUFFIX,now.com,GlobalTV
+- DOMAIN-SUFFIX,theplatform.com,GlobalTV
+- DOMAIN-SUFFIX,urlload.net,GlobalTV
 
 // HBO && HBO Go
-DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GlobalTV
-DOMAIN-SUFFIX,hbo.com,GlobalTV
-DOMAIN-SUFFIX,hboasia.com,GlobalTV
-DOMAIN-SUFFIX,hbogo.com,GlobalTV
-DOMAIN-SUFFIX,hbogoasia.hk,GlobalTV
+- DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GlobalTV
+- DOMAIN-SUFFIX,hbo.com,GlobalTV
+- DOMAIN-SUFFIX,hboasia.com,GlobalTV
+- DOMAIN-SUFFIX,hbogo.com,GlobalTV
+- DOMAIN-SUFFIX,hbogoasia.hk,GlobalTV
 
 // Hulu
-DOMAIN-SUFFIX,happyon.jp,GlobalTV
-DOMAIN-SUFFIX,hulu.com,GlobalTV
-DOMAIN-SUFFIX,huluim.com,GlobalTV
-DOMAIN-SUFFIX,hulustream.com,GlobalTV
+- DOMAIN-SUFFIX,happyon.jp,GlobalTV
+- DOMAIN-SUFFIX,hulu.com,GlobalTV
+- DOMAIN-SUFFIX,huluim.com,GlobalTV
+- DOMAIN-SUFFIX,hulustream.com,GlobalTV
 
 // Imkan
-DOMAIN-SUFFIX,imkan.tv,GlobalTV
+- DOMAIN-SUFFIX,imkan.tv,GlobalTV
 
 // JOOX
-DOMAIN-SUFFIX,joox.com,GlobalTV
+- DOMAIN-SUFFIX,joox.com,GlobalTV
 
 // MytvSUPER
-DOMAIN-KEYWORD,nowtv100,GlobalTV
-DOMAIN-KEYWORD,rthklive,GlobalTV
-DOMAIN-SUFFIX,mytvsuper.com,GlobalTV
-DOMAIN-SUFFIX,tvb.com,GlobalTV
+- DOMAIN-KEYWORD,nowtv100,GlobalTV
+- DOMAIN-KEYWORD,rthklive,GlobalTV
+- DOMAIN-SUFFIX,mytvsuper.com,GlobalTV
+- DOMAIN-SUFFIX,tvb.com,GlobalTV
 
 // Netflix
-DOMAIN-SUFFIX,netflix.com,GlobalTV
-DOMAIN-SUFFIX,netflix.net,GlobalTV
-DOMAIN-SUFFIX,nflxext.com,GlobalTV
-DOMAIN-SUFFIX,nflximg.com,GlobalTV
-DOMAIN-SUFFIX,nflximg.net,GlobalTV
-DOMAIN-SUFFIX,nflxso.net,GlobalTV
-DOMAIN-SUFFIX,nflxvideo.net,GlobalTV
+- DOMAIN-SUFFIX,netflix.com,GlobalTV
+- DOMAIN-SUFFIX,netflix.net,GlobalTV
+- DOMAIN-SUFFIX,nflxext.com,GlobalTV
+- DOMAIN-SUFFIX,nflximg.com,GlobalTV
+- DOMAIN-SUFFIX,nflximg.net,GlobalTV
+- DOMAIN-SUFFIX,nflxso.net,GlobalTV
+- DOMAIN-SUFFIX,nflxvideo.net,GlobalTV
 
 // Pandora
-DOMAIN-SUFFIX,pandora.com,GlobalTV
+- DOMAIN-SUFFIX,pandora.com,GlobalTV
 
 // Sky GO
-DOMAIN-SUFFIX,sky.com,GlobalTV
-DOMAIN-SUFFIX,skygo.co.nz,GlobalTV
+- DOMAIN-SUFFIX,sky.com,GlobalTV
+- DOMAIN-SUFFIX,skygo.co.nz,GlobalTV
 
 // Spotify
-DOMAIN-KEYWORD,spotify,GlobalTV
-DOMAIN-SUFFIX,scdn.co,GlobalTV
-DOMAIN-SUFFIX,spoti.fi,GlobalTV
+- DOMAIN-KEYWORD,spotify,GlobalTV
+- DOMAIN-SUFFIX,scdn.co,GlobalTV
+- DOMAIN-SUFFIX,spoti.fi,GlobalTV
 
 // viuTV
-DOMAIN-SUFFIX,viu.tv,GlobalTV
+- DOMAIN-SUFFIX,viu.tv,GlobalTV
 
 // Youtube
-DOMAIN-KEYWORD,youtube,GlobalTV
-DOMAIN-SUFFIX,googlevideo.com,GlobalTV
-DOMAIN-SUFFIX,gvt2.com,GlobalTV
-DOMAIN-SUFFIX,youtu.be,GlobalTV
+- DOMAIN-KEYWORD,youtube,GlobalTV
+- DOMAIN-SUFFIX,googlevideo.com,GlobalTV
+- DOMAIN-SUFFIX,gvt2.com,GlobalTV
+- DOMAIN-SUFFIX,youtu.be,GlobalTV
 
 # (AsianTV)
 // Bilibili
