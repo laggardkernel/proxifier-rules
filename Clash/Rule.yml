@@ -747,6 +747,7 @@ Rule:
 - DOMAIN-SUFFIX,redditlist.com,Proxy
 - DOMAIN-SUFFIX,sparknotes.com,Proxy
 - DOMAIN-SUFFIX,streetvoice.com,Proxy
+- DOMAIN-SUFFIX,startpage.com,Proxy
 - DOMAIN-SUFFIX,t.me,Proxy
 - DOMAIN-SUFFIX,tdesktop.com,Proxy
 - DOMAIN-SUFFIX,telegram.me,Proxy
@@ -854,6 +855,7 @@ Rule:
 - DOMAIN,ip.bjango.com,Domestic
 # > Other
 - DOMAIN-SUFFIX,akadns.net,Domestic
+- DOMAIN-SUFFIX,firefox.com,Domestic
 - DOMAIN-SUFFIX,maoyun.tv,Domestic
 - DOMAIN-SUFFIX,teamviewer.com,Domestic
 - DOMAIN-SUFFIX,udacity.com,Domestic
