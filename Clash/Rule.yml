@@ -145,6 +145,494 @@ Rule:
 # > Youku
 - IP-CIDR,106.11.0.0/16,AsianTV
 
+# AdBlock Block 去广告以及隐私追踪保护
+# > Exclusions
+- DOMAIN,analytics.google.com,Proxy
+- DOMAIN,analyticsinsights-pa.googleapis.com,Proxy
+- DOMAIN,analyticsreporting.googleapis.com,Proxy
+- DOMAIN-SUFFIX,vd.l.qq.com,Domestic
+# > General
+- DOMAIN-KEYWORD,adservice,AdBlock
+- DOMAIN-KEYWORD,analytics,AdBlock
+- DOMAIN-KEYWORD,analysis,AdBlock
+
+- DOMAIN-SUFFIX,3lift.com,AdBlock
+- DOMAIN-SUFFIX,4006825178.com,AdBlock
+- DOMAIN-SUFFIX,51.la,AdBlock
+- DOMAIN-SUFFIX,550tg.com,AdBlock
+- DOMAIN-SUFFIX,56txs4.com,AdBlock
+- DOMAIN-SUFFIX,ad373.com,AdBlock
+- DOMAIN-SUFFIX,ad4screen.com,AdBlock
+- DOMAIN-SUFFIX,ad-brix.com,AdBlock
+- DOMAIN-SUFFIX,adcolony.com,AdBlock
+- DOMAIN-SUFFIX,adform.net,AdBlock
+- DOMAIN-SUFFIX,adinall.com,AdBlock
+- DOMAIN-SUFFIX,adinfuse.com,AdBlock
+- DOMAIN-SUFFIX,adjust.com,AdBlock
+- DOMAIN-SUFFIX,adjust.io,AdBlock
+- DOMAIN-SUFFIX,adkmob.com,AdBlock
+- DOMAIN-SUFFIX,adlefee.com,AdBlock
+- DOMAIN-SUFFIX,admantx.com,AdBlock
+- DOMAIN-SUFFIX,admarketplace.net,AdBlock
+- DOMAIN-SUFFIX,admarvel.com,AdBlock
+- DOMAIN-SUFFIX,admaster.com.cn,AdBlock
+- DOMAIN-SUFFIX,admob.com,AdBlock
+- DOMAIN-SUFFIX,adnow.com,AdBlock
+- DOMAIN-SUFFIX,adnxs.com,AdBlock
+- DOMAIN-SUFFIX,adsafeprotected.com,AdBlock
+- DOMAIN-SUFFIX,adsota.com,AdBlock
+- DOMAIN-SUFFIX,ads-pixiv.net,AdBlock
+- DOMAIN-SUFFIX,adsrvr.org,AdBlock
+- DOMAIN-SUFFIX,ads-twitter.com,AdBlock
+- DOMAIN-SUFFIX,adswizz.com,AdBlock
+- DOMAIN-SUFFIX,adsymptotic.com,AdBlock
+- DOMAIN-SUFFIX,adtechus.com,AdBlock
+- DOMAIN-SUFFIX,adtilt.com,AdBlock
+- DOMAIN-SUFFIX,adtrue.com,AdBlock
+- DOMAIN-SUFFIX,AdBlock.com,AdBlock
+- DOMAIN-SUFFIX,advertnative.com,AdBlock
+- DOMAIN-SUFFIX,adview.cn,AdBlock
+- DOMAIN-SUFFIX,adxpansion.com,AdBlock
+- DOMAIN-SUFFIX,adxvip.com,AdBlock
+- DOMAIN-SUFFIX,aerserv.com,AdBlock
+- DOMAIN-SUFFIX,agkn.com,AdBlock
+- DOMAIN-SUFFIX,alipaylog.com,AdBlock
+- DOMAIN-SUFFIX,amazon-adsystem.com,AdBlock
+- DOMAIN-SUFFIX,analysys.cn,AdBlock
+- DOMAIN-SUFFIX,app-adforce.jp,AdBlock
+- DOMAIN-SUFFIX,appads.com,AdBlock
+- DOMAIN-SUFFIX,appboy.com,AdBlock
+- DOMAIN-SUFFIX,appier.net,AdBlock
+- DOMAIN-SUFFIX,applift.com,AdBlock
+- DOMAIN-SUFFIX,applovin.com,AdBlock
+- DOMAIN-SUFFIX,appnext.com,AdBlock
+- DOMAIN-SUFFIX,appodealx.com,AdBlock
+- DOMAIN-SUFFIX,appsee.com,AdBlock
+- DOMAIN-SUFFIX,appsflyer.com,AdBlock
+- DOMAIN-SUFFIX,apptentive.com,AdBlock
+- DOMAIN-SUFFIX,apptornado.com,AdBlock
+- DOMAIN-SUFFIX,atdmt.com,AdBlock
+- DOMAIN-SUFFIX,atwola.com,AdBlock
+- DOMAIN-SUFFIX,betrad.com,AdBlock
+- DOMAIN-SUFFIX,bidswitch.com,AdBlock
+- DOMAIN-SUFFIX,bjytgw.com,AdBlock
+- DOMAIN-SUFFIX,bttrack.com,AdBlock
+- DOMAIN-SUFFIX,bxmns.com,AdBlock
+- DOMAIN-SUFFIX,cappumedia.com,AdBlock
+- DOMAIN-SUFFIX,celtra.com,AdBlock
+- DOMAIN-SUFFIX,cferw.com,AdBlock
+- DOMAIN-SUFFIX,chartbeat.net,AdBlock
+- DOMAIN-SUFFIX,chartboost.com,AdBlock
+- DOMAIN-SUFFIX,chitika.com,AdBlock
+- DOMAIN-SUFFIX,clickhubs.com,AdBlock
+- DOMAIN-SUFFIX,clickintext.com,AdBlock
+- DOMAIN-SUFFIX,clickintext.net,AdBlock
+- DOMAIN-SUFFIX,cloudmobi.net,AdBlock
+- DOMAIN-SUFFIX,cnadnet.com,AdBlock
+- DOMAIN-SUFFIX,cnzz.com,AdBlock
+- DOMAIN-SUFFIX,cocounion.com,AdBlock
+- DOMAIN-SUFFIX,conversantmedia.com,AdBlock
+- DOMAIN-SUFFIX,conviva.com,AdBlock
+- DOMAIN-SUFFIX,criteo.com,AdBlock
+- DOMAIN-SUFFIX,crwdcntrl.net,AdBlock
+- DOMAIN-SUFFIX,ctrmi.com,AdBlock
+- DOMAIN-SUFFIX,demdex.net,AdBlock
+- DOMAIN-SUFFIX,dianomi.com,AdBlock
+- DOMAIN-SUFFIX,digitru.st,AdBlock
+- DOMAIN-SUFFIX,dtscout.com,AdBlock
+- DOMAIN-SUFFIX,duapps.com,AdBlock
+- DOMAIN-SUFFIX,effectivemeasure.net,AdBlock
+- DOMAIN-SUFFIX,endpo.in,AdBlock
+- DOMAIN-SUFFIX,eum-appdynamics.com,AdBlock
+- DOMAIN-SUFFIX,exoclick.com,AdBlock
+- DOMAIN-SUFFIX,exosrv.com,AdBlock
+- DOMAIN-SUFFIX,exponential.com,AdBlock
+- DOMAIN-SUFFIX,exposebox.com,AdBlock
+- DOMAIN-SUFFIX,eyeota.net,AdBlock
+- DOMAIN-SUFFIX,eyeviewads.com,AdBlock
+- DOMAIN-SUFFIX,flurry.com,AdBlock
+- DOMAIN-SUFFIX,fwmrm.net,AdBlock
+- DOMAIN-SUFFIX,getrockerbox.com,AdBlock
+- DOMAIN-SUFFIX,go2cloud.org,AdBlock
+- DOMAIN-SUFFIX,go-mpulse.net,AdBlock
+- DOMAIN-SUFFIX,gowadogo.com,AdBlock
+- DOMAIN-SUFFIX,growingio.com,AdBlock
+- DOMAIN-SUFFIX,gwallet.com,AdBlock
+- DOMAIN-SUFFIX,i2000.xyz,AdBlock
+- DOMAIN-SUFFIX,igexin.com,AdBlock
+- DOMAIN-SUFFIX,i-mobile.co.jp,AdBlock
+- DOMAIN-SUFFIX,imrworldwide.com,AdBlock
+- DOMAIN-SUFFIX,indexww.com,AdBlock
+- DOMAIN-SUFFIX,inmobi.cn,AdBlock
+- DOMAIN-SUFFIX,inmobi.com,AdBlock
+- DOMAIN-SUFFIX,instabug.com,AdBlock
+- DOMAIN-SUFFIX,irs01.com,AdBlock
+- DOMAIN-SUFFIX,juicyads.com,AdBlock
+- DOMAIN-SUFFIX,kejet.net,AdBlock
+- DOMAIN-SUFFIX,knlob.com,AdBlock
+- DOMAIN-SUFFIX,kochava.com,AdBlock
+- DOMAIN-SUFFIX,koolmediaoffers.com,AdBlock
+- DOMAIN-SUFFIX,krxd.net,AdBlock
+- DOMAIN-SUFFIX,leadzu.com,AdBlock
+- DOMAIN-SUFFIX,leanplum.com,AdBlock
+- DOMAIN-SUFFIX,lenzmx.com,AdBlock
+- DOMAIN-SUFFIX,lifestreet.com,AdBlock
+- DOMAIN-SUFFIX,lifestreetmedia.com,AdBlock
+- DOMAIN-SUFFIX,ligatus.com,AdBlock
+- DOMAIN-SUFFIX,lnk0.com,AdBlock
+- DOMAIN-SUFFIX,luomi.com,AdBlock
+- DOMAIN-SUFFIX,madserving.com,AdBlock
+- DOMAIN-SUFFIX,mathtag.com,AdBlock
+- DOMAIN-SUFFIX,media.net,AdBlock
+- DOMAIN-SUFFIX,medialytics.com,AdBlock
+- DOMAIN-SUFFIX,metalex.io,AdBlock
+- DOMAIN-SUFFIX,mfadsrvr.com,AdBlock
+- DOMAIN-SUFFIX,mgid.com,AdBlock
+- DOMAIN-SUFFIX,miaozhen.com,AdBlock
+- DOMAIN-SUFFIX,moatads.com,AdBlock
+- DOMAIN-SUFFIX,mobileapptracking.com,AdBlock
+- DOMAIN-SUFFIX,mobiw.com,AdBlock
+- DOMAIN-SUFFIX,mojiva.com,AdBlock
+- DOMAIN-SUFFIX,mopub.com,AdBlock
+- DOMAIN-SUFFIX,mparticle.com,AdBlock
+- DOMAIN-SUFFIX,mxpnl.com,AdBlock
+- DOMAIN-SUFFIX,mybest.app,AdBlock
+- DOMAIN-SUFFIX,mydas.mobi,AdBlock
+- DOMAIN-SUFFIX,nexage.com,AdBlock
+- DOMAIN-SUFFIX,nr-data.net,AdBlock
+- DOMAIN-SUFFIX,offerstrack.net,AdBlock
+- DOMAIN-SUFFIX,omtrdc.net,AdBlock
+- DOMAIN-SUFFIX,outbrain.com,AdBlock
+- DOMAIN-SUFFIX,parsely.com,AdBlock
+- DOMAIN-SUFFIX,peak-adx.com,AdBlock
+- DOMAIN-SUFFIX,personaly.click,AdBlock
+- DOMAIN-SUFFIX,popads.com,AdBlock
+- DOMAIN-SUFFIX,popads.net,AdBlock
+- DOMAIN-SUFFIX,propellerads.com,AdBlock
+- DOMAIN-SUFFIX,pubnative.net,AdBlock
+- DOMAIN-SUFFIX,qchannel01.cn,AdBlock
+- DOMAIN-SUFFIX,qualtrics.com,AdBlock
+- DOMAIN-SUFFIX,quantserve.com,AdBlock
+- DOMAIN-SUFFIX,quixdtrk.com,AdBlock
+- DOMAIN-SUFFIX,rayjump.com,AdBlock
+- DOMAIN-SUFFIX,rubiconproject.com,AdBlock
+- DOMAIN-SUFFIX,scorecardresearch.com,AdBlock
+- DOMAIN-SUFFIX,serving-sys.com,AdBlock
+- DOMAIN-SUFFIX,simplepath.com,AdBlock
+- DOMAIN-SUFFIX,skimresources.com,AdBlock
+- DOMAIN-SUFFIX,smardroid.com,AdBlock
+- DOMAIN-SUFFIX,smartadserver.com,AdBlock
+- DOMAIN-SUFFIX,snnd.co,AdBlock
+- DOMAIN-SUFFIX,sonobi.com,AdBlock
+- DOMAIN-SUFFIX,starmobs.com,AdBlock
+- DOMAIN-SUFFIX,startappexchange.com,AdBlock
+- DOMAIN-SUFFIX,startappservice.com,AdBlock
+- DOMAIN-SUFFIX,storygize.net,AdBlock
+- DOMAIN-SUFFIX,summerhamster.com,AdBlock
+- DOMAIN-SUFFIX,supersonicads.com,AdBlock
+- DOMAIN-SUFFIX,taboola.com,AdBlock
+- DOMAIN-SUFFIX,tagtic.cn,AdBlock
+- DOMAIN-SUFFIX,talkingdata.com,AdBlock
+- DOMAIN-SUFFIX,tango-deg.com,AdBlock
+- DOMAIN-SUFFIX,tanv.com,AdBlock
+- DOMAIN-SUFFIX,tanx.com,AdBlock
+- DOMAIN-SUFFIX,tapad.com,AdBlock
+- DOMAIN-SUFFIX,taplytics.com,AdBlock
+- DOMAIN-SUFFIX,taptica.com,AdBlock
+- DOMAIN-SUFFIX,testplus.cn,AdBlock
+- DOMAIN-SUFFIX,trackclickers.com,AdBlock
+- DOMAIN-SUFFIX,trafficjunky.net,AdBlock
+- DOMAIN-SUFFIX,trustx.org,AdBlock
+- DOMAIN-SUFFIX,tuanxue360.net,AdBlock
+- DOMAIN-SUFFIX,turn.com,AdBlock
+- DOMAIN-SUFFIX,uberads.com,AdBlock
+- DOMAIN-SUFFIX,udrig.com,AdBlock
+- DOMAIN-SUFFIX,umeng.co,AdBlock
+- DOMAIN-SUFFIX,umeng.com,AdBlock
+- DOMAIN-SUFFIX,umengcloud.com,AdBlock
+- DOMAIN-SUFFIX,upcpi.com,AdBlock
+- DOMAIN-SUFFIX,urbanairship.com,AdBlock
+- DOMAIN-SUFFIX,usebutton.com,AdBlock
+- DOMAIN-SUFFIX,voiceads.cn,AdBlock
+- DOMAIN-SUFFIX,vrtcal.com,AdBlock
+- DOMAIN-SUFFIX,vserv.mobi,AdBlock
+- DOMAIN-SUFFIX,vungle.com,AdBlock
+- DOMAIN-SUFFIX,webspectator.com,AdBlock
+- DOMAIN-SUFFIX,xadchina.cn,AdBlock
+- DOMAIN-SUFFIX,xdrig.com,AdBlock
+- DOMAIN-SUFFIX,yldbt.com,AdBlock
+- DOMAIN-SUFFIX,yllix.com,AdBlock
+- DOMAIN-SUFFIX,ymtracking.com,AdBlock
+
+- DOMAIN-SUFFIX,ad.daum.net,AdBlock
+- DOMAIN-SUFFIX,track.xiachufang.com,AdBlock
+- DOMAIN,log.umsns.com,AdBlock
+- DOMAIN,log.snssdk.com,AdBlock
+- DOMAIN,toblog.snssdk.com,AdBlock
+- DOMAIN,wgo.mmstat.com,AdBlock
+- DOMAIN,report.jpush.cn,AdBlock
+- DOMAIN,static.jpush.cn,AdBlock
+- DOMAIN,stats.jpush.cn,AdBlock
+- DOMAIN,stats.umsns.com,AdBlock
+- DOMAIN,s0.2mdn.net,AdBlock
+- DOMAIN,appnext.hs.llnwd.net,AdBlock
+- DOMAIN,appnext-a.akamaihd.net,AdBlock
+
+- DOMAIN,abema-adx.ameba.jp,AdBlock
+- DOMAIN,ad.12306.cn,AdBlock
+- DOMAIN,ad.caiyunapp.com,AdBlock
+- DOMAIN,ad.huajiao.com,AdBlock
+- DOMAIN,ad.hzyoka.com,AdBlock
+- DOMAIN,ad.jiemian.com,AdBlock
+- DOMAIN,ad.qingting.fm,AdBlock
+- DOMAIN,ad-cn.jovcloud.com,AdBlock
+- DOMAIN,adsapi.manhuaren.com,AdBlock
+- DOMAIN,adsdk.dmzj.com,AdBlock
+- DOMAIN,ads.daydaycook.com.cn,AdBlock
+- DOMAIN,adui.tg.meitu.com,AdBlock
+- DOMAIN,adx.hupu.com,AdBlock
+- DOMAIN,adxserver.ad.cmvideo.cn,AdBlock
+- DOMAIN,app-ad.variflight.com,AdBlock
+- DOMAIN,applog.mobike.com,AdBlock
+- DOMAIN,ggs.myzaker.com,AdBlock
+- DOMAIN,ja.chushou.tv,AdBlock
+- DOMAIN,log.b612kaji.com,AdBlock
+- DOMAIN,log.star.ele.me,AdBlock
+- DOMAIN,log.voicecloud.cn,AdBlock
+- DOMAIN,log.ys7.com,AdBlock
+- DOMAIN,logs.chelaile.net.cn,AdBlock
+- DOMAIN,mopnativeadv.037201.com,AdBlock
+- DOMAIN,nativeadv.dftoutiao.com,AdBlock
+- DOMAIN,optimus-ads.amap.com,AdBlock
+- DOMAIN,static.vuevideo.net,AdBlock
+- DOMAIN,sugar.zhihu.com,AdBlock
+- DOMAIN,track.tiara.daum.net,AdBlock
+- DOMAIN,track.tiara.kakao.com,AdBlock
+- DOMAIN,trackapp.guahao.cn,AdBlock
+- DOMAIN,traffic.mogujie.com,AdBlock
+- DOMAIN,wmlog.meituan.com,AdBlock
+
+# (0~9)
+# > 58 同城
+- DOMAIN,adshow.58.com,AdBlock
+- DOMAIN,track.58.com,AdBlock
+- DOMAIN,tracklog.58.com,AdBlock
+# (A)
+# > Apple
+- DOMAIN-SUFFIX,iadsdk.apple.com,AdBlock
+- DOMAIN-SUFFIX,ads.internal.unity3d.com,AdBlock
+- DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,AdBlock
+- DOMAIN-SUFFIX,unityads.unity3d.com,AdBlock
+# > Alibaba
+- DOMAIN,acs4baichuan.m.taobao.com,AdBlock
+- DOMAIN,adash.m.taobao.com,AdBlock
+- DOMAIN,adash.man.aliyuncs.com,AdBlock
+- DOMAIN,adashbc.ut.taobao.com,AdBlock
+- DOMAIN,adash-c.ut.taobao.com,AdBlock
+- DOMAIN,adashxgc.ut.taobao.com,AdBlock
+- DOMAIN,adashx4yt.m.taobao.com,AdBlock
+- DOMAIN,amdc.m.taobao.com,AdBlock
+- DOMAIN,apoll.m.taobao.com,AdBlock
+- DOMAIN,nbsdk-baichuan.alicdn.com,AdBlock
+- DOMAIN,tunion-api.m.taobao.com,AdBlock
+# > AutoHome
+- DOMAIN,adProxy.autohome.com.cn,AdBlock
+- DOMAIN,rd.autohome.com.cn,AdBlock
+- DOMAIN,al.autohome.com.cn,AdBlock
+- DOMAIN,applogapi.autohome.com.cn,AdBlock
+# (B)
+# > Baidu
+- DOMAIN-SUFFIX,baidustatic.com,AdBlock
+- DOMAIN,afd.baidu.com,AdBlock
+- DOMAIN,duclick.baidu.com,AdBlock
+- DOMAIN,hm.baidu.com,AdBlock
+- DOMAIN,hmma.baidu.com,AdBlock
+- DOMAIN,mobads.baidu.com,AdBlock
+- DOMAIN,mobads-logs.baidu.com,AdBlock
+- DOMAIN,nsclick.baidu.com,AdBlock
+- DOMAIN,wn.pos.baidu.com,AdBlock
+# > ByteDance
+- DOMAIN,applog.musical.ly,AdBlock
+- DOMAIN,track.toutiao.com,AdBlock
+- DOMAIN,xlog.snssdk.com,AdBlock
+- DOMAIN,xlog-va.byteoversea.com,AdBlock
+# > BitAuto
+- DOMAIN,adx.yiche.com,AdBlock
+- DOMAIN,log.ycapp.yiche.com,AdBlock
+# > 百词斩
+- DOMAIN,advertise.baicizhan.org,AdBlock
+- DOMAIN,advertise.baicizhan.com,AdBlock
+# (C)
+# > CNTV
+- DOMAIN,galaxy.bjcathay.com,AdBlock
+- DOMAIN,mdrecv.app.cntvwb.cn,AdBlock
+- DOMAIN,sdapprecv.app.cntvwb.cn,AdBlock
+- DOMAIN,vdapprecv.app.cntvwb.cn,AdBlock
+# > ChinaNet
+- DOMAIN,admarket.21cn.com,AdBlock
+- DOMAIN,adshows.21cn.com,AdBlock
+# (G)
+# > Google
+- DOMAIN-SUFFIX,doubleclick.net,AdBlock
+- DOMAIN-SUFFIX,googleadservices.com,AdBlock
+- DOMAIN-SUFFIX,googleadsserving.cn,AdBlock
+- DOMAIN-SUFFIX,googlesyndication.com,AdBlock
+- DOMAIN-SUFFIX,googletagmanager.com,AdBlock
+- DOMAIN-SUFFIX,googletagservices.com,AdBlock
+- DOMAIN-SUFFIX,google-analytics.com,AdBlock
+# (H)
+# > HunanTV
+- DOMAIN-SUFFIX,da.mgtv.com,AdBlock
+- DOMAIN-SUFFIX,da.hunantv.com,AdBlock
+- DOMAIN-SUFFIX,log.hunantv.com,AdBlock
+- DOMAIN,log.v2.hunantv.com,AdBlock
+- DOMAIN,v2.log.hunantv.com,AdBlock
+# (I)
+# > iQiyi
+- DOMAIN,ifacelog.iqiyi.com,AdBlock
+- DOMAIN,mbdlog.iqiyi.com,AdBlock
+- DOMAIN,msg.71.am,AdBlock
+- DOMAIN,msg.qy.net,AdBlock
+- DOMAIN,t7z.cupid.iqiyi.com,AdBlock
+- IP-CIDR,101.227.97.240/32,AdBlock
+- IP-CIDR,101.227.200.11/32,AdBlock
+- IP-CIDR,101.227.200.28/32,AdBlock
+- IP-CIDR,124.192.153.42/32,AdBlock
+# (K)
+# > KuGou and Kuwo
+- DOMAIN,adserviceretry.kugou.com,AdBlock
+- DOMAIN,ads.service.kugou.com,AdBlock
+- DOMAIN,adsfile.bssdlbig.kugou.com,AdBlock
+- DOMAIN,log.stat.kugou.com,AdBlock
+- DOMAIN,log.web.kugou.com,AdBlock
+- DOMAIN,kgmobilestat.kugou.com,AdBlock
+- DOMAIN,kgmobilestatbak.kugou.com,AdBlock
+- DOMAIN,mobilelog.kugou.com,AdBlock
+- DOMAIN,mobilead.kuwo.cn,AdBlock
+- DOMAIN,rich.kuwo.cn,AdBlock
+# > Kingsoft
+- DOMAIN,ad-stat.ksosoft.com,AdBlock
+- DOMAIN,img.auction-ads.wpscdn.cn,AdBlock
+# (L)
+# > Le
+- DOMAIN-SUFFIX,webp2p.letv.com,AdBlock
+- DOMAIN,ark.letv.com,AdBlock
+- DOMAIN,emma-414870e223.huodonghezi.com,AdBlock
+- DOMAIN,g3.letv.com,AdBlock
+- DOMAIN,n.mark.letv.com,AdBlock
+# (M)
+# > MI
+- DOMAIN-SUFFIX,ad.xiaomi.com,AdBlock
+- DOMAIN-SUFFIX,admob.xiaomi.com,AdBlock
+- DOMAIN-SUFFIX,ad.intl.xiaomi.com,AdBlock
+- DOMAIN-SUFFIX,data.mistat.xiaomi.com,AdBlock
+- DOMAIN-SUFFIX,tracking.miui.com,AdBlock
+- DOMAIN,adv.sec.miui.com,AdBlock
+- DOMAIN,adv.sec.intl.miui.com,AdBlock
+- DOMAIN,o2o.api.xiaomi.com,AdBlock
+# > 墨迹天气
+- DOMAIN,ad.api.moji.com,AdBlock
+- DOMAIN,adlaunch.moji.com,AdBlock
+- DOMAIN,ads.mojicdn.com,AdBlock
+- DOMAIN,v1.log.moji.com,AdBlock
+- DOMAIN,minfo.wps.cn,AdBlock
+# (N)
+# > NetEase
+- DOMAIN,ad.bn.netease.com,AdBlock
+- DOMAIN,ad.yixin.im,AdBlock
+- DOMAIN,admusicpic.music.126.net,AdBlock
+- DOMAIN,iadmat.nosdn.127.net,AdBlock
+- DOMAIN,iadmusicmat.music.126.net,AdBlock
+- DOMAIN,iadmusicmatvideo.music.126.net,AdBlock
+- DOMAIN,impservice.dictapp.youdao.com,AdBlock
+- DOMAIN,impservice.youdao.com,AdBlock
+- DOMAIN,log.yex.youdao.com,AdBlock
+- DOMAIN,log-yex.youdao.com,AdBlock
+- DOMAIN,n.3g.163.com,AdBlock
+- DOMAIN,nex.163.com,AdBlock
+- DOMAIN,yt-adp.nosdn.127.net,AdBlock
+# (P)
+# > PPTV
+- DOMAIN,ads.aplus.pptv.com,AdBlock
+- DOMAIN,asimgs.pplive.cn,AdBlock
+- DOMAIN,de.as.pptv.com,AdBlock
+# > Photoable
+- DOMAIN,regist.fotoable.com,AdBlock
+- DOMAIN,cdn.adapi.fotoable.com,AdBlock
+# > PeanutWiFiMpass
+- DOMAIN,adnew.wifi8.com,AdBlock
+- DOMAIN,adfile.wifi8.com,AdBlock
+# (S)
+# > Sina
+- DOMAIN,u1.img.mobile.sina.cn,AdBlock
+- DOMAIN,sax.sina.com.cn,AdBlock
+- DOMAIN,saxs.sina.com.cn,AdBlock
+- DOMAIN,saxn.sina.com.cn,AdBlock
+# > Sohu
+- DOMAIN-SUFFIX,ads.sohu.com,AdBlock
+- DOMAIN-SUFFIX,aty.sohu.com,AdBlock
+- DOMAIN,imp.optaim.com,AdBlock
+- DOMAIN,v2.reachmax.cn,AdBlock
+- DOMAIN,track.sohu.com,AdBlock
+- DOMAIN,hui.sohu.com,AdBlock
+# (T)
+# > Tencent
+- DOMAIN-SUFFIX,bugly.qq.com,AdBlock
+- DOMAIN-SUFFIX,e.qq.com,AdBlock
+- DOMAIN-SUFFIX,gdt.qq.com,AdBlock
+- DOMAIN-SUFFIX,l.qq.com,AdBlock
+- DOMAIN-SUFFIX,rqd.qq.com,AdBlock
+- DOMAIN,btrace.qq.com,AdBlock
+- DOMAIN,mtrace.qq.com,AdBlock
+- DOMAIN,oth.eve.mdt.qq.com,AdBlock
+- DOMAIN,pgdt.gtimg.cn,AdBlock
+- DOMAIN,pingma.qq.com,AdBlock
+- DOMAIN,pingtcss.qq.com,AdBlock
+- DOMAIN,splashqqlive.gtimg.com,AdBlock
+- DOMAIN,tajs.qq.com,AdBlock
+# > The Paper
+- DOMAIN,imgadpai.thepaper.cn,AdBlock
+- DOMAIN,admonitor.thepaper.cn,AdBlock
+# > Thunder
+- DOMAIN,adsp.xunlei.com,AdBlock
+- DOMAIN,etl.xlmc.sandai.net,AdBlock
+# > 同花顺
+- DOMAIN,adm.10jqka.com.cn,AdBlock
+- DOMAIN,stat.10jqka.com.cn,AdBlock
+# > 太平洋
+- DOMAIN,ad-analysis.pconline.com.cn,AdBlock
+- DOMAIN,iad0ssl.pcauto.com.cn,AdBlock
+- DOMAIN,iad0ssl.pconline.com.cn,AdBlock
+- DOMAIN,imgad0.pcauto.com.cn,AdBlock
+- DOMAIN,imgad0.pconline.com.cn,AdBlock
+- DOMAIN,ivy.pchouse.com.cn,AdBlock
+# (U)
+# > UC
+- DOMAIN,adtrack.ucweb.com,AdBlock
+- DOMAIN,applogios.uc.cn,AdBlock
+- DOMAIN,track.uc.cn,AdBlock
+# (W)
+# > WiFi 万能钥匙
+- DOMAIN,a.wkanx.com,AdBlock
+- DOMAIN,cwx.lianwangtech.com,AdBlock
+- DOMAIN,c1wx.lianwangtech.com,AdBlock
+# (X)
+# > 喜马拉雅
+- DOMAIN,ad.ximalaya.com,AdBlock
+- DOMAIN,adse.ximalaya.com,AdBlock
+# > 小红书
+- DOMAIN,t-ads.xiaohongshu.com,AdBlock
+- DOMAIN,apm-track.xiaohongshu.com,AdBlock
+# (Y)
+# > Youku
+- DOMAIN-SUFFIX,atm.youku.com,AdBlock
+- DOMAIN,ad.mobile.youku.com,AdBlock
+- DOMAIN,iyes.youku.com,AdBlock
+# (Z)
+# > ZOL
+- DOMAIN,apppv.zol.com.cn,AdBlock
+- DOMAIN,pvnapp.zol.com.cn,AdBlock
+
 # Internet Service Provider AdBlock Protection 运营商劫持保护
 - DOMAIN-SUFFIX,17gouwuba.com,AdBlock
 - DOMAIN-SUFFIX,189zj.cn,AdBlock
@@ -175,6 +663,7 @@ Rule:
 - DOMAIN-SUFFIX,daitdai.com,AdBlock
 - DOMAIN-SUFFIX,dsaeerf.com,AdBlock
 - DOMAIN-SUFFIX,dugesheying.com,AdBlock
+- DOMAIN-SUFFIX,dv8c1t.cn,AdBlock
 - DOMAIN-SUFFIX,erdoscs.com,AdBlock
 - DOMAIN-SUFFIX,fan-yong.com,AdBlock
 - DOMAIN-SUFFIX,feih.com.cn,AdBlock
@@ -189,6 +678,7 @@ Rule:
 - DOMAIN-SUFFIX,ishop789.com,AdBlock
 - DOMAIN-SUFFIX,jdkic.com,AdBlock
 - DOMAIN-SUFFIX,jiubuhua.com,AdBlock
+- DOMAIN-SUFFIX,jwg365.cn,AdBlock
 - DOMAIN-SUFFIX,kumihua.com,AdBlock
 - DOMAIN-SUFFIX,linktech.cn,AdBlock
 - DOMAIN-SUFFIX,ltheanine.cn,AdBlock
@@ -228,8 +718,10 @@ Rule:
 - DOMAIN-SUFFIX,yinmong.com,AdBlock
 - DOMAIN-SUFFIX,yiqifa.com,AdBlock
 - DOMAIN-SUFFIX,yitaopt.com,AdBlock
+- DOMAIN-SUFFIX,yukhj.com,AdBlock
 - DOMAIN-SUFFIX,zhaozecheng.cn,AdBlock
 - DOMAIN-SUFFIX,zhenxinet.com,AdBlock
+- DOMAIN-SUFFIX,zunmi.cn,AdBlock
 - DOMAIN-SUFFIX,zzd6.com,AdBlock
 - IP-CIDR,39.107.15.115/32,AdBlock
 - IP-CIDR,47.89.59.182/32,AdBlock
@@ -270,6 +762,7 @@ Rule:
 - IP-CIDR,124.14.21.147/32,AdBlock
 - IP-CIDR,124.14.21.151/32,AdBlock
 - IP-CIDR,180.166.52.24/32,AdBlock
+- IP-CIDR,211.161.101.106/32,AdBlock
 - IP-CIDR,220.115.251.25/32,AdBlock
 - IP-CIDR,222.73.156.235/32,AdBlock
 
@@ -327,7 +820,6 @@ Rule:
 - DOMAIN-SUFFIX,yuanchengxiezuo.com,AdBlock
 - DOMAIN-SUFFIX,zbrushcn.com,AdBlock
 - DOMAIN-SUFFIX,zhzzx.com,AdBlock
-- DOMAIN-SUFFIX,zunmi.cn,AdBlock
 
 # (DNS Cache Pollution Protection)
 # > Google
@@ -366,6 +858,18 @@ Rule:
 - DOMAIN-SUFFIX,twitpic.com,Proxy
 - DOMAIN-SUFFIX,vine.co,Proxy
 - DOMAIN-KEYWORD,twitter,Proxy
+# > Telegram
+- DOMAIN-SUFFIX,t.me,Proxy
+- DOMAIN-SUFFIX,tdesktop.com,Proxy
+- DOMAIN-SUFFIX,telegra.ph,Proxy
+- DOMAIN-SUFFIX,telegram.me,Proxy
+- DOMAIN-SUFFIX,telegram.org,Proxy
+- IP-CIDR,91.108.4.0/22,Proxy
+- IP-CIDR,91.108.8.0/22,Proxy
+- IP-CIDR,91.108.12.0/22,Proxy
+- IP-CIDR,91.108.16.0/22,Proxy
+- IP-CIDR,91.108.56.0/22,Proxy
+- IP-CIDR,149.154.160.0/20,Proxy
 # > Line
 - DOMAIN-SUFFIX,line.me,Proxy
 - DOMAIN-SUFFIX,line-apps.com,Proxy
@@ -376,7 +880,6 @@ Rule:
 - DOMAIN-SUFFIX,881903.com,Proxy
 - DOMAIN-SUFFIX,abc.net.au,Proxy
 - DOMAIN-SUFFIX,abebooks.com,Proxy
-- DOMAIN-SUFFIX,aex.com,Proxy
 - DOMAIN-SUFFIX,amazon.co.jp,Proxy
 - DOMAIN-SUFFIX,apigee.com,Proxy
 - DOMAIN-SUFFIX,apk-dl.com,Proxy
@@ -427,6 +930,7 @@ Rule:
 - DOMAIN-SUFFIX,dailymotion.com,Proxy
 - DOMAIN-SUFFIX,dailyview.tw,Proxy
 - DOMAIN-SUFFIX,daum.net,Proxy
+- DOMAIN-SUFFIX,daumcdn.net,Proxy
 - DOMAIN-SUFFIX,dcard.tw,Proxy
 - DOMAIN-SUFFIX,deepdiscount.com,Proxy
 - DOMAIN-SUFFIX,deezer.com,Proxy
@@ -444,7 +948,6 @@ Rule:
 - DOMAIN-SUFFIX,earthcam.com,Proxy
 - DOMAIN-SUFFIX,ebookservice.tw,Proxy
 - DOMAIN-SUFFIX,economist.com,Proxy
-- DOMAIN-SUFFIX,edgecastcdn.net,Proxy
 - DOMAIN-SUFFIX,edgecastcdn.net,Proxy
 - DOMAIN-SUFFIX,edu,Proxy
 - DOMAIN-SUFFIX,elpais.com,Proxy
@@ -527,11 +1030,10 @@ Rule:
 - DOMAIN-SUFFIX,startpage.com,Proxy
 - DOMAIN-SUFFIX,steamcommunity.com,Proxy
 - DOMAIN-SUFFIX,steemit.com,Proxy
+- DOMAIN-SUFFIX,t66y.com,Proxy
 - DOMAIN-SUFFIX,teco-hk.org,Proxy
 - DOMAIN-SUFFIX,teco-mo.org,Proxy
 - DOMAIN-SUFFIX,teddysun.com,Proxy
-- DOMAIN-SUFFIX,telegra.ph,Proxy
-- DOMAIN-SUFFIX,telegram.org,Proxy
 - DOMAIN-SUFFIX,theinitium.com,Proxy
 - DOMAIN-SUFFIX,tineye.com,Proxy
 - DOMAIN-SUFFIX,torproject.org,Proxy
@@ -570,8 +1072,8 @@ Rule:
 - DOMAIN-SUFFIX,zello.com,Proxy
 - DOMAIN-SUFFIX,zeronet.io,Proxy
 - DOMAIN,cdn-images.mailchimp.com,Proxy
-- DOMAIN,gist.github.com,Proxy
 - DOMAIN,id.heroku.com,Proxy
+- DOMAIN-KEYWORD,github,Proxy
 - DOMAIN-KEYWORD,jav,Proxy
 - DOMAIN-KEYWORD,pinterest,Proxy
 - DOMAIN-KEYWORD,porn,Proxy
@@ -602,7 +1104,6 @@ Rule:
 - DOMAIN-SUFFIX,fxnetworks.com,Proxy
 - DOMAIN-SUFFIX,gettyimages.com,Proxy
 - DOMAIN-SUFFIX,jcpenney.com,Proxy
-- DOMAIN-SUFFIX,kkbox.com,Proxy
 - DOMAIN-SUFFIX,kknews.cc,Proxy
 - DOMAIN-SUFFIX,nationwide.com,Proxy
 - DOMAIN-SUFFIX,nbc.com,Proxy
@@ -625,28 +1126,25 @@ Rule:
 - DOMAIN,abc.go.com,Proxy
 - DOMAIN,abc.net.au,Proxy
 - DOMAIN,wego.here.com,Proxy
-# USER-AGENT,Roam*,Proxy
+#USER-AGENT,Roam*,Proxy
 
 # (The Most Popular Sites)
 # > Apple
 # > Apple URL Shortener
-- DOMAIN-SUFFIX,appsto.re,Apple
+- DOMAIN-SUFFIX,appsto.re,Proxy
 # > TestFlight
-- DOMAIN,beta.itunes.apple.com,Apple
+- DOMAIN,beta.itunes.apple.com,Proxy
 # > iBooks Store download
-- DOMAIN,books.itunes.apple.com,Apple
+- DOMAIN,books.itunes.apple.com,Proxy
 # > iTunes Store Moveis Trailers
-- DOMAIN,hls.itunes.apple.com,Apple
+- DOMAIN,hls.itunes.apple.com,Proxy
 # App Store Preview
-- DOMAIN,itunes.apple.com,Apple
+- DOMAIN,itunes.apple.com,Proxy
 # > Spotlight
-- DOMAIN,api-glb-sea.smoot.apple.com,Apple
+- DOMAIN,api-glb-sea.smoot.apple.com,Proxy
 # > Dictionary
-- DOMAIN,lookup-api.apple.com,Apple
-# PROCESS-NAME,LookupViewService,Proxy
-# > Apple News
-# PROCESS-NAME,News,Proxy
-# USER-AGENT,AppleNews*,Proxy
+- DOMAIN,lookup-api.apple.com,Proxy
+#PROCESS-NAME,LookupViewService,Proxy
 # > Google
 - DOMAIN-SUFFIX,abc.xyz,Proxy
 - DOMAIN-SUFFIX,android.com,Proxy
@@ -692,24 +1190,14 @@ Rule:
 - DOMAIN-SUFFIX,youtu.be,Proxy
 - DOMAIN-SUFFIX,yt.be,Proxy
 - DOMAIN-SUFFIX,ytimg.com,Proxy
-# > Akamai
-# - DOMAIN-SUFFIX,akamai.net,Proxy
-# - DOMAIN-SUFFIX,akamaistream.net,Proxy
-# - DOMAIN-SUFFIX,akamaized.net,Proxy
-- DOMAIN-SUFFIX,akamaihd.net,Proxy
 # > Steam
 - DOMAIN,media.steampowered.com,Proxy
 - DOMAIN,store.steampowered.com,Proxy
-# > Supercell
-- DOMAIN-SUFFIX,brawlstars.com,Proxy
-- DOMAIN-SUFFIX,brawlstarsgame.com,Proxy
-- DOMAIN-SUFFIX,supercell.com,Proxy
 # > Other
 - DOMAIN-SUFFIX,0rz.tw,Proxy
 - DOMAIN-SUFFIX,4bluestones.biz,Proxy
 - DOMAIN-SUFFIX,9bis.net,Proxy
 - DOMAIN-SUFFIX,allconnected.co,Proxy
-- DOMAIN-SUFFIX,amazon.com,Proxy
 - DOMAIN-SUFFIX,amazonaws.com,Proxy
 - DOMAIN-SUFFIX,aol.com,Proxy
 - DOMAIN-SUFFIX,bcc.com.tw,Proxy
@@ -745,51 +1233,51 @@ Rule:
 - DOMAIN-SUFFIX,newsblur.com,Proxy
 - DOMAIN-SUFFIX,now.im,Proxy
 - DOMAIN-SUFFIX,redditlist.com,Proxy
+- DOMAIN-SUFFIX,signal.org,Proxy
 - DOMAIN-SUFFIX,sparknotes.com,Proxy
 - DOMAIN-SUFFIX,streetvoice.com,Proxy
-- DOMAIN-SUFFIX,startpage.com,Proxy
-- DOMAIN-SUFFIX,t.me,Proxy
-- DOMAIN-SUFFIX,tdesktop.com,Proxy
-- DOMAIN-SUFFIX,telegram.me,Proxy
 - DOMAIN-SUFFIX,ttvnw.net,Proxy
 - DOMAIN-SUFFIX,tv.com,Proxy
 - DOMAIN-SUFFIX,twitchcdn.net,Proxy
 - DOMAIN-SUFFIX,typepad.com,Proxy
 - DOMAIN-SUFFIX,udnbkk.com,Proxy
+- DOMAIN-SUFFIX,whispersystems.org,Proxy
 - DOMAIN-SUFFIX,wikia.com,Proxy
 - DOMAIN-SUFFIX,wn.com,Proxy
 - DOMAIN-SUFFIX,wolframalpha.com,Proxy
 - DOMAIN-SUFFIX,x-art.com,Proxy
 - DOMAIN-SUFFIX,yimg.com,Proxy
-# > Telegram
-- IP-CIDR,91.108.4.0/22,Proxy
-- IP-CIDR,91.108.8.0/22,Proxy
-- IP-CIDR,91.108.56.0/22,Proxy
-- IP-CIDR,109.239.140.0/24,Proxy
-- IP-CIDR,149.154.160.0/20,Proxy
 
 # China Area Network
 # > App Store Download || iBooks Sample
 - DOMAIN-SUFFIX,itunes.apple.com,Apple
-# > Apple Music Preview
+# > Apple Music
+- DOMAIN,aod.itunes.apple.com,Apple
+- DOMAIN,audio.itunes.apple.com,Apple
 - DOMAIN,audio-ssl.itunes.apple.com,Apple
+- DOMAIN,streamingaudio.itunes.apple.com,Apple
+# > Apple TV
+- DOMAIN,ocvideo.apple.com,Apple
 # > Apple News and Apple Map TOMTOM Version
 - DOMAIN,gspe1-ssl.ls.apple.com,Apple
+#PROCESS-NAME,News,Proxy
+#USER-AGENT,AppleNews*,Proxy
 # > Apple
 - DOMAIN-SUFFIX,aaplimg.com,Apple
-- DOMAIN-SUFFIX,apple.co,Apple
-- DOMAIN-SUFFIX,apple.com,Apple
-- DOMAIN-SUFFIX,appstore.com,Apple
+- DOMAIN-SUFFIX,apple.co,Domestic
+- DOMAIN-SUFFIX,apple.com,Domestic
+- DOMAIN-SUFFIX,appstore.com,Domestic
 - DOMAIN-SUFFIX,cdn-apple.com,Apple
-- DOMAIN-SUFFIX,crashlytics.com,Apple
-- DOMAIN-SUFFIX,icloud.com,Apple
+- DOMAIN-SUFFIX,crashlytics.com,Domestic
+- DOMAIN-SUFFIX,icloud.com,Domestic
 - DOMAIN-SUFFIX,icloud-content.com,Apple
-- DOMAIN-SUFFIX,me.com,Apple
-- DOMAIN-SUFFIX,mzstatic.com,Apple
+- DOMAIN-SUFFIX,me.com,Domestic
+- DOMAIN-SUFFIX,mzstatic.com,Domestic
 # > Microsoft
 - DOMAIN-SUFFIX,microsoft.com,Domestic
 - DOMAIN-SUFFIX,windows.net,Domestic
 - DOMAIN-SUFFIX,sfx.ms,Domestic
+- DOMAIN-SUFFIX,sharepoint.com,Domestic
 - DOMAIN-KEYWORD,officecdn,Domestic
 # > Blizzard
 - DOMAIN-SUFFIX,blizzard.com,Domestic
@@ -803,20 +1291,26 @@ Rule:
 - DOMAIN-KEYWORD,steamuserimages,Domestic
 - DOMAIN-KEYWORD,steambroadcast,Domestic
 # > Tencent
-# USER-AGENT,MicroMessenger Client,Domestic
-# USER-AGENT,WeChat*,Domestic
+#USER-AGENT,MicroMessenger%20Client,Domestic
+#USER-AGENT,WeChat*,Domestic
 - DOMAIN-SUFFIX,qq.com,Domestic
 - DOMAIN-SUFFIX,qpic.cn,Domestic
+- DOMAIN-SUFFIX,tencent.com,Domestic
 # > Alibaba
 - DOMAIN-SUFFIX,alibaba.com,Domestic
 - DOMAIN-SUFFIX,alicdn.com,Domestic
 - DOMAIN-SUFFIX,amap.com,Domestic
+- DOMAIN-SUFFIX,dingtalk.com,Domestic
 - DOMAIN-SUFFIX,taobao.com,Domestic
 - DOMAIN-SUFFIX,tmall.com,Domestic
 - DOMAIN-SUFFIX,ykimg.com,Domestic
 - DOMAIN-SUFFIX,youku.com,Domestic
 - DOMAIN-SUFFIX,xiami.com,Domestic
 - DOMAIN-SUFFIX,xiami.net,Domestic
+# > NetEase
+- DOMAIN-SUFFIX,163.com,Domestic
+- DOMAIN-SUFFIX,126.net,Domestic
+- DOMAIN-SUFFIX,163yun.com,Domestic
 # > Sohu
 - DOMAIN-SUFFIX,sohu.com.cn,Domestic
 - DOMAIN-SUFFIX,itc.cn,Domestic
@@ -824,6 +1318,7 @@ Rule:
 - DOMAIN-SUFFIX,v-56.com,Domestic
 # > Sina
 - DOMAIN-SUFFIX,weibo.com,Domestic
+- DOMAIN-SUFFIX,weibo.cn,Domestic
 # > JD
 - DOMAIN-SUFFIX,jd.com,Domestic
 - DOMAIN-SUFFIX,jd.hk,Domestic
@@ -833,10 +1328,19 @@ Rule:
 - DOMAIN-SUFFIX,mi-img.com,Domestic
 - DOMAIN-SUFFIX,mifile.cn,Domestic
 - DOMAIN-SUFFIX,xiaomi.com,Domestic
+# > bilibili
+- DOMAIN-SUFFIX,acgvideo.com,Domestic
+- DOMAIN-SUFFIX,bilibili.com,Domestic
+- DOMAIN-SUFFIX,hdslb.com,Domestic
+# > iQiyi
+- DOMAIN-SUFFIX,iqiyi.com,Domestic
+- DOMAIN-SUFFIX,iqiyipic.com,Domestic
+- DOMAIN-SUFFIX,71.am.com,Domestic
 # > HunanTV
 - DOMAIN-SUFFIX,hitv.com,Domestic
 - DOMAIN-SUFFIX,mgtv.com,Domestic
 # > Meitu
+- DOMAIN-SUFFIX,meitu.com,Domestic
 - DOMAIN-SUFFIX,meitudata.com,Domestic
 - DOMAIN-SUFFIX,meipai.com,Domestic
 # > YYeTs
@@ -844,6 +1348,38 @@ Rule:
 - DOMAIN-SUFFIX,zimuzu.tv,Domestic
 - DOMAIN-SUFFIX,zmzfile.com,Domestic
 - DOMAIN-SUFFIX,zmzapi.net,Domestic
+# > 蛋蛋赞
+- DOMAIN-SUFFIX,baduziyuan.com,Domestic
+- DOMAIN-SUFFIX,com-hs-hkdy.com,Domestic
+- DOMAIN-SUFFIX,czybjz.com,Domestic
+- DOMAIN-SUFFIX,dandanzan.com,Domestic
+- DOMAIN-SUFFIX,fjhps.com,Domestic
+- DOMAIN-SUFFIX,kuyunbo.club,Domestic
+# > Baidu
+- DOMAIN-SUFFIX,baidu.com,Domestic
+- DOMAIN-SUFFIX,baidubcr.com,Domestic
+- DOMAIN-SUFFIX,bdstatic.com,Domestic
+# > ChinaNet
+- DOMAIN-SUFFIX,189.cn,Domestic
+- DOMAIN-SUFFIX,21cn.com,Domestic
+# > ByteDance
+- DOMAIN-SUFFIX,bytecdn.cn,Domestic
+- DOMAIN-SUFFIX,pstatp.com,Domestic
+- DOMAIN-SUFFIX,snssdk.com,Domestic
+- DOMAIN-SUFFIX,toutiao.com,Domestic
+# > Content Delivery Network
+# > Akamai
+- DOMAIN-SUFFIX,akadns.net,Domestic
+# - DOMAIN-SUFFIX,akamai.net,Domestic
+# - DOMAIN-SUFFIX,akamaiedge.net,Domestic
+# - DOMAIN-SUFFIX,akamaihd.net,Domestic
+# - DOMAIN-SUFFIX,akamaistream.net,Domestic
+# - DOMAIN-SUFFIX,akamaized.net,Domestic
+# > ChinaNetCenter
+- DOMAIN-SUFFIX,chinanetcenter.com,Domestic
+- DOMAIN-SUFFIX,wangsu.com,Domestic
+# > CloudFlare
+- DOMAIN-SUFFIX,cloudflare.com,Domestic
 # > IP Query
 - DOMAIN-SUFFIX,ipip.net,Domestic
 - DOMAIN-SUFFIX,ip.cn,Domestic
@@ -854,28 +1390,57 @@ Rule:
 - DOMAIN-SUFFIX,whatismyip.com,Domestic
 - DOMAIN,ip.bjango.com,Domestic
 # > Other
-- DOMAIN-SUFFIX,akadns.net,Domestic
-- DOMAIN-SUFFIX,firefox.com,Domestic
-- DOMAIN-SUFFIX,maoyun.tv,Domestic
-- DOMAIN-SUFFIX,teamviewer.com,Domestic
-- DOMAIN-SUFFIX,udacity.com,Domestic
+- DOMAIN-SUFFIX,40017.cn,Domestic
+- DOMAIN-SUFFIX,cailianpress.com,Domestic
+- DOMAIN-SUFFIX,chdbits.co,Domestic
+- DOMAIN-SUFFIX,chushou.tv,Domestic
+- DOMAIN-SUFFIX,cmbchina.com,Domestic
+- DOMAIN-SUFFIX,cmbimg.com,Domestic
+- DOMAIN-SUFFIX,cmct.tv,Domestic
 - DOMAIN-SUFFIX,cmvideo.cn,Domestic
-- DOMAIN-SUFFIX,xmcdn.com,Domestic
-- DOMAIN-SUFFIX,sogou.com,Domestic
+- DOMAIN-SUFFIX,cnlang.org,Domestic
+- DOMAIN-SUFFIX,doubanio.com,Domestic
+- DOMAIN-SUFFIX,douyu.com,Domestic
+- DOMAIN-SUFFIX,douyucdn.cn,Domestic
+- DOMAIN-SUFFIX,dxycdn.com,Domestic
+- DOMAIN-SUFFIX,hicloud.com,Domestic
+- DOMAIN-SUFFIX,hdchina.org,Domestic
+- DOMAIN-SUFFIX,hdcmct.org,Domestic
+- DOMAIN-SUFFIX,ithome.com,Domestic
+- DOMAIN-SUFFIX,kkmh.com,Domestic
+- DOMAIN-SUFFIX,ksosoft.com,Domestic
+- DOMAIN-SUFFIX,maoyun.tv,Domestic
+- DOMAIN-SUFFIX,meituan.net,Domestic
+- DOMAIN-SUFFIX,mobike.com,Domestic
+- DOMAIN-SUFFIX,mubu.com,Domestic
 - DOMAIN-SUFFIX,myzaker.com,Domestic
+- DOMAIN-SUFFIX,ourbits.club,Domestic
+- DOMAIN-SUFFIX,passthepopcorn.me,Domestic
+- DOMAIN-SUFFIX,paypal.com,Domestic
+- DOMAIN-SUFFIX,paypalobjects.com,Domestic
+- DOMAIN-SUFFIX,privatehd.to,Domestic
+- DOMAIN-SUFFIX,redacted.ch,Domestic
+- DOMAIN-SUFFIX,ruguoapp.com,Domestic
+- DOMAIN-SUFFIX,smzdm.com,Domestic
+- DOMAIN-SUFFIX,sogou.com,Domestic
+- DOMAIN-SUFFIX,teamviewer.com,Domestic
+- DOMAIN-SUFFIX,totheglory.im,Domestic
+- DOMAIN-SUFFIX,tp.m-team.cc,Domestic
+- DOMAIN-SUFFIX,udacity.com,Domestic
+- DOMAIN-SUFFIX,xmcdn.com,Domestic
+- DOMAIN-SUFFIX,yangkeduo.com,Domestic
 - DOMAIN-SUFFIX,zhihu.com,Domestic
 - DOMAIN-SUFFIX,zhimg.com,Domestic
-- DOMAIN-SUFFIX,smzdm.com,Domestic
-# USER-AGENT,NeteaseMusic*,Domestic
-# USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,Domestic
+#USER-AGENT,NeteaseMusic*,Domestic
+#USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,Domestic
 
 # Local Area Network
-- DOMAIN-SUFFIX,local,DIRECT
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- IP-CIDR,100.64.0.0/10,DIRECT
+- DOMAIN-SUFFIX,local,Domestic
+- IP-CIDR,192.168.0.0/16,Domestic
+- IP-CIDR,10.0.0.0/8,Domestic
+- IP-CIDR,172.16.0.0/12,Domestic
+- IP-CIDR,127.0.0.0/8,Domestic
+- IP-CIDR,100.64.0.0/10,Domestic
 
 # (Extra IP-CIRD)
 # > Google

@@ -4,12 +4,13 @@ DOMAIN-SUFFIX,go.com
 
 // AbemaTV
 USER-AGENT,AbemaTV*
-DOMAIN,linear-abematv.akamaized.net
 DOMAIN-SUFFIX,abema.io
-DOMAIN-SUFFIX,abema.tv
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
+DOMAIN,abematv.akamaized.net
+DOMAIN,ds-linear-abematv.akamaized.net
+DOMAIN,ds-vod-abematv.akamaized.net
+DOMAIN,linear-abematv.akamaized.net
 
 // Amazon Prime Video
 USER-AGENT,InstantVideo.US*
@@ -92,7 +93,6 @@ DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 
 // Netflix
-USER-AGENT,Argo*
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
