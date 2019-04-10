@@ -1,6 +1,6 @@
-port: 8888
-socks-port: 8889
+port: 7890
+socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: silent
-external-controller: 0.0.0.0:6170
+external-controller: 0.0.0.0:9090
