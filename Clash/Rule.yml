@@ -453,7 +453,7 @@ Rule:
 # > BitAuto
 - DOMAIN,adx.yiche.com,AdBlock
 - DOMAIN,log.ycapp.yiche.com,AdBlock
-# > 百词斩
+# > Baicizhan
 - DOMAIN,advertise.baicizhan.org,AdBlock
 - DOMAIN,advertise.baicizhan.com,AdBlock
 # (C)
@@ -521,7 +521,7 @@ Rule:
 - DOMAIN,adv.sec.miui.com,AdBlock
 - DOMAIN,adv.sec.intl.miui.com,AdBlock
 - DOMAIN,o2o.api.xiaomi.com,AdBlock
-# > 墨迹天气
+# > Moji
 - DOMAIN,ad.api.moji.com,AdBlock
 - DOMAIN,adlaunch.moji.com,AdBlock
 - DOMAIN,ads.mojicdn.com,AdBlock
