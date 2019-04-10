@@ -41,6 +41,13 @@ DOMAIN-SUFFIX,bbci.co.uk
 USER-AGENT,TwDramas*
 DOMAIN-SUFFIX,chocotv.com.tw
 
+// Now E
+USER-AGENT,PCCW*
+DOMAIN-KEYWORD,nowe
+DOMAIN,bcbolthboa-a.akamaihd.net
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,youboranqs01.com
+
 // Epicgames
 DOMAIN-KEYWORD,epicgames
 DOMAIN-SUFFIX,helpshift.com
