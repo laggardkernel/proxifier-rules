@@ -1443,14 +1443,6 @@ Rule:
 - IP-CIDR,91.108.56.0/22,Proxy
 - IP-CIDR,149.154.160.0/20,Proxy
 
-# Local Area Network
-- DOMAIN-SUFFIX,local,Domestic
-- IP-CIDR,192.168.0.0/16,Domestic
-- IP-CIDR,10.0.0.0/8,Domestic
-- IP-CIDR,172.16.0.0/12,Domestic
-- IP-CIDR,127.0.0.0/8,Domestic
-- IP-CIDR,100.64.0.0/10,Domestic
-
 # (Extra IP-CIRD)
 # > Google
 - IP-CIDR,35.190.247.0/24,Proxy
@@ -1490,6 +1482,14 @@ Rule:
 - IP-CIDR,199.96.56.0/21,Proxy
 - IP-CIDR,202.160.128.0/22,Proxy
 - IP-CIDR,209.237.192.0/19,Proxy
+
+# Local Area Network
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
 
 # GeoIP China
 - GEOIP,CN,Domestic
