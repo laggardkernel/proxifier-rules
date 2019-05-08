@@ -8331,7 +8331,7 @@ URL-REGEX,https?://[^bbs].tianya\.cn
 URL-REGEX,https?://\w.?up.qingdaonews.com
 URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
 URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
-URL-REGEX,https?://\w+.?(ad(s)?|log\w?|tj|tongji|stat\w+?|\w+?trac(e|k)?|click).\w+
+URL-REGEX,https?://\w+.?(ad(s)?|log\w?|tj|tongji|((?!static)stat\w+?)|\w+?trac(e|k)?|click).\w+
 URL-REGEX,https?://\w+.beacon.qq.com
 URL-REGEX,https?://\w+.cloudfront.net/banner
 URL-REGEX,https?://\w+.gdt.qq.com
