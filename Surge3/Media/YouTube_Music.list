@@ -1,4 +1,4 @@
-# > Youtube_Music_for_iOS
+# > Youtube_Music
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*
 #PROCESS-NAME,YT Music
