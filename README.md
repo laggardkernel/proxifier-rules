@@ -32,7 +32,7 @@ Configuration | Source | Group
 ----|----|----
 Rules | [Rules Channel](https://t.me/RuleNews) | [Rules](https://t.me/lhie1x)
 Surge | [@lhie1](https://t.me/lhie1) | [Surge](https://t.me/loveapps)
-Shadowrocket | [@lhie1](https://t.me/lhie1) | [Shadowrcoekt](https://t.me/ShadowrocketApp)
+Shadowrocket | [@lhie1](https://t.me/lhie1) | [Shadowrocket](https://t.me/ShadowrocketApp)
 Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/quantumultapp)
 
 ---
