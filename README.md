@@ -32,7 +32,7 @@ compressed to speedup config loading.
 - [x] Merge rules from [gfwlist][gfwlist]
 - [x] Use [17mon/china_ip_list][china_ip_list] instead of the delegated APNIC list
 - [x] Diff `*.ppx` within `proxifier/` as text, treat released `*.ppx` as binary
-- [ ] Merge rules for Windows apps from [Jamesits/proxifier-profiles][jamesits-rules]
+- [ ] ~~Merge rules from [Jamesits/proxifier-profiles][jamesits-rules]~~ (all app specific, not very useful, fallback is enough)
 - [ ] Merge China direct domains from [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
     (maybe not a good idea)
 
