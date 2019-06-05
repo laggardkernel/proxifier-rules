@@ -35,6 +35,7 @@ compressed to speedup config loading.
 - [ ] ~~Merge rules from [Jamesits/proxifier-profiles][jamesits-rules]~~ (all app specific, not very useful, fallback is enough)
 - [ ] Merge China direct domains from [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
     (maybe not a good idea)
+- [ ] Convert REJECT rules as confs for dnsmasq, unbound
 
 ### F.A.Q.
 #### Proxy Rules doesn't Work on macOS
