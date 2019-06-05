@@ -1,70 +1,45 @@
-// Client
-PROCESS-NAME,Paws for Trello
+# > Client
 PROCESS-NAME,ss-local
-PROCESS-NAME,Thunder
-PROCESS-NAME,TeamViewer
-PROCESS-NAME,trustd
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WeChat
 
-// UA
-USER-AGENT, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
-USER-AGENT,%E5%8D%B3%E5%88%BB*
-USER-AGENT,*Vainglory* 
-USER-AGENT,AdBlock*
-USER-AGENT,arrowio*
-USER-AGENT,balls*
-USER-AGENT,Beplay*
-USER-AGENT,Best%20Trace*
-USER-AGENT,cmblife*
-USER-AGENT,eusoft_ting_en_iphone
+# > UA
 USER-AGENT,hide*
-USER-AGENT,JDLife*
-USER-AGENT,LastPass*
-USER-AGENT,MegaWerewolf*
 USER-AGENT,MicroMessenger*
-USER-AGENT,Microsoft*
-USER-AGENT,Moke*
-USER-AGENT,osee2unifiedRelease*
 USER-AGENT,PayPal*
-USER-AGENT,QQ*
-USER-AGENT,Speedtest*
 USER-AGENT,TeamViewer*
 USER-AGENT,TIM*
 USER-AGENT,ting_en
 USER-AGENT,WebTorrent*
 USER-AGENT,WeChat*
 
-// Beplay
+# > Beplay
 DOMAIN-KEYWORD,beplay
 
-// Blizzard
+# > Blizzard
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
-// Prior
+# > Prior
 DOMAIN,client.amplifi.com
-DOMAIN,ip.bjango.com // iStat Menu IP Test
+DOMAIN,ip.bjango.com
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,edu.cn
 
-// Steam
+# > Steam
 DOMAIN-SUFFIX,steamcontent.com
 
-// TeamViewer
-IP-CIDR,109.239.140.0/24,no-resolve
-IP-CIDR,139.220.243.27/32,no-resolve
-IP-CIDR,172.16.102.56/32,no-resolve
-IP-CIDR,185.188.32.1/28,no-resolve
-IP-CIDR,221.226.128.146/32,no-resolve
-
-
+# > TeamViewer
+IP-CIDR,185.188.32.0/24,no-resolve
+IP-CIDR,185.188.33.0/24,no-resolve
+IP-CIDR,185.188.34.0/24,no-resolve
+IP-CIDR,185.188.35.0/24,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve
 
 # Domestic
-
-DOMAIN-SUFFIX,cn
-
+DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
@@ -78,9 +53,7 @@ DOMAIN-SUFFIX,58.com
 DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,acfun.tv
-DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,adobesc.com
-DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
 DOMAIN-SUFFIX,aixifan.com
@@ -90,23 +63,21 @@ DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,aweme.snssdk.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.crisp.chat
 DOMAIN-SUFFIX,api.termius.com
 DOMAIN-SUFFIX,appshike.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,aweme.snssdk.com
 DOMAIN-SUFFIX,bababian.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
-DOMAIN-SUFFIX,bilibili.cn
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -117,12 +88,16 @@ DOMAIN-SUFFIX,clashroyaleapp.com
 DOMAIN-SUFFIX,clouddn.com
 DOMAIN-SUFFIX,cloudsigma.com
 DOMAIN-SUFFIX,cloudxns.net
+DOMAIN-SUFFIX,cmct.tv
 DOMAIN-SUFFIX,cmfu.com
 DOMAIN-SUFFIX,cnbeta.com
 DOMAIN-SUFFIX,cnbetacdn.com
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,cnlang.org
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,dct-cloud.com
 DOMAIN-SUFFIX,didialift.com
+DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douyu.com
@@ -139,6 +114,7 @@ DOMAIN-SUFFIX,eudic.net
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,feng.com
 DOMAIN-SUFFIX,fir.im
+DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,frdic.com
 DOMAIN-SUFFIX,fresh-ideas.cc
 DOMAIN-SUFFIX,geetest.com
@@ -149,8 +125,8 @@ DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,haosou.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,hdslb.net
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hdcmct.org
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hxcdn.net
@@ -162,7 +138,6 @@ DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,img4me.com
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,ixdzs.com
 DOMAIN-SUFFIX,jd.com
@@ -175,18 +150,17 @@ DOMAIN-SUFFIX,jomodns.com
 DOMAIN-SUFFIX,jsboxbbs.com
 DOMAIN-SUFFIX,knewone.com
 DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,lecloud.com
 DOMAIN-SUFFIX,lemicp.com
 DOMAIN-SUFFIX,letv.com
 DOMAIN-SUFFIX,letvcloud.com
-DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,lizhi.io
 DOMAIN-SUFFIX,localizecdn.com
 DOMAIN-SUFFIX,lucifr.com
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,lxdns.com
 DOMAIN-SUFFIX,mai.tn
-DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,meizu.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,miaopai.com
@@ -199,15 +173,19 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myunlu.com
+DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,nfoservers.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nuomi.com
+DOMAIN-SUFFIX,ourbits.club
 DOMAIN-SUFFIX,ourdvs.com
-DOMAIN-SUFFIX,overcast.fm
+DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,pgyer.com
+DOMAIN-SUFFIX,pniao.com
+DOMAIN-SUFFIX,privatehd.to
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,qbox.me
 DOMAIN-SUFFIX,qcloud.com
@@ -221,11 +199,10 @@ DOMAIN-SUFFIX,qingmang.me
 DOMAIN-SUFFIX,qingmang.mobi
 DOMAIN-SUFFIX,qiniucdn.com
 DOMAIN-SUFFIX,qiniudn.com
-DOMAIN-SUFFIX,qiyi.com
-DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqurl.com
 DOMAIN-SUFFIX,rarbg.to
+DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,rrmj.tv
 DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,sandai.net
@@ -255,8 +232,11 @@ DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tmzvps.com
+DOMAIN-SUFFIX,tonymacx86.com
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,tp.m-team.cc
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,udache.com
@@ -264,7 +244,6 @@ DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,upaiyun.com
 DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,uxengine.net
-DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,wandoujia.com
 DOMAIN-SUFFIX,weather.bjango.com
@@ -275,10 +254,13 @@ DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weico.cc
 DOMAIN-SUFFIX,weiphone.com
 DOMAIN-SUFFIX,weiphone.net
+DOMAIN-SUFFIX,wenku8.net
 DOMAIN-SUFFIX,werewolf.53site.com
 DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,workflowy.com
 DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,xhostfire.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,xiaojukeji.com
@@ -304,13 +286,7 @@ DOMAIN-SUFFIX,zealer.com
 DOMAIN-SUFFIX,zgslb.net
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
-DOMAIN-SUFFIX,zmz002.com
 DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmz002.com
 
-// Accelerate direct sites
-DOMAIN-KEYWORD,torrent
-URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
-URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com)
-URL-REGEX,(ed2k|torrent|\.torrent|peer_id=|announce|info_hash|get_peers|find_node|BitTorrent|announce_peer|protocol|announce\.php\?passkey=|magnet:|xunlei|sandai|Thunder|XLLiveUD|bt_key)
-URL-REGEX,/^.*@(guerrillamail\.(info|biz|com|de|net|org)|guerrillamailblock\.com|sharklasers\.com|grr\.la|pokemail\.net|spam4\.me|(mail\.)?bccto\.me|chacuo\.net|027168\.com)$/i
+IP-CIDR,1.255.62.0/24,no-resolve

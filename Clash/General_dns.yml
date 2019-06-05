@@ -1,0 +1,20 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: silent
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+  - 117.50.10.10
+  - 119.29.29.29
+  - 223.5.5.5
+  - tls://dns.rubyfish.cn:853
+  fallback:
+  - tls://1.1.1.1:853
+  - tls://1.0.0.1:853
+  - tls://dns.google:853
