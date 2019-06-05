@@ -36,7 +36,7 @@ with open(rule_file, "r", encoding="utf-8") as f:
             processed_text = [l.strip() for l in line.split(",")]
             processed_text = "*.{0};".format(processed_text[1])
             # discard domains with space
-            if " " in processed_text:
+            if " " in processed_text or "_" in processed_text:
                 continue
         elif line.startswith("DOMAIN-KEYWORD"):
             processed_text = [l.strip() for l in line.split(",")]
