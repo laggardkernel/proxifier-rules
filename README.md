@@ -71,12 +71,11 @@ Another drawback of Surge is that, HTTP**S** rules could NOT be used for proxy.
 | HTTPS Proxy | ❌ | ❌ | ❌ |
 | TCP | ✅ | ✅ | ✅ |
 | UDP | ❌ | ✅ (added after v2.5.3) | ✅ |
+| Proxy Chain | ✅ | ❌ | ❌ |
 | Config Import/RULESET | ❌ | ❌ | ✅ |
 | **Combination Logical** | ✅ | ❌ | ✅ |
 | Price | [¥141.55 on lizhi.io][proxifier-special-offer]  | $49.99 for 1 license | $49.99 for 1 license |
 | Problems | DNS on macOS | Unknow process, bridged requirement for VM in Enhanced Mode | Not sure the problems from 2 are fixed or not |
-
-At last, I'm poor and not that stupid to spend ￥100 just for a watermelon, **for the 2nd time**.
 
 ### Credit
 - [lhie1/Rules][Rules]
