@@ -82,6 +82,7 @@ At last, I'm poor and not that stupid to spend ￥100 just for a watermelon, **f
 - [lhie1/Rules][Rules]
 - [Proxifier Documentation][proxifier-doc]
 - [gfwlist][gfwlist]
+- [cokebar/gfwlist2dnsmasq][gfwlist2dnsmasq]
 - [17mon/china_ip_list][china_ip_list]
 
 ### License
@@ -91,6 +92,7 @@ Just non-commercial.
 [Rules]: https://github.com/lhie1/Rules
 [overture]: https://github.com/shawn1m/overture
 [gfwlist]: https://github.com/gfwlist/gfwlist
+[gfwlist2dnsmasq]: https://github.com/cokebar/gfwlist2dnsmasq
 [china_ip_list]: https://github.com/17mon/china_ip_list
 [jamesits-rules]: https://github.com/Jamesits/proxifier-profiles
 [dnsmasq-china-list]: https://github.com/felixonmars/dnsmasq-china-list
