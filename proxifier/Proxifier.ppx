@@ -14883,12 +14883,22 @@
             <Applications>
                 "Paws for Trello";
                 ss-local;
-                "Resilio Sync";
                 Thunder;
+                DownloadService;
                 TeamViewer;
                 trustd;
-                WebTorrent;
                 WeChat;
+
+                <!-- BT -->
+                Transmission;
+                BitTorrent;
+                uTorrent;
+                qbittorrent;
+                deluge;
+                deluge-gtk;
+                deluged;
+                WebTorrent;
+                "Resilio Sync";
 
                 <!-- TODO: UA, incompatible -->
                 BestTrace;
