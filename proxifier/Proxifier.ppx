@@ -8793,6 +8793,10 @@
                 OneDrive;
                 QQ;
                 TIM;
+
+                <!-- More -->
+                NeteaseMusic;
+                Charles;
             </Applications>
             <Action type="Direct"/>
         </Rule>
