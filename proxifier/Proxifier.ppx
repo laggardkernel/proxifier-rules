@@ -63,6 +63,20 @@
             </Targets>
             <Action type="Direct"/>
         </Rule>
+        <!-- Optional -->
+        <Rule enabled="true">
+            <Name>Opt-Network-Tools</Name>
+            <Applications>
+                dig;
+                nslookup;
+                doh;
+                traceroute;
+                mtr;
+                besttrace;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
         <!-- Reject -->
         <Rule enabled="true">
             <Name>Ads in Video apps</Name>
