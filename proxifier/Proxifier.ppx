@@ -8739,17 +8739,32 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Direct-Client</Name>
+            <Name>Direct-Proxy-Client</Name>
             <Applications>
-                "Paws for Trello";
                 ss-local;
+                GoAgentX;
+                cow;
+                cow-*;
+                meow;
+                shadowsocks*;
+                openconnect;
+                "Cisco AnyConnect";
+                com.avast.proxy;
+                privoxy;
+                polipo;
+                proxychains*;
+                Surge;
+                tcproute*;
+                tincd;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-BT-Client</Name>
+            <Applications>
                 Thunder;
                 DownloadService;
-                TeamViewer;
-                trustd;
-                WeChat;
-
-                <!-- BT -->
                 Transmission;
                 BitTorrent;
                 uTorrent;
@@ -8759,6 +8774,17 @@
                 deluged;
                 WebTorrent;
                 "Resilio Sync";
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-Client</Name>
+            <Applications>
+                "Paws for Trello";
+                TeamViewer;
+                trustd;
+                WeChat;
 
                 <!-- TODO: UA, incompatible -->
                 BestTrace;
