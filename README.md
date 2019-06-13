@@ -14,11 +14,38 @@ Rules for proxifier based on [lhie1/Rules][Rules].
 
 ### Features in the Fork
 
-More `Application/PROCESS-NAME` rules for macOS apps.
+Default conf
+- proxy: `socks5://127.0.0.1:1080`
+- Proxy rule as the fallback rule
 
-Blacklist from [gfwlist][gfwlist] are added.
+Optional rules, put at the top for quick switch
+- Direct network tool or not? (`nslookup`, `dig`, `traceroute`, `mtr`, etc)
 
-China IP list from [17mon/china_ip_list][china_ip_list] based on routing tables.
+Direct rules
+- Apple services
+- Part of Google domains available in China
+- Proxy client applications
+- BT client applications
+- Common domestic domains
+- IRC domains from [rahatarmanahmed/irc-networks][irc-network-list]
+- China IP list from [17mon/china_ip_list][china_ip_list] based on routing tables
+
+Proxy rules
+- Foreign IM applications
+- Common foreign domains
+- Blacklist from [gfwlist][gfwlist]
+- Top blocked domains
+- Amazon IP
+- Facebook IP
+- Google IP
+- Kakao Talk IP
+- Potato Chat IP
+- Telegram IP
+
+Block/Reject rules
+- Ads domains in video apps
+- Huge list of ads domains
+- China Railcom
 
 URL related rules are dropped cause Proxifier doesn't support it. Luckily, these
 rules are used for redirection and ads block only.
@@ -32,10 +59,16 @@ compressed to speedup config loading.
 - [x] Merge rules from [gfwlist][gfwlist]
 - [x] Use [17mon/china_ip_list][china_ip_list] instead of the delegated APNIC list
 - [x] Diff `*.ppx` within `proxifier/` as text, treat released `*.ppx` as binary
-- [ ] ~~Merge rules from [Jamesits/proxifier-profiles][jamesits-rules]~~ (all app specific, not very useful, fallback is enough)
-- [ ] Merge China direct domains from [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
-    (maybe not a good idea)
+- [x] ~~Merge [Jamesits/proxifier-profiles][jamesits-rules]~~
+    - Proxy client apps **ONLY**
+    - All the other app specific rules are useless, since there's huge domain
+	based rules already
+- [x] Merge [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
+    - Merged Apple China domains
+    - Merged Google China domains
+    - Dropped China site domains cause it's so huge
 - [ ] Convert REJECT rules as confs for dnsmasq, unbound
+- [x] Direct IRC connections cause proxy may close TCP connection after timeout
 
 ### F.A.Q.
 #### Proxy Rules doesn't Work on macOS
@@ -78,21 +111,24 @@ Another drawback of Surge is that, HTTP**S** rules could NOT be used for proxy.
 | Problems | DNS on macOS | Unknow process, bridged requirement for VM in Enhanced Mode | Not sure the problems from 2 are fixed or not |
 
 ### Credit
-- [lhie1/Rules][Rules]
 - [Proxifier Documentation][proxifier-doc]
+- [lhie1/Rules][Rules]
 - [gfwlist][gfwlist]
 - [cokebar/gfwlist2dnsmasq][gfwlist2dnsmasq]
 - [17mon/china_ip_list][china_ip_list]
+- [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
+- [rahatarmanahmed/irc-networks][irc-network-list]
 
 ### License
 
-Just non-commercial.
+GNU General Public License v2.0
 
 [Rules]: https://github.com/lhie1/Rules
 [overture]: https://github.com/shawn1m/overture
 [gfwlist]: https://github.com/gfwlist/gfwlist
 [gfwlist2dnsmasq]: https://github.com/cokebar/gfwlist2dnsmasq
 [china_ip_list]: https://github.com/17mon/china_ip_list
+[irc-network-list]: https://github.com/rahatarmanahmed/irc-networks
 [jamesits-rules]: https://github.com/Jamesits/proxifier-profiles
 [dnsmasq-china-list]: https://github.com/felixonmars/dnsmasq-china-list
 [proxifier-doc]: http://www.proxifier.com/docs/mac-v2/
