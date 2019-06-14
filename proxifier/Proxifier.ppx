@@ -48,7 +48,8 @@
                 172.16.0.0-172.31.255.255;
                 192.168.0.0-192.168.255.255;
                 100.64.0.0-100.127.255.255;
-                17.0.0.0-17.255.255.255;
+                <!-- apple IP -->
+                <!-- 17.0.0.0-17.255.255.255; -->
                 captive.apple.com;
                 *.crashlytics.com;
                 1.0.0.1;
@@ -8568,12 +8569,23 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
-            <Name>Apple App</Name>
-            <Applications>storedownloadd</Applications>
+            <Name>Direct-Apple-App</Name>
+            <Applications>
+                storedownloadd;
+
+                <!-- map -->
+                com.apple.geod;
+                com.apple.WeatherKitService;
+
+                fmfd;
+
+                <!-- not merged -->
+                apsd;
+            </Applications>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Apple Domain</Name>
+            <Name>Direct-Apple-Domain</Name>
             <Targets>
                 guzzoni.apple.com;
                 *.aaplimg.com;
@@ -8590,6 +8602,11 @@
                 *.mzstatic.com;
                 api.smoot.apple.cn;
             </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-Apple-IP</Name>
+            <Targets>17.0.0.0-17.255.255.255</Targets>
             <Action type="Direct"/>
         </Rule>
         <!-- felixonmars/dnsmasq-china-list -->
@@ -8684,6 +8701,49 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>Direct-China-Media-</Name>
+            <Targets>
+                <!-- Youku -->
+                106.11.0.0-106.11.255.255;
+
+                <!-- Tencent Video -->
+                *.vv.video.qq.com;
+
+                <!-- letv -->
+                *.api.mob.app.letv.com;
+
+                <!-- IQIYI -->
+                *qiyi*;
+                *.qy.net;
+                101.227.0.0-101.227.255.255;
+                101.224.0.0-101.231.255.255;
+                119.176.0.0-119.191.255.255;
+
+                <!-- Bilibili -->
+                *bilibili*;
+                *.acgvideo.com;
+                *.hdslb.com;
+
+                <!-- MytvSUPER -->
+                *nowtv100*;
+                *rthklive*;
+                *.mytvsuper.com;
+                *.tvb.com;
+
+                <!-- HBO Go -->
+                *.hbogoasia.hk;
+
+                <!-- Fox+ -->
+                *.foxplus.com;
+
+                <!-- NeteaseMusic -->
+                *.127.net;
+                *.music.163.com;
+                *.music.126.net.*;
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
             <Name>Direct-Proxy-Client</Name>
             <Applications>
                 ss-local;
@@ -8733,9 +8793,11 @@
 
                 <!-- remove UA cause incompatibility -->
 
-                <!-- More -->
+                <!-- China Media -->
                 NeteaseMusic;
+
                 Charles;
+
             </Applications>
             <Action type="Direct"/>
         </Rule>
@@ -8800,11 +8862,10 @@
                 *.8686c.com;
                 *.abercrombie.com;
                 *.acfun.tv;
-                *.acgvideo.com;
                 *.adobesc.com;
-                *.airtable.com;
                 *.air-matters.com;
                 *.air-matters.io;
+                *.airtable.com;
                 *.aixifan.com;
                 *.akadns.net;
                 *.alicdn.com;
@@ -8812,23 +8873,20 @@
                 *.alipayobjects.com;
                 *.aliyun.com;
                 *.amap.com;
-                *.aweme.snssdk.com;
                 *.apache.org;
                 *.api.crisp.chat;
                 *.api.termius.com;
                 *.appshike.com;
                 *.appstore.com;
                 *.autonavi.com;
+                *.aweme.snssdk.com;
                 *.bababian.com;
                 *.baidu.com;
                 *.battle.net;
-                *.bet365.com;
                 *.bdimg.com;
                 *.bdstatic.com;
                 *.beatsbydre.com;
-                *.bilibili.cn;
-                *.bilibili.com;
-                *.bing.com;
+                *.bet365.com;
                 *.caiyunapp.com;
                 *.ccgslb.com;
                 *.ccgslb.net;
@@ -8871,8 +8929,6 @@
                 *.haibian.com;
                 *.hao123.com;
                 *.haosou.com;
-                *.hdslb.com;
-                *.hdslb.net;
                 *.hollisterco.com;
                 *.hongxiu.com;
                 *.hxcdn.net;
@@ -8943,8 +8999,6 @@
                 *.qingmang.mobi;
                 *.qiniucdn.com;
                 *.qiniudn.com;
-                *.qiyi.com;
-                *.qiyipic.com;
                 *.qq.com;
                 *.qqurl.com;
                 *.rarbg.to;
@@ -8997,10 +9051,13 @@
                 *.weico.cc;
                 *.weiphone.com;
                 *.weiphone.net;
+                *.wenku8.net;
                 *.werewolf.53site.com;
                 *.windowsupdate.com;
+                *.wkcdn.com;
                 *.workflowy.com;
                 *.xdrig.com;
+                *.xhostfire.com;
                 *.xiami.com;
                 *.xiami.net;
                 *.xiaojukeji.com;
@@ -9026,8 +9083,8 @@
                 *.zgslb.net;
                 *.zhihu.com;
                 *.zhimg.com;
-                *.zmz002.com;
                 *.zimuzu.tv;
+                *.zmz002.com;
 
             </Targets>
             <Action type="Direct"/>
@@ -15637,7 +15694,7 @@
                 Tweetbot;
                 Twitter;
                 Twitterrific;
-                viu;
+
             </Applications>
             <Action type="Proxy">100</Action>
         </Rule>
@@ -15658,33 +15715,54 @@
                 *.helpshift.com;
 
                 <!-- Hulu -->
-                *.hulu.com;
+                *hulu*;
+                *.happyon.jp;
+                *.hulustream.com;
 
-                <!-- MytvSUPER -->
-                *nowtv100*;
-                *rthklive*;
-                *.mytvsuper.com;
-                *.tvb.com;
-                ;
                 <!-- Netflix -->
                 *.netflix.com;
                 *.netflix.net;
                 *.nflxext.com;
                 *.nflximg.com;
                 *.nflximg.net;
+                *.nflxso.net;
                 *.nflxvideo.net;
-                ;
-                <!-- WeMusic -->
-                *joox*;
-                ;
+
+                <!-- SoundCloud -->
+
                 <!-- Spotify -->
                 *spotify*;
-                *.spoto.fi;
-                ;
+                *.scdn.co;
+                *.spoti.fi;
+
                 <!-- Youtube -->
-                *youtube;
+                *youtube*;
                 *.googlevideo.com;
+                *.gvt2.com;
                 *.youtu.be;
+
+                <!-- AbemaTV -->
+                *.abema.tv;
+                *.akamaized.net;
+
+                <!-- viuTV -->
+                *.viu.tv;
+
+                <!-- JOOX -->
+                *joox*;
+
+                <!-- Amazon -->
+                *.amazonaws.com;
+
+                <!-- ABC -->
+                *.edgedatg.com;
+                *.go.com;
+
+                <!-- Foxnow -->
+                *.fox.com;
+                *..foxdcg.com;
+                *.foxnow.com;
+                *.config.fox.com;
 
             </Targets>
             <Action type="Proxy">100</Action>
@@ -15800,10 +15878,13 @@
                 *.awsstatic.com;
                 *.azureedge.net;
                 *.azurewebsites.net;
+                *.badoo.com;
                 *.bandisoft.com;
                 *.bbtoystore.com;
                 *.betvictor.com;
                 *.bigsound.org;
+                *.bing.com;
+                *.bing.net;
                 *.bintray.com;
                 *.bit.com;
                 *.bit.do;
@@ -15811,7 +15892,6 @@
                 *.bitbucket.org;
                 *.bitcointalk.org;
                 *.bitshare.com;
-                *.bjango.com;
                 *.bkrtx.com;
                 *.blizzard.com;
                 *.blog.com;
@@ -16061,6 +16141,7 @@
                 *.pdfexpert.com;
                 *.periscope.tv;
                 *.piaotian.net;
+                *.picacomic.com;
                 *.picasaweb.com;
                 *.pinboard.in;
                 *.ping.pe;
@@ -16131,7 +16212,6 @@
                 *.sowers.org.hk;
                 *.speedsmart.net;
                 *.spike.com;
-                *.spoti.fi;
                 *.squarespace.com;
                 *.ssa.gov;
                 *.sstatic.net;
@@ -16339,6 +16419,7 @@
                 *dropbox*;
                 *facebook*;
                 *github*;
+                *porn*;
                 *telegram*;
                 *twitter*;
                 *whatsapp*;
