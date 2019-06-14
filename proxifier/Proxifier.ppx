@@ -56,14 +56,6 @@
             </Targets>
             <Action type="Direct"/>
         </Rule>
-        <Rule enabled="true">
-            <Name>Direct-IPv6</Name>
-            <Targets>
-                *:*:*:*:*:*:*:*;
-                0:0:0:0:0:0:0:0-ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;
-            </Targets>
-            <Action type="Direct"/>
-        </Rule>
         <!-- Optional -->
         <Rule enabled="true">
             <Name>Opt-Network-Tools</Name>
@@ -8579,6 +8571,8 @@
 
                 fmfd;
 
+                trustd;
+
                 <!-- not merged -->
                 apsd;
             </Applications>
@@ -8587,20 +8581,13 @@
         <Rule enabled="true">
             <Name>Direct-Apple-Domain</Name>
             <Targets>
-                guzzoni.apple.com;
-                *.aaplimg.com;
-                *.apple.co;
                 *.apple.com;
-                *.apple-cloudkit.com;
-                *.cdn-apple.com;
                 *.icloud.com;
-                *.icloud-content.com;
-                *.itunes.apple.com;
                 *.itunes.com;
-                *.lookup-api.apple.com;
                 *.me.com;
                 *.mzstatic.com;
                 api.smoot.apple.cn;
+
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -8703,14 +8690,10 @@
         <Rule enabled="true">
             <Name>Direct-China-Media-</Name>
             <Targets>
-                <!-- Youku -->
-                106.11.0.0-106.11.255.255;
-
-                <!-- Tencent Video -->
-                *.vv.video.qq.com;
-
-                <!-- letv -->
-                *.api.mob.app.letv.com;
+                <!-- Bilibili -->
+                *bilibili*;
+                *.acgvideo.com;
+                *.hdslb.com;
 
                 <!-- IQIYI -->
                 *qiyi*;
@@ -8719,28 +8702,31 @@
                 101.224.0.0-101.231.255.255;
                 119.176.0.0-119.191.255.255;
 
-                <!-- Bilibili -->
-                *bilibili*;
-                *.acgvideo.com;
-                *.hdslb.com;
-
-                <!-- MytvSUPER -->
-                *nowtv100*;
-                *rthklive*;
-                *.mytvsuper.com;
-                *.tvb.com;
-
-                <!-- HBO Go -->
-                *.hbogoasia.hk;
-
-                <!-- Fox+ -->
-                *.foxplus.com;
+                <!-- letv -->
+                *.api.mob.app.letv.com;
 
                 <!-- NeteaseMusic -->
                 *.127.net;
                 *.music.163.com;
                 *.music.126.net.*;
+
+                <!-- Tencent Video -->
+                *.vv.video.qq.com;
+
+                <!-- Youku -->
+                106.11.0.0-106.11.255.255;
+
             </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-China-Media-App</Name>
+            <Applications>
+                com.bilibili.app.in;
+                tv.danmaku.bili;
+                NeteaseMusic;
+
+            </Applications>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
@@ -8788,13 +8774,9 @@
             <Applications>
                 "Paws for Trello";
                 TeamViewer;
-                trustd;
                 WeChat;
 
                 <!-- remove UA cause incompatibility -->
-
-                <!-- China Media -->
-                NeteaseMusic;
 
                 Charles;
 
@@ -8818,6 +8800,22 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>Direct-Microsoft</Name>
+            <Targets>
+                <!-- Microsoft -->
+                *microsoft*;
+                *.hotmail.com;
+                *.live.com;
+                *.live.net;
+                *.msn.com;
+                *.office.com;
+                *.office.net;
+                *.outlook.com;
+
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
             <Name>Direct-Prior</Name>
             <Targets>
                 client.amplifi.com;
@@ -8837,11 +8835,15 @@
         <Rule enabled="true">
             <Name>Direct-TeamViewer</Name>
             <Targets>
-                109.239.140.0-109.239.140.255;
-                139.220.243.27;
-                172.16.102.56;
-                185.188.32.0-185.188.32.15;
-                221.226.128.146;
+                185.188.32.0-185.188.32.255;
+                185.188.33.0-185.188.33.255;
+                185.188.34.0-185.188.34.255;
+                185.188.35.0-185.188.35.255;
+                2a0b:b580::-2a0b:b580:0:ffff:ffff:ffff:ffff:ffff;
+                2a0b:b581::-2a0b:b581:0:ffff:ffff:ffff:ffff:ffff;
+                2a0b:b582::-2a0b:b582:0:ffff:ffff:ffff:ffff:ffff;
+                2a0b:b583::-2a0b:b583:0:ffff:ffff:ffff:ffff:ffff;
+
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -8849,6 +8851,7 @@
             <Name>Direct-Domestic</Name>
             <Targets>
                 *.cn;
+                *.12306.cn;
                 *.12306.com;
                 *.126.net;
                 *.163.com;
@@ -8903,6 +8906,7 @@
                 *.culturedcode.com;
                 *.dct-cloud.com;
                 *.didialift.com;
+                *.digicert.com;
                 *.douban.com;
                 *.doubanio.com;
                 *.douyu.com;
@@ -8957,14 +8961,12 @@
                 *.lemicp.com;
                 *.letv.com;
                 *.letvcloud.com;
-                *.live.com;
                 *.lizhi.io;
                 *.localizecdn.com;
                 *.lucifr.com;
                 *.luoo.net;
                 *.lxdns.com;
                 *.mai.tn;
-                *.maven.org;
                 *.meizu.com;
                 *.mi.com;
                 *.miaopai.com;
@@ -8977,6 +8979,7 @@
                 *.mxhichina.com;
                 *.myqcloud.com;
                 *.myunlu.com;
+                *.ngabbs.com;
                 *.netease.com;
                 *.nfoservers.com;
                 *.nssurge.com;
@@ -8986,6 +8989,7 @@
                 *.paypal.com;
                 *.paypalobjects.com;
                 *.pgyer.com;
+                *.pniao.com;
                 *.pstatp.com;
                 *.qbox.me;
                 *.qcloud.com;
@@ -9040,8 +9044,6 @@
                 *.upaiyun.com;
                 *.upyun.com;
                 *.uxengine.net;
-                *.v2ex.co;
-                *.v2ex.com;
                 *.wandoujia.com;
                 *.weather.bjango.com;
                 *.weather.com;
@@ -9085,6 +9087,7 @@
                 *.zhimg.com;
                 *.zimuzu.tv;
                 *.zmz002.com;
+                1.255.62.0-1.255.62.255;
 
             </Targets>
             <Action type="Direct"/>
@@ -9124,6 +9127,7 @@
                 qhimg.com;
                 360totalsecurity.com;
                 yunpan.com;
+
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -15701,11 +15705,36 @@
         <Rule enabled="true">
             <Name>Proxy-Media</Name>
             <Targets>
+                <!-- ABC -->
+                *.edgedatg.com;
+                *.go.com;
+
+                <!-- AbemaTV -->
+                linear-abematv.akamaized.net;
+                *.abema.io;
+                *.abema.tv;
+                *.akamaized.net;
+                *.ameba.jp;
+                *.hayabusa.io;
+
+                <!-- Amazon Prime Video -->
+                *.amazonaws.com;
+                *.amazonvideo.com;
+
+                <!-- Bahamut -->
+                *.bahamut.com.tw;
+                *.gamer.com.tw;
+                *.hinet.net;
+
                 <!-- BBC -->
+                *bbcfmt*;
                 *co.uk*;
                 *uk-live*;
                 *.bbc.co;
+                *.bbc.co.uk;
                 *.bbc.com;
+                *.bbci.co;
+                *.bbci.co.uk;
 
                 <!-- CHOCO TV -->
                 *.chocotv.com.tw;
@@ -15714,10 +15743,47 @@
                 *epicgames*;
                 *.helpshift.com;
 
+                <!-- Fox+ -->
+                *foxplus*;
+                *.config.fox.com;
+                *.emome.net;
+                *.fox.com;
+                *.foxdcg.com;
+                *.foxnow.com;
+                *.foxplus.com;
+                *.foxplay.com;
+                *.ipinfo.io;
+                *.mstage.io;
+                *.now.com;
+                *.theplatform.com;
+                *.urlload.net;
+
+                <!-- HBO -->
+                *.hbo.com;
+                *.hbogo.com;
+
+                <!-- HBO Go -->
+                *.execute-api.ap-southeast-1.amazonaws.com;
+                *.hboasia.com;
+                *.hbogoasia.hk;
+
                 <!-- Hulu -->
-                *hulu*;
                 *.happyon.jp;
+                *.hulu.com;
+                *.huluim.com;
                 *.hulustream.com;
+
+                <!-- Imkan -->
+                *.imkan.tv;
+
+                <!-- JOOX -->
+                *.joox.com;
+
+                <!-- MytvSUPER -->
+                *nowtv100*;
+                *rthklive*;
+                *.mytvsuper.com;
+                *.tvb.com;
 
                 <!-- Netflix -->
                 *.netflix.com;
@@ -15728,6 +15794,9 @@
                 *.nflxso.net;
                 *.nflxvideo.net;
 
+                <!-- Pandora -->
+                *.pandora.com;
+
                 <!-- SoundCloud -->
 
                 <!-- Spotify -->
@@ -15735,34 +15804,14 @@
                 *.scdn.co;
                 *.spoti.fi;
 
+                <!-- viuTV -->
+                *.viu.tv;
+
                 <!-- Youtube -->
                 *youtube*;
                 *.googlevideo.com;
                 *.gvt2.com;
                 *.youtu.be;
-
-                <!-- AbemaTV -->
-                *.abema.tv;
-                *.akamaized.net;
-
-                <!-- viuTV -->
-                *.viu.tv;
-
-                <!-- JOOX -->
-                *joox*;
-
-                <!-- Amazon -->
-                *.amazonaws.com;
-
-                <!-- ABC -->
-                *.edgedatg.com;
-                *.go.com;
-
-                <!-- Foxnow -->
-                *.fox.com;
-                *..foxdcg.com;
-                *.foxnow.com;
-                *.config.fox.com;
 
             </Targets>
             <Action type="Proxy">100</Action>
@@ -15778,22 +15827,6 @@
                 *.line-cdn.net;
                 *.line-scdn.net;
                 *.nhncorp.jp;
-
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Proxy-Microsoft</Name>
-            <Targets>
-                <!-- Microsoft -->
-                *microsoft*;
-                *.hotmail.com;
-                *.live.com;
-                *.live.net;
-                *.msn.com;
-                *.office.com;
-                *.office.net;
-                *.outlook.com;
 
             </Targets>
             <Action type="Proxy">100</Action>
@@ -15848,6 +15881,7 @@
                 *.ampproject.com;
                 *.ampproject.net;
                 *.ampproject.org;
+                *.anaconda.com;
                 *.ancsconf.org;
                 *.android.com;
                 *.androidify.com;
@@ -15893,7 +15927,6 @@
                 *.bitcointalk.org;
                 *.bitshare.com;
                 *.bkrtx.com;
-                *.blizzard.com;
                 *.blog.com;
                 *.blogcdn.com;
                 *.blogger.com;
@@ -15950,6 +15983,7 @@
                 *.disq.us;
                 *.disqus.com;
                 *.disquscdn.com;
+                *.dlercloud.com;
                 *.dmm.co.jp;
                 *.dnsimple.com;
                 *.docker.com;
@@ -16087,6 +16121,7 @@
                 *.marketwatch.com;
                 *.mashable.com;
                 *.mathjax.org;
+                *.maven.org;
                 *.medium.com;
                 *.mega.co.nz;
                 *.mega.nz;
@@ -16122,7 +16157,6 @@
                 *.office365.com;
                 *.omnigroup.com;
                 *.onedrive.com;
-                *.onedrive.live.com;
                 *.onenote.com;
                 *.ooyala.com;
                 *.openvpn.net;
@@ -16134,7 +16168,6 @@
                 *.ow.ly;
                 *.paddle.com;
                 *.paddleapi.com;
-                *.pandora.com;
                 *.panoramio.com;
                 *.parallels.com;
                 *.parse.com;
@@ -16158,6 +16191,7 @@
                 *.polymer-project.org;
                 *.popo.tw;
                 *.potato.im;
+                *.preview.redd.it;
                 *.prfct.co;
                 *.proxfree.com;
                 *.psiphon3.com;
@@ -16318,6 +16352,8 @@
                 *.uspto.gov;
                 *.ustream.tv;
                 *.v.gd;
+                *.v2ex.co;
+                *.v2ex.com;
                 *.v2ray.com;
                 *.van001.com;
                 *.vanpeople.com;
@@ -16596,13 +16632,15 @@
             <Targets>
                 <!-- Telegram -->
                 109.239.140.0-109.239.140.255;
-                149.154.160.0-149.154.175.255;
                 149.154.164.0-149.154.167.255;
                 149.154.168.0-149.154.171.255;
                 149.154.172.0-149.154.175.255;
                 91.108.4.0-91.108.7.255;
                 91.108.56.0-91.108.59.255;
-                91.108.8.0-91.108.11.255;
+                91.108.56.0-91.108.57.255;
+                2001:67c:4e8::-2001:67c:4e8:ffff:ffff:ffff:ffff:ffff;
+                2001:b28:f23d::-2001:b28:f23d:ffff:ffff:ffff:ffff:ffff;
+                2001:b28:f23f::-2001:b28:f23f:ffff:ffff:ffff:ffff:ffff;
 
             </Targets>
             <Action type="Proxy">100</Action>
@@ -22298,6 +22336,7 @@
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
+        <!-- Fallback -->
         <Rule enabled="false">
             <Name>Domain-Port</Name>
             <Targets>www.example.com</Targets>
@@ -22305,6 +22344,14 @@
                 80;
                 443;
             </Ports>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Fallback-Direct-IPv6</Name>
+            <Targets>
+                *:*:*:*:*:*:*:*;
+                0:0:0:0:0:0:0:0-ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;
+            </Targets>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
