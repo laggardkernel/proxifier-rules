@@ -15758,13 +15758,11 @@
                 *.theplatform.com;
                 *.urlload.net;
 
-                <!-- HBO -->
-                *.hbo.com;
-                *.hbogo.com;
-
-                <!-- HBO Go -->
+                <!-- HBO & HBO Go -->
                 *.execute-api.ap-southeast-1.amazonaws.com;
+                *.hbo.com;
                 *.hboasia.com;
+                *.hbogo.com;
                 *.hbogoasia.hk;
 
                 <!-- Hulu -->
@@ -15772,6 +15770,10 @@
                 *.hulu.com;
                 *.huluim.com;
                 *.hulustream.com;
+
+                <!-- Vidol & 动画疯 -->
+                *.cdn.hinet.net;
+                *.vidol.tv;
 
                 <!-- Imkan -->
                 *.imkan.tv;
