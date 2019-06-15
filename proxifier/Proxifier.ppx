@@ -8735,13 +8735,7 @@
                 trustd;
                 WeChat;
 
-                <!-- TODO: UA, incompatible -->
-                BestTrace;
-                LastPass;
-                Microsoft*;
-                OneDrive;
-                QQ;
-                TIM;
+                <!-- remove UA cause incompatibility -->
 
                 <!-- More -->
                 NeteaseMusic;
@@ -8899,7 +8893,6 @@
                 *.lemicp.com;
                 *.letv.com;
                 *.letvcloud.com;
-                *.live.com;
                 *.lizhi.io;
                 *.localizecdn.com;
                 *.lucifr.com;
