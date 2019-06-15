@@ -893,8 +893,6 @@
 # > ChinaNetCenter
 - DOMAIN-SUFFIX,chinanetcenter.com,Domestic
 - DOMAIN-SUFFIX,wangsu.com,Domestic
-# > CloudFlare
-- DOMAIN-SUFFIX,cloudflare.com,Domestic
 # > IP Query
 - DOMAIN-SUFFIX,ipip.net,Domestic
 - DOMAIN-SUFFIX,ip.cn,Domestic
