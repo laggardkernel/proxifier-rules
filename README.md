@@ -110,15 +110,9 @@ macOS：
 
 ### 关于
 
-微博：[lhie1](http://weibo.com/1748625493)
-
 Rules（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.me/lhie1x)
 
 规则更新通知（新特性/教程/说明）：[http://t.me/RuleNews](http://t.me/RuleNews)
-
-长时间的维护和分享离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
-
-![](https://raw.githubusercontent.com/lhie1/Rules/master/images/Pay.jpg)
 
 ---
 
