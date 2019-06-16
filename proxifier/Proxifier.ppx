@@ -48,18 +48,11 @@
                 172.16.0.0-172.31.255.255;
                 192.168.0.0-192.168.255.255;
                 100.64.0.0-100.127.255.255;
-                17.0.0.0-17.255.255.255;
+                <!-- apple IP -->
+                <!-- 17.0.0.0-17.255.255.255; -->
                 captive.apple.com;
                 *.crashlytics.com;
                 1.0.0.1;
-            </Targets>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Direct-IPv6</Name>
-            <Targets>
-                *:*:*:*:*:*:*:*;
-                0:0:0:0:0:0:0:0-ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -79,7 +72,7 @@
         </Rule>
         <!-- Reject -->
         <Rule enabled="true">
-            <Name>Ads in Video apps</Name>
+            <Name>Reject-Ads-in-Video-apps</Name>
             <Targets>
                 <!-- iqiyi & pps -->
                 *.a.ckm.iqiyi.com;
@@ -167,7 +160,6 @@
 
                 <!-- MGTV -->
                 *.ads-api.videojj.com;
-                *.as.mgtv.com;
                 *.cdn.cmop.mgtv.com;
                 *.click.hunantv.com;
                 *.cmop.mgtv.com;
@@ -275,7 +267,6 @@
                 *.float.kankan.com;
                 *.houyi.baofeng.net;
                 *.iadctest.qwapi.com;
-                *.logger.baofeng.com;
 
                 <!-- Other -->
                 *.ad.video.51togic.com;
@@ -322,10 +313,9 @@
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
-            <Name>REJECT-AD</Name>
+            <Name>Reject-AD</Name>
             <Targets>
                 <!-- Client -->
-                *admarvel*;
                 *admaster*;
                 *admdfs*;
                 *adnewnc*;
@@ -337,33 +327,38 @@
                 *adsmogo*;
                 *adsrvmedia*;
                 *adsserving*;
+                *adsystem*;
                 *advert*;
                 *adwords*;
                 *allyes*;
                 *analysis*;
                 *analysys*;
-                *analytics*;
                 *applovin*;
-                *cnzz*;
+                *appsflyer*;
+                *dataflow*;
                 *dnserror*;
                 *domob*;
                 *duomeng*;
                 *dwtrack*;
+                *fenxi*;
                 *googleads*;
                 *guanggao*;
                 *inmobi*;
                 *lianmeng*;
+                *logger*;
                 *mobaders*;
                 *omgmta*;
+                *omniture*;
                 *openx*;
                 *partnerad*;
                 *securepubads*;
                 *socdm*;
                 *supersonicads*;
                 *taboola*;
+                *traffic*;
                 *uedas*;
-                *umeng*;
                 *umtrack*;
+                *uploadMobileData*;
                 *wlmonitor*;
                 *zjtoolbar*;
                 *.0.r.msn.com;
@@ -459,10 +454,12 @@
                 *.175bar.com;
                 *.176um.com;
                 *.178gg.com;
+                *.17gouwuba.com;
                 *.17leyi.com;
                 *.17un.co;
                 *.17un.com;
                 *.17zhaole.com;
+                *.189zj.cn;
                 *.18av.mm-cg.co;
                 *.18dusun.com;
                 *.18tzx.com;
@@ -516,6 +513,7 @@
                 *.268mob.cn;
                 *.272829.cc;
                 *.272xb.com;
+                *.285680.com;
                 *.28acglz.com;
                 *.2a.com.cn;
                 *.2cnt.net;
@@ -553,6 +551,7 @@
                 *.365safego.com;
                 *.366safego.com;
                 *.36pn.com;
+                *.3721zh.com;
                 *.376zf.com;
                 *.37cs.com;
                 *.37mnm.com;
@@ -580,16 +579,18 @@
                 *.3rd.t.sohu.com;
                 *.3wz6z.bchuangpi.cn;
                 *.3ygww.com;
+                *.4009997658.com;
                 *.404.safedog.cn;
-                *.4171764.fls.doubleclick.net;
                 *.4207008.com;
                 *.4242jj.com;
                 *.4242lll.com;
                 *.4242uuu.com;
+                *.4336wang.cn;
                 *.456juhd.com;
                 *.46sg.com;
                 *.49wanwan.com;
                 *.4ggww.com;
+                *.4paradigm.com;
                 *.4wad.com;
                 *.4xhyr.shuimujinggong.com;
                 *.504pk.com;
@@ -603,16 +604,19 @@
                 *.5188yy.com;
                 *.519397.com;
                 *.51ads.com;
+                *.51chumoping.com;
                 *.51dql.com;
                 *.51gxqm.com;
                 *.51jumintong.com;
                 *.51la.net;
                 *.51link.com;
+                *.51mld.cn;
                 *.51network.com;
                 *.51vipedu.com;
                 *.51weidashi.com;
                 *.51xumei.com;
                 *.51yes.com;
+                *.51zhanzhuang.cn;
                 *.5207470.com;
                 *.5269120.com;
                 *.526d.uunice.com;
@@ -636,6 +640,8 @@
                 *.5857.com;
                 *.588yw.com;
                 *.58lm.vip;
+                *.58mingri.cn;
+                *.58mingtian.cn;
                 *.592man.com;
                 *.5dg.me;
                 *.5dian.org;
@@ -668,6 +674,7 @@
                 *.6a4cc.luvbr.com;
                 *.6a4cc.luytr.com;
                 *.6boou.voluumtrk.com;
+                *.6d63d3.com;
                 *.6dad.com;
                 *.6dvip.com;
                 *.6huu.com;
@@ -700,6 +707,7 @@
                 *.7car.com.cn;
                 *.7clink.com;
                 *.7dah8.com;
+                *.7gg.cc;
                 *.7jiajiao.com;
                 *.7mad.7m.cn;
                 *.7pk.com;
@@ -754,6 +762,7 @@
                 *.91ad.bestvogue.com;
                 *.91adv.com;
                 *.91hui.com;
+                *.91veg.com;
                 *.91xry.com;
                 *.91ysa.com;
                 *.91zgm.com;
@@ -776,6 +785,7 @@
                 *.9dtiny.cn;
                 *.9kff.com;
                 *.9pkw.com;
+                *.9s6q.cn;
                 *.9tn.cc;
                 *.9wushuo.com;
                 *.a.198banjia.com;
@@ -902,6 +912,7 @@
                 *.ab.hysdknb.com;
                 *.ab.meishiba.com.cn;
                 *.ab.sc115.com;
+                *.abbyychina.com;
                 *.abc.dooccn.com;
                 *.abc.douguo.com;
                 *.abc.eastlady.cn;
@@ -923,11 +934,9 @@
                 *.ac-gb.mgid.com;
                 *.acint.net;
                 *.acm.dzwww.com;
-                *.acs4baichuan.m.taobao.com;
                 *.acs86.com;
                 *.acsystem.wasu.cn;
                 *.act2.mediafour.com;
-                *.action.logger.baofeng.com;
                 *.activate.adobe.com;
                 *.activate.wip3.adobe.com;
                 *.activate-sea.adobe.com;
@@ -976,7 +985,6 @@
                 *.ad.directmirror.com;
                 *.ad.dokrmob.com;
                 *.ad.doubanio.com;
-                *.ad.doubleclick.net;
                 *.ad.download.cnet.com;
                 *.ad.dqwjzm.com;
                 *.ad.duapps.com;
@@ -1018,7 +1026,6 @@
                 *.ad.jamster.co.uk;
                 *.ad.jamster.com;
                 *.ad.jiemian.com;
-                *.ad.jp.doubleclick.net;
                 *.ad.jsnbrynb.com;
                 *.ad.jxnews.com.cn;
                 *.ad.kissanime.io;
@@ -1055,7 +1062,6 @@
                 *.ad.proxy.sh;
                 *.ad.qingting.fm;
                 *.ad.qq.com;
-                *.ad.qun.qq.com;
                 *.ad.r.worldssl.net;
                 *.ad.rambler.ru;
                 *.ad.reachlocal.com;
@@ -1126,6 +1132,7 @@
                 *.ad6.bigmir.net;
                 *.ad7.bigmir.net;
                 *.ad7.com;
+                *.ad7.on.cc;
                 *.ad7.tagphi.net;
                 *.ad8.adfarm1.adition.com;
                 *.ad9377.com;
@@ -1134,16 +1141,9 @@
                 *.adadvisor.net;
                 *.ad-android.51wnl.com;
                 *.adap.tv;
-                *.ad-apac.doubleclick.net;
                 *.adapi.lenovogame.com;
                 *.adasad.myweb.hinet.net;
                 *.adash.m.taobao.com;
-                *.adash.man.aliyuncs.com;
-                *.adashbc.m.taobao.com;
-                *.adashbc.ut.taobao.com;
-                *.adash-c.ut.taobao.com;
-                *.adashx.m.taobao.com;
-                *.adashxgc.ut.taobao.com;
                 *.adbana.com;
                 *.ad-beta.flipboard.com;
                 *.adbot.tw;
@@ -1159,7 +1159,6 @@
                 *.adcitrus.com;
                 *.adcl.pchome.com.tw;
                 *.adclick.g.doublecklick.net;
-                *.adclick.g.doubleclick.net;
                 *.adclient.uimserv.net;
                 *.adclock.zdworks.com;
                 *.adcloud.jp;
@@ -1300,7 +1299,6 @@
                 *.adpubs.yaolan.com;
                 *.adpush.cn;
                 *.adq.chinaso.com;
-                *.adquan.com;
                 *.adrdir.qq.com;
                 *.adreal.cn;
                 *.adres.myaora.net;
@@ -1318,6 +1316,7 @@
                 *.ads2.opensubtitles.org;
                 *.ads8.com;
                 *.ads80.com;
+                *.adsame.com;
                 *.adsapi.manhuaren.com;
                 *.adsatt.abcnews.starwave.com;
                 *.adsatt.disney.starwave.com;
@@ -1333,6 +1332,7 @@
                 *.adsco.re;
                 *.adscript.gmarket.co.kr;
                 *.adsdk.9imobi.com;
+                *.adsdk.dmzj.com;
                 *.adse.test.ximalaya.com;
                 *.adse.ximalaya.com;
                 *.adsence.sogou.com;
@@ -1379,11 +1379,11 @@
                 *.adsyndication.msn.com;
                 *.adsys.chinacloudapp.cn;
                 *.adsys.sinovision.net;
-                *.adsystem.wasu.tv;
                 *.adtaily.com;
                 *.adtechjp.com;
                 *.adtechus.com;
                 *.adtest.theonion.com;
+                *.adthor.com;
                 *.adtrack.ucweb.com;
                 *.adtrk.me;
                 *.adui.tg.meitu.com;
@@ -1422,14 +1422,12 @@
                 *.adyun.com;
                 *.adz.zwee.ly;
                 *.adzerk.net;
-                *.ae.bdstatic.com;
                 *.aec.shjk123.net;
                 *.aecpm.alicdn.com;
                 *.ae-gb.mgid.com;
                 *.aercxy.com;
                 *.aerserv.com;
                 *.aes01.com;
-                *.aeventlog.beacon.qq.com;
                 *.afd.baidu.com;
                 *.afd.l.google.com;
                 *.aff.eteachergroup.com;
@@ -1475,6 +1473,7 @@
                 *.ai.xinju.cc;
                 *.ai.yimg.jp;
                 *.aibangzs.com;
+                *.aiclk.com;
                 *.aicydb.com;
                 *.aid.chinayk.com;
                 *.aider-res.meizu.com;
@@ -1500,6 +1499,7 @@
                 *.ak.sascdn.com;
                 *.ak47.cooguo.com;
                 *.akrwi.cn;
+                *.akuai.top;
                 *.akxsrsdbursfpx.bid;
                 *.al.autohome.com.cn;
                 *.alertserver.ushaqi.com;
@@ -1525,7 +1525,6 @@
                 *.am.zdnet.com.cn;
                 *.am15.net;
                 *.amazingmagics.com;
-                *.amazon-adsystem.com;
                 *.amdc.m.taobao.com;
                 *.amfi.gou.sogou.com;
                 *.amiok.org;
@@ -1588,6 +1587,7 @@
                 *.api.iimedia.cn;
                 *.api.ijunhai.com;
                 *.api.itaoxiaoshuo.com;
+                *.api.joybj.com;
                 *.api.jr.mi.com;
                 *.api.ketedata.com;
                 *.api.koudaikj.com;
@@ -1618,6 +1618,7 @@
                 *.api.userstyles.org;
                 *.api.viglink.com;
                 *.api.waptest.taobao.com;
+                *.api.whizzone.com;
                 *.api.xk.miui.com;
                 *.api.y.igexin.com;
                 *.api.youxiaoad.com;
@@ -1643,6 +1644,7 @@
                 *.app.9yyg.cn;
                 *.app.abc000.today;
                 *.app.acm.dzwww.com;
+                *.app.adjust.com;
                 *.app.eduancm.com;
                 *.app.houyi.baofeng.net;
                 *.app.hytdsm.com;
@@ -1679,6 +1681,7 @@
                 *.applog.uc.cn;
                 *.applogapi.autohome.com.cn;
                 *.applogios.uc.cn;
+                *.app-measurement.com;
                 *.app-monitor.ele.me;
                 *.appnext.com;
                 *.appodealx.com;
@@ -1689,7 +1692,6 @@
                 *.apps2.outfit7.com;
                 *.appsdk.tanv.com;
                 *.appservices.comcsoft.com;
-                *.appsflyer.com;
                 *.appspromote.wostore.cn;
                 *.appsrv1.madserving.com;
                 *.appsrv4.madserving.com;
@@ -1734,7 +1736,6 @@
                 *.assets.258pcf.com;
                 *.assets.258ydh.com;
                 *.assets.easou.com;
-                *.astrategy.beacon.qq.com;
                 *.asv.nuggad.net;
                 *.aswgbzsw.xingtangshuo.com;
                 *.aswl.d3kdh34.pw;
@@ -1755,6 +1756,7 @@
                 *.atm.sina.com;
                 *.atm.yoyi.com.cn;
                 *.atomicblast.lol;
+                *.atplay.cn;
                 *.att.stargame.com;
                 *.attach.s8bbs.com;
                 *.au.youmi.net;
@@ -1840,6 +1842,7 @@
                 *.baifen.music.baidu.com;
                 *.baifendian.com;
                 *.baigm.com;
+                *.baiwanchuangyi.com;
                 *.bam.nr-data.net;
                 *.banlv.baidu.com;
                 *.banmamedia.com;
@@ -1863,12 +1866,14 @@
                 *.bannershotlink.perfectgonzo.com;
                 *.baoyatu.cc;
                 *.bar.baidu.com;
+                *.bartender.cc;
                 *.base.filedot.xyz;
                 *.bat.bing.com;
                 *.bax.xiawu.com;
                 *.baxf.m.shuhuangge.org;
                 *.bay.xiawu.com;
                 *.baycode.cn;
+                *.bayimob.com;
                 *.bazinga.mse.sogou.com;
                 *.bb.tuku.cc;
                 *.bb1429.com;
@@ -1951,21 +1956,26 @@
                 *.bebelait.com;
                 *.becode.qiushibaike.com;
                 *.beeho.site;
+                *.beerto.cn;
                 *.beha.ksmobile.com;
                 *.behe.com;
+                *.beilamusi.com;
                 *.beintoo.com;
+                *.benshiw.net;
                 *.bepolite.eu;
                 *.bes-progfree.com;
                 *.bet36500050.com;
                 *.beta.vpon.com;
                 *.betsonsport.ru;
+                *.betterzip.net;
                 *.bewaycare.com;
+                *.beyondcompare.cc;
                 *.bfdcdn.com;
                 *.bglog.bitauto.com;
                 *.bgrndi.com;
                 *.bh.contextweb.com;
                 *.bhjac.azvub.cn;
-                *.bid.g.doubleclick.net;
+                *.bianxianmao.com;
                 *.biddingos.com;
                 *.biddingx.com;
                 *.bidvertiser.com;
@@ -1973,6 +1983,7 @@
                 *.bigboy.eurogamer.net;
                 *.billionfocus.com;
                 *.binaryage-leechgate.herokuapp.com;
+                *.bingdianhuanyuan.cn;
                 *.bingyinq.com;
                 *.biq.keefung-zs.com;
                 *.bite.theta.sogoucdn.com;
@@ -2000,7 +2011,6 @@
                 *.bllbaby.cn;
                 *.blogad01.myweb.hinet.net;
                 *.blogad02.myweb.hinet.net;
-                *.bloggerads.net;
                 *.bluekai.com;
                 *.bluhostedbanners.blucigs.com;
                 *.bmg.wnbfw.com;
@@ -2031,6 +2041,7 @@
                 *.brizads.com;
                 *.bro.flyme.cn;
                 *.browser.gwdang.com;
+                *.bryonypie.com;
                 *.bs.5442.com;
                 *.bs.serving-sys.com;
                 *.bs14.9669.cn;
@@ -2049,7 +2060,6 @@
                 *.btn.onlylady.com;
                 *.btn.pchome.net;
                 *.btr.domywife.com;
-                *.btrace.qq.com;
                 *.bttrack.com;
                 *.btyou.com;
                 *.bu01.zybang.com;
@@ -2096,7 +2106,6 @@
                 *.c.dzytjqcc.com;
                 *.c.effectivemeasure.net;
                 *.c.f1zd.com;
-                *.c.gdt.qq.com;
                 *.c.gj.qq.com;
                 *.c.guangtui1999.com;
                 *.c.gzsanxiaomingshi.cn;
@@ -2202,7 +2211,6 @@
                 *.calopenupdate.comm.miui.com;
                 *.cams.pornrabbit.com;
                 *.cangnews.com;
-                *.canvas.gdt.qq.com;
                 *.canvas.thenextweb.com;
                 *.caob5.info;
                 *.caolvch.com;
@@ -2220,6 +2228,7 @@
                 *.cast-bid27-j.adtdp.com;
                 *.castplatform.com;
                 *.catalog.video.msn.com;
+                *.catch.gift;
                 *.cayanfang.com;
                 *.cb.baidu.com;
                 *.cb.h5.coffeedak.cn;
@@ -2241,7 +2250,6 @@
                 *.ccbaihehq.com;
                 *.ccclub.cmbchina.com;
                 *.cccrir.com;
-                *.ccdace.hupu.com;
                 *.ccr.yxdown.com;
                 *.cctyly.com;
                 *.cd.bendibao.com;
@@ -2249,7 +2257,6 @@
                 *.cdhoc.piyaji.cn;
                 *.cdn.0i-i0.com;
                 *.cdn.5bong.com;
-                *.cdn.adc.eamobile.com;
                 *.cdn.adsk2.co;
                 *.cdn.adstract.com;
                 *.cdn.aegins.com;
@@ -2303,7 +2310,6 @@
                 *.cdn1.lbesec.com;
                 *.cdn1.res.nx5.com;
                 *.cdn1.res.uzham.com;
-                *.cdn1.smartadserver.com;
                 *.cdn1.srv.revdepo.com;
                 *.cdn2.moji002.com;
                 *.cdnads.com;
@@ -2342,6 +2348,7 @@
                 *.chartboost.com;
                 *.chebse.com;
                 *.chemdraw.com;
+                *.chemdraw.com.cn;
                 *.chengadx.com;
                 *.chenggao.cn;
                 *.chengzhao95511.com;
@@ -2363,9 +2370,12 @@
                 *.cilidaquan.pw;
                 *.cindy17club.com;
                 *.cip6.czpush.com;
+                *.cishantao.com;
                 *.ciyitan.com;
                 *.cj.qidian.com;
                 *.cjhq.baidu.com;
+                *.cjmakeding.com;
+                *.cjmkt.com;
                 *.cjmooter.xcache.kinxcdn.com;
                 *.cjroq.bealge.sogou.com;
                 *.ck.houyi.baofeng.net;
@@ -2423,7 +2433,6 @@
                 *.cm.bilibili.com;
                 *.cm.ctnsnet.com;
                 *.cm.eyereturn.com;
-                *.cm.g.doubleclick.net;
                 *.cm.jd.com;
                 *.cm.mct01.com;
                 *.cm.netseer.com;
@@ -2463,6 +2472,8 @@
                 *.cnxad.com;
                 *.cnxad.net;
                 *.cnzhqs.com;
+                *.cnzz.cn;
+                *.cnzz.com;
                 *.co.dtech.baofeng.com;
                 *.cocounion.com;
                 *.cod.southmoney.com;
@@ -2483,6 +2494,7 @@
                 *.code222.com;
                 *.code668.com;
                 *.codenow.cn;
+                *.codesoftchina.com;
                 *.coinblind.com;
                 *.coinerra.com;
                 *.coin-have.com;
@@ -2502,7 +2514,6 @@
                 *.com-eonsun-owl-user.oss-cn-hangzhou.aliyuncs.com;
                 *.comesgo.com;
                 *.comet.yahoo.com;
-                *.comm.app.autohome.com.cn;
                 *.conf.funshion.com;
                 *.conf.vidown.cn;
                 *.conf.xiniuz.com;
@@ -2533,6 +2544,7 @@
                 *.cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com;
                 *.cootek-file.cdn.cootekservice.com;
                 *.cop.my;
+                *.coreldrawchina.com;
                 *.coremetrics.com;
                 *.corner.houyi.baofeng.net;
                 *.coro.benbaisteel.com;
@@ -2576,7 +2588,6 @@
                 *.cpro.baidu.cn;
                 *.cpro.baidu.com;
                 *.cpro.fangtoo.com;
-                *.cpro.tieba.baidu.com;
                 *.cpro.zhidao.baidu.com;
                 *.cpro.zol.com.cn;
                 *.cpro1.edushi.com;
@@ -2624,6 +2635,7 @@
                 *.crm-eve.b2b.alibaba-inc.com;
                 *.cr-nielsen.com;
                 *.crosschannel.com;
+                *.crossoverchina.com;
                 *.cr-p16.ladsp.com;
                 *.crs.baidu.com;
                 *.crwdcntrl.net;
@@ -2641,6 +2653,7 @@
                 *.cti.w55c.net;
                 *.ctrmi.com;
                 *.ctsywy.com;
+                *.cudaojia.com;
                 *.cupid.jebe.renren.com;
                 *.current.sina.com.cn;
                 *.customad.cnn.com;
@@ -2680,7 +2693,6 @@
                 *.d.clkservice.youdao.com;
                 *.d.danangmo.cn;
                 *.d.elong.cn;
-                *.d.gdt.qq.com;
                 *.d.gossipcenter.com;
                 *.d.kugou.com;
                 *.d.ligatus.com;
@@ -2740,6 +2752,7 @@
                 *.dads.new.digg.com;
                 *.dafahao.com;
                 *.dafahao.org;
+                *.dafapromo.com;
                 *.dahanedu.com;
                 *.dai.shuzilm.cn;
                 *.dailydeals.amarillo.com;
@@ -2760,6 +2773,7 @@
                 *.daima.youbian.com;
                 *.daima123.cc;
                 *.dairuqi.com;
+                *.daitdai.com;
                 *.dajean.com;
                 *.dajiyuan.com;
                 *.dajiyuan.org;
@@ -2844,7 +2858,6 @@
                 *.delivery.maihehd.com;
                 *.delivery.playallvideos.com;
                 *.delivery.porn.com;
-                *.delivery.thebloggernetwork.com;
                 *.delivery.wasu.cn;
                 *.delivery-pc.wasu.cn;
                 *.demo.jointreport-switch.com;
@@ -3009,7 +3022,6 @@
                 *.download.bav.baidu.com;
                 *.download.coolguang.com;
                 *.download.fuyuncc.com;
-                *.download.mackeeper.com;
                 *.download.mediaget.com;
                 *.download.qianka.com;
                 *.download.sd.baidu.com;
@@ -3020,7 +3032,6 @@
                 *.downloadb.dewmobile.net;
                 *.downmobile.kugou.com;
                 *.dp.559.cc;
-                *.dp.im.weibo.cn;
                 *.dp3.qq.com;
                 *.dpm.demdex.net;
                 *.dps.499.cn;
@@ -3049,6 +3060,7 @@
                 *.ds.jlbksy.com;
                 *.ds.serving-sys.com;
                 *.dsadas.hydp188.com;
+                *.dsaeerf.com;
                 *.dshrx.com;
                 *.dsjsee.dqgpb.com;
                 *.ds-ll.serving-sys.com;
@@ -3078,13 +3090,14 @@
                 *.duapp.com;
                 *.duapps.com;
                 *.dugbvb.com;
+                *.dugesheying.com;
                 *.duiwai.baidu.com;
                 *.dumedia.ru;
                 *.duoyidd.com;
-                *.duration.logger.baofeng.com;
                 *.dushimj.com;
                 *.duusuu.com;
                 *.duyihu.net;
+                *.dv8c1t.cn;
                 *.dvb.pandora.xiaomi.com;
                 *.dvr8.com;
                 *.dvs.china.com;
@@ -3348,6 +3361,7 @@
                 *.eacash.streamplay.to;
                 *.eap.big5.enorth.com.cn;
                 *.eap.enorth.com.cn;
+                *.easyrecoverychina.com;
                 *.ebook.res.meizu.com;
                 *.ebp.renren.com;
                 *.ec.kejet.net;
@@ -3367,6 +3381,7 @@
                 *.edge.sharethis.com;
                 *.edge.yunjiasu.com;
                 *.edigitalsurvey.com;
+                *.ediuschina.com;
                 *.edncui.net;
                 *.eduancm.com;
                 *.eduzzjy.com;
@@ -3401,6 +3416,7 @@
                 *.epochweekly.com;
                 *.epowernetworktrackerimages.s3.amazonaws.com;
                 *.er.dlhygj.com;
+                *.erdoscs.com;
                 *.erebor.douban.com;
                 *.ereg.adobe.com;
                 *.ereg.wip3.adobe.com;
@@ -3421,8 +3437,6 @@
                 *.eva.ucas.com;
                 *.evefashion.cn;
                 *.event.ksosoft.com;
-                *.event.mackeeper.com;
-                *.eventlog.beacon.qq.com;
                 *.eventlog.hd.baofeng.com;
                 *.events.kalooga.com;
                 *.events.pingan.com;
@@ -3462,7 +3476,6 @@
                 *.f1.meishichina.com;
                 *.f1.p0y.cn;
                 *.f1.pig66.com;
-                *.f10.baidu.com;
                 *.f1190.com;
                 *.f1c.i.biquge5200.com;
                 *.f2.p0y.cn;
@@ -3488,6 +3501,7 @@
                 *.fans.bestvogue.com;
                 *.fansi365.com;
                 *.fanxing.kugou.com;
+                *.fan-yong.com;
                 *.farm-cn.plista.com;
                 *.fastable.com;
                 *.fastapi.net;
@@ -3522,6 +3536,7 @@
                 *.fei232.bhzje7ua9.com;
                 *.feidalu.com;
                 *.feifish66.com;
+                *.feih.com.cn;
                 *.feitianma.com;
                 *.feixin2.com;
                 *.fembsflungod.com;
@@ -3555,10 +3570,13 @@
                 *.fjkst.com;
                 *.fjlqqc.com;
                 *.fjmeyer.com;
+                *.fkku194.com;
                 *.flash.2144.com;
                 *.flashtalking.com;
                 *.flowcodeapp.com;
+                *.flstudiochina.com;
                 *.flurry.cachefly.net;
+                *.flurry.com;
                 *.flux.faloo.com;
                 *.flv.dotmore.com.tw;
                 *.flv.ytshuirun.com;
@@ -3568,6 +3586,7 @@
                 *.fnkjj.com;
                 *.focuscat.com;
                 *.focusprolight.com;
+                *.formysql.com;
                 *.fota4.adups.cn;
                 *.fotao9.com;
                 *.founseezb.cn;
@@ -3586,6 +3605,7 @@
                 *.frdhq.cn;
                 *.free.aol.com;
                 *.freecodecs.us.intellitxt.com;
+                *.freedrive.cn;
                 *.freexxxvideoclip.aebn.net;
                 *.fs.uc.nearme.com.cn;
                 *.fsjsp.com;
@@ -3602,6 +3622,7 @@
                 *.fun.ynet.com;
                 *.funshion.net.cn;
                 *.fus.lenovomm.com;
+                *.fusion.qq.com;
                 *.fv99.com;
                 *.fw.adsafeprotected.com;
                 *.fw.vpon.com;
@@ -3659,7 +3680,6 @@
                 *.g3.iqilu.com;
                 *.g4.iqilu.com;
                 *.g9s.sgzs999.com;
-                *.gaandroid.talkingdata.net;
                 *.gad.kugou.com;
                 *.gadwhy.com;
                 *.gafxa.code.mytanwan.com;
@@ -3687,6 +3707,7 @@
                 *.gb.corp.163.com;
                 *.gc.keefung-zs.com;
                 *.gcapi.sy.kugou.com;
+                *.gclick.cn;
                 *.gcs1.cn;
                 *.gd.cnhange.cn;
                 *.gd.jqgc.com;
@@ -3769,7 +3790,6 @@
                 *.ggw.watertu.com;
                 *.ggxt.net;
                 *.gi.xi.gxabj.com;
-                *.gia.jd.com;
                 *.gif.lu.sogoucdn.com;
                 *.gimg.baidu.com;
                 *.gimg.bitauto.com;
@@ -3801,7 +3821,6 @@
                 *.googlesyndication.com;
                 *.googletagmanager.com;
                 *.googletagservices.com;
-                *.googletakes.com;
                 *.goolpter.com;
                 *.gopig.io;
                 *.gorgon.youdao.com;
@@ -3809,6 +3828,8 @@
                 *.goto.sogou.com;
                 *.goto.www.iciba.com;
                 *.gotourl.xyz;
+                *.goufanli100.com;
+                *.gouwubang.com;
                 *.gouzhibao.cn;
                 *.govgift.com;
                 *.govids.net;
@@ -3842,6 +3863,7 @@
                 *.guestworld.tripod.lycos.com;
                 *.gugulonger.cn;
                 *.guidashu.com;
+                *.guitarpro.cc;
                 *.gum.criteo.com;
                 *.guohead.com;
                 *.guomob.com;
@@ -3897,6 +3919,7 @@
                 *.haoghost.com;
                 *.haohaowan8.com;
                 *.haolew.com;
+                *.haoshengtoys.com;
                 *.haostat.qihoo.com;
                 *.hapic1.jhkxwl.com;
                 *.hascosafety.com;
@@ -3991,7 +4014,6 @@
                 *.hotrank.com.tw;
                 *.houdaolj.com;
                 *.houtai.2345.com;
-                *.houyi.logger.baofeng.com;
                 *.hpd.baidu.com;
                 *.hpqxznpb.bid;
                 *.hqgjcm.com;
@@ -4016,8 +4038,10 @@
                 *.huichuan.sm.cn;
                 *.huimee.net;
                 *.huishenghuiying.com;
+                *.huishenghuiying.com.cn;
                 *.humanding.com;
                 *.hunpingou.com;
+                *.huodonghezi.com;
                 *.huoying666.com;
                 *.hv.code.tanwanyx.com;
                 *.hw6.com;
@@ -4031,6 +4055,7 @@
                 *.hyfh.benbaisteel.com;
                 *.hyfyuan.com;
                 *.hyperpromote.com;
+                *.hypersnap.net;
                 *.hys4.com;
                 *.hystq.com;
                 *.hytgj.com;
@@ -4048,7 +4073,6 @@
                 *.i.clkservice.youdao.com;
                 *.i.dreamfull.cn;
                 *.i.flow.browser.oppomobile.com;
-                *.i.gdt.qq.com;
                 *.i.go.sohu.com;
                 *.i.haloapps.com;
                 *.i.hao61.net;
@@ -4084,10 +4108,12 @@
                 *.ic.wps.cn;
                 *.icast.cn;
                 *.icdxc.com;
+                *.ichaosheng.com;
                 *.icn.southmoney.com;
                 *.ico.58pic.com;
                 *.icon.cnmo.com;
                 *.icons.mydrivers.com;
+                *.iconworkshop.cn;
                 *.id.jiathis.com;
                 *.id528.com;
                 *.ida.cnool.net;
@@ -4165,7 +4191,6 @@
                 *.img.adbox.sina.com.cn;
                 *.img.adnyg.com;
                 *.img.amp.ad.sina.com.cn;
-                *.img.applovin.com;
                 *.img.cmm.xmfish.com;
                 *.img.cxxyft.com;
                 *.img.dawenxue.org;
@@ -4207,11 +4232,9 @@
                 *.img.yuyue007.cn;
                 *.img.zsj18.com;
                 *.img.zuowen8.com;
-                *.img.zuoyebang.cc;
                 *.img.zx590.com;
                 *.img0.egou.com;
                 *.img01.taotaosou.cn;
-                *.img09.zhaopin.com;
                 *.img1.126.net;
                 *.img1.18183.com;
                 *.img1.jintang114.org;
@@ -4249,6 +4272,7 @@
                 *.imgp.cymzc.com;
                 *.imgsreview.dftoutiao.com;
                 *.img-x.jd.com;
+                *.imindmap.cc;
                 *.immob.cn;
                 *.imneinei.com;
                 *.i-mobile.co.jp;
@@ -4317,6 +4341,7 @@
                 *.interactive.huanqiu.com;
                 *.interest.mix.sina.com.cn;
                 *.ioc.mmakd.top;
+                *.ios.bugly.qq.com;
                 *.ios-dc.51y5.net;
                 *.ios-informationplatform.wps.cn;
                 *.iosipa.b0.upaiyun.com;
@@ -4338,6 +4363,7 @@
                 *.irs01.com;
                 *.irs01.net;
                 *.irs09.com;
+                *.ishop789.com;
                 *.ishowbg.com;
                 *.istreamsche.com;
                 *.itaoxiaoshuo.com;
@@ -4412,6 +4438,7 @@
                 *.jdb.jiudingcapital.com;
                 *.jddaw.com;
                 *.jdg.bjygfd.com;
+                *.jdkic.com;
                 *.jdlcg.cn;
                 *.jdlhg.com;
                 *.jdw.zjuwjdc.com;
@@ -4445,13 +4472,13 @@
                 *.jiathis.com;
                 *.jiawen88.com;
                 *.jiayi1.oss-cn-shanghai.aliyuncs.com;
-                *.jic.talkingdata.com;
                 *.jiedaibao.com;
                 *.jiehantai.com;
                 *.jiehunmishu.com;
                 *.jifeidandar.com;
                 *.jifen.2345.com;
                 *.jihehuaban.com;
+                *.jihehuaban.com.cn;
                 *.jimdo.com;
                 *.jimeilm.com;
                 *.jindu179.com;
@@ -4499,7 +4526,6 @@
                 *.jqz9.com;
                 *.jrdkc.com;
                 *.jrhaigou.com;
-                *.jrlt.beacon.qq.com;
                 *.jrpt.jrptweb.org;
                 *.js.05sun.com;
                 *.js.133u.com;
@@ -4649,6 +4675,7 @@
                 *.jutou5.com;
                 *.juzi.cn;
                 *.juzilm.com;
+                *.jwg365.cn;
                 *.jwpltx.com;
                 *.jwqj.net;
                 *.jwz.3conline.com;
@@ -4689,6 +4716,7 @@
                 *.keydot.net;
                 *.keyrun.cn;
                 *.keyrun.com;
+                *.keyshot.cc;
                 *.keystone.mwbsys.com;
                 *.keyyou.net;
                 *.kfewaz.zh1155.com;
@@ -4699,6 +4727,7 @@
                 *.kguke.com;
                 *.kho3au7l4z.me;
                 *.kicnse.com;
+                *.kingdeecn.cn;
                 *.kingwam.com;
                 *.kio.quanliyouxi.cn;
                 *.kiss.blockplus.cc;
@@ -4758,8 +4787,11 @@
                 *.kuaikaiapp.com;
                 *.kuaikan.netmon.360safe.com;
                 *.kuaipai666.cn;
+                *.kuaizip.com;
+                *.kualianyingxiao.cn;
                 *.kudifish.com;
                 *.kuguopush.com;
+                *.kumihua.com;
                 *.kuwoyy.com;
                 *.kuyic.m.gxwztv.com;
                 *.kuzai.cooguo.com;
@@ -4775,7 +4807,6 @@
                 *.l.betrad.com;
                 *.l.minisplat.cn;
                 *.l.mnjkw.cn;
-                *.l.qq.com;
                 *.l.supfast.net;
                 *.l.ujian.cc;
                 *.l.yidianzixun.com;
@@ -4796,6 +4827,7 @@
                 *.lashou1000.com;
                 *.lb.gtimg.com;
                 *.lb.statsevent.com;
+                *.lbs.map.qq.com;
                 *.lbstatic-a.akamaihd.net;
                 *.lbszb.tongbu.com;
                 *.lc.jiathis.com;
@@ -4846,6 +4878,7 @@
                 *.linkeye.ximalaya.com;
                 *.linkpage.cn;
                 *.links.services.disqus.com;
+                *.linktech.cn;
                 *.linyao.dxsdb.com;
                 *.lishuanghao.com;
                 *.listenother.com;
@@ -4860,7 +4893,6 @@
                 *.lixiangmo.com;
                 *.ljrtb.cn;
                 *.lkf1.m.sanhao3.com;
-                *.lkme.cc;
                 *.ll.a.hulu.com;
                 *.ll.gxsky.com;
                 *.ll.hudong.com;
@@ -4890,9 +4922,8 @@
                 *.log2.air.yoyi.com.cn;
                 *.log2.molitv.cn;
                 *.log-dmp.suishenyun.cn;
-                *.logger.qingting.fm;
-                *.logger.treexml.baofeng.com;
                 *.logonext.tv.kuyun.com;
+                *.logoshejishi.com;
                 *.logstat.caixin.com;
                 *.logupdate.avlyun.sec.miui.com;
                 *.lol.pnhfc.com;
@@ -4913,6 +4944,7 @@
                 *.ls.webmd.com;
                 *.lsxmg.com;
                 *.ltcprtc.com;
+                *.ltheanine.cn;
                 *.lthxz.cn;
                 *.lu.sogou.com;
                 *.lubosheng.cn;
@@ -4934,7 +4966,6 @@
                 *.lycos-eu.imrworldwide.com;
                 *.lyhdream.com;
                 *.lyjk.1391.com;
-                *.lylog.1391.com;
                 *.lynndollin.com;
                 *.lyrymy.com;
                 *.lytubaobao.com;
@@ -5311,7 +5342,6 @@
                 *.ma2.meishij.net;
                 *.maccms.tan5858.com;
                 *.mackeeper.com;
-                *.mackeeperapp.mackeeper.com;
                 *.macplatform.wondershare.com;
                 *.mad.kuuad.com;
                 *.mad.m.maxthon.cn;
@@ -5328,7 +5358,14 @@
                 *.main.exdynsrv.com;
                 *.main.exoclick.com;
                 *.mainbx.com;
+                *.maipinshangmao.com;
+                *.mairuan.cn;
+                *.mairuan.com;
+                *.mairuan.com.cn;
+                *.mairuan.net;
+                *.mairuanwang.com;
                 *.maisoncherry.com;
+                *.makeding.com;
                 *.malacca.inveno.com;
                 *.manage.wdfans.cn;
                 *.maomaotang.com;
@@ -5338,7 +5375,6 @@
                 *.market.178.com;
                 *.market.21cn.com;
                 *.market.52pk.com;
-                *.market.aliyun.com;
                 *.market.duowan.com;
                 *.marketgid.com;
                 *.marketing.888.com;
@@ -5359,6 +5395,7 @@
                 *.material.istreamsche.com;
                 *.material.mtty.xin;
                 *.mathtag.com;
+                *.mathtype.cn;
                 *.maw.wnbfw.com;
                 *.maxwebsearch.com;
                 *.maysunmedia.com;
@@ -5430,7 +5467,6 @@
                 *.mhdufile.1391.com;
                 *.mhjk.1391.com;
                 *.mhuodong.elong.com;
-                *.mi.gdt.qq.com;
                 *.miam4.cn;
                 *.miaobeichina.com;
                 *.miaozhen.com;
@@ -5452,6 +5488,8 @@
                 *.millwardbrownacsr.com;
                 *.mimg.126.net;
                 *.mimg.7791.com.cn;
+                *.mindmanager.cc;
+                *.mindmapper.cc;
                 *.minesage.com;
                 *.minfo.wps.cn;
                 *.mingxianshanghang.cn;
@@ -5461,6 +5499,7 @@
                 *.mini.hao123.com;
                 *.mini.jijiplayer.com;
                 *.mini2015.qq.com;
+                *.miniapp.bilibili.com;
                 *.minidcsc.kugou.com;
                 *.minipage.2345.com;
                 *.minisite.vidown.cn;
@@ -5475,8 +5514,10 @@
                 *.mivideo.g.mi.com;
                 *.mj70.cn;
                 *.mjs.csyymp4.com;
+                *.mkitgfs.com;
                 *.mlb.did.ijinshan.com;
                 *.mlgrrqymdsyk.com;
+                *.mlnbike.com;
                 *.mlog.aipai.com;
                 *.mlog.hiido.com;
                 *.mlog.m1905.cn;
@@ -5489,6 +5530,7 @@
                 *.mmcc.yxlady.com;
                 *.mmg.aty.cp45.ott.cibntv.net;
                 *.mmg.aty.snmsohu.aisee.tv;
+                *.mmstat.com;
                 *.mng-ads.com;
                 *.mnkan.com;
                 *.mnwan.com;
@@ -5582,6 +5624,7 @@
                 *.mstat.zol.com.cn;
                 *.mstzym.com;
                 *.msypr.com;
+                *.mtalk.google.com;
                 *.mti.35kds.com;
                 *.mtj.baidu.com;
                 *.mtl.ttsqgs.com;
@@ -5603,6 +5646,7 @@
                 *.my1fc.m.b5200.net;
                 *.my1fimg.m.b5200.net;
                 *.myad.toocle.com;
+                *.mycleanmymac.com;
                 *.mydas.mobi;
                 *.mydisplay.ctfile.com;
                 *.myjsym.zichenit.com;
@@ -5613,7 +5657,6 @@
                 *.myzk1.com;
                 *.myzwqwe12.com;
                 *.mzy2014.com;
-                *.n.3g.163.com;
                 *.n.a.mosenni.com;
                 *.n.ads3-adnow.com;
                 *.n.amoad.com;
@@ -5634,10 +5677,7 @@
                 *.navi.gd.chinamobile.com;
                 *.nbhxgjz.com;
                 *.nbjjd.com;
-                *.nbsdk-baichuan.alicdn.com;
-                *.nbsdk-baichuan.taobao.com;
                 *.nbzq.net;
-                *.nc.gdt.qq.com;
                 *.nc004x.corp.youdao.com;
                 *.nc045x.corp.youdao.com;
                 *.ncachear.com;
@@ -5664,6 +5704,7 @@
                 *.new.ltheanine.cn;
                 *.new.yokaunion.com;
                 *.new.zhqiu.com;
+                *.newapi.com;
                 *.newloc.map.n.shifen.com;
                 *.newrelic.com;
                 *.news.51y5.net;
@@ -5690,6 +5731,7 @@
                 *.nexus.ensighten.com;
                 *.nfh.cnshef.com;
                 *.ngads.go.com;
+                *.nicelabel.cc;
                 *.ninebox.cn;
                 *.ninemsn.imrworldwide.com;
                 *.niurenw.com;
@@ -5731,6 +5773,8 @@
                 *.nt.phpwind.com;
                 *.ntalker.com;
                 *.nterbx.com;
+                *.ntfsformac.cc;
+                *.ntfsformac.cn;
                 *.nthyn.com;
                 *.ntx.quanliyouxi.cn;
                 *.nv.souid.com;
@@ -5825,7 +5869,6 @@
                 *.osc.uranus.sogou.com;
                 *.osfota.cdn.aliyun.com;
                 *.oss-asq-static.11222.cn;
-                *.osupdateservice.yunos.com;
                 *.otf.msn.com;
                 *.oth.eve.mdt.qq.com;
                 *.oth.str.mdt.qq.com;
@@ -5835,6 +5878,7 @@
                 *.ou188.com;
                 *.output.nend.net;
                 *.overture.com;
+                *.overturechina.com;
                 *.ow.biqugego.com;
                 *.ow.s1.shuhuangge.org;
                 *.ow.s2.shuhuangge.org;
@@ -5897,7 +5941,6 @@
                 *.pagead.google.com;
                 *.pagead.l.google.com;
                 *.pagead2.googlesyndication.com;
-                *.pagead46.l.doubleclick.net;
                 *.pagead-tpc.l.google.com;
                 *.pagechoice.com;
                 *.pagechoice.net;
@@ -5928,6 +5971,7 @@
                 *.pasco.cc;
                 *.pass1.soogif.com;
                 *.pass2.soogif.com;
+                *.passwordrecovery.cn;
                 *.passwz.com;
                 *.pat.farvd.com;
                 *.patriot.cs.pp.cn;
@@ -5959,8 +6003,8 @@
                 *.pcxzo.pluto.sogou.com;
                 *.pd7-imp.revsci.net;
                 *.pdc.micloud.xiaomi.net;
+                *.pdfexpert.cc;
                 *.pdl.gionee.com;
-                *.pdn.applovin.com;
                 *.pdsjycm.com;
                 *.pear.dleke.com;
                 *.pedailyu.com;
@@ -6030,6 +6074,7 @@
                 *.pingma.qq.com;
                 *.pingshetrip.com;
                 *.pintour.com;
+                *.pinzhitmall.com;
                 *.pix.impdesk.com;
                 *.pix.tagcdn.com;
                 *.pix04.revsci.net;
@@ -6088,6 +6133,7 @@
                 *.pop.sjk.ijinshan.com;
                 *.popads.net;
                 *.popme.163.com;
+                *.poppyta.com;
                 *.popup.jointreport-switch.com;
                 *.popup.msn.com;
                 *.popupad.cn;
@@ -6147,7 +6193,6 @@
                 *.pub.funshion.com;
                 *.pub.mop.com;
                 *.pub1.cope.es;
-                *.pubads.g.doubleclick.net;
                 *.pubbirdf.com;
                 *.public.app.autohome.com.cn;
                 *.public6.com;
@@ -6155,6 +6200,7 @@
                 *.publicidad.tv;
                 *.publish.ad.youth.cn;
                 *.pubmatic.com;
+                *.pubnative.net;
                 *.pubnub.com;
                 *.pubs.hiddennetwork.com;
                 *.puds.test.uae.uc.cn;
@@ -6216,7 +6262,6 @@
                 *.py2.qlogo.cn;
                 *.pyerc.com;
                 *.pyzkk.com;
-                *.q.i.gdt.qq.com;
                 *.q.ox11.com;
                 *.q.s.cr-nielsen.com;
                 *.q1scv.vov0.com;
@@ -6241,6 +6286,7 @@
                 *.qiailm.com;
                 *.qianclick.baidu.com;
                 *.qiaopiguniang.com;
+                *.qichexin.com;
                 *.qihaoqu.com;
                 *.qinchugudao.com;
                 *.qingqu.la;
@@ -6288,6 +6334,7 @@
                 *.qujishu.com;
                 *.qumi.com;
                 *.qupinhj.com;
+                *.qutaobi.com;
                 *.quw18.com;
                 *.quyaoya.com;
                 *.qweqwe.mctvhp.cn;
@@ -6388,7 +6435,6 @@
                 *.res.dxpmedia.com;
                 *.res.icast.cn;
                 *.res.ipingke.com;
-                *.res.mi.baidu.com;
                 *.res.mmstat.com;
                 *.res.qhupdate.com;
                 *.res3.feedsportal.com;
@@ -6418,7 +6464,6 @@
                 *.rk.rongchengxxw.com;
                 *.rlcdn.com;
                 *.rlogs.youdao.com;
-                *.rm.gdt.qq.com;
                 *.rm.ra.icast.cn;
                 *.rm.sina.com.cn;
                 *.rmads.eu.msn.com;
@@ -6451,7 +6496,6 @@
                 *.rs1.rensheng5.com;
                 *.rsas.szzek.com;
                 *.rsccs.com;
-                *.rt.applovin.com;
                 *.rt.funshion.net;
                 *.rt.gsspat.jp;
                 *.rtas.videocc.net;
@@ -6480,6 +6524,7 @@
                 *.rwjfs.com;
                 *.rwq.youle55.com;
                 *.rxwan.com;
+                *.ry51w.cn;
                 *.s.0.0.0.0.cn;
                 *.s.051352.com;
                 *.s.0594529.com;
@@ -6730,6 +6775,7 @@
                 *.settings.crashlytics.com;
                 *.sezvc.com;
                 *.sfloushi.com;
+                *.sg536.cn;
                 *.sgbfjs.info;
                 *.sg-cdn.effectivemeasure.net;
                 *.sgg.southcn.com;
@@ -6743,6 +6789,7 @@
                 *.shanghaironghua.com;
                 *.shanglinli.com;
                 *.shangz99991.com;
+                *.shankejingling.com;
                 *.share.gzdsw.com;
                 *.shared.youdao.com;
                 *.sharedaddomain.com;
@@ -6784,6 +6831,16 @@
                 *.shzyjbr.wtdtjs.rocks;
                 *.si9377.com;
                 *.sicentlife.com;
+                *.sifubo.cn;
+                *.sifuce.cn;
+                *.sifuda.cn;
+                *.sifufu.cn;
+                *.sifuge.cn;
+                *.sifugu.cn;
+                *.sifuhe.cn;
+                *.sifuhu.cn;
+                *.sifuji.cn;
+                *.sifuka.cn;
                 *.sigbusa.com;
                 *.sigo99.com;
                 *.simba.m.taobao.com;
@@ -6817,9 +6874,9 @@
                 *.sm.0.0.0.0.cn;
                 *.sm1.todgo.com;
                 *.sm2.todgo.com;
-                *.smartadserver.com;
                 *.smartmad.com;
                 *.smblock.s3.amazonaws.com;
+                *.smgru.net;
                 *.smucdn.com;
                 *.smxay.com;
                 *.smxsg.com;
@@ -6909,6 +6966,7 @@
                 *.ssh.yezijizhang.com;
                 *.ssjpx.com;
                 *.ssjy168.com;
+                *.ssl.google-analytics.com;
                 *.ssl.hyhzy.cn;
                 *.ssl.ymapp.com;
                 *.ssl-cdn.media.innity.net;
@@ -6982,8 +7040,6 @@
                 *.stocksbsc.com;
                 *.storeconfig.mistat.xiaomi.com;
                 *.storewidget.pcauthority.com.au;
-                *.storm.logger.baofeng.com;
-                *.strategy.beacon.qq.com;
                 *.stream.heavenmedia.net;
                 *.stream.shuzilm.cn;
                 *.streaming.rtbiddingplatform.com;
@@ -6997,6 +7053,7 @@
                 *.subswin.com;
                 *.sucodb.com;
                 *.sugar.zhihu.com;
+                *.suggestqueries.google.com;
                 *.sunjianhao.com;
                 *.suoooi.cn;
                 *.super.cat898.com;
@@ -7087,7 +7144,6 @@
                 *.t.d.yoyi.tv;
                 *.t.dangdang.com;
                 *.t.dmtrck.com;
-                *.t.gdt.qq.com;
                 *.t.go.sohu.com;
                 *.t.growingio.com;
                 *.t.iz55.com;
@@ -7120,15 +7176,12 @@
                 *.tad.suning.com;
                 *.tag.cdnmaster.cn;
                 *.tag.digitaltarget.ru;
-                *.tag.yoc-adserver.com;
                 *.tags.growingio.com;
                 *.tags2.adshell.net;
                 *.tags4.revdepo.com;
                 *.tajs.qq.com;
                 *.tajxgs.com;
                 *.talk.nz.igexin.com;
-                *.talkingdata.com;
-                *.talkingdata.net;
                 *.tangoutianxia.com;
                 *.tansuotv.com;
                 *.tanwanyx.com;
@@ -7139,6 +7192,7 @@
                 *.taobaoaliyun.cn;
                 *.taobaobo5.com;
                 *.taobayun.cn;
+                *.taoggou.com;
                 *.taohanpai.com;
                 *.taomato.com;
                 *.tap.rubiconproject.com;
@@ -7162,10 +7216,10 @@
                 *.tcad.wedolook.com;
                 *.tcjy66.cc;
                 *.tcss.qq.com;
+                *.tcxshop.com;
                 *.td.mpush.cn;
                 *.td.xue63.com;
                 *.tdayi.com;
-                *.tdcv3.talkingdata.net;
                 *.t-e.flyme.cn;
                 *.teen.77rog.com;
                 *.telstra.imrworldwide.com;
@@ -7195,6 +7249,7 @@
                 *.themis.yahoo.com;
                 *.thescenseproject.com;
                 *.thetestpage.39.net;
+                *.thirdparty.biliapi.com;
                 *.thoughtleadr.com;
                 *.thxnr.com;
                 *.thyvjboy.com;
@@ -7208,7 +7263,6 @@
                 *.tianyanzs.com;
                 *.ticcdn.com;
                 *.timelog.moviebox.baofeng.com;
-                *.tips.logger.baofeng.com;
                 *.tiqcdn.com;
                 *.titan.babytree.com;
                 *.titan.guestworld.tripod.lycos.com;
@@ -7239,6 +7293,7 @@
                 *.top.h.qhimg.com;
                 *.top.h.qhmsg.com;
                 *.top267.com;
+                *.topitme.com;
                 *.total.xinmin.cn;
                 *.touclick.com;
                 *.toutiao.2haha.com;
@@ -7260,7 +7315,6 @@
                 *.tralog.ganji.com;
                 *.tran.news.so.com;
                 *.tredman.com;
-                *.tree.logger.baofeng.com;
                 *.trends.mobile.sina.cn;
                 *.trial.alcohol-soft.com;
                 *.trwba.com;
@@ -7288,6 +7342,7 @@
                 *.tui.gtimg.com;
                 *.tui1999.com;
                 *.tui98.cn;
+                *.tuia.cn;
                 *.tuidang.epochtimes.org;
                 *.tuidang.org;
                 *.tuigoo.com;
@@ -7295,7 +7350,9 @@
                 *.tuiguang.meitu.com;
                 *.tuiguang.yicha.cn;
                 *.tuijian.baidu.com;
+                *.tuipenguin.com;
                 *.tuisong.baidu.com;
+                *.tuitiger.com;
                 *.tuituigui19999.com;
                 *.tujidao.com;
                 *.tukeai.com;
@@ -7306,7 +7363,6 @@
                 *.tunion-api.m.taobao.com;
                 *.turn.com;
                 *.tv.code.jjyx.com;
-                *.tvupgrade.yunos.com;
                 *.tw.adon.vpon.com;
                 *.tw.adx.nextmedia.com;
                 *.tw.api.vpon.com;
@@ -7338,7 +7394,6 @@
                 *.u.jimdo.com;
                 *.u.qijipc.com;
                 *.u.raidmedia.com.cn;
-                *.u.talkingdata.net;
                 *.u.uc123.com;
                 *.u.ucfly.com;
                 *.u.xcy8.com;
@@ -7395,6 +7450,7 @@
                 *.ulic.baidu.com;
                 *.ulink.cc;
                 *.ulog.imap.baidu.com;
+                *.ultraiso.net;
                 *.um.simpli.fi;
                 *.um0592.com;
                 *.um2.eqads.com;
@@ -7450,6 +7506,7 @@
                 *.updatecenter.qq.com;
                 *.updatepage.kuwo.cn;
                 *.updates-s3.binaryage.com;
+                *.up-hl.3g.qq.com;
                 *.uplze.code.weddingeeos.com;
                 *.ups.ksmobile.net;
                 *.upush.res.meizu.com;
@@ -7463,12 +7520,10 @@
                 *.url.222bz.com;
                 *.url.tudown.com;
                 *.urls.api.twitter.com;
-                *.us.adserver.yahoo.com;
                 *.us.bannyat.com;
                 *.us.bs.serving-sys.com;
                 *.user.tiankongzudui.com;
                 *.usercollection.chinadaily.com.cn;
-                *.uservoice.com;
                 *.ushaqi.com;
                 *.usingde.com;
                 *.usr.mgid.com;
@@ -7482,7 +7537,6 @@
                 *.utp.ucweb.com;
                 *.uu.feipukeplus.com;
                 *.uu.zeverdg.com;
-                *.uuidapi.yunos.com;
                 *.uuidksinc.net;
                 *.uulucky.com;
                 *.uvclick.com;
@@ -7492,7 +7546,6 @@
                 *.uzpmrbek.com;
                 *.v.dbncp.com;
                 *.v.e7002.com;
-                *.v.gdt.qq.com;
                 *.v.irs01.com;
                 *.v.oq68.com;
                 *.v.rmbn.net;
@@ -7523,6 +7576,7 @@
                 *.vdazz.net;
                 *.ve.tsdlp.com;
                 *.vedeh.com;
+                *.vegaschina.cn;
                 *.vegent.cn;
                 *.vendor1.fitschigogerl.com;
                 *.ver.touclick.com;
@@ -7536,7 +7590,6 @@
                 *.vi2.ku6img.net;
                 *.vichc.com;
                 *.victorjx.com;
-                *.vid.applovin.com;
                 *.video.cooguo.com;
                 *.video.ureport.push.qq.com;
                 *.video.wap.mpush.qq.com;
@@ -7716,7 +7769,6 @@
                 *.widget.searchschoolsnetwork.com;
                 *.widget.shopstyle.com.au;
                 *.widget.solarquotes.com.au;
-                *.widget.weibo.com;
                 *.widgets.comcontent.net;
                 *.widgets.realestate.com.au;
                 *.widnd.dajiadou6.com;
@@ -7725,7 +7777,6 @@
                 *.wifijia.net;
                 *.wifishow.ggsafe.com;
                 *.wikigifth.com;
-                *.win.gdt.qq.com;
                 *.winads.cn;
                 *.winasdaq.com;
                 *.winbaicai.com;
@@ -7806,7 +7857,6 @@
                 *.ww13.onetad.com;
                 *.ww202.keyyou.net;
                 *.ww202.onetad.com;
-                *.ww251.smartadserver.com;
                 *.ww34.onetad.com;
                 *.ww346.onetad.com;
                 *.ww360.onetad.com;
@@ -7814,12 +7864,10 @@
                 *.ww366.onetad.com;
                 *.ww78.onetad.com;
                 *.ww8.onetad.com;
-                *.ww881.smartadserver.com;
                 *.ww9.onetad.com;
                 *.wwis-dubc1-vip60.adobe.com;
                 *.wwv.onetad.com;
                 *.www2.xinmin.cn;
-                *.www6.smartadserver.com;
                 *.www-777563.com;
                 *.www8.xitek.com;
                 *.www9.effectivemeasure.net;
@@ -7833,6 +7881,7 @@
                 *.wx.houyi.baofeng.net;
                 *.wx.paigu.com;
                 *.wx.xwjqr.com;
+                *.wx16999.com;
                 *.wxaw.tiantongmaoyi.com;
                 *.wxb.wxbdfm.com;
                 *.wxmmh.net;
@@ -7890,7 +7939,6 @@
                 *.xdbwc.com;
                 *.xdcqcyp.com;
                 *.xdcs-collector.ximalaya.com;
-                *.xdrig.com;
                 *.xdyjt.com;
                 *.xe2c.com;
                 *.xf.yellowto.com;
@@ -7913,6 +7961,7 @@
                 *.xianliao.me;
                 *.xiaobiaoucai.cn;
                 *.xiaohei.com;
+                *.xiaohuau.xyz;
                 *.xiaohui2.cn;
                 *.xiaomiir.yaokantv.com;
                 *.XiaoQiang;
@@ -7957,6 +8006,7 @@
                 *.xm9178.com;
                 *.xmcmn.com;
                 *.xmcxz.com;
+                *.xmindchina.net;
                 *.xmnmeu.cn;
                 *.xmpush.xiaomi.com;
                 *.xmrts.com;
@@ -7983,6 +8033,7 @@
                 *.xs.he9630.com;
                 *.xs.houyi.baofeng.net;
                 *.xs.swagger1.com;
+                *.xshellcn.com;
                 *.xstar.cc;
                 *.xszqapp.com;
                 *.xtcdbb.cn;
@@ -8062,7 +8113,6 @@
                 *.yee.js.cn;
                 *.yellowto.com;
                 *.yengo.com;
-                *.yes1.feng.com;
                 *.yesbeby.whies.info;
                 *.yess.imneinei.com;
                 *.yezilm.com;
@@ -8077,6 +8127,7 @@
                 *.yieldmanager.com;
                 *.yigao.com;
                 *.yigyx.com;
+                *.yihuifu.cn;
                 *.yiiwoo.com;
                 *.yijia2009.com;
                 *.yijifen.com;
@@ -8084,13 +8135,17 @@
                 *.yin1.zgpingshu.com;
                 *.yingxiao.baidu.com;
                 *.yinhaijuan.com;
+                *.yinmong.com;
                 *.yinooo.com;
                 *.yinyuehu.cn;
+                *.yiqifa.com;
                 *.yiranxian.cn;
+                *.yitaopt.com;
                 *.yiwk.com;
                 *.yiwuds.com;
                 *.yixui.com;
                 *.yizhenya.com;
+                *.yjqiqi.com;
                 *.yk0712.com;
                 *.ykbei.com;
                 *.ykjmy.com;
@@ -8146,9 +8201,11 @@
                 *.ytmx.2r3485.cn;
                 *.yts.ytsyyey.com;
                 *.ytsyyey.com;
+                *.yuanchengxiezuo.com;
                 *.yuanming.net;
                 *.yueyelive.com;
                 *.yug8.com;
+                *.yukhj.com;
                 *.yule8.net;
                 *.yulzs.com;
                 *.yumcs.xiaohuau.xyz;
@@ -8163,7 +8220,6 @@
                 *.yunbofangbt.com;
                 *.yundingjiayuan.com;
                 *.yunjiasu.com;
-                *.yunos.com;
                 *.yunshipei.com;
                 *.yunxuu.com;
                 *.yuyue008.cn;
@@ -8199,6 +8255,7 @@
                 *.zantainet.com;
                 *.zapads.zapak.com;
                 *.zb.nxing.cn;
+                *.zbrushcn.com;
                 *.zbz.m.qxs.la;
                 *.zcdsp.com;
                 *.zcrtd.com;
@@ -8218,10 +8275,12 @@
                 *.zhanzhang.net;
                 *.zhao258.com;
                 *.zhaoshang8.com;
+                *.zhaozecheng.cn;
                 *.zh-cn.shenyun.com;
                 *.zh-cn.shenyun.org;
                 *.zheng.cs12d.com;
                 *.zhengjian.org;
+                *.zhenxinet.com;
                 *.zhichi08.com;
                 *.zhidian3g.cn;
                 *.zhifenjie.com;
@@ -8241,6 +8300,7 @@
                 *.zhuuv.maoyumao.net;
                 *.zhwnlapi.etouch.cn;
                 *.zhybzp.cn;
+                *.zhzzx.com;
                 *.zisunion.com;
                 *.zizcy.com;
                 *.zjbdt.com;
@@ -8273,6 +8333,7 @@
                 *.zuche321.com;
                 *.zuiceshi.net;
                 *.zuimeitianqi.inveno.com;
+                *.zunmi.cn;
                 *.zws.avvo.com;
                 *.zx.baosmx.com;
                 *.zxcs.ggwan.com;
@@ -8292,6 +8353,7 @@
                 *.zz123.com;
                 *.zzbaowen.com;
                 *.zzcw.office-mall.net;
+                *.zzd6.com;
                 *.zzjs2.firefang.cn;
                 *.zzpush.58.com;
                 *.zzrcz.com;
@@ -8306,7 +8368,7 @@
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
-            <Name>REJECT-PROCESS</Name>
+            <Name>Reject-PROCESS</Name>
             <Applications>
                 Jietu
 
@@ -8314,8 +8376,12 @@
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
-            <Name>REJECT-IP</Name>
+            <Name>Reject-IP</Name>
             <Targets>
+                101.227.97.240;
+                101.227.200.11;
+                101.227.200.28;
+                124.192.153.42;
                 117.177.248.17;
                 117.177.248.41;
                 223.87.176.139;
@@ -8464,6 +8530,7 @@
                 47.94.89.32;
                 47.96.162.122;
                 58.215.179.159;
+                58.221.28.166;
                 60.19.29.16-60.19.29.31;
                 60.190.139.164;
                 60.191.124.196;
@@ -8485,15 +8552,12 @@
                 69.28.57.245;
                 74.117.182.77;
                 78.140.131.214;
-                2001:67c:4e8::-2001:67c:4e8:ffff:ffff:ffff:ffff:ffff;
-                2001:b28:f23d::-2001:b28:f23d:ffff:ffff:ffff:ffff:ffff;
-                2001:b28:f23f::-2001:b28:f23f:ffff:ffff:ffff:ffff:ffff;
 
             </Targets>
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
-            <Name>REJECT-URL</Name>
+            <Name>Reject-URL(legacy)</Name>
             <Targets>
                 <!-- Anti_ISP_JavaScript_Injection -->
                 c.minisplat.cn;
@@ -8523,7 +8587,7 @@
             <Action type="Block"/>
         </Rule>
         <Rule enabled="true">
-            <Name>REJECT-ChinaRailcom</Name>
+            <Name>Reject-ChinaRailcom(legacy)</Name>
             <Targets>
                 211.98.70.226;
                 211.98.71.195;
@@ -8568,31 +8632,38 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
-            <Name>Apple App</Name>
-            <Applications>storedownloadd</Applications>
+            <Name>Direct-Apple-App</Name>
+            <Applications>
+                storedownloadd;
+
+                <!-- map -->
+                com.apple.geod;
+                com.apple.WeatherKitService;
+
+                fmfd;
+
+                trustd;
+
+                <!-- not merged -->
+                apsd;
+            </Applications>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Apple Domain</Name>
+            <Name>Direct-Apple-Domain</Name>
             <Targets>
-                guzzoni.apple.com;
-                *.aaplimg.com;
-                *.apple.co;
                 *.apple.com;
-                *.apple-cloudkit.com;
-                *.cdn-apple.com;
                 *.icloud.com;
-                *.icloud-content.com;
-                *.itunes.apple.com;
                 *.itunes.com;
-                *.lookup-api.apple.com;
                 *.me.com;
                 *.mzstatic.com;
+                api.smoot.apple.cn;
+
             </Targets>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Apple IP</Name>
+            <Name>Direct-Apple-IP</Name>
             <Targets>17.0.0.0-17.255.255.255</Targets>
             <Action type="Direct"/>
         </Rule>
@@ -8688,6 +8759,55 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>Direct-China-Media-</Name>
+            <Targets>
+                <!-- Bilibili -->
+                *bilibili*;
+                *.acg.tv;
+                *.acgvideo.com;
+                *.b23.tv;
+                *.biliapi.com;
+                *.biliapi.net;
+                *.bilibili.com;
+                *.biligame.com;
+                *.biligame.net;
+                *.hdslb.com;
+                *.im9.com;
+
+                <!-- IQIYI -->
+                *qiyi*;
+                *.qy.net;
+                101.227.0.0-101.227.255.255;
+                101.224.0.0-101.231.255.255;
+                119.176.0.0-119.191.255.255;
+
+                <!-- letv -->
+                *.api.mob.app.letv.com;
+
+                <!-- NeteaseMusic -->
+                *.127.net;
+                *.163yun.com;
+                *.music.163.com;
+                *.music.126.net.*;
+
+                <!-- Tencent Video -->
+                *.vv.video.qq.com;
+
+                <!-- Youku -->
+                106.11.0.0-106.11.255.255;
+
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-China-Media-App</Name>
+            <Applications>
+                NeteaseMusic;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
             <Name>Direct-Proxy-Client</Name>
             <Applications>
                 ss-local;
@@ -8731,36 +8851,48 @@
             <Name>Direct-Client</Name>
             <Applications>
                 "Paws for Trello";
+                MicroMessenger;
+                PayPal;
                 TeamViewer;
-                trustd;
+                TIM;
                 WeChat;
 
                 <!-- remove UA cause incompatibility -->
 
-                <!-- More -->
-                NeteaseMusic;
                 Charles;
+
             </Applications>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Direct-Foreign</Name>
+            <Name>Direct-Beplay</Name>
             <Targets>
-                <!-- Beplay -->
                 *beplay*;
-
-                <!-- Blizzard -->
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-Blizzard</Name>
+            <Targets>
                 *.battle.net;
                 *.battlenet.com;
                 *.blizzard.com;
-
-                <!-- Prior -->
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-Prior</Name>
+            <Targets>
                 client.amplifi.com;
                 ip.bjango.com;
                 *.alphassl.com;
                 *.edu.cn;
-
-                <!-- Stem -->
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-Steam</Name>
+            <Targets>
                 *.steamcontent.com;
             </Targets>
             <Action type="Direct"/>
@@ -8768,17 +8900,22 @@
         <Rule enabled="true">
             <Name>Direct-TeamViewer</Name>
             <Targets>
-                139.220.243.27;
-                172.16.102.56;
-                185.188.32.0-185.188.32.15;
-                221.226.128.146;
+                185.188.32.0-185.188.32.255;
+                185.188.33.0-185.188.33.255;
+                185.188.34.0-185.188.34.255;
+                185.188.35.0-185.188.35.255;
+                2a0b:b580::-2a0b:b580:0:ffff:ffff:ffff:ffff:ffff;
+                2a0b:b581::-2a0b:b581:0:ffff:ffff:ffff:ffff:ffff;
+                2a0b:b582::-2a0b:b582:0:ffff:ffff:ffff:ffff:ffff;
+                2a0b:b583::-2a0b:b583:0:ffff:ffff:ffff:ffff:ffff;
+
             </Targets>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
             <Name>Direct-Domestic</Name>
             <Targets>
-                *.cn;
+                *.12306.cn;
                 *.12306.com;
                 *.126.net;
                 *.163.com;
@@ -8792,11 +8929,9 @@
                 *.8686c.com;
                 *.abercrombie.com;
                 *.acfun.tv;
-                *.acgvideo.com;
                 *.adobesc.com;
                 *.air-matters.com;
                 *.air-matters.io;
-                *.airtable.com;
                 *.aixifan.com;
                 *.akadns.net;
                 *.alicdn.com;
@@ -8818,8 +8953,7 @@
                 *.bdstatic.com;
                 *.beatsbydre.com;
                 *.bet365.com;
-                *.bilibili.cn;
-                *.bilibili.com;
+                *.broadcasthe.net;
                 *.caiyunapp.com;
                 *.ccgslb.com;
                 *.ccgslb.net;
@@ -8830,9 +8964,12 @@
                 *.clouddn.com;
                 *.cloudsigma.com;
                 *.cloudxns.net;
+                *.cmct.tv;
                 *.cmfu.com;
                 *.cnbeta.com;
                 *.cnbetacdn.com;
+                *.chdbits.co;
+                *.cnlang.org;
                 *.culturedcode.com;
                 *.dct-cloud.com;
                 *.didialift.com;
@@ -8853,6 +8990,7 @@
                 *.ewqcxz.com;
                 *.feng.com;
                 *.fir.im;
+                *.firefox.com;
                 *.frdic.com;
                 *.fresh-ideas.cc;
                 *.geetest.com;
@@ -8863,8 +9001,8 @@
                 *.haibian.com;
                 *.hao123.com;
                 *.haosou.com;
-                *.hdslb.com;
-                *.hdslb.net;
+                *.hdchina.org;
+                *.hdcmct.org;
                 *.hollisterco.com;
                 *.hongxiu.com;
                 *.hxcdn.net;
@@ -8889,6 +9027,7 @@
                 *.jsboxbbs.com;
                 *.knewone.com;
                 *.kuaidi100.com;
+                *.kugou.com;
                 *.lecloud.com;
                 *.lemicp.com;
                 *.letv.com;
@@ -8899,7 +9038,6 @@
                 *.luoo.net;
                 *.lxdns.com;
                 *.mai.tn;
-                *.maven.org;
                 *.meizu.com;
                 *.mi.com;
                 *.miaopai.com;
@@ -8912,15 +9050,19 @@
                 *.mxhichina.com;
                 *.myqcloud.com;
                 *.myunlu.com;
+                *.ngabbs.com;
                 *.netease.com;
                 *.nfoservers.com;
                 *.nssurge.com;
                 *.nuomi.com;
+                *.ourbits.club;
                 *.ourdvs.com;
-                *.overcast.fm;
+                *.passthepopcorn.me;
                 *.paypal.com;
                 *.paypalobjects.com;
                 *.pgyer.com;
+                *.pniao.com;
+                *.privatehd.to;
                 *.pstatp.com;
                 *.qbox.me;
                 *.qcloud.com;
@@ -8934,11 +9076,10 @@
                 *.qingmang.mobi;
                 *.qiniucdn.com;
                 *.qiniudn.com;
-                *.qiyi.com;
-                *.qiyipic.com;
                 *.qq.com;
                 *.qqurl.com;
                 *.rarbg.to;
+                *.redacted.ch;
                 *.rrmj.tv;
                 *.ruguoapp.com;
                 *.sandai.net;
@@ -8948,7 +9089,7 @@
                 *.sinaimg.com;
                 *.sm.ms;
                 *.smzdm.com;
-                *.sdssdk.com;
+                *.snssdk.com;
                 *.snwx.com;
                 *.so.com;
                 *.sogou.com;
@@ -8968,8 +9109,11 @@
                 *.tietuku.com;
                 *.tmall.com;
                 *.tmzvps.com;
+                *.tonymacx86.com;
                 *.trello.com;
                 *.trellocdn.com;
+                *.totheglory.im;
+                *.tp.m-team.cc;
                 *.ttmeiju.com;
                 *.tudou.com;
                 *.udache.com;
@@ -8977,7 +9121,6 @@
                 *.upaiyun.com;
                 *.upyun.com;
                 *.uxengine.net;
-                *.v2ex.co;
                 *.v2ex.com;
                 *.wandoujia.com;
                 *.weather.bjango.com;
@@ -8994,6 +9137,7 @@
                 *.wkcdn.com;
                 *.workflowy.com;
                 *.xdrig.com;
+                *.xhostfire.com;
                 *.xiami.com;
                 *.xiami.net;
                 *.xiaojukeji.com;
@@ -9021,6 +9165,7 @@
                 *.zhimg.com;
                 *.zimuzu.tv;
                 *.zmz002.com;
+                1.255.62.0-1.255.62.255;
 
             </Targets>
             <Action type="Direct"/>
@@ -9029,6 +9174,7 @@
             <Name>Direct-Accelerate</Name>
             <Targets>
                 *torrent*;
+
                 *.baidu.com;
                 *.n.shifen.com;
                 *.360.cn;
@@ -9059,6 +9205,7 @@
                 qhimg.com;
                 360totalsecurity.com;
                 yunpan.com;
+
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -15629,24 +15776,161 @@
                 Tweetbot;
                 Twitter;
                 Twitterrific;
-                viu;
+
+                <!-- Media -->
+                News;
+                "YT Music";
+
             </Applications>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
-            <Name>Proxy-General</Name>
+            <Name>Proxy-Media</Name>
             <Targets>
-                *co.uk*;
+                <!-- ABC -->
+                *.edgedatg.com;
+                *.go.com;
+
+                <!-- AbemaTV -->
+                *.abema.io;
+                *.abema.tv;
+                *.akamaized.net;
+                *.ameba.jp;
+                *.hayabusa.io;
+
+                <!-- Amazon Prime Video -->
+                *.aiv-cdn.net;
+                *.amazonaws.com;
+                *.amazonvideo.com;
+                *.llnwd.net;
+
+                <!-- Apple News and Apple Map TOMTOM Version -->
+                gspe1-ssl.ls.apple.com;
+
+                <!-- Bahamut -->
+                *.bahamut.com.tw;
+                *.gamer.com.tw;
+                *.hinet.net;
+
+                <!-- BBC -->
+                *.bbc.co.uk;
+                *.bbci.co.uk;
+                *bbcfmt*;
                 *uk-live*;
-                *.bbc.co;
-                *.bbc.com;
+
+                <!-- CHOCO TV -->
                 *.chocotv.com.tw;
+
+                <!-- encoreTVB -->
+                *.encoretvb.com;
+                content.jwplatform.com;
+                videos-f.jwpsrv.com;
+
+                <!-- Now E -->
+                *nowe*;
+                bcbolthboa-a.akamaihd.net;
+                *.nowe.com;
+                *.youboranqs01.com;
+
+                <!-- Epicgames -->
                 *epicgames*;
                 *.helpshift.com;
 
+                <!-- Fox+ (HK|TW|SG) -->
+                *.akamaized.net;
+                *.foxplus.com;
+                *.theplatform.com;
+
+                <!-- Fox Now -->
+                *.fox.com;
+                *.foxdcg.com;
+                *.uplynk.com;
+
+                <!-- HBO && HBO Go -->
+                *.execute-api.ap-southeast-1.amazonaws.com;
+                *.hbo.com;
+                *.hbogo.com;
+                *.hboasia.com;
+                *.hbogo.com;
+                *.hbogoasia.hk;
+
+                <!-- Hulu(フールー) -->
+                *.happyon.jp;
+                *.hulu.jp;
+
                 <!-- Hulu -->
                 *.hulu.com;
+                *.huluim.com;
+                *.hulustream.com;
 
+                <!-- Imkan -->
+                *.imkan.tv;
+
+                <!-- Japonx -->
+                *japonx*;
+                *.japonx.com;
+                *.japonx.tv;
+                *.japonx.net;
+
+                <!-- JOOX -->
+                *.joox.com;
+
+                <!-- KKBOX -->
+                *.kkbox.com;
+                *.kkbox.com.tw;
+                *.kfs.io;
+
+                <!-- Line TV -->
+                *.d3c7rimkq79yfu.cloudfront.net;
+                *.linetv.tw;
+
+                <!-- MytvSUPER -->
+                *.mytvsuper.com;
+                *.tvb.com;
+
+                <!-- Netflix -->
+                *.netflix.com;
+                *.netflix.net;
+                *.nflxext.com;
+                *.nflximg.com;
+                *.nflximg.net;
+                *.nflxso.net;
+                *.nflxvideo.net;
+
+                <!-- PBS -->
+                *.pbs.org;
+
+                <!-- Pandora -->
+                *.pandora.com;
+
+                <!-- Sky GO -->
+                *.sky.com;
+                *.skygo.co.nz;
+
+                <!-- SoundCloud -->
+
+                <!-- Spotify -->
+                *.pscdn.co;
+                *.scdn.co;
+                *.spotify.com;
+                *.spoti.fi;
+
+                <!-- viuTV -->
+                *.viu.tv;
+                api.viu.now.com;
+
+                <!-- Youtube -->
+                *youtube*;
+                *.googlevideo.com;
+                *.gvt2.com;
+                *.youtu.be;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Line</Name>
+            <Targets>
                 <!-- Line -->
                 *.lin.ee;
                 *.line.me;
@@ -15655,14 +15939,15 @@
                 *.line-cdn.net;
                 *.line-scdn.net;
                 *.nhncorp.jp;
-                *nowtv100*;
-                *rthklive*;
-                *.mytvsuper.com;
-                *.tvb.com;
 
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Microsoft</Name>
+            <Targets>
                 <!-- Microsoft -->
                 *microsoft*;
-                *.bing.com;
                 *.hotmail.com;
                 *.live.com;
                 *.live.net;
@@ -15671,26 +15956,823 @@
                 *.office.net;
                 *.outlook.com;
 
-                *.netflix.com;
-                *.netflix.net;
-                *.nflxext.com;
-                *.nflximg.com;
-                *.nflximg.net;
-                *.nflxvideo.net;
-
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Spark</Name>
+            <Targets>
                 <!-- Spark -->
-                *.api.amplitde.com;
+                *.api.amplitude.com;
                 *.app.smartmailcloud.com;
                 *.gate.hockeyapp.net;
-                *smartmailcloud.com;
+                *.smartmailcloud.com;
 
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Steam</Name>
+            <Targets>
                 <!-- Steam -->
                 *.fanatical.com;
                 *.humblebundle.com;
                 *.steamcommunity.com;
                 *.steampowered.com;
                 *.steamstatic.com;
-                *joox*;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Top-blocked</Name>
+            <Targets>
+                <!-- Top blocked sites -->
+                *.2o7.net;
+                *.4everProxy.com;
+                *.4shared.com;
+                *.4sqi.net;
+                *.9to5mac.com;
+                *.abpchina.org;
+                *.accountkit.com;
+                *.adblockplus.org;
+                *.adobe.com;
+                *.adobedtm.com;
+                *.aerisapi.com;
+                *.akamaihd.net;
+                *.airtable.com;
+                *.alfredapp.com;
+                *.allconnected.co;
+                *.amazon.com;
+                *.amazonaws.com;
+                *.ampproject.com;
+                *.ampproject.net;
+                *.ampproject.org;
+                *.anaconda.com;
+                *.ancsconf.org;
+                *.android.com;
+                *.androidify.com;
+                *.android-x86.org;
+                *.angularjs.org;
+                *.anthonycalzadilla.com;
+                *.aol.com;
+                *.aolcdn.com;
+                *.api.mixpanel.com;
+                *.api.tiktokv.com;
+                *.api.urbandictionary.com;
+                *.apigee.com;
+                *.apk-dl.com;
+                *.apkpure.com;
+                *.appdownloader.net;
+                *.apple-dns.net;
+                *.app-measurement.com;
+                *.appshopper.com;
+                *.arcgis.com;
+                *.archive.is;
+                *.archive.org;
+                *.archives.gov;
+                *.armorgames.com;
+                *.aspnetcdn.com;
+                *.async.be;
+                *.att.com;
+                *.avgle.com;
+                *.awsstatic.com;
+                *.azure.com;
+                *.azureedge.net;
+                *.azurewebsites.net;
+                *.badoo.com;
+                *.bandisoft.com;
+                *.bbtoystore.com;
+                *.betvictor.com;
+                *.bigsound.org;
+                *.bing.com;
+                *.bing.net;
+                *.bintray.com;
+                *.bit.com;
+                *.bit.do;
+                *.bit.ly;
+                *.bitbucket.org;
+                *.bitcointalk.org;
+                *.bitshare.com;
+                *.bkrtx.com;
+                *.blog.com;
+                *.blogcdn.com;
+                *.blogger.com;
+                *.bloglovin.com;
+                *.blogsmithmedia.com;
+                *.blogspot.hk;
+                *.bloomberg.cn;
+                *.bloomberg.com;
+                *.books.com.tw;
+                *.boomtrain.com;
+                *.botanwang.com;
+                *.box.com;
+                *.box.net;
+                *.boxun.com;
+                *.cachefly.net;
+                *.cbc.ca;
+                *.cdn.segment.com;
+                *.cdnst.net;
+                *.celestrak.com;
+                *.census.gov;
+                *.certificate-transparency.org;
+                *.chinadigitaltimes.net;
+                *.chinatimes.com;
+                *.chrome.com;
+                *.chromecast.com;
+                *.chromercise.com;
+                *.chromestatus.com;
+                *.chromium.org;
+                *.cl.ly;
+                *.cloudflare.com;
+                *.cloudfront.net;
+                *.cloudgarage.jp;
+                *.cloudmagic.com;
+                *.cmail19.com;
+                *.cnet.com;
+                *.cnn.com;
+                *.cocoapods.org;
+                *.comodoca.com;
+                *.content.office.net;
+                *.culturedcode.com;
+                *.cygames.jp;
+                *.d.pr;
+                *.danilo.to;
+                *.daolan.net;
+                *.data-vocabulary.org;
+                *.dayone.me;
+                *.db.tt;
+                *.dcmilitary.com;
+                *.deja.com;
+                *.demdex.net;
+                *.deskconnect.com;
+                *.digisfera.com;
+                *.digitaltrends.com;
+                *.disconnect.me;
+                *.disq.us;
+                *.disqus.com;
+                *.disquscdn.com;
+                *.dmm.co.jp;
+                *.dnsimple.com;
+                *.docker.com;
+                *.doub.io;
+                *.dowjones.com;
+                *.dribbble.com;
+                *.droplr.com;
+                *.duckduckgo.com;
+                *.dueapp.com;
+                *.dw.com;
+                *.easybib.com;
+                *.economist.com;
+                *.edgecastcdn.net;
+                *.edgekey.net;
+                *.edgesuite.net;
+                *.engadget.com;
+                *.entrust.net;
+                *.eurekavpt.com;
+                *.evernote.com;
+                *.extmatrix.com;
+                *.eyny.com;
+                *.fabric.io;
+                *.fast.com;
+                *.fastly.net;
+                *.fastmail.com;
+                *.fc2.com;
+                *.feedburner.com;
+                *.feedly.com;
+                *.feedsportal.com;
+                *.fiftythree.com;
+                *.firebaseio.com;
+                *.flexibits.com;
+                *.flickr.com;
+                *.flipboard.com;
+                *.flipkart.com;
+                *.flitto.com;
+                *.flurry.com;
+                *.freeopenProxy.com;
+                *.fubo.tv;
+                *.fullstory.com;
+                *.fzlm.net;
+                *.g.co;
+                *.gabia.net;
+                *.garena.com;
+                *.gameloft.com;
+                *.geni.us;
+                *.get.how;
+                *.getcloudapp.com;
+                *.getfoxyProxy.org;
+                *.getlantern.org;
+                *.getmdl.io;
+                *.getpricetag.com;
+                *.gfw.press;
+                *.gfx.ms;
+                *.ggpht.com;
+                *.ghostnoteapp.com;
+                *.git.io;
+                *.gitbook.com;
+                *.globalsign.com;
+                *.gmocloud.com;
+                *.gmodules.com;
+                *.go.com;
+                *.go.jp;
+                *.godaddy.com;
+                *.golang.org;
+                *.gongm.in;
+                *.goo.gl;
+                *.goodreaders.com;
+                *.goodreads.com;
+                *.gravatar.com;
+                *.gstatic.cn;
+                *.gstatic.com;
+                *.gunsamerica.com;
+                *.gvt0.com;
+                *.gvt1.com;
+                *.helpshift.com;
+                *.hinet.net;
+                *.hockeyapp.net;
+                *.homedepot.com;
+                *.hootsuite.com;
+                *.howtoforge.com;
+                *.iam.soy;
+                *.icoco.com;
+                *.icons8.com;
+                *.ift.tt;
+                *.ifttt.com;
+                *.imageshack.us;
+                *.img.ly;
+                *.imgur.com;
+                *.imore.com;
+                *.ingress.com;
+                *.insder.co;
+                *.instapaper.com;
+                *.instructables.com;
+                *.io.io;
+                *.ip.sb;
+                *.ipaddress.com;
+                *.ipn.li;
+                *.is.gd;
+                *.ishowsapp.com;
+                *.issuu.com;
+                *.itgonglun.com;
+                *.itun.es;
+                *.ixquick.com;
+                *.j.mp;
+                *.javbus.com;
+                *.js.revsci.net;
+                *.jshint.com;
+                *.jtvnw.net;
+                *.justgetflux.com;
+                *.kakao.co.kr;
+                *.kakao.com;
+                *.kakaocdn.net;
+                *.kat.cr;
+                *.kenengba.com;
+                *.kik.com;
+                *.klip.me;
+                *.leancloud.com;
+                *.leetcode.com;
+                *.lhie1.com;
+                *.libsyn.com;
+                *.licdn.com;
+                *.lightboxcdn.com;
+                *.like.com;
+                *.linkedin.com;
+                *.linode.com;
+                *.lithium.com;
+                *.littlehj.com;
+                *.livefilestore.com;
+                *.llnwd.net;
+                *.localnetwork.uop;
+                *.logmein.com;
+                *.macid.co;
+                *.macromedia.com;
+                *.macrumors.com;
+                *.manhuaren.com;
+                *.marketwatch.com;
+                *.mashable.com;
+                *.mathjax.org;
+                *.maven.org;
+                *.medium.com;
+                *.mega.co.nz;
+                *.mega.nz;
+                *.megaupload.com;
+                *.microsofttranslator.com;
+                *.mindnode.com;
+                *.mlssoccer.com;
+                *.mobile01.com;
+                *.modmyi.com;
+                *.moves-export.com;
+                *.mp3buscador.com;
+                *.msedge.net;
+                *.mycnnews.com;
+                *.myfontastic.com;
+                *.name.com;
+                *.nasa.gov;
+                *.ndr.de;
+                *.netdna-cdn.com;
+                *.newipnow.com;
+                *.nextmedia.com;
+                *.nih.gov;
+                *.nintendo.com;
+                *.nintendo.net;
+                *.notion.so;
+                *.novafile.com;
+                *.nrk.no;
+                *.nsstatic.net;
+                *.nssurge.com;
+                *.nyt.com;
+                *.nytimes.com;
+                *.nytimg.com;
+                *.nytstyle.com;
+                *.office365.com;
+                *.omnigroup.com;
+                *.onedrive.com;
+                *.onenote.com;
+                *.ooyala.com;
+                *.openvpn.net;
+                *.openwrt.org;
+                *.optimizely.com;
+                *.orkut.com;
+                *.osha.gov;
+                *.osxdaily.com;
+                *.overcast.fm;
+                *.ow.ly;
+                *.paddle.com;
+                *.paddleapi.com;
+                *.panoramio.com;
+                *.parallels.com;
+                *.parse.com;
+                *.pdfexpert.com;
+                *.periscope.tv;
+                *.piaotian.net;
+                *.picacomic.com;
+                *.picasaweb.com;
+                *.pinboard.in;
+                *.ping.pe;
+                *.pinterest.com;
+                *.pixelmator.com;
+                *.pixiv.net;
+                *.pixnet.net;
+                *.playpcesor.com;
+                *.playstation.com;
+                *.playstation.com.hk;
+                *.playstation.net;
+                *.playstationnetwork.com;
+                *.pokemon.com;
+                *.polymer-project.org;
+                *.popo.tw;
+                *.potato.im;
+                *.redd.it;
+                *.prfct.co;
+                *.proxfree.com;
+                *.psiphon3.com;
+                *.ptt.cc;
+                *.pubu.com.tw;
+                *.puffinbrowser.com;
+                *.pushbullet.com;
+                *.pushwoosh.com;
+                *.pximg.net;
+                *.quora.com;
+                *.quoracdn.net;
+                *.readingtimes.com.tw;
+                *.readmoo.com;
+                *.recaptcha.net;
+                *.reddit.com;
+                *.redditmedia.com;
+                *.reuters.com;
+                *.rfi.fr;
+                *.rileyguide.com;
+                *.rime.im;
+                *.rsf.org;
+                *.sciencedaily.com;
+                *.sciencemag.org;
+                *.scribd.com;
+                *.search.com;
+                *.servebom.com;
+                *.sfx.ms;
+                *.shadowsocks.org;
+                *.shadowverse.jp;
+                *.sharethis.com;
+                *.shazam.com;
+                *.shutterstock.com;
+                *.sidelinesnews.com;
+                *.simp.ly;
+                *.simplenote.com;
+                *.sketchappsources.com;
+                *.skype.com;
+                *.slack.com;
+                *.slack-edge.com;
+                *.slack-msgs.com;
+                *.slideshare.net;
+                *.smartdnsproxy.com;
+                *.smh.com.au;
+                *.snapchat.com;
+                *.sndcdn.com;
+                *.sockslist.net;
+                *.sony.com;
+                *.sony.com.hk;
+                *.sonyentertainmentnetwork.com;
+                *.soundcloud.com;
+                *.sourceforge.net;
+                *.sowers.org.hk;
+                *.speedsmart.net;
+                *.spike.com;
+                *.squarespace.com;
+                *.ssa.gov;
+                *.sstatic.net;
+                *.st.luluku.pw;
+                *.stackoverflow.com;
+                *.starp2p.com;
+                *.startpage.com;
+                *.state.gov;
+                *.staticflickr.com;
+                *.storify.com;
+                *.stumbleupon.com;
+                *.sugarsync.com;
+                *.supermariorun.com;
+                *.surfeasy.com.au;
+                *.surge.run;
+                *.surrenderat20.net;
+                *.sydneytoday.com;
+                *.symauth.com;
+                *.symcb.com;
+                *.symcd.com;
+                *.t.me;
+                *.t66y.com;
+                *.tablesgenerator.com;
+                *.tabtter.jp;
+                *.talk853.com;
+                *.talkboxapp.com;
+                *.talkonly.net;
+                *.tapbots.com;
+                *.tapbots.net;
+                *.tdesktop.com;
+                *.techcrunch.com;
+                *.technorati.com;
+                *.techsmith.com;
+                *.teddysun.com;
+                *.telegra.ph;
+                *.textnow.me;
+                *.thebobs.com;
+                *.theinitium.com;
+                *.thepiratebay.org;
+                *.theverge.com;
+                *.thewgo.org;
+                *.tiltbrush.com;
+                *.time.com;
+                *.timeinc.net;
+                *.tinder.com;
+                *.tiny.cc;
+                *.tinychat.com;
+                *.tinypic.com;
+                *.tmblr.co;
+                *.todoist.com;
+                *.togetter.com;
+                *.tokyocn.com;
+                *.tomshardware.com;
+                *.torcn.com;
+                *.torrentprivacy.com;
+                *.torrentproject.se;
+                *.torrentz.eu;
+                *.traffichaus.com;
+                *.trakt.tv;
+                *.transparency.org;
+                *.trello.com;
+                *.trendsmap.com;
+                *.trulyergonomic.com;
+                *.trustasiassl.com;
+                *.tt-rss.org;
+                *.ttvnw.net;
+                *.tumblr.co;
+                *.tumblr.com;
+                *.turbobit.net;
+                *.tv.com;
+                *.tweetdeck.com;
+                *.tweetmarker.net;
+                *.twimg.co;
+                *.twitch.tv;
+                *.twitthat.com;
+                *.twtkr.com;
+                *.twttr.com;
+                *.txmblr.com;
+                *.typcn.com;
+                *.typekit.net;
+                *.typography.com;
+                *.ubertags.com;
+                *.ublock.org;
+                *.ubnt.com;
+                *.uchicago.edu;
+                *.udn.com;
+                *.ugo.com;
+                *.uhdwallpapers.org;
+                *.ulyssesapp.com;
+                *.unblockdmm.com;
+                *.unblocksites.co;
+                *.unpo.org;
+                *.unsplash.com;
+                *.untraceable.us;
+                *.uploaded.net;
+                *.uProxy.org;
+                *.upwork.com;
+                *.urchin.com;
+                *.urlparser.com;
+                *.us.to;
+                *.usertrust.com;
+                *.usgs.gov;
+                *.usma.edu;
+                *.uspto.gov;
+                *.ustream.tv;
+                *.v.gd;
+                *.v2ex.co;
+                *.v2ray.com;
+                *.van001.com;
+                *.vanpeople.com;
+                *.vansky.com;
+                *.vbstatic.co;
+                *.venchina.com;
+                *.venturebeat.com;
+                *.veoh.com;
+                *.verizonwireless.com;
+                *.viber.com;
+                *.vid.me;
+                *.videomega.tv;
+                *.vidinfo.org;
+                *.vimeo.com;
+                *.vimeocdn.com;
+                *.vimperator.org;
+                *.vine.co;
+                *.visibletweets.com;
+                *.viu.com;
+                *.vivaldi.com;
+                *.voachinese.com;
+                *.vocativ.com;
+                *.vox-cdn.com;
+                *.vpnaccount.org;
+                *.vpnbook.com;
+                *.vpngate.net;
+                *.vsco.co;
+                *.vultr.com;
+                *.vzw.com;
+                *.w.org;
+                *.w3schools.com;
+                *.wattpad.com;
+                *.web2project.net;
+                *.webfreer.com;
+                *.weblagu.com;
+                *.websnapr.com;
+                *.webtype.com;
+                *.webwarper.net;
+                *.wenxuecity.com;
+                *.westca.com;
+                *.westpoint.edu;
+                *.whatbrowser.org;
+                *.wikileaks.info;
+                *.wikileaks.org;
+                *.wikileaks-forum.com;
+                *.wikimedia.org;
+                *.wikipedia.com;
+                *.wikipedia.org;
+                *.windows.com;
+                *.windows.net;
+                *.wn.com;
+                *.wordpress.com;
+                *.workflow.is;
+                *.worldcat.org;
+                *.wow.com;
+                *.wp.com;
+                *.wsj.com;
+                *.wsj.net;
+                *.wwitv.com;
+                *.xanga.com;
+                *.xclient.info;
+                *.xda-developers.com;
+                *.xeeno.com;
+                *.xiti.com;
+                *.xuite.net;
+                *.xvideos.com;
+                *.yahoo.com;
+                *.yahooapis.com;
+                *.yasni.co.uk;
+                *.yastatic.net;
+                *.yeeyi.com;
+                *.yesasia.com;
+                *.yes-news.com;
+                *.yidio.com;
+                *.yimg.com;
+                *.ying.com;
+                *.yorkbbs.ca;
+                *.youmaker.com;
+                *.yourlisten.com;
+                *.youtu.be;
+                *.yoyo.org;
+                *.ytimg.com;
+                *.zacebook.com;
+                *.zalmos.com;
+                *.zaobao.com.sg;
+                *.zeutch.com;
+                *.zynamics.com;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Remote-DNS</Name>
+            <Targets>
+                <!-- Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy -->
+                *appledaily*;
+                *beetalk*;
+                *blogspot*;
+                *dropbox*;
+                *facebook*;
+                *github*;
+                *instagram*;
+                *porn*;
+                *telegram*;
+                *twitter*;
+                *whatsapp*;
+                *google*;
+                *.1e100.net;
+                *.2mdn.net;
+                *.abc.xyz;
+                *.akamai.net;
+                *.appspot.com;
+                *.autodraw.com;
+                *.bandwagonhost.com;
+                *.blogblog.com;
+                *.chromeexperiments.com;
+                *.creativelab5.com;
+                *.crittercism.com;
+                *.culturalspot.org;
+                *.dartlang.org;
+                *.fb.com;
+                *.fb.me;
+                *.fbcdn.net;
+                *.fbsbx.com;
+                *.gcr.io;
+                *.gmail.com;
+                *.gosetsuden.jp;
+                *.gvt1.com;
+                *.gwtproject.org;
+                *.heroku.com;
+                *.html5rocks.com;
+                *.keyhole.com;
+                *.kobo.com;
+                *.kobobooks.com;
+                *.madewithcode.com;
+                *.material.io;
+                *.messenger.com;
+                *.netmarble.com;
+                *.nianticlabs.com;
+                *.pinimg.com;
+                *.pubnub.com;
+                *.scdn.co;
+                *.t.co;
+                *.tensorflow.org;
+                *.toggleable.com;
+                *.torproject.org;
+                *.twimg.com;
+                *.twitpic.com;
+                *.unfiltered.news;
+                *.waveprotocol.org;
+                *.webmproject.org;
+                *.webrtc.org;
+
+                *dlercloud*;
+                *.dler.cloud;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Amazon</Name>
+            <Targets>
+                <!-- Amazon -->
+                13.32.0.0-13.32.255.255;
+                13.33.0.0-13.33.255.255;
+                13.35.0.0-13.35.127.255;
+                18.184.0.0-18.185.255.255;
+                18.194.0.0-18.195.255.255;
+                18.208.0.0-18.215.255.255;
+                18.232.0.0-18.235.255.255;
+                52.200.0.0-52.207.255.255;
+                52.58.0.0-52.59.255.255;
+                52.74.0.0-52.74.255.255;
+                52.77.0.0-52.77.255.255;
+                52.84.0.0-52.85.255.255;
+                54.156.0.0-54.159.255.255;
+                54.226.0.0-54.227.255.255;
+                54.230.156.0-54.230.159.255;
+                54.93.0.0-54.93.255.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Facebook</Name>
+            <Targets>
+                <!-- Facebook -->
+                103.4.96.0-103.4.99.255;
+                129.134.0.0-129.134.127.255;
+                157.240.0.0-157.240.127.255;
+                173.252.64.0-173.252.95.255;
+                173.252.96.0-173.252.127.255;
+                179.60.192.0-179.60.195.255;
+                185.60.216.0-185.60.219.255;
+                204.15.20.0-204.15.23.255;
+                31.13.24.0-31.13.31.255;
+                31.13.64.0-31.13.127.255;
+                45.64.40.0-45.64.43.255;
+                66.220.144.0-66.220.159.255;
+                69.171.224.0-69.171.255.255;
+                69.63.176.0-69.63.191.255;
+                74.119.76.0-74.119.79.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Google</Name>
+            <Targets>
+                <!-- Google -->
+                173.194.0.0-173.194.255.255;
+                74.125.0.0-74.125.255.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Kakao-Talk</Name>
+            <Targets>
+                <!-- Kakao Talk -->
+                1.201.0.0-1.201.0.255;
+                103.246.56.0-103.246.59.255;
+                103.27.148.0-103.27.151.255;
+                110.76.140.0-110.76.143.255;
+                113.61.104.0-113.61.107.255;
+                27.0.236.0-27.0.239.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-LINE</Name>
+            <Targets>
+                <!-- LINE -->
+                103.2.28.0-103.2.31.255;
+                119.235.224.0-119.235.231.255;
+                119.235.232.0-119.235.233.255;
+                119.235.235.0-119.235.235.255;
+                119.235.236.0-119.235.237.255;
+                125.6.146.0-125.6.146.255;
+                125.6.149.0-125.6.149.255;
+                125.6.190.0-125.6.190.255;
+                125.209.208.0-125.209.223.255;
+                203.104.103.0-203.104.103.255;
+                203.104.128.0-203.104.143.255;
+                203.174.66.64-203.174.66.127;
+                203.174.77.0-203.174.77.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Potato-Chat</Name>
+            <Targets>
+                <!-- Potato Chat -->
+                13.251.24.0-13.251.24.255;
+                13.251.41.0-13.251.41.255;
+                17.252.156.0-17.252.156.255;
+                17.252.157.0-17.252.157.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-SoftLayer</Name>
+            <Targets>
+                <!-- SoftLayer -->
+                74.86.0.0-74.86.255.255;
+                75.126.0.0-75.126.255.255;
+                174.37.0.0-174.37.255.255;
+                208.43.0.0-208.43.255.255;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy-Telegram</Name>
+            <Targets>
+                <!-- Telegram -->
+                67.198.55.0-67.198.55.255;
+                91.108.4.0-91.108.7.255;
+                91.108.8.0-91.108.11.255;
+                91.108.12.0-91.108.15.255;
+                91.108.16.0-91.108.19.255;
+                91.108.56.0-91.108.59.255;
+                109.239.140.0-109.239.140.255;
+                149.154.160.0-149.154.175.255;
+                205.172.60.0-205.172.63.255;
+
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
@@ -21385,768 +22467,7 @@
             </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
-        <Rule enabled="true">
-            <Name>Top-Blocked-Sites</Name>
-            <Targets>
-                *.2o7.net;
-                *.4everProxy.com;
-                *.4shared.com;
-                *.4sqi.net;
-                *.9to5mac.com;
-                *.abpchina.org;
-                *.accountkit.com;
-                *.adblockplus.org;
-                *.adobe.com;
-                *.adobedtm.com;
-                *.aerisapi.com;
-                *.akamaihd.net;
-                *.alfredapp.com;
-                *.allconnected.co;
-                *.amazon.com;
-                *.amazonaws.com;
-                *.ampproject.com;
-                *.ampproject.net;
-                *.ampproject.org;
-                *.ancsconf.org;
-                *.android.com;
-                *.androidify.com;
-                *.android-x86.org;
-                *.angularjs.org;
-                *.anthonycalzadilla.com;
-                *.aol.com;
-                *.aolcdn.com;
-                *.api.mixpanel.com;
-                *.api.tiktokv.com;
-                *.api.urbandictionary.com;
-                *.apigee.com;
-                *.apk-dl.com;
-                *.apkpure.com;
-                *.appdownloader.net;
-                *.apple-dns.net;
-                *.app-measurement.com;
-                *.appshopper.com;
-                *.arcgis.com;
-                *.archive.is;
-                *.archive.org;
-                *.archives.gov;
-                *.armorgames.com;
-                *.aspnetcdn.com;
-                *.async.be;
-                *.att.com;
-                *.avgle.com;
-                *.awsstatic.com;
-                *.azureedge.net;
-                *.azurewebsites.net;
-                *.bandisoft.com;
-                *.bbtoystore.com;
-                *.betvictor.com;
-                *.bigsound.org;
-                *.bintray.com;
-                *.bit.com;
-                *.bit.do;
-                *.bit.ly;
-                *.bitbucket.org;
-                *.bitcointalk.org;
-                *.bitshare.com;
-                *.bjango.com;
-                *.bkrtx.com;
-                *.blizzard.com;
-                *.blog.com;
-                *.blogcdn.com;
-                *.blogger.com;
-                *.bloglovin.com;
-                *.blogsmithmedia.com;
-                *.blogspot.hk;
-                *.bloomberg.cn;
-                *.bloomberg.com;
-                *.books.com.tw;
-                *.boomtrain.com;
-                *.box.com;
-                *.box.net;
-                *.boxun.com;
-                *.cachefly.net;
-                *.cbc.ca;
-                *.cdn.segment.com;
-                *.cdnst.net;
-                *.celestrak.com;
-                *.census.gov;
-                *.certificate-transparency.org;
-                *.chinatimes.com;
-                *.chrome.com;
-                *.chromecast.com;
-                *.chromercise.com;
-                *.chromestatus.com;
-                *.chromium.org;
-                *.cl.ly;
-                *.cloudflare.com;
-                *.cloudfront.net;
-                *.cloudgarage.jp;
-                *.cloudmagic.com;
-                *.cmail19.com;
-                *.cnet.com;
-                *.cnn.com;
-                *.cocoapods.org;
-                *.comodoca.com;
-                *.content.office.net;
-                *.culturedcode.com;
-                *.cygames.jp;
-                *.d.pr;
-                *.danilo.to;
-                *.daolan.net;
-                *.data-vocabulary.org;
-                *.dayone.me;
-                *.db.tt;
-                *.dcmilitary.com;
-                *.deja.com;
-                *.demdex.net;
-                *.deskconnect.com;
-                *.digicert.com;
-                *.digisfera.com;
-                *.digitaltrends.com;
-                *.disconnect.me;
-                *.disq.us;
-                *.disqus.com;
-                *.disquscdn.com;
-                *.dmm.co.jp;
-                *.dnsimple.com;
-                *.docker.com;
-                *.doub.io;
-                *.dribbble.com;
-                *.droplr.com;
-                *.duckduckgo.com;
-                *.dueapp.com;
-                *.dw.com;
-                *.easybib.com;
-                *.economist.com;
-                *.edgecastcdn.net;
-                *.edgekey.net;
-                *.edgesuite.net;
-                *.engadget.com;
-                *.entrust.net;
-                *.eurekavpt.com;
-                *.evernote.com;
-                *.extmatrix.com;
-                *.eyny.com;
-                *.fabric.io;
-                *.fast.com;
-                *.fastly.net;
-                *.fastmail.com;
-                *.fc2.com;
-                *.feedburner.com;
-                *.feedly.com;
-                *.feedsportal.com;
-                *.fiftythree.com;
-                *.firebaseio.com;
-                *.flexibits.com;
-                *.flickr.com;
-                *.flipboard.com;
-                *.flipkart.com;
-                *.flitto.com;
-                *.flurry.com;
-                *.freeopenProxy.com;
-                *.fullstory.com;
-                *.fzlm.net;
-                *.g.co;
-                *.gabia.net;
-                *.garena.com;
-                *.gameloft.com;
-                *.geni.us;
-                *.get.how;
-                *.getcloudapp.com;
-                *.getfoxyProxy.org;
-                *.getlantern.org;
-                *.getmdl.io;
-                *.getpricetag.com;
-                *.gfw.press;
-                *.gfx.ms;
-                *.ggpht.com;
-                *.ghostnoteapp.com;
-                *.git.io;
-                *.gitbook.com;
-                *.globalsign.com;
-                *.gmocloud.com;
-                *.gmodules.com;
-                *.go.com;
-                *.go.jp;
-                *.godaddy.com;
-                *.golang.org;
-                *.gongm.in;
-                *.goo.gl;
-                *.goodreaders.com;
-                *.goodreads.com;
-                *.gravatar.com;
-                *.gstatic.cn;
-                *.gstatic.com;
-                *.gunsamerica.com;
-                *.gvt0.com;
-                *.gvt1.com;
-                *.helpshift.com;
-                *.hinet.net;
-                *.hockeyapp.net;
-                *.homedepot.com;
-                *.hootsuite.com;
-                *.howtoforge.com;
-                *.iam.soy;
-                *.icoco.com;
-                *.icons8.com;
-                *.ift.tt;
-                *.ifttt.com;
-                *.imageshack.us;
-                *.img.ly;
-                *.imgur.com;
-                *.imore.com;
-                *.ingress.com;
-                *.insder.co;
-                *.instapaper.com;
-                *.instructables.com;
-                *.io.io;
-                *.ip.sb;
-                *.ipaddress.com;
-                *.ipn.li;
-                *.is.gd;
-                *.ishowsapp.com;
-                *.issuu.com;
-                *.itgonglun.com;
-                *.itun.es;
-                *.ixquick.com;
-                *.j.mp;
-                *.javbus.com;
-                *.js.revsci.net;
-                *.jshint.com;
-                *.jtvnw.net;
-                *.justgetflux.com;
-                *.kakao.co.kr;
-                *.kakao.com;
-                *.kakaocdn.net;
-                *.kat.cr;
-                *.kenengba.com;
-                *.kik.com;
-                *.klip.me;
-                *.leancloud.com;
-                *.leetcode.com;
-                *.lhie1.com;
-                *.libsyn.com;
-                *.licdn.com;
-                *.lightboxcdn.com;
-                *.like.com;
-                *.linkedin.com;
-                *.linode.com;
-                *.lithium.com;
-                *.littlehj.com;
-                *.livefilestore.com;
-                *.llnwd.net;
-                *.localnetwork.uop;
-                *.logmein.com;
-                *.macid.co;
-                *.macromedia.com;
-                *.macrumors.com;
-                *.manhuaren.com;
-                *.marketwatch.com;
-                *.mashable.com;
-                *.mathjax.org;
-                *.medium.com;
-                *.mega.co.nz;
-                *.mega.nz;
-                *.megaupload.com;
-                *.microsofttranslator.com;
-                *.mindnode.com;
-                *.mlssoccer.com;
-                *.mobile01.com;
-                *.modmyi.com;
-                *.moves-export.com;
-                *.mp3buscador.com;
-                *.msedge.net;
-                *.mycnnews.com;
-                *.myfontastic.com;
-                *.name.com;
-                *.nasa.gov;
-                *.ndr.de;
-                *.netdna-cdn.com;
-                *.newipnow.com;
-                *.nextmedia.com;
-                *.nih.gov;
-                *.nintendo.com;
-                *.nintendo.net;
-                *.notion.so;
-                *.novafile.com;
-                *.nrk.no;
-                *.nsstatic.net;
-                *.nssurge.com;
-                *.nyt.com;
-                *.nytimes.com;
-                *.nytimg.com;
-                *.nytstyle.com;
-                *.office365.com;
-                *.omnigroup.com;
-                *.onedrive.com;
-                *.onedrive.live.com;
-                *.onenote.com;
-                *.ooyala.com;
-                *.openvpn.net;
-                *.openwrt.org;
-                *.optimizely.com;
-                *.orkut.com;
-                *.osha.gov;
-                *.osxdaily.com;
-                *.ow.ly;
-                *.paddle.com;
-                *.paddleapi.com;
-                *.pandora.com;
-                *.panoramio.com;
-                *.parallels.com;
-                *.parse.com;
-                *.pdfexpert.com;
-                *.periscope.tv;
-                *.piaotian.net;
-                *.picacomic.com;
-                *.picasaweb.com;
-                *.pinboard.in;
-                *.ping.pe;
-                *.pinterest.com;
-                *.pixelmator.com;
-                *.pixiv.net;
-                *.pixnet.net;
-                *.playpcesor.com;
-                *.playstation.com;
-                *.playstation.com.hk;
-                *.playstation.net;
-                *.playstationnetwork.com;
-                *.pokemon.com;
-                *.polymer-project.org;
-                *.popo.tw;
-                *.potato.im;
-                *.prfct.co;
-                *.proxfree.com;
-                *.psiphon3.com;
-                *.ptt.cc;
-                *.pubu.com.tw;
-                *.puffinbrowser.com;
-                *.pushbullet.com;
-                *.pushwoosh.com;
-                *.pximg.net;
-                *.quora.com;
-                *.quoracdn.net;
-                *.readingtimes.com.tw;
-                *.readmoo.com;
-                *.recaptcha.net;
-                *.reddit.com;
-                *.redditmedia.com;
-                *.reuters.com;
-                *.rfi.fr;
-                *.rileyguide.com;
-                *.rime.im;
-                *.rsf.org;
-                *.sciencedaily.com;
-                *.sciencemag.org;
-                *.scribd.com;
-                *.search.com;
-                *.servebom.com;
-                *.sfx.ms;
-                *.shadowsocks.org;
-                *.shadowverse.jp;
-                *.sharethis.com;
-                *.shazam.com;
-                *.shutterstock.com;
-                *.sidelinesnews.com;
-                *.simp.ly;
-                *.simplenote.com;
-                *.sketchappsources.com;
-                *.skype.com;
-                *.slack.com;
-                *.slack-edge.com;
-                *.slack-msgs.com;
-                *.slideshare.net;
-                *.smartdnsproxy.com;
-                *.smh.com.au;
-                *.snapchat.com;
-                *.sndcdn.com;
-                *.sockslist.net;
-                *.sony.com;
-                *.sony.com.hk;
-                *.sonyentertainmentnetwork.com;
-                *.soundcloud.com;
-                *.sourceforge.net;
-                *.sowers.org.hk;
-                *.speedsmart.net;
-                *.spike.com;
-                *.squarespace.com;
-                *.ssa.gov;
-                *.sstatic.net;
-                *.st.luluku.pw;
-                *.stackoverflow.com;
-                *.starp2p.com;
-                *.startpage.com;
-                *.state.gov;
-                *.staticflickr.com;
-                *.storify.com;
-                *.stumbleupon.com;
-                *.sugarsync.com;
-                *.supermariorun.com;
-                *.surfeasy.com.au;
-                *.surge.run;
-                *.surrenderat20.net;
-                *.sydneytoday.com;
-                *.symauth.com;
-                *.symcb.com;
-                *.symcd.com;
-                *.t.me;
-                *.t66y.com;
-                *.tablesgenerator.com;
-                *.tabtter.jp;
-                *.talk853.com;
-                *.talkboxapp.com;
-                *.talkonly.net;
-                *.tapbots.com;
-                *.tapbots.net;
-                *.tdesktop.com;
-                *.techcrunch.com;
-                *.technorati.com;
-                *.techsmith.com;
-                *.teddysun.com;
-                *.telegra.ph;
-                *.textnow.me;
-                *.thebobs.com;
-                *.theinitium.com;
-                *.thepiratebay.org;
-                *.theverge.com;
-                *.thewgo.org;
-                *.tiltbrush.com;
-                *.time.com;
-                *.timeinc.net;
-                *.tinder.com;
-                *.tiny.cc;
-                *.tinychat.com;
-                *.tinypic.com;
-                *.tmblr.co;
-                *.todoist.com;
-                *.togetter.com;
-                *.tokyocn.com;
-                *.tomshardware.com;
-                *.torcn.com;
-                *.torrentprivacy.com;
-                *.torrentproject.se;
-                *.torrentz.eu;
-                *.traffichaus.com;
-                *.trakt.tv;
-                *.transparency.org;
-                *.trello.com;
-                *.trendsmap.com;
-                *.trulyergonomic.com;
-                *.trustasiassl.com;
-                *.tt-rss.org;
-                *.ttvnw.net;
-                *.tumblr.co;
-                *.tumblr.com;
-                *.turbobit.net;
-                *.tv.com;
-                *.tweetdeck.com;
-                *.tweetmarker.net;
-                *.twimg.co;
-                *.twitch.tv;
-                *.twitthat.com;
-                *.twtkr.com;
-                *.twttr.com;
-                *.txmblr.com;
-                *.typcn.com;
-                *.typekit.net;
-                *.typography.com;
-                *.ubertags.com;
-                *.ublock.org;
-                *.ubnt.com;
-                *.uchicago.edu;
-                *.udn.com;
-                *.ugo.com;
-                *.uhdwallpapers.org;
-                *.ulyssesapp.com;
-                *.unblockdmm.com;
-                *.unblocksites.co;
-                *.unpo.org;
-                *.unsplash.com;
-                *.untraceable.us;
-                *.uploaded.net;
-                *.uProxy.org;
-                *.upwork.com;
-                *.urchin.com;
-                *.urlparser.com;
-                *.us.to;
-                *.usertrust.com;
-                *.usgs.gov;
-                *.usma.edu;
-                *.uspto.gov;
-                *.ustream.tv;
-                *.v.gd;
-                *.v2ray.com;
-                *.van001.com;
-                *.vanpeople.com;
-                *.vansky.com;
-                *.vbstatic.co;
-                *.venchina.com;
-                *.venturebeat.com;
-                *.veoh.com;
-                *.verizonwireless.com;
-                *.viber.com;
-                *.vid.me;
-                *.videomega.tv;
-                *.vidinfo.org;
-                *.vimeo.com;
-                *.vimeocdn.com;
-                *.vimperator.org;
-                *.vine.co;
-                *.visibletweets.com;
-                *.viu.com;
-                *.vivaldi.com;
-                *.voachinese.com;
-                *.vocativ.com;
-                *.vox-cdn.com;
-                *.vpnaccount.org;
-                *.vpnbook.com;
-                *.vpngate.net;
-                *.vsco.co;
-                *.vultr.com;
-                *.vzw.com;
-                *.w.org;
-                *.w3schools.com;
-                *.wattpad.com;
-                *.web2project.net;
-                *.webfreer.com;
-                *.weblagu.com;
-                *.websnapr.com;
-                *.webtype.com;
-                *.webwarper.net;
-                *.wenxuecity.com;
-                *.westca.com;
-                *.westpoint.edu;
-                *.whatbrowser.org;
-                *.wikileaks.info;
-                *.wikileaks.org;
-                *.wikileaks-forum.com;
-                *.wikimedia.org;
-                *.wikipedia.com;
-                *.wikipedia.org;
-                *.windows.com;
-                *.windows.net;
-                *.wn.com;
-                *.wordpress.com;
-                *.workflow.is;
-                *.worldcat.org;
-                *.wow.com;
-                *.wp.com;
-                *.wsj.com;
-                *.wsj.net;
-                *.wwitv.com;
-                *.xanga.com;
-                *.xclient.info;
-                *.xda-developers.com;
-                *.xeeno.com;
-                *.xiti.com;
-                *.xuite.net;
-                *.xvideos.com;
-                *.yahoo.com;
-                *.yahooapis.com;
-                *.yasni.co.uk;
-                *.yastatic.net;
-                *.yeeyi.com;
-                *.yesasia.com;
-                *.yes-news.com;
-                *.yidio.com;
-                *.yimg.com;
-                *.ying.com;
-                *.yorkbbs.ca;
-                *.youmaker.com;
-                *.yourlisten.com;
-                *.youtu.be;
-                *.yoyo.org;
-                *.ytimg.com;
-                *.zacebook.com;
-                *.zalmos.com;
-                *.zaobao.com.sg;
-                *.zeutch.com;
-                *.zynamics.com;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Force-Remote-DNS</Name>
-            <Targets>
-                *appledaily*;
-                *beetalk*;
-                *blogspot*;
-                *dropbox*;
-                *facebook*;
-                *github*;
-                *porn*;
-                *spotify*;
-                *telegram*;
-                *twitter*;
-                *whatsapp*;
-                *youtube*;
-                *google*;
-                *.1e100.net;
-                *.2mdn.net;
-                *.abc.xyz;
-                *.akamai.net;
-                *.appspot.com;
-                *.autodraw.com;
-                *.bandwagonhost.com;
-                *.blogblog.com;
-                *.cdninstagram.com;
-                *.chromeexperiments.com;
-                *.creativelab5.com;
-                *.crittercism.com;
-                *.culturalspot.org;
-                *.dartlang.org;
-                *.fb.com;
-                *.fb.me;
-                *.fbcdn.net;
-                *.fbsbx.com;
-                *.gcr.io;
-                *.gmail.com;
-                *.gosetsuden.jp;
-                *.gvt1.com;
-                *.gwtproject.org;
-                *.heroku.com;
-                *.html5rocks.com;
-                *.instagram.com;
-                *.keyhole.com;
-                *.kobo.com;
-                *.kobobooks.com;
-                *.madewithcode.com;
-                *.material.io;
-                *.messenger.com;
-                *.netmarble.com;
-                *.nianticlabs.com;
-                *.pinimg.com;
-                *.pubnub.com;
-                *.scdn.co;
-                *.t.co;
-                *.tensorflow.org;
-                *.toggleable.com;
-                *.torproject.org;
-                *.twimg.com;
-                *.twitpic.com;
-                *.unfiltered.news;
-                *.waveprotocol.org;
-                *.webmproject.org;
-                *.webrtc.org;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Amazon-IP</Name>
-            <Targets>
-                13.32.0.0-13.32.255.255;
-                13.33.0.0-13.33.255.255;
-                13.35.0.0-13.35.127.255;
-                18.184.0.0-18.185.255.255;
-                18.194.0.0-18.195.255.255;
-                18.208.0.0-18.215.255.255;
-                18.232.0.0-18.235.255.255;
-                52.200.0.0-52.207.255.255;
-                52.58.0.0-52.59.255.255;
-                52.74.0.0-52.74.255.255;
-                52.77.0.0-52.77.255.255;
-                52.84.0.0-52.85.255.255;
-                54.156.0.0-54.159.255.255;
-                54.226.0.0-54.227.255.255;
-                54.230.156.0-54.230.159.255;
-                54.93.0.0-54.93.255.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Facebook-IP</Name>
-            <Targets>
-                103.4.96.0-103.4.99.255;
-                129.134.0.0-129.134.127.255;
-                157.240.0.0-157.240.127.255;
-                173.252.64.0-173.252.95.255;
-                173.252.96.0-173.252.127.255;
-                179.60.192.0-179.60.195.255;
-                185.60.216.0-185.60.219.255;
-                204.15.20.0-204.15.23.255;
-                31.13.24.0-31.13.31.255;
-                31.13.64.0-31.13.127.255;
-                45.64.40.0-45.64.43.255;
-                66.220.144.0-66.220.159.255;
-                69.171.224.0-69.171.255.255;
-                69.63.176.0-69.63.191.255;
-                74.119.76.0-74.119.79.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Google-IP</Name>
-            <Targets>
-                173.194.0.0-173.194.255.255;
-                74.125.0.0-74.125.255.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Kakao-Talk-IP</Name>
-            <Targets>
-                1.201.0.0-1.201.0.255;
-                103.246.56.0-103.246.59.255;
-                103.27.148.0-103.27.151.255;
-                110.76.140.0-110.76.143.255;
-                113.61.104.0-113.61.107.255;
-                27.0.236.0-27.0.239.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>LINE-IP</Name>
-            <Targets>
-                103.2.28.0-103.2.31.255;
-                119.235.224.0-119.235.231.255;
-                119.235.232.0-119.235.233.255;
-                119.235.235.0-119.235.235.255;
-                119.235.236.0-119.235.237.255;
-                125.6.146.0-125.6.146.255;
-                125.6.149.0-125.6.149.255;
-                125.6.190.0-125.6.190.255;
-                125.209.208.0-125.209.223.255;
-                203.104.103.0-203.104.103.255;
-                203.104.128.0-203.104.143.255;
-                203.174.66.64-203.174.66.127;
-                203.174.77.0-203.174.77.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Potato-Chat-IP</Name>
-            <Targets>
-                13.251.24.0-13.251.24.255;
-                13.251.41.0-13.251.41.255;
-                17.252.156.0-17.252.156.255;
-                17.252.157.0-17.252.157.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>SoftLayer-IP</Name>
-            <Targets>
-                74.86.0.0-74.86.255.255;
-                75.126.0.0-75.126.255.255;
-                174.37.0.0-174.37.255.255;
-                208.43.0.0-208.43.255.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Telegram-IP</Name>
-            <Targets>
-                109.239.140.0-109.239.140.255;
-                149.154.160.0-149.154.175.255;
-                149.154.164.0-149.154.167.255;
-                149.154.168.0-149.154.171.255;
-                149.154.172.0-149.154.175.255;
-                91.108.4.0-91.108.7.255;
-                91.108.56.0-91.108.59.255;
-                91.108.8.0-91.108.11.255;
-            </Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
+        <!-- Fallback -->
         <Rule enabled="false">
             <Name>Domain-Port</Name>
             <Targets>www.example.com</Targets>
@@ -22154,6 +22475,14 @@
                 80;
                 443;
             </Ports>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Fallback-Direct-IPv6</Name>
+            <Targets>
+                *:*:*:*:*:*:*:*;
+                0:0:0:0:0:0:0:0-ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;
+            </Targets>
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">

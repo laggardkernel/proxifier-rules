@@ -13,7 +13,7 @@ filename = inspect.getframeinfo(inspect.currentframe()).filename
 base_dir = os.path.dirname(os.path.abspath(filename))
 project_dir = os.path.split(base_dir)[0]
 
-rule_file = os.path.join(project_dir, "Auto", "REJECT.conf")
+rule_file = os.path.join(project_dir, "Surge3", "Reject.list")
 
 
 def cidr2iprange(cidr):
@@ -30,6 +30,7 @@ with open(rule_file, "r", encoding="utf-8") as f:
     output_processed = []
     output_unprocessed = []
     output_ip = []
+    # output_ip = output_processed
     for line in f.readlines():
         processed_text = ""
         if line.startswith("DOMAIN-SUFFIX"):
@@ -54,6 +55,9 @@ with open(rule_file, "r", encoding="utf-8") as f:
             continue
         elif line.startswith("//"):
             processed_text = line.strip("/").strip()
+            processed_text = "\n<!-- {0} -->".format(processed_text)
+        elif line.startswith("# >"):
+            processed_text = line.strip("# >").strip()
             processed_text = "\n<!-- {0} -->".format(processed_text)
         elif line.startswith("#"):
             processed_text = "\n{0}".format(line.strip())
