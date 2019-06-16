@@ -8882,6 +8882,7 @@
                 *.bdstatic.com;
                 *.beatsbydre.com;
                 *.bet365.com;
+                *.broadcasthe.net;
                 *.caiyunapp.com;
                 *.ccgslb.com;
                 *.ccgslb.net;
@@ -8985,7 +8986,6 @@
                 *.nuomi.com;
                 *.ourbits.club;
                 *.ourdvs.com;
-                *.overcast.fm;
                 *.passthepopcorn.me;
                 *.paypal.com;
                 *.paypalobjects.com;
@@ -15706,6 +15706,10 @@
                 Twitter;
                 Twitterrific;
 
+                <!-- Media -->
+                News;
+                "YT Music";
+
             </Applications>
             <Action type="Proxy">100</Action>
         </Rule>
@@ -15718,12 +15722,10 @@
 
                 <!-- AbemaTV -->
                 *.abema.io;
+                *.abema.tv;
+                *.akamaized.net;
                 *.ameba.jp;
                 *.hayabusa.io;
-                abematv.akamaized.net;
-                ds-linear-abematv.akamaized.net;
-                ds-vod-abematv.akamaized.net;
-                linear-abematv.akamaized.net;
 
                 <!-- Amazon Prime Video -->
                 *.aiv-cdn.net;
@@ -15731,23 +15733,27 @@
                 *.amazonvideo.com;
                 *.llnwd.net;
 
+                <!-- Apple News and Apple Map TOMTOM Version -->
+                gspe1-ssl.ls.apple.com;
+
                 <!-- Bahamut -->
                 *.bahamut.com.tw;
                 *.gamer.com.tw;
                 *.hinet.net;
 
                 <!-- BBC -->
-                *bbcfmt*;
-                *co.uk*;
-                *uk-live*;
-                *.bbc.co;
                 *.bbc.co.uk;
-                *.bbc.com;
-                *.bbci.co;
                 *.bbci.co.uk;
+                *bbcfmt*;
+                *uk-live*;
 
                 <!-- CHOCO TV -->
                 *.chocotv.com.tw;
+
+                <!-- encoreTVB -->
+                *.encoretvb.com;
+                content.jwplatform.com;
+                videos-f.jwpsrv.com;
 
                 <!-- Now E -->
                 *nowe*;
@@ -15759,30 +15765,29 @@
                 *epicgames*;
                 *.helpshift.com;
 
-                <!-- Fox+ -->
-                *foxplus*;
-                *.config.fox.com;
-                *.emome.net;
+                <!-- Fox+ (HK|TW|SG) -->
+                *.akamaized.net;
+                *.foxplus.com;
+                *.theplatform.com;
+
+                <!-- Fox Now -->
                 *.fox.com;
                 *.foxdcg.com;
-                *.foxnow.com;
-                *.foxplus.com;
-                *.foxplay.com;
-                *.ipinfo.io;
-                *.mstage.io;
-                *.now.com;
-                *.theplatform.com;
-                *.urlload.net;
+                *.uplynk.com;
 
                 <!-- HBO && HBO Go -->
                 *.execute-api.ap-southeast-1.amazonaws.com;
                 *.hbo.com;
+                *.hbogo.com;
                 *.hboasia.com;
                 *.hbogo.com;
                 *.hbogoasia.hk;
 
-                <!-- Hulu -->
+                <!-- Hulu(フールー) -->
                 *.happyon.jp;
+                *.hulu.jp;
+
+                <!-- Hulu -->
                 *.hulu.com;
                 *.huluim.com;
                 *.hulustream.com;
@@ -15790,12 +15795,25 @@
                 <!-- Imkan -->
                 *.imkan.tv;
 
+                <!-- Japonx -->
+                *japonx*;
+                *.japonx.com;
+                *.japonx.tv;
+                *.japonx.net;
+
                 <!-- JOOX -->
                 *.joox.com;
 
+                <!-- KKBOX -->
+                *.kkbox.com;
+                *.kkbox.com.tw;
+                *.kfs.io;
+
+                <!-- Line TV -->
+                *.d3c7rimkq79yfu.cloudfront.net;
+                *.linetv.tw;
+
                 <!-- MytvSUPER -->
-                *nowtv100*;
-                *rthklive*;
                 *.mytvsuper.com;
                 *.tvb.com;
 
@@ -15808,6 +15826,9 @@
                 *.nflxso.net;
                 *.nflxvideo.net;
 
+                <!-- PBS -->
+                *.pbs.org;
+
                 <!-- Pandora -->
                 *.pandora.com;
 
@@ -15818,12 +15839,14 @@
                 <!-- SoundCloud -->
 
                 <!-- Spotify -->
-                *spotify*;
+                *.pscdn.co;
                 *.scdn.co;
+                *.spotify.com;
                 *.spoti.fi;
 
                 <!-- viuTV -->
                 *.viu.tv;
+                api.viu.now.com;
 
                 <!-- Youtube -->
                 *youtube*;
@@ -15971,6 +15994,7 @@
                 *.bloomberg.com;
                 *.books.com.tw;
                 *.boomtrain.com;
+                *.botanwang.com;
                 *.box.com;
                 *.box.net;
                 *.boxun.com;
@@ -15981,6 +16005,7 @@
                 *.celestrak.com;
                 *.census.gov;
                 *.certificate-transparency.org;
+                *.chinadigitaltimes.net;
                 *.chinatimes.com;
                 *.chrome.com;
                 *.chromecast.com;
@@ -16199,6 +16224,7 @@
                 *.orkut.com;
                 *.osha.gov;
                 *.osxdaily.com;
+                *.overcast.fm;
                 *.ow.ly;
                 *.paddle.com;
                 *.paddleapi.com;
@@ -16666,16 +16692,15 @@
             <Name>Proxy-Telegram</Name>
             <Targets>
                 <!-- Telegram -->
-                109.239.140.0-109.239.140.255;
-                149.154.164.0-149.154.167.255;
-                149.154.168.0-149.154.171.255;
-                149.154.172.0-149.154.175.255;
+                67.198.55.0-67.198.55.255;
                 91.108.4.0-91.108.7.255;
+                91.108.8.0-91.108.11.255;
+                91.108.12.0-91.108.15.255;
+                91.108.16.0-91.108.19.255;
                 91.108.56.0-91.108.59.255;
-                91.108.56.0-91.108.57.255;
-                2001:67c:4e8::-2001:67c:4e8:ffff:ffff:ffff:ffff:ffff;
-                2001:b28:f23d::-2001:b28:f23d:ffff:ffff:ffff:ffff:ffff;
-                2001:b28:f23f::-2001:b28:f23f:ffff:ffff:ffff:ffff:ffff;
+                109.239.140.0-109.239.140.255;
+                149.154.160.0-149.154.175.255;
+                205.172.60.0-205.172.63.255;
 
             </Targets>
             <Action type="Proxy">100</Action>
