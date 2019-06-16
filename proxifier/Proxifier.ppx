@@ -8692,8 +8692,16 @@
             <Targets>
                 <!-- Bilibili -->
                 *bilibili*;
+                *.acg.tv;
                 *.acgvideo.com;
+                *.b23.tv;
+                *.biliapi.com;
+                *.biliapi.net;
+                *.bilibili.com;
+                *.biligame.com;
+                *.biligame.net;
                 *.hdslb.com;
+                *.im9.com;
 
                 <!-- IQIYI -->
                 *qiyi*;
@@ -8722,8 +8730,6 @@
         <Rule enabled="true">
             <Name>Direct-China-Media-App</Name>
             <Applications>
-                com.bilibili.app.in;
-                tv.danmaku.bili;
                 NeteaseMusic;
 
             </Applications>
@@ -8773,7 +8779,10 @@
             <Name>Direct-Client</Name>
             <Applications>
                 "Paws for Trello";
+                MicroMessenger;
+                PayPal;
                 TeamViewer;
+                TIM;
                 WeChat;
 
                 <!-- remove UA cause incompatibility -->
@@ -8796,22 +8805,6 @@
                 *.battle.net;
                 *.battlenet.com;
                 *.blizzard.com;
-            </Targets>
-            <Action type="Direct"/>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Direct-Microsoft</Name>
-            <Targets>
-                <!-- Microsoft -->
-                *microsoft*;
-                *.hotmail.com;
-                *.live.com;
-                *.live.net;
-                *.msn.com;
-                *.office.com;
-                *.office.net;
-                *.outlook.com;
-
             </Targets>
             <Action type="Direct"/>
         </Rule>
@@ -8850,7 +8843,6 @@
         <Rule enabled="true">
             <Name>Direct-Domestic</Name>
             <Targets>
-                *.cn;
                 *.12306.cn;
                 *.12306.com;
                 *.126.net;
@@ -8957,6 +8949,7 @@
                 *.jsboxbbs.com;
                 *.knewone.com;
                 *.kuaidi100.com;
+                *.kugou.com;
                 *.lecloud.com;
                 *.lemicp.com;
                 *.letv.com;
@@ -9044,6 +9037,7 @@
                 *.upaiyun.com;
                 *.upyun.com;
                 *.uxengine.net;
+                *.v2ex.com;
                 *.wandoujia.com;
                 *.weather.bjango.com;
                 *.weather.com;
@@ -15718,8 +15712,10 @@
                 *.hayabusa.io;
 
                 <!-- Amazon Prime Video -->
+                *.aiv-cdn.net;
                 *.amazonaws.com;
                 *.amazonvideo.com;
+                *.llnwd.net;
 
                 <!-- Bahamut -->
                 *.bahamut.com.tw;
@@ -15770,10 +15766,6 @@
                 *.hulu.com;
                 *.huluim.com;
                 *.hulustream.com;
-
-                <!-- Vidol & 动画疯 -->
-                *.cdn.hinet.net;
-                *.vidol.tv;
 
                 <!-- Imkan -->
                 *.imkan.tv;
@@ -15834,6 +15826,22 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
+            <Name>Proxy-Microsoft</Name>
+            <Targets>
+                <!-- Microsoft -->
+                *microsoft*;
+                *.hotmail.com;
+                *.live.com;
+                *.live.net;
+                *.msn.com;
+                *.office.com;
+                *.office.net;
+                *.outlook.com;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>Proxy-Spark</Name>
             <Targets>
                 <!-- Spark -->
@@ -15874,8 +15882,6 @@
                 *.adobedtm.com;
                 *.aerisapi.com;
                 *.akamaihd.net;
-                *.alibaba.com;
-                *.alibabacloud.com;
                 *.alfredapp.com;
                 *.allconnected.co;
                 *.amazon.com;
@@ -15912,6 +15918,7 @@
                 *.att.com;
                 *.avgle.com;
                 *.awsstatic.com;
+                *.azure.com;
                 *.azureedge.net;
                 *.azurewebsites.net;
                 *.badoo.com;
@@ -15978,14 +15985,12 @@
                 *.deja.com;
                 *.demdex.net;
                 *.deskconnect.com;
-                *.digicert.com;
                 *.digisfera.com;
                 *.digitaltrends.com;
                 *.disconnect.me;
                 *.disq.us;
                 *.disqus.com;
                 *.disquscdn.com;
-                *.dlercloud.com;
                 *.dmm.co.jp;
                 *.dnsimple.com;
                 *.docker.com;
@@ -16023,6 +16028,7 @@
                 *.flitto.com;
                 *.flurry.com;
                 *.freeopenProxy.com;
+                *.fubo.tv;
                 *.fullstory.com;
                 *.fzlm.net;
                 *.g.co;
@@ -16193,7 +16199,7 @@
                 *.polymer-project.org;
                 *.popo.tw;
                 *.potato.im;
-                *.preview.redd.it;
+                *.redd.it;
                 *.prfct.co;
                 *.proxfree.com;
                 *.psiphon3.com;
@@ -16355,7 +16361,6 @@
                 *.ustream.tv;
                 *.v.gd;
                 *.v2ex.co;
-                *.v2ex.com;
                 *.v2ray.com;
                 *.van001.com;
                 *.vanpeople.com;
