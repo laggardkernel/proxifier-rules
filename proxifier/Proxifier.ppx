@@ -8715,6 +8715,7 @@
 
                 <!-- NeteaseMusic -->
                 *.127.net;
+                *.163yun.com;
                 *.music.163.com;
                 *.music.126.net.*;
 
@@ -8860,7 +8861,6 @@
                 *.adobesc.com;
                 *.air-matters.com;
                 *.air-matters.io;
-                *.airtable.com;
                 *.aixifan.com;
                 *.akadns.net;
                 *.alicdn.com;
@@ -8892,9 +8892,12 @@
                 *.clouddn.com;
                 *.cloudsigma.com;
                 *.cloudxns.net;
+                *.cmct.tv;
                 *.cmfu.com;
                 *.cnbeta.com;
                 *.cnbetacdn.com;
+                *.chdbits.co;
+                *.cnlang.org;
                 *.culturedcode.com;
                 *.dct-cloud.com;
                 *.didialift.com;
@@ -8915,6 +8918,7 @@
                 *.ewqcxz.com;
                 *.feng.com;
                 *.fir.im;
+                *.firefox.com;
                 *.frdic.com;
                 *.fresh-ideas.cc;
                 *.geetest.com;
@@ -8925,6 +8929,8 @@
                 *.haibian.com;
                 *.hao123.com;
                 *.haosou.com;
+                *.hdchina.org;
+                *.hdcmct.org;
                 *.hollisterco.com;
                 *.hongxiu.com;
                 *.hxcdn.net;
@@ -8977,12 +8983,15 @@
                 *.nfoservers.com;
                 *.nssurge.com;
                 *.nuomi.com;
+                *.ourbits.club;
                 *.ourdvs.com;
                 *.overcast.fm;
+                *.passthepopcorn.me;
                 *.paypal.com;
                 *.paypalobjects.com;
                 *.pgyer.com;
                 *.pniao.com;
+                *.privatehd.to;
                 *.pstatp.com;
                 *.qbox.me;
                 *.qcloud.com;
@@ -8999,6 +9008,7 @@
                 *.qq.com;
                 *.qqurl.com;
                 *.rarbg.to;
+                *.redacted.ch;
                 *.rrmj.tv;
                 *.ruguoapp.com;
                 *.sandai.net;
@@ -9028,8 +9038,11 @@
                 *.tietuku.com;
                 *.tmall.com;
                 *.tmzvps.com;
+                *.tonymacx86.com;
                 *.trello.com;
                 *.trellocdn.com;
+                *.totheglory.im;
+                *.tp.m-team.cc;
                 *.ttmeiju.com;
                 *.tudou.com;
                 *.udache.com;
@@ -15704,12 +15717,13 @@
                 *.go.com;
 
                 <!-- AbemaTV -->
-                linear-abematv.akamaized.net;
                 *.abema.io;
-                *.abema.tv;
-                *.akamaized.net;
                 *.ameba.jp;
                 *.hayabusa.io;
+                abematv.akamaized.net;
+                ds-linear-abematv.akamaized.net;
+                ds-vod-abematv.akamaized.net;
+                linear-abematv.akamaized.net;
 
                 <!-- Amazon Prime Video -->
                 *.aiv-cdn.net;
@@ -15735,6 +15749,12 @@
                 <!-- CHOCO TV -->
                 *.chocotv.com.tw;
 
+                <!-- Now E -->
+                *nowe*;
+                bcbolthboa-a.akamaihd.net;
+                *.nowe.com;
+                *.youboranqs01.com;
+
                 <!-- Epicgames -->
                 *epicgames*;
                 *.helpshift.com;
@@ -15754,7 +15774,7 @@
                 *.theplatform.com;
                 *.urlload.net;
 
-                <!-- HBO & HBO Go -->
+                <!-- HBO && HBO Go -->
                 *.execute-api.ap-southeast-1.amazonaws.com;
                 *.hbo.com;
                 *.hboasia.com;
@@ -15790,6 +15810,10 @@
 
                 <!-- Pandora -->
                 *.pandora.com;
+
+                <!-- Sky GO -->
+                *.sky.com;
+                *.skygo.co.nz;
 
                 <!-- SoundCloud -->
 
@@ -15882,6 +15906,7 @@
                 *.adobedtm.com;
                 *.aerisapi.com;
                 *.akamaihd.net;
+                *.airtable.com;
                 *.alfredapp.com;
                 *.allconnected.co;
                 *.amazon.com;
@@ -15995,6 +16020,7 @@
                 *.dnsimple.com;
                 *.docker.com;
                 *.doub.io;
+                *.dowjones.com;
                 *.dribbble.com;
                 *.droplr.com;
                 *.duckduckgo.com;
@@ -16462,6 +16488,7 @@
                 *dropbox*;
                 *facebook*;
                 *github*;
+                *instagram*;
                 *porn*;
                 *telegram*;
                 *twitter*;
@@ -16475,7 +16502,6 @@
                 *.autodraw.com;
                 *.bandwagonhost.com;
                 *.blogblog.com;
-                *.cdninstagram.com;
                 *.chromeexperiments.com;
                 *.creativelab5.com;
                 *.crittercism.com;
@@ -16492,7 +16518,6 @@
                 *.gwtproject.org;
                 *.heroku.com;
                 *.html5rocks.com;
-                *.instagram.com;
                 *.keyhole.com;
                 *.kobo.com;
                 *.kobobooks.com;
@@ -16514,6 +16539,9 @@
                 *.waveprotocol.org;
                 *.webmproject.org;
                 *.webrtc.org;
+
+                *dlercloud*;
+                *.dler.cloud;
 
             </Targets>
             <Action type="Proxy">100</Action>
