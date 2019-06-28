@@ -779,15 +779,15 @@
 #USER-AGENT,AppleNews*,Proxy
 # > Apple
 - DOMAIN-SUFFIX,aaplimg.com,Apple
-- DOMAIN-SUFFIX,apple.co,Domestic
-- DOMAIN-SUFFIX,apple.com,Domestic
-- DOMAIN-SUFFIX,appstore.com,Domestic
+- DOMAIN-SUFFIX,apple.co,Apple
+- DOMAIN-SUFFIX,apple.com,Apple
+- DOMAIN-SUFFIX,appstore.com,Apple
 - DOMAIN-SUFFIX,cdn-apple.com,Apple
-- DOMAIN-SUFFIX,crashlytics.com,Domestic
-- DOMAIN-SUFFIX,icloud.com,Domestic
+- DOMAIN-SUFFIX,crashlytics.com,Apple
+- DOMAIN-SUFFIX,icloud.com,Apple
 - DOMAIN-SUFFIX,icloud-content.com,Apple
-- DOMAIN-SUFFIX,me.com,Domestic
-- DOMAIN-SUFFIX,mzstatic.com,Domestic
+- DOMAIN-SUFFIX,me.com,Apple
+- DOMAIN-SUFFIX,mzstatic.com,Apple
 # > Microsoft
 - DOMAIN-SUFFIX,microsoft.com,Domestic
 - DOMAIN-SUFFIX,windows.net,Domestic
