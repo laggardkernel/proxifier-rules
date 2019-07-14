@@ -694,6 +694,9 @@ DOMAIN-SUFFIX,waveprotocol.org
 DOMAIN-SUFFIX,webmproject.org
 DOMAIN-SUFFIX,webrtc.org
 
+# > V2EX
+DOMAIN-SUFFIX,v2ex.com
+
 DOMAIN-KEYWORD,dlercloud
 DOMAIN-SUFFIX,dler.cloud
 
