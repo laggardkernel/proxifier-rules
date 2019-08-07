@@ -903,6 +903,7 @@ Rule:
 - DOMAIN-SUFFIX,whatismyip.com,Domestic
 - DOMAIN,ip.bjango.com,Domestic
 # > Other
+- DOMAIN-SUFFIX,ieee.org,Domestic
 - DOMAIN-SUFFIX,40017.cn,Domestic
 - DOMAIN-SUFFIX,broadcasthe.net,Domestic
 - DOMAIN-SUFFIX,cailianpress.com,Domestic
