@@ -27,7 +27,6 @@ DOMAIN-SUFFIX,edu.cn
 
 # > Sony
 USER-AGENT,RemotePlay*
-DOMAIN-SUFFIX,gaikai.com
 
 # > Steam
 USER-AGENT,Steam*
