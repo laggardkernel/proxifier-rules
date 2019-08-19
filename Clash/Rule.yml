@@ -237,7 +237,6 @@ Rule:
 - DOMAIN-SUFFIX,sogoucdn.com,Domestic
 - DOMAIN-SUFFIX,sohu.com,Domestic
 - DOMAIN-SUFFIX,soku.com,Domestic
-- DOMAIN-SUFFIX,speedtest.net,Domestic
 - DOMAIN-SUFFIX,sspai.com,Domestic
 - DOMAIN-SUFFIX,suning.com,Domestic
 - DOMAIN-SUFFIX,taobao.com,Domestic
@@ -284,6 +283,10 @@ Rule:
 - DOMAIN-KEYWORD,blogspot,Proxy
 - DOMAIN-SUFFIX,youtu.be,Proxy
 - DOMAIN-KEYWORD,whatsapp,Proxy
+
+# > Speedtest
+- DOMAIN-KEYWORD,speedtest,Proxy
+- DOMAIN-SUFFIX,ooklaserver.net,Proxy
 
 # > 国外网站
 - DOMAIN-SUFFIX,9to5mac.com,Proxy
