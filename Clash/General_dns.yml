@@ -10,6 +10,9 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: redir-host
   nameserver:
+  # DNS From rixCloud
+  - tcp://116.62.218.19:53
+  - tcp://139.196.72.143:53
   # DNS From USTC
   - tcp://202.141.162.123:53
   - tcp://202.141.176.93:53
