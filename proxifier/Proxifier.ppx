@@ -7054,7 +7054,6 @@
                 *.subswin.com;
                 *.sucodb.com;
                 *.sugar.zhihu.com;
-                *.suggestqueries.google.com;
                 *.sunjianhao.com;
                 *.suoooi.cn;
                 *.super.cat898.com;
@@ -15874,9 +15873,17 @@
 
                 <!-- Japonx -->
                 *japonx*;
+                *japronx*;
+
                 *.japonx.com;
                 *.japonx.tv;
                 *.japonx.net;
+                *.japonx.vip;
+
+                *.japronx.com;
+                *.japronx.tv;
+                *.japronx.net;
+                *.japronx.vip;
 
                 <!-- JOOX -->
                 *.joox.com;
