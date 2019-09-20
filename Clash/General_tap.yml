@@ -8,7 +8,7 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:53
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   nameserver:
   # DNS From rixCloud
   - tcp://116.62.218.19:53

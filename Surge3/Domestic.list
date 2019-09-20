@@ -25,7 +25,16 @@ DOMAIN,ip.bjango.com
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,edu.cn
 
+# > Sony
+USER-AGENT,RemotePlay*
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sony.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
 # > Steam
+USER-AGENT,Steam*
 DOMAIN-SUFFIX,steamcontent.com
 
 # > TeamViewer
@@ -221,7 +230,6 @@ DOMAIN-SUFFIX,sogoucdn.com
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,soso.com
-DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,startssl.com
 DOMAIN-SUFFIX,store.steampowered.com
