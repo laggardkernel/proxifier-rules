@@ -8676,6 +8676,7 @@
                 *.adcdownload.apple.com;
                 *.appldnld.apple.com;
                 *.appldnld.g.aaplimg.com;
+                *.apps.apple.com;
                 *.apps.mzstatic.com;
                 *.cdn-cn1.apple-mapkit.com;
                 *.cdn-cn2.apple-mapkit.com;
@@ -8694,6 +8695,7 @@
                 *.cl4-cn.apple.com;
                 *.cl4.apple.com;
                 *.cl5.apple.com;
+                *.configuration.apple.com.akadns.net;
                 *.configuration.apple.com;
                 *.gs-loc.apple.com;
                 *.gsp11-cn.ls.apple.com;
@@ -8713,6 +8715,7 @@
                 *.init-p01md.apple.com;
                 *.init-p01st.push.apple.com;
                 *.init-s01st.push.apple.com;
+                *.iosapps.itunes.g.aaplimg.com;
                 *.iphone-ld.apple.com;
                 *.is1-ssl.mzstatic.com;
                 *.is1.mzstatic.com;
@@ -8749,8 +8752,8 @@
                 *.updates-http.cdn-apple.com.akadns.net;
                 *.updates-http.cdn-apple.com;
                 *.valid.apple.com;
-                *.www.apple.com.edgekey.net;
-                *.www.apple.com;
+                www.apple.com.edgekey.net;
+                www.apple.com;
 
             </Targets>
             <Action type="Direct"/>
@@ -17561,6 +17564,7 @@
                 *.bunbunhk.com;
                 *.busayari.com;
                 *.businessinsider.com;
+                *.businesstoday.com.tw;
                 *.businessweek.com;
                 *.busu.org;
                 *.busytrade.com;
@@ -18087,6 +18091,7 @@
                 *.dipity.com;
                 *.directcreative.com;
                 *.discoins.com;
+                *.disconnect.me;
                 *.discordapp.com;
                 *.discordapp.net;
                 *.discuss.com.hk;
@@ -18108,6 +18113,7 @@
                 *.dmm.co.jp;
                 *.dns-dns.com;
                 *.dns-stuff.com;
+                *.dns.google;
                 *.dns04.com;
                 *.dns05.com;
                 *.dns1.us;
@@ -18276,6 +18282,7 @@
                 *.en.favotter.net;
                 *.en.hao123.com;
                 *.enanyang.my;
+                *.encyclopedia.com;
                 *.enewstree.com;
                 *.enfal.de;
                 *.engagedaily.org;
@@ -20914,7 +20921,6 @@
                 *.scriptspot.com;
                 *.seapuff.com;
                 *.search.aol.com;
-                *.search.disconnect.me;
                 *.search.xxx;
                 *.search.yahoo.co.jp;
                 *.search.yahoo.com;
@@ -22227,7 +22233,6 @@
                 *.www.dmm.com;
                 *.www.dwheeler.com;
                 *.www.eastturkistan.net;
-                *.www.ftchinese.com;
                 *.www.gmiddle.com;
                 *.www.gmiddle.net;
                 *.www.hustlercash.com;
