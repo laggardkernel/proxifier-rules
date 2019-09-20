@@ -183,4 +183,5 @@ GitHub.sublime-settings
 [Cc]ustom*.ppx
 proxifier/Current.ppx
 *.log
+proxifier/*.txt
 proxifier/output/

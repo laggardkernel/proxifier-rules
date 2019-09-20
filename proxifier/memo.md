@@ -18,6 +18,6 @@ jq '.[] | .servers | .[] | .hostname' networks.json >| output/ip-irc.txt
 ## TODO
 - [x] Change China IP source to [17mon/china_ip_list](https://github.com/17mon/china_ip_list), which is based on ipip.net
 - [x] Set `*.ppx` within `Proxifier/` as text to be diffed, other `.ppx` are treated as binary
-- [ ] ~~Merge some rules from [Jamesits/proxifier-profiles](https://github.com/Jamesits/proxifier-profiles)~~ (all app specific, not very useful, fallback is enough)
+- [x] ~~Merge some rules from [Jamesits/proxifier-profiles](https://github.com/Jamesits/proxifier-profiles)~~ (all app specific, not very useful, fallback is enough)
 - [x] [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
 - [x] [rahatarmanahmed/irc-networks](https://github.com/rahatarmanahmed/irc-networks)
