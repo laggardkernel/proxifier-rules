@@ -90,7 +90,6 @@
                 *.emoticon.sns.iqiyi.com;
                 *.game.pps.tv;
                 *.gamecenter.iqiyi.com;
-                *.hotchat-im.iqiyi.com;
                 *.ifacelog.iqiyi.com;
                 *.mbdlog.iqiyi.com;
                 *.msg.71.am;
@@ -336,7 +335,6 @@
                 *analysys*;
                 *applovin*;
                 *appsflyer*;
-                *dataflow*;
                 *dnserror*;
                 *domob*;
                 *duomeng*;
@@ -356,7 +354,6 @@
                 *socdm*;
                 *supersonicads*;
                 *taboola*;
-                *traffic*;
                 *uedas*;
                 *umtrack*;
                 *uploadMobileData*;
@@ -1636,7 +1633,6 @@
                 *.apkdo.com;
                 *.apkinfo.voole.com;
                 *.apklog.cp11.ott.cibntv.net;
-                *.apm.suning.cn;
                 *.apnmedia.ask.com;
                 *.apns.ios.ijinshan.com;
                 *.apoll.m.taobao.com;
@@ -8007,7 +8003,6 @@
                 *.xmcxz.com;
                 *.xmindchina.net;
                 *.xmnmeu.cn;
-                *.xmpush.xiaomi.com;
                 *.xmrts.com;
                 *.xmshqh.com;
                 *.xmsqz.com;
@@ -8896,6 +8891,26 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
+            <Name>Direct-Sony</Name>
+            <Targets>
+                <!-- Sony -->
+                <!-- USER-AGENT,RemotePlay* -->
+                *.playstation.com;
+                *.playstation.net;
+                *.playstationnetwork.com;
+                *.sony.com;
+                *.sonyentertainmentnetwork.com;
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Direct-Steam-Client</Name>
+            <Applications>
+                steam_osx;
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
             <Name>Direct-Steam</Name>
             <Targets>
                 *.steamcontent.com;
@@ -9103,7 +9118,6 @@
                 *.sohu.com;
                 *.soku.com;
                 *.soso.com;
-                *.speedtest.net;
                 *.sspai.com;
                 *.startssl.com;
                 *.store.steampowered.com;
@@ -15987,6 +16001,16 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
+            <Name>Proxy-Speedtest</Name>
+            <Targets>
+                <!-- Speedtest -->
+                *speedtest*;
+                *.ooklaserver.net;
+
+            </Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>Proxy-Steam</Name>
             <Targets>
                 <!-- Steam -->
@@ -16329,10 +16353,6 @@
                 *.pixiv.net;
                 *.pixnet.net;
                 *.playpcesor.com;
-                *.playstation.com;
-                *.playstation.com.hk;
-                *.playstation.net;
-                *.playstationnetwork.com;
                 *.pokemon.com;
                 *.polymer-project.org;
                 *.popo.tw;
@@ -16384,9 +16404,6 @@
                 *.snapchat.com;
                 *.sndcdn.com;
                 *.sockslist.net;
-                *.sony.com;
-                *.sony.com.hk;
-                *.sonyentertainmentnetwork.com;
                 *.soundcloud.com;
                 *.sourceforge.net;
                 *.sowers.org.hk;
