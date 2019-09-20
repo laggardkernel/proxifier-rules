@@ -42,6 +42,7 @@
                 ::1;
                 %ComputerName%;
                 *.local;
+                *.test;
                 0:0:0:0:0:0:0:0-7fff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;
                 127.0.0.0-127.255.255.255;
                 10.0.0.0-10.255.255.255;
@@ -8640,7 +8641,9 @@
                 com.apple.geod;
                 com.apple.WeatherKitService;
 
+                findmydeviced;
                 fmfd;
+                locationd;
 
                 trustd;
 
@@ -8811,6 +8814,9 @@
             <Name>Direct-Proxy-Client</Name>
             <Applications>
                 ss-local;
+                simple-obfs;
+                obfs-local;
+                v2ray;
                 GoAgentX;
                 cow;
                 cow-*;
