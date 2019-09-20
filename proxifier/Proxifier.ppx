@@ -4002,7 +4002,6 @@
                 *.hnasd.com;
                 *.hnctsm.com;
                 *.hndiyikj.com;
-                *.hnol.net;
                 *.hnxxjn.com;
                 *.hnyny.com;
                 *.hoisin.coocaatv.com;
@@ -8656,6 +8655,7 @@
             <Targets>
                 *.apple.com;
                 *.icloud.com;
+                *.icloud-content.com;
                 *.itunes.com;
                 *.me.com;
                 *.mzstatic.com;
@@ -9011,6 +9011,7 @@
                 *.hollisterco.com;
                 *.hongxiu.com;
                 *.hxcdn.net;
+                *.icedropper.com;
                 *.iciba.com;
                 *.ifeng.com;
                 *.ifengimg.com;
@@ -9109,6 +9110,8 @@
                 *.suning.com;
                 *.symcd.com;
                 *.taobao.com;
+                *.tawk.link;
+                *.tawk.to;
                 *.teamviewer.com;
                 *.tenpay.com;
                 *.tietuku.com;
@@ -9126,7 +9129,6 @@
                 *.upaiyun.com;
                 *.upyun.com;
                 *.uxengine.net;
-                *.v2ex.com;
                 *.wandoujia.com;
                 *.weather.bjango.com;
                 *.weather.com;
@@ -16650,6 +16652,9 @@
                 *.webmproject.org;
                 *.webrtc.org;
 
+                <!-- v2ex -->
+                *.v2ex.com;
+
                 *dlercloud*;
                 *.dler.cloud;
 
@@ -16776,15 +16781,11 @@
             <Name>Proxy-Telegram</Name>
             <Targets>
                 <!-- Telegram -->
-                67.198.55.0-67.198.55.255;
                 91.108.4.0-91.108.7.255;
                 91.108.8.0-91.108.11.255;
-                91.108.12.0-91.108.15.255;
-                91.108.16.0-91.108.19.255;
                 91.108.56.0-91.108.59.255;
-                109.239.140.0-109.239.140.255;
                 149.154.160.0-149.154.175.255;
-                205.172.60.0-205.172.63.255;
+                149.154.164.0-149.154.164.255;
 
             </Targets>
             <Action type="Proxy">100</Action>
