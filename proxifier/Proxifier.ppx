@@ -8826,6 +8826,8 @@
                 polipo;
                 proxychains*;
                 Surge;
+                Mellow;
+                core;
                 tcproute*;
                 tincd;
 
