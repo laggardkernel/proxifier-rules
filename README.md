@@ -1,3 +1,35 @@
+# Proxifier Rules
+
+Rules for proxifier based on [lhie1/Rules][Rules].
+
+> A proxifier is a software program which can make other programs pass through a proxy server by intercepting and modifying their network requests.
+
+## Kitsunebi-Android, Mellow
+
+Raw files
+
+- [Kitsunebi-Android][kitsunebi-release]
+- [Kitsunebi-Android Lite][kitsunebi-lite-release], without ad block
+- [Mellow][mellow-release]
+
+You need to change the proxy conf in the Mellow rule.
+
+**Caveats**
+
+- Rule syntax for Kitsunebi iOS and Android are different
+- only `;` is supported as comment mark in Mellow
+- only `#` is supported as comment mark in Kitsunebi-Android
+- Unsupported rules in Mellow: USER-AGENT
+- Unsupported rules in Kitsunebi-Android: Custom Endpoint, PROCESS-NAME, USER-AGENT, maybe IP-CIDR
+- Conf in Mellow is case sensitive, but not in Kitsunebi-Android
+
+## Proxifier
+
+Raw files
+
+- [Proxifier rule][proxifier-release]
+
+### Anti DNS Pollution
 **Warning**: "Detect DNS settings automatically" and "Resolve hostnames through
 proxy" are not designed for handling DNS pollution. Please **use a clean DNS**.
 
@@ -8,12 +40,7 @@ stub/forwarding DNS.
 Another setup with "dnsmasq/unbound + chinadns + dnsforwarder/cdns/..." is also
 popular, and may be lighter than overture.
 
-## Proxifier Rules
-
-Rules for proxifier based on [lhie1/Rules][Rules].
-
-### Features in the Fork
-
+### Features
 Default conf
 - proxy: `socks5://127.0.0.1:1080`
 - Proxy rule as the fallback rule
@@ -50,12 +77,12 @@ Block/Reject rules
 URL related rules are dropped cause Proxifier doesn't support it. Luckily, these
 rules are used for redirection and ads block only.
 
-### How to Contribute
+## How to Contribute
 Edit the source file named `proxifier/Proxifier.ppx`. `Proxifer.ppx` under project root
 directory is used for release only. Besides, `Proxifier.ppx` under project root is
 compressed to speedup config loading.
 
-### Todo
+## Todo
 - [x] Merge rules from [gfwlist][gfwlist]
 - [x] Use [17mon/china_ip_list][china_ip_list] instead of the delegated APNIC list
 - [x] Diff `*.ppx` within `proxifier/` as text, treat released `*.ppx` as binary
@@ -70,15 +97,15 @@ compressed to speedup config loading.
 - [ ] Convert REJECT rules as confs for dnsmasq, unbound
 - [x] Direct IRC connections cause proxy may close TCP connection after timeout
 
-### F.A.Q.
-#### Proxy Rules doesn't Work on macOS
+## F.A.Q.
+### Proxy Rules doesn't Work on macOS
 The DNS resolution feature from Proxifier macOS is not designed for handling DNS pollution.
 There's performance issue in real use for handling DNS pollution. In case that
 is causes problem for users, I disabled this feature in the config file.
 
 Please set a clean DNS in your Network Setting.
 
-#### Why do you use Proxifier instead of Surge?
+### Why do you use Proxifier instead of Surge?
 
 I used to be a user of Surge 2. I mainly used its *Enhanced Mode* to proxy
 all the TCP connections. (UDP is not available until v2.5.3)
@@ -110,7 +137,7 @@ Another drawback of Surge is that, HTTP**S** rules could NOT be used for proxy.
 | Price | [¥141.55 on lizhi.io][proxifier-special-offer]  | $49.99 for 1 license | $49.99 for 1 license |
 | Problems | DNS on macOS | Unknow process, bridged requirement for VM in Enhanced Mode | Not sure the problems from 2 are fixed or not |
 
-### Credit
+## Credit
 - [Proxifier Documentation][proxifier-doc]
 - [lhie1/Rules][Rules]
 - [gfwlist][gfwlist]
@@ -119,9 +146,14 @@ Another drawback of Surge is that, HTTP**S** rules could NOT be used for proxy.
 - [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
 - [rahatarmanahmed/irc-networks][irc-network-list]
 
-### License
+## License
 
 GNU General Public License v2.0
+
+[proxifier-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/proxifier/Proxifier.ppx
+[kitsunebi-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/kitsunebi-android/rule.conf
+[kitsunebi-lite-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/kitsunebi-android/rule-lite.conf
+[mellow-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/mellow/rule.conf
 
 [Rules]: https://github.com/lhie1/Rules
 [overture]: https://github.com/shawn1m/overture
