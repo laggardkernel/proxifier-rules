@@ -11,6 +11,7 @@ Raw files
 - [Kitsunebi-Android][kitsunebi-release]
 - [Kitsunebi-Android Lite][kitsunebi-lite-release], without ad block
 - [Mellow][mellow-release]
+- [Mellow Lite][mellow-lite-release]
 
 You need to change the proxy conf in the Mellow rule.
 
@@ -154,6 +155,7 @@ GNU General Public License v2.0
 [kitsunebi-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/kitsunebi-android/rule.conf
 [kitsunebi-lite-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/kitsunebi-android/rule-lite.conf
 [mellow-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/mellow/rule.conf
+[mellow-lite-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/mellow/rule-lite.conf
 
 [Rules]: https://github.com/lhie1/Rules
 [overture]: https://github.com/shawn1m/overture
