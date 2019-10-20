@@ -28,7 +28,7 @@ basedir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 repodir="${basedir%/*}"
 tempfile="${TMPDIR:-/tmp/}proxifer-rules.xml"
 
-for item in Proxifier.ppx Custom.ppx; do
+for item in proxifier.ppx proxifier-lite.ppx custom.ppx; do
   inputfile="${basedir}/${item}"
   outputfile="${repodir}/${item}"
   if [[ -f "$inputfile" ]]; then
