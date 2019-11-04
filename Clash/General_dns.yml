@@ -13,14 +13,7 @@ dns:
      - 1.2.4.8
      - 114.114.114.114
      - 223.5.5.5
-     #- tls://dns.rubyfish.cn:853
-     #- https://dns.rubyfish.cn/dns-query
-     
-  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+  fallback:
      - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
      - tls://dns.google:853
-
-     #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
