@@ -36,7 +36,6 @@
 - DOMAIN-SUFFIX,chocotv.com.tw,GlobalTV
 
 # > Disney Plus
-- USER-AGENT,Disney*,GlobalTV
 - DOMAIN,cdn.registerdisney.go.com,GlobalTV
 - DOMAIN-SUFFIX,disneyplus.com,GlobalTV
 - DOMAIN-SUFFIX,disney-plus.net,GlobalTV
