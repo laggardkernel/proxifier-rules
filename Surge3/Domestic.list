@@ -47,9 +47,6 @@ IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
 
-# > Zooba
-USER-AGENT,battleroyale*
-
 # Domestic
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com

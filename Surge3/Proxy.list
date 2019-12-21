@@ -50,6 +50,9 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 
+# > Zooba
+USER-AGENT,battleroyale*
+
 # > Top blocked sites
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,4everProxy.com
