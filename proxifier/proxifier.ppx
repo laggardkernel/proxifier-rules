@@ -612,6 +612,11 @@
                 WebTorrent;
                 "Resilio Sync";
 
+                <!-- ENFI download files from proxy in US -->
+                "ENFI下载器 Helper";
+                aria2c_mac;
+                pcdn_mac;
+
             </Applications>
             <Action type="Direct"/>
         </Rule>
