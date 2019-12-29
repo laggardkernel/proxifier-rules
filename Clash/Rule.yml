@@ -576,7 +576,7 @@ Rule:
 - IP-CIDR,149.154.160.0/20,Proxy
 - IP-CIDR,149.154.164.0/22,Proxy
 
-- DOMAIN-SUFFIX,dler.cloud,DIRECT
+- DOMAIN,dler.cloud,DIRECT
 
 # > LAN
 - DOMAIN-SUFFIX,local,DIRECT
