@@ -36,7 +36,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Opt-Network-Tools</Name>
-      <Applications> dig;nslookup;doh;traceroute;mtr;besttrace;</Applications>
+      <Applications> dig;nslookup;doh;traceroute;mtr;mtr-packet;besttrace;</Applications>
       <Action type="Direct"/>
     </Rule>
     <Rule enabled="true">
@@ -114,7 +114,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Direct-BT-Client</Name>
-      <Applications> Thunder;DownloadService;Transmission;BitTorrent;uTorrent;qbittorrent;deluge;deluge-gtk;deluged;WebTorrent;"Resilio Sync";</Applications>
+      <Applications> Thunder;DownloadService;Transmission;BitTorrent;uTorrent;qbittorrent;deluge;deluge-gtk;deluged;WebTorrent;"Resilio Sync";"ENFI下载器 Helper";aria2c_mac;pcdn_mac;</Applications>
       <Action type="Direct"/>
     </Rule>
     <Rule enabled="true">
