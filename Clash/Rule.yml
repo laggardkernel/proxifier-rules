@@ -140,7 +140,6 @@ Rule:
 - DOMAIN-SUFFIX,api.mob.app.letv.com,AsianTV
 
 # > NeteaseMusic
-- DOMAIN-SUFFIX,163yun.com,AsianTV
 - DOMAIN-SUFFIX,music.126.net,AsianTV
 - DOMAIN-SUFFIX,music.163.com,AsianTV
 
