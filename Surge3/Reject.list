@@ -292,7 +292,6 @@ DOMAIN-KEYWORD,googleads
 DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,inmobi
 DOMAIN-KEYWORD,lianmeng
-DOMAIN-KEYWORD,logger
 DOMAIN-KEYWORD,mobaders
 DOMAIN-KEYWORD,omgmta
 DOMAIN-KEYWORD,omniture
@@ -2380,7 +2379,6 @@ DOMAIN-SUFFIX,cm.baidu.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-SUFFIX,cm.ctnsnet.com
 DOMAIN-SUFFIX,cm.eyereturn.com
-DOMAIN-SUFFIX,cm.jd.com
 DOMAIN-SUFFIX,cm.mct01.com
 DOMAIN-SUFFIX,cm.netseer.com
 DOMAIN-SUFFIX,cm.p4p.cn.yahoo.com
@@ -2405,7 +2403,6 @@ DOMAIN-SUFFIX,cncy8.com
 DOMAIN-SUFFIX,cndjs-1251973891.coshk.myqcloud.com
 DOMAIN-SUFFIX,cnetdirectintl.com
 DOMAIN-SUFFIX,cnetwidget.creativemark.co.uk
-DOMAIN-SUFFIX,c-nfa.jd.com
 DOMAIN-SUFFIX,cnfanglei.com
 DOMAIN-SUFFIX,cnhbxx.com
 DOMAIN-SUFFIX,cnkok.com
@@ -3031,7 +3028,6 @@ DOMAIN-SUFFIX,dt.adsafeprotected.com
 DOMAIN-SUFFIX,d-track.send.microad-cn.com
 DOMAIN-SUFFIX,dtrk.slimcdn.com
 DOMAIN-SUFFIX,dts.akamai.startappexchange.com
-DOMAIN-SUFFIX,du.jd.com
 DOMAIN-SUFFIX,duanat.com
 DOMAIN-SUFFIX,duapp.com
 DOMAIN-SUFFIX,duapps.com
@@ -4216,7 +4212,6 @@ DOMAIN-SUFFIX,imgg.marketgid.com
 DOMAIN-SUFFIX,imgg.mgid.com
 DOMAIN-SUFFIX,imgp.cymzc.com
 DOMAIN-SUFFIX,imgsreview.dftoutiao.com
-DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,imindmap.cc
 DOMAIN-SUFFIX,immob.cn
 DOMAIN-SUFFIX,imneinei.com
@@ -4638,7 +4633,6 @@ DOMAIN-SUFFIX,jystea.com
 DOMAIN-SUFFIX,jyz.fjtzjy.com
 DOMAIN-SUFFIX,jzkapp.com
 DOMAIN-SUFFIX,jzm81.com
-DOMAIN-SUFFIX,jzt.jd.com
 DOMAIN-SUFFIX,k.85wa.cn
 DOMAIN-SUFFIX,k.ctsywy.com
 DOMAIN-SUFFIX,k1w5.me
@@ -5569,7 +5563,6 @@ DOMAIN-SUFFIX,mssp.baidu.com
 DOMAIN-SUFFIX,mstat.zol.com.cn
 DOMAIN-SUFFIX,mstzym.com
 DOMAIN-SUFFIX,msypr.com
-DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,mti.35kds.com
 DOMAIN-SUFFIX,mtj.baidu.com
 DOMAIN-SUFFIX,mtl.ttsqgs.com
@@ -8317,7 +8310,6 @@ URL-REGEX,https?://\w+.beacon.qq.com
 URL-REGEX,https?://\w+.cloudfront.net/banner
 URL-REGEX,https?://\w+.gdt.qq.com
 URL-REGEX,https?://\w+.kingsoft-office-service.com
-URL-REGEX,https?://\w+.l.qq.com
 URL-REGEX,https?://9377\w{2}.com
 URL-REGEX,https?://a0b\w{2}.com
 URL-REGEX,https?://(a?d|sax)\d.sina.com
