@@ -72,7 +72,7 @@ Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubuserconte
 ### Remote Files
 
 ````
-Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Complete.conf
+Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf
 
 
 Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
