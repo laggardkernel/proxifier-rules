@@ -262,8 +262,6 @@ DOMAIN-SUFFIX,bfshan.cn
 # REJECT
 
 # > Client
-PROCESS-NAME,Jietu
-
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,admdfs
 DOMAIN-KEYWORD,adnewnc
