@@ -1,6 +1,7 @@
 AdBlock
 Apple
 AsianTV
+DIRECT
 GlobalTV
 Telegram
 Speedtest
