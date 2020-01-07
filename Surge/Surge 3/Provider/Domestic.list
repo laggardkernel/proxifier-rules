@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
 
 # > Prior
 DOMAIN,client.amplifi.com
@@ -273,7 +276,6 @@ DOMAIN-SUFFIX,weiphone.com
 DOMAIN-SUFFIX,weiphone.net
 DOMAIN-SUFFIX,wenku8.net
 DOMAIN-SUFFIX,werewolf.53site.com
-DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,workflowy.com
 DOMAIN-SUFFIX,xdrig.com
