@@ -6,7 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  ipv6: true
+  ipv6: false
   listen: 127.0.0.1:5450
   enhanced-mode: fake-ip
   nameserver:
