@@ -8461,6 +8461,7 @@
 - DOMAIN-SUFFIX,bilibili.com,AsianTV
 - DOMAIN-SUFFIX,biligame.com,AsianTV
 - DOMAIN-SUFFIX,biligame.net,AsianTV
+- DOMAIN-SUFFIX,bilivideo.com,AsianTV
 - DOMAIN-SUFFIX,hdslb.com,AsianTV
 - DOMAIN-SUFFIX,im9.com,AsianTV
 
@@ -8486,14 +8487,11 @@
 - DOMAIN-SUFFIX,edgedatg.com,GlobalTV
 - DOMAIN-SUFFIX,go.com,GlobalTV
 
-# > AbemaTV
+# > Abema TV
 - DOMAIN-SUFFIX,abema.io,GlobalTV
+- DOMAIN-SUFFIX,akamaized.net,GlobalTV
 - DOMAIN-SUFFIX,ameba.jp,GlobalTV
 - DOMAIN-SUFFIX,hayabusa.io,GlobalTV
-- DOMAIN,abematv.akamaized.net,GlobalTV
-- DOMAIN,ds-linear-abematv.akamaized.net,GlobalTV
-- DOMAIN,ds-vod-abematv.akamaized.net,GlobalTV
-- DOMAIN,linear-abematv.akamaized.net,GlobalTV
 
 # > Amazon Prime Video
 - DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
