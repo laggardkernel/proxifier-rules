@@ -1546,7 +1546,6 @@
 - DOMAIN-SUFFIX,api.ra2.xlmc.sec.miui.com,AdBlock
 - DOMAIN-SUFFIX,api.rees46.com,AdBlock
 - DOMAIN-SUFFIX,api.rideraid.net,AdBlock
-- DOMAIN-SUFFIX,api.sec.miui.com,AdBlock
 - DOMAIN-SUFFIX,api.share.mob.com,AdBlock
 - DOMAIN-SUFFIX,api.shuzilm.cn,AdBlock
 - DOMAIN-SUFFIX,api.similarweb.com,AdBlock
@@ -5932,7 +5931,6 @@
 - DOMAIN-SUFFIX,pcsoftwords.dftoutiao.com,AdBlock
 - DOMAIN-SUFFIX,pcxzo.pluto.sogou.com,AdBlock
 - DOMAIN-SUFFIX,pd7-imp.revsci.net,AdBlock
-- DOMAIN-SUFFIX,pdc.micloud.xiaomi.net,AdBlock
 - DOMAIN-SUFFIX,pdfexpert.cc,AdBlock
 - DOMAIN-SUFFIX,pdl.gionee.com,AdBlock
 - DOMAIN-SUFFIX,pdsjycm.com,AdBlock
