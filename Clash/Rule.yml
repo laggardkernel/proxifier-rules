@@ -8558,6 +8558,7 @@
 - DOMAIN-SUFFIX,hbo.com,GlobalTV
 - DOMAIN-SUFFIX,hboasia.com,GlobalTV
 - DOMAIN-SUFFIX,hbogo.com,GlobalTV
+- DOMAIN-SUFFIX,hbogoasia.com,GlobalTV
 - DOMAIN-SUFFIX,hbogoasia.hk,GlobalTV
 
 # > Hulu
@@ -8600,7 +8601,10 @@
 - DOMAIN-SUFFIX,spoti.fi,GlobalTV
 
 # > viuTV
+- DOMAIN-SUFFIX,cloudfront.net,GlobalTV
+- DOMAIN-SUFFIX,viu.com,GlobalTV
 - DOMAIN-SUFFIX,viu.tv,GlobalTV
+- DOMAIN-SUFFIX,viu.now.com,GlobalTV
 
 # > Youtube
 - DOMAIN-KEYWORD,youtube,GlobalTV

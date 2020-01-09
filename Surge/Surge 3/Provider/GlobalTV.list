@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
 
 # > Hulu
@@ -137,7 +138,11 @@ DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 
 # > viuTV
+USER-AGENT,ViuTV*
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,viu.now.com
 
 # > Youtube
 USER-AGENT,*youtube*

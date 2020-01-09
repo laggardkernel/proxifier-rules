@@ -1,4 +1,6 @@
 # > ViuTV
 USER-AGENT,ViuTV*
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
-DOMAIN,api.viu.now.com
+DOMAIN-SUFFIX,viu.now.com
