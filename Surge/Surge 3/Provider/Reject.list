@@ -1983,7 +1983,6 @@ DOMAIN-SUFFIX,breeze.olclient.baofeng.com
 DOMAIN-SUFFIX,breezily168.com
 DOMAIN-SUFFIX,brizads.com
 DOMAIN-SUFFIX,bro.flyme.cn
-DOMAIN-SUFFIX,browser.gwdang.com
 DOMAIN-SUFFIX,bryonypie.com
 DOMAIN-SUFFIX,bs.5442.com
 DOMAIN-SUFFIX,bs.serving-sys.com
@@ -2419,7 +2418,6 @@ DOMAIN-SUFFIX,co.dtech.baofeng.com
 DOMAIN-SUFFIX,cocounion.com
 DOMAIN-SUFFIX,cod.southmoney.com
 DOMAIN-SUFFIX,code.3shangyou.com
-DOMAIN-SUFFIX,code.createjs.com
 DOMAIN-SUFFIX,code.fastclick.net
 DOMAIN-SUFFIX,code.hajuwang.cn
 DOMAIN-SUFFIX,code.hot-mob.com
@@ -6411,7 +6409,6 @@ DOMAIN-SUFFIX,rotabanner.kulichki.net
 DOMAIN-SUFFIX,rotate.ymtracking.com
 DOMAIN-SUFFIX,rotator.tradetracker.net
 DOMAIN-SUFFIX,router.bittorrent.com
-DOMAIN-SUFFIX,router.gwdang.com
 DOMAIN-SUFFIX,rovio-news-app.angrybirdsgame.com
 DOMAIN-SUFFIX,rp.crasheye.cn
 DOMAIN-SUFFIX,rp.gwallet.com
@@ -8300,7 +8297,6 @@ URL-REGEX,https?://[^bbs].tianya\.cn
 URL-REGEX,https?://\w.?up.qingdaonews.com
 URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
 URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
-URL-REGEX,https?://\w+.beacon.qq.com
 URL-REGEX,https?://\w+.cloudfront.net/banner
 URL-REGEX,https?://\w+.gdt.qq.com
 URL-REGEX,https?://\w+.kingsoft-office-service.com

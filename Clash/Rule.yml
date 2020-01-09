@@ -1978,7 +1978,6 @@
 - DOMAIN-SUFFIX,breezily168.com,AdBlock
 - DOMAIN-SUFFIX,brizads.com,AdBlock
 - DOMAIN-SUFFIX,bro.flyme.cn,AdBlock
-- DOMAIN-SUFFIX,browser.gwdang.com,AdBlock
 - DOMAIN-SUFFIX,bryonypie.com,AdBlock
 - DOMAIN-SUFFIX,bs.5442.com,AdBlock
 - DOMAIN-SUFFIX,bs.serving-sys.com,AdBlock
@@ -2414,7 +2413,6 @@
 - DOMAIN-SUFFIX,cocounion.com,AdBlock
 - DOMAIN-SUFFIX,cod.southmoney.com,AdBlock
 - DOMAIN-SUFFIX,code.3shangyou.com,AdBlock
-- DOMAIN-SUFFIX,code.createjs.com,AdBlock
 - DOMAIN-SUFFIX,code.fastclick.net,AdBlock
 - DOMAIN-SUFFIX,code.hajuwang.cn,AdBlock
 - DOMAIN-SUFFIX,code.hot-mob.com,AdBlock
@@ -6407,7 +6405,6 @@
 - DOMAIN-SUFFIX,rotate.ymtracking.com,AdBlock
 - DOMAIN-SUFFIX,rotator.tradetracker.net,AdBlock
 - DOMAIN-SUFFIX,router.bittorrent.com,AdBlock
-- DOMAIN-SUFFIX,router.gwdang.com,AdBlock
 - DOMAIN-SUFFIX,rovio-news-app.angrybirdsgame.com,AdBlock
 - DOMAIN-SUFFIX,rp.crasheye.cn,AdBlock
 - DOMAIN-SUFFIX,rp.gwallet.com,AdBlock
@@ -8667,19 +8664,6 @@
 
 
 
-# > Apple
-- DOMAIN,Apple.comscoreresearch.com,Apple
-- DOMAIN-SUFFIX,Apple.cn,Apple
-- DOMAIN-SUFFIX,Apple.com,Apple
-- DOMAIN-SUFFIX,Apple.news,Apple
-- DOMAIN-SUFFIX,icloud.com,Apple
-- DOMAIN-SUFFIX,icloud-content.com,Apple
-- DOMAIN-SUFFIX,itunes.com,Apple
-- DOMAIN-SUFFIX,me.com,Apple
-- DOMAIN-SUFFIX,mzstatic.com,Apple
-
-
-
 # > Line
 - DOMAIN-SUFFIX,lin.ee,Proxy
 - DOMAIN-SUFFIX,line.me,Proxy
@@ -9069,6 +9053,7 @@
 - DOMAIN-SUFFIX,scribd.com,Proxy
 - DOMAIN-SUFFIX,search.com,Proxy
 - DOMAIN-SUFFIX,servebom.com,Proxy
+- DOMAIN-SUFFIX,sexinsex.net,Proxy
 - DOMAIN-SUFFIX,sfx.ms,Proxy
 - DOMAIN-SUFFIX,shadowsocks.org,Proxy
 - DOMAIN-SUFFIX,shadowverse.jp,Proxy
@@ -9716,8 +9701,21 @@
 - IP-CIDR,1.255.62.0/24,Domestic
 
 
-- DOMAIN,dler.cloud,DIRECT
 
+# > Apple
+- DOMAIN,Apple.comscoreresearch.com,Apple
+- DOMAIN-SUFFIX,Apple.cn,Apple
+- DOMAIN-SUFFIX,Apple.com,Apple
+- DOMAIN-SUFFIX,Apple.news,Apple
+- DOMAIN-SUFFIX,icloud.com,Apple
+- DOMAIN-SUFFIX,icloud-content.com,Apple
+- DOMAIN-SUFFIX,itunes.com,Apple
+- DOMAIN-SUFFIX,me.com,Apple
+- DOMAIN-SUFFIX,mzstatic.com,Apple
+
+
+
+- DOMAIN,dler.cloud,DIRECT
 
 # > Private Tracker
 - DOMAIN-SUFFIX,awesome-hd.me,DIRECT
