@@ -66,7 +66,7 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 ### JSBox
 
 ````
-Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/Fndroid/jsbox_script/master/Rules-lhie1/.output/Rules-lhie1.box
+Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/lhie1/Rules/master/JSBox/Rules-lhie1.box
 ````
 
 ---
