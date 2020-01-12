@@ -1,6 +1,6 @@
 const knownURLs = [
     {domain: 'api.rixcloud.io', name: 'rixCloud'},
-    {domain: 'www.muncloud.net', name: 'MunCloud'}
+    {domain: 'dler.cloud', name: 'Dler Cloud'}
 ]
 
 function getConfName(url) {

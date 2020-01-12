@@ -2559,7 +2559,7 @@ function makeConf(params) {
       }
 
       if (testflight && !rulesReplacement) {
-        let autoNewPrefix = 'https://raw.githubusercontent.com/lhie1/Rules/master/Surge3'
+        let autoNewPrefix = 'https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider'
         v[1] = `RULE-SET,SYSTEM,DIRECT\nRULE-SET,${autoNewPrefix}/Apple.list,🍎 Only`
         v[2] = ads ? `RULE-SET,${autoNewPrefix}/Reject.list,REJECT` : ''
         v[3] = `RULE-SET,${autoNewPrefix}/AsianTV.list,🍂 Domestic\nRULE-SET,${autoNewPrefix}/GlobalTV.list,🍃 Proxy\nRULE-SET,${autoNewPrefix}/Proxy.list,🍃 Proxy`
