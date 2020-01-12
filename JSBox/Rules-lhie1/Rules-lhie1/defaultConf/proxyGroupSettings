@@ -1,0 +1,10 @@
+[Proxy Group]
+🍃 Proxy = select,🏃 Auto,🚀 Direct,Proxy Header
+
+🍂 Domestic = select,🚀 Direct,🍃 Proxy
+
+🍎 Only = select,🚀 Direct,Proxy Header
+
+☁️ Others =  select,🚀 Direct,🍃 Proxy
+
+🏃 Auto = url-test,ProxyHeader,url = http://www.gstatic.com/generate_204,interval = 1200
