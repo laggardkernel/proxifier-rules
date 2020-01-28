@@ -4752,7 +4752,6 @@
 - DOMAIN-SUFFIX,lashou1000.com,AdBlock
 - DOMAIN-SUFFIX,lb.gtimg.com,AdBlock
 - DOMAIN-SUFFIX,lb.statsevent.com,AdBlock
-- DOMAIN-SUFFIX,lbs.map.qq.com,AdBlock
 - DOMAIN-SUFFIX,lbstatic-a.akamaihd.net,AdBlock
 - DOMAIN-SUFFIX,lbszb.tongbu.com,AdBlock
 - DOMAIN-SUFFIX,lc.jiathis.com,AdBlock
@@ -7426,7 +7425,6 @@
 - DOMAIN-SUFFIX,updatecenter.qq.com,AdBlock
 - DOMAIN-SUFFIX,updatepage.kuwo.cn,AdBlock
 - DOMAIN-SUFFIX,updates-s3.binaryage.com,AdBlock
-- DOMAIN-SUFFIX,up-hl.3g.qq.com,AdBlock
 - DOMAIN-SUFFIX,uplze.code.weddingeeos.com,AdBlock
 - DOMAIN-SUFFIX,ups.ksmobile.net,AdBlock
 - DOMAIN-SUFFIX,upush.res.meizu.com,AdBlock
@@ -9740,7 +9738,7 @@
 - DOMAIN-SUFFIX,totheglory.im,DIRECT
 
 # > Accelerate direct sites
-- DOMAIN-KEYWORD,announce,DIRECT 
+- DOMAIN-KEYWORD,announce,DIRECT
 - DOMAIN-KEYWORD,torrent,DIRECT
 - DOMAIN-KEYWORD,tracker,DIRECT
 - DOMAIN-SUFFIX,smtp,DIRECT
