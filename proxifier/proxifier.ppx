@@ -105,7 +105,6 @@
                 *guanggao*;
                 *inmobi*;
                 *lianmeng*;
-                *logger*;
                 *mobaders*;
                 *omgmta*;
                 *omniture*;
@@ -547,12 +546,6 @@
                 <!-- letv -->
                 *.api.mob.app.letv.com;
 
-                <!-- NeteaseMusic -->
-                *.127.net;
-                *.163yun.com;
-                *.music.163.com;
-                *.music.126.net.*;
-
                 <!-- Tencent Video -->
                 *.vv.video.qq.com;
 
@@ -563,7 +556,17 @@
             <Action type="Direct"/>
         </Rule>
         <Rule enabled="true">
-            <Name>Direct-China-Media-App</Name>
+            <Name>Netease-Music-Domains</Name>
+            <Tragets>
+                <!-- NeteaseMusic -->
+                *.music.163.com;
+                *.music.126.net.*;
+
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Netease-Muisc-App</Name>
             <Applications>
                 NeteaseMusic;
 
@@ -796,6 +799,7 @@
                 *.haosou.com;
                 *.hdchina.org;
                 *.hdcmct.org;
+                *.hkserversolution.com;
                 *.hollisterco.com;
                 *.hongxiu.com;
                 *.hxcdn.net;
@@ -904,7 +908,6 @@
                 *.tietuku.com;
                 *.tmall.com;
                 *.tmzvps.com;
-                *.tonymacx86.com;
                 *.trello.com;
                 *.trellocdn.com;
                 *.totheglory.im;
@@ -7587,6 +7590,7 @@
                 Dropbox;
                 LINE;
                 node-webkit;
+                OneDrive;
                 Spotify;
                 Tweetbot;
                 Twitter;
@@ -7635,6 +7639,14 @@
 
                 <!-- CHOCO TV -->
                 *.chocotv.com.tw;
+
+                <!-- Disney -->
+                cdn.registerdisney.go.com;
+                *.disneyplus.com;
+                *.disney-plus.net;
+                *.dssott.com;
+                *.bamgrid.com;
+                *.execute-api.us-east-1.amazonaws.com;
 
                 <!-- encoreTVB -->
                 *.encoretvb.com;
@@ -7797,6 +7809,9 @@
         <Rule enabled="true">
             <Name>Proxy-Speedtest</Name>
             <Targets>
+                <!-- Fast -->
+                *.fast.com;
+
                 <!-- Speedtest -->
                 *speedtest*;
                 *.ooklaserver.net;
@@ -7967,7 +7982,6 @@
                 *.extmatrix.com;
                 *.eyny.com;
                 *.fabric.io;
-                *.fast.com;
                 *.fastly.net;
                 *.fastmail.com;
                 *.fc2.com;
@@ -8467,7 +8481,6 @@
                 *.v2ex.com;
 
                 *dlercloud*;
-                *.dler.cloud;
 
             </Targets>
             <Action type="Proxy">100</Action>
