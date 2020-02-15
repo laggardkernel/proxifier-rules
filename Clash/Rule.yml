@@ -8668,14 +8668,18 @@
 - DOMAIN-SUFFIX,nhncorp.jp,Proxy
 
 # > Microsoft
-- DOMAIN-KEYWORD,microsoft,Proxy
-- DOMAIN-SUFFIX,hotmail.com,Proxy
-- DOMAIN-SUFFIX,live.com,Proxy
-- DOMAIN-SUFFIX,live.net,Proxy
-- DOMAIN-SUFFIX,msn.com,Proxy
-- DOMAIN-SUFFIX,office.com,Proxy
-- DOMAIN-SUFFIX,office.net,Proxy
-- DOMAIN-SUFFIX,outlook.com,Proxy
+- DOMAIN-KEYWORD,microsoft,Microsoft
+- DOMAIN-SUFFIX,azure.com,Microsoft
+- DOMAIN-SUFFIX,hotmail.com,Microsoft
+- DOMAIN-SUFFIX,live.com,Microsoft
+- DOMAIN-SUFFIX,live.net,Microsoft
+- DOMAIN-SUFFIX,msn.com,Microsoft
+- DOMAIN-SUFFIX,office.com,Microsoft
+- DOMAIN-SUFFIX,office.net,Microsoft
+- DOMAIN-SUFFIX,outlook.com,Microsoft
+- DOMAIN-SUFFIX,windows.com,Microsoft
+- DOMAIN-SUFFIX,windows.net,Microsoft
+- DOMAIN-SUFFIX,windowsupdate.com,Microsoft
 
 # > Spark
 - DOMAIN-SUFFIX,api.amplitude.com,Proxy
