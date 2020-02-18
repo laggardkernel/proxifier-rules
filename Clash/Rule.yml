@@ -8725,6 +8725,7 @@
 - DOMAIN-SUFFIX,aol.com,Proxy
 - DOMAIN-SUFFIX,aolcdn.com,Proxy
 - DOMAIN-SUFFIX,api.mixpanel.com,Proxy
+- DOMAIN-SUFFIX,api.termius.com,Proxy
 - DOMAIN-SUFFIX,api.tiktokv.com,Proxy
 - DOMAIN-SUFFIX,api.urbandictionary.com,Proxy
 - DOMAIN-SUFFIX,apigee.com,Proxy
@@ -9472,7 +9473,6 @@
 - DOMAIN-SUFFIX,amap.com,Domestic
 - DOMAIN-SUFFIX,apache.org,Domestic
 - DOMAIN-SUFFIX,api.crisp.chat,Domestic
-- DOMAIN-SUFFIX,api.termius.com,Domestic
 - DOMAIN-SUFFIX,appshike.com,Domestic
 - DOMAIN-SUFFIX,appstore.com,Domestic
 - DOMAIN-SUFFIX,autonavi.com,Domestic
