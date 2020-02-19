@@ -1,13 +1,3 @@
-# > UA
-USER-AGENT,hide*
-USER-AGENT,MicroMessenger*
-USER-AGENT,PayPal*
-USER-AGENT,TeamViewer*
-USER-AGENT,TIM*
-USER-AGENT,ting_en
-USER-AGENT,WebTorrent*
-USER-AGENT,WeChat*
-
 # > Beplay
 DOMAIN-KEYWORD,beplay
 
@@ -29,10 +19,6 @@ DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-
-# > Steam
-USER-AGENT,Steam*
-DOMAIN-SUFFIX,steamcontent.com
 
 # > TeamViewer
 IP-CIDR,185.188.32.0/24,no-resolve

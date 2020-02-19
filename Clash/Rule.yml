@@ -8677,6 +8677,7 @@
 - DOMAIN-SUFFIX,office.com,Microsoft
 - DOMAIN-SUFFIX,office.net,Microsoft
 - DOMAIN-SUFFIX,outlook.com,Microsoft
+- DOMAIN-SUFFIX,skype.com,Microsoft
 - DOMAIN-SUFFIX,windows.com,Microsoft
 - DOMAIN-SUFFIX,windows.net,Microsoft
 - DOMAIN-SUFFIX,windowsupdate.com,Microsoft
@@ -8688,11 +8689,13 @@
 - DOMAIN-SUFFIX,smartmailcloud.com,Proxy
 
 # > Steam
-- DOMAIN-SUFFIX,fanatical.com,Proxy
-- DOMAIN-SUFFIX,humblebundle.com,Proxy
-- DOMAIN-SUFFIX,steamcommunity.com,Proxy
-- DOMAIN-SUFFIX,steampowered.com,Proxy
-- DOMAIN-SUFFIX,steamstatic.com,Proxy
+- DOMAIN-SUFFIX,steamcontent.com,DIRECT
+
+- DOMAIN-SUFFIX,fanatical.com,Steam
+- DOMAIN-SUFFIX,humblebundle.com,Steam
+- DOMAIN-SUFFIX,steamcommunity.com,Steam
+- DOMAIN-SUFFIX,steampowered.com,Steam
+- DOMAIN-SUFFIX,steamstatic.com,Steam
 
 # > Top blocked sites
 - DOMAIN-SUFFIX,2o7.net,Proxy
@@ -9063,7 +9066,6 @@
 - DOMAIN-SUFFIX,simp.ly,Proxy
 - DOMAIN-SUFFIX,simplenote.com,Proxy
 - DOMAIN-SUFFIX,sketchappsources.com,Proxy
-- DOMAIN-SUFFIX,skype.com,Proxy
 - DOMAIN-SUFFIX,slack.com,Proxy
 - DOMAIN-SUFFIX,slack-edge.com,Proxy
 - DOMAIN-SUFFIX,slack-msgs.com,Proxy
@@ -9432,9 +9434,6 @@
 - DOMAIN-SUFFIX,playstationnetwork.com,Domestic
 - DOMAIN-SUFFIX,sony.com,Domestic
 - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Domestic
-
-# > Steam
-- DOMAIN-SUFFIX,steamcontent.com,Domestic
 
 # > TeamViewer
 - IP-CIDR,185.188.32.0/24,Domestic
