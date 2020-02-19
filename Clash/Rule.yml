@@ -8711,7 +8711,6 @@
 - DOMAIN-SUFFIX,aerisapi.com,Proxy
 - DOMAIN-SUFFIX,akamaihd.net,Proxy
 - DOMAIN-SUFFIX,airtable.com,Proxy
-- DOMAIN-SUFFIX,alibabacloud.com,Proxy
 - DOMAIN-SUFFIX,alfredapp.com,Proxy
 - DOMAIN-SUFFIX,allconnected.co,Proxy
 - DOMAIN-SUFFIX,amazon.com,Proxy
@@ -9466,6 +9465,7 @@
 - DOMAIN-SUFFIX,air-matters.io,Domestic
 - DOMAIN-SUFFIX,aixifan.com,Domestic
 - DOMAIN-SUFFIX,akadns.net,Domestic
+- DOMAIN-SUFFIX,alibabacloud.com,Domestic
 - DOMAIN-SUFFIX,alicdn.com,Domestic
 - DOMAIN-SUFFIX,alipay.com,Domestic
 - DOMAIN-SUFFIX,alipayobjects.com,Domestic
