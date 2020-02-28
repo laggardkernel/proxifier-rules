@@ -6,6 +6,20 @@ DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
+# > Microsoft
+DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+
 # > Prior
 DOMAIN,client.amplifi.com
 DOMAIN,ip.bjango.com
@@ -29,9 +43,6 @@ IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
-
-# Domestic
-DOMAIN-KEYWORD,mtalk.google.com
 
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
@@ -182,7 +193,6 @@ DOMAIN-SUFFIX,pgyer.com
 DOMAIN-SUFFIX,pniao.com
 DOMAIN-SUFFIX,privatehd.to
 DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,pt.m-team.cc
 DOMAIN-SUFFIX,qbox.me
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qdaily.com

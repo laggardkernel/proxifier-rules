@@ -7,6 +7,11 @@ DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,nhncorp.jp
 
+# > Microsoft
+USER-AGENT,OneDrive*
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,skype.com
+
 # > Spark
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,app.smartmailcloud.com
