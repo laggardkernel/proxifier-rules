@@ -6,6 +6,7 @@ DOMAIN-KEYWORD,mtalk.google.com
 DOMAIN,safebrowsing.googleapis.com
 
 # > Steam
+USER-AGENT,Steam*
 DOMAIN-SUFFIX,steamcontent.com
 
 # > Private Tracker

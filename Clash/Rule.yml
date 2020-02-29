@@ -8667,6 +8667,7 @@
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
 
 # > Steam
+# - USER-AGENT,Steam*,DIRECT
 - DOMAIN-SUFFIX,steamcontent.com,DIRECT
 
 # > Private Tracker
