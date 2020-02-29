@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,nhncorp.jp
 
 # > Microsoft
 USER-AGENT,OneDrive*
+DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,skype.com
 

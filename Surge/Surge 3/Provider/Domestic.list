@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
 # > Microsoft
-DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com

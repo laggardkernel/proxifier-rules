@@ -8718,6 +8718,7 @@
 
 # > Microsoft
 # - USER-AGENT,OneDrive*,Proxy
+- DOMAIN-KEYWORD,microsoft,Proxy
 - DOMAIN-SUFFIX,onedrive.live.com,Proxy
 - DOMAIN-SUFFIX,skype.com,Proxy
 
@@ -9454,7 +9455,6 @@
 - DOMAIN-SUFFIX,blizzard.com,Domestic
 
 # > Microsoft
-- DOMAIN-KEYWORD,microsoft,Domestic
 - DOMAIN-SUFFIX,azure.com,Domestic
 - DOMAIN-SUFFIX,hotmail.com,Domestic
 - DOMAIN-SUFFIX,live.com,Domestic
