@@ -863,7 +863,6 @@
 - DOMAIN-SUFFIX,ab-gb.mgid.com,AdBlock
 - DOMAIN-SUFFIX,abtest.mistat.xiaomi.com,AdBlock
 - DOMAIN-SUFFIX,ac.atpanel.com,AdBlock
-- DOMAIN-SUFFIX,ac.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,ac2.msn.com,AdBlock
 - DOMAIN-SUFFIX,ac3.msn.com,AdBlock
 - DOMAIN-SUFFIX,acasys88.cn,AdBlock
@@ -3735,7 +3734,6 @@
 - DOMAIN-SUFFIX,go.gotourl.xyz,AdBlock
 - DOMAIN-SUFFIX,go.gotourls.bid,AdBlock
 - DOMAIN-SUFFIX,go.hangzhou.com.cn,AdBlock
-- DOMAIN-SUFFIX,go.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,go.onclasrv.com,AdBlock
 - DOMAIN-SUFFIX,go.util.zlibs.com,AdBlock
 - DOMAIN-SUFFIX,godloveme.cn,AdBlock
@@ -3797,7 +3795,6 @@
 - DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn,AdBlock
 - DOMAIN-SUFFIX,gw630.com,AdBlock
 - DOMAIN-SUFFIX,gx38.cn,AdBlock
-- DOMAIN-SUFFIX,gxb.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,gxdhgb.com,AdBlock
 - DOMAIN-SUFFIX,gxe.husky.sogou.com,AdBlock
 - DOMAIN-SUFFIX,gyca9f.dahuangcheng.cn,AdBlock
@@ -3985,7 +3982,6 @@
 - DOMAIN-SUFFIX,hytgj.com,AdBlock
 - DOMAIN-SUFFIX,hyz86.com,AdBlock
 - DOMAIN-SUFFIX,hz.miercn.com,AdBlock
-- DOMAIN-SUFFIX,hz.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,hz.shouyoutv.com,AdBlock
 - DOMAIN-SUFFIX,hzaibi.com,AdBlock
 - DOMAIN-SUFFIX,hzdmacore.kejet.net,AdBlock
@@ -5450,7 +5446,6 @@
 - DOMAIN-SUFFIX,mmcc.yxlady.com,AdBlock
 - DOMAIN-SUFFIX,mmg.aty.cp45.ott.cibntv.net,AdBlock
 - DOMAIN-SUFFIX,mmg.aty.snmsohu.aisee.tv,AdBlock
-- DOMAIN-SUFFIX,mmstat.com,AdBlock
 - DOMAIN-SUFFIX,mng-ads.com,AdBlock
 - DOMAIN-SUFFIX,mnkan.com,AdBlock
 - DOMAIN-SUFFIX,mnwan.com,AdBlock
@@ -5844,7 +5839,6 @@
 - DOMAIN-SUFFIX,p215223.inclk.com,AdBlock
 - DOMAIN-SUFFIX,p215223.mycdn2.co,AdBlock
 - DOMAIN-SUFFIX,p2pmid.baofeng.com,AdBlock
-- DOMAIN-SUFFIX,p3p.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,p3p.sogou.com,AdBlock
 - DOMAIN-SUFFIX,p3p.yahoo.com,AdBlock
 - DOMAIN-SUFFIX,p3tt.com,AdBlock
@@ -6352,7 +6346,6 @@
 - DOMAIN-SUFFIX,res.dxpmedia.com,AdBlock
 - DOMAIN-SUFFIX,res.icast.cn,AdBlock
 - DOMAIN-SUFFIX,res.ipingke.com,AdBlock
-- DOMAIN-SUFFIX,res.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,res.qhupdate.com,AdBlock
 - DOMAIN-SUFFIX,res3.feedsportal.com,AdBlock
 - DOMAIN-SUFFIX,rescn.u3.ucweb.com,AdBlock
@@ -7664,7 +7657,6 @@
 - DOMAIN-SUFFIX,wgie.0z5jn.cn,AdBlock
 - DOMAIN-SUFFIX,wgnlz.com,AdBlock
 - DOMAIN-SUFFIX,wgnmp.com,AdBlock
-- DOMAIN-SUFFIX,wgo.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,whafwl.com,AdBlock
 - DOMAIN-SUFFIX,whalecloud.com,AdBlock
 - DOMAIN-SUFFIX,whcrdz.com,AdBlock
@@ -8104,7 +8096,6 @@
 - DOMAIN-SUFFIX,ysjwj.com,AdBlock
 - DOMAIN-SUFFIX,ysm.hauchi.com.tw,AdBlock
 - DOMAIN-SUFFIX,ysm.yahoo.com,AdBlock
-- DOMAIN-SUFFIX,yt.mmstat.com,AdBlock
 - DOMAIN-SUFFIX,yt-adp.nosdn.127.net,AdBlock
 - DOMAIN-SUFFIX,ytapi1.nagezan.net,AdBlock
 - DOMAIN-SUFFIX,ytdksb.com,AdBlock
