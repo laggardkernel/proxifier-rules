@@ -8711,8 +8711,12 @@
 # - USER-AGENT,OneDrive*,Proxy
 - DOMAIN-KEYWORD,microsoft,Proxy
 - DOMAIN-KEYWORD,onedrive,Proxy
+- DOMAIN-SUFFIX,azure.com,Proxy
+- DOMAIN-SUFFIX,live.com,Proxy
+- DOMAIN-SUFFIX,live.net,Proxy
+- DOMAIN-SUFFIX,office.com,Proxy
+- DOMAIN-SUFFIX,office.net,Proxy
 - DOMAIN-SUFFIX,skype.com,Proxy
-- DOMAIN-SUFFIX,storage.live.com,Proxy
 
 # > Spark
 - DOMAIN-SUFFIX,api.amplitude.com,Proxy
@@ -9446,13 +9450,9 @@
 - DOMAIN-SUFFIX,blizzard.com,Domestic
 
 # > Microsoft
-- DOMAIN-SUFFIX,azure.com,Domestic
+- DOMAIN-SUFFIX,azure.cn,Domestic
 - DOMAIN-SUFFIX,hotmail.com,Domestic
-- DOMAIN-SUFFIX,live.com,Domestic
-- DOMAIN-SUFFIX,live.net,Domestic
 - DOMAIN-SUFFIX,msn.com,Domestic
-- DOMAIN-SUFFIX,office.com,Domestic
-- DOMAIN-SUFFIX,office.net,Domestic
 - DOMAIN-SUFFIX,outlook.com,Domestic
 - DOMAIN-SUFFIX,windows.com,Domestic
 - DOMAIN-SUFFIX,windows.net,Domestic

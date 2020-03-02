@@ -11,8 +11,12 @@ DOMAIN-SUFFIX,nhncorp.jp
 USER-AGENT,OneDrive*
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,storage.live.com
 
 # > Spark
 DOMAIN-SUFFIX,api.amplitude.com
