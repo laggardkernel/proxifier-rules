@@ -8710,8 +8710,9 @@
 # > Microsoft
 # - USER-AGENT,OneDrive*,Proxy
 - DOMAIN-KEYWORD,microsoft,Proxy
-- DOMAIN-SUFFIX,onedrive.live.com,Proxy
+- DOMAIN-KEYWORD,onedrive,Proxy
 - DOMAIN-SUFFIX,skype.com,Proxy
+- DOMAIN-SUFFIX,storage.live.com,Proxy
 
 # > Spark
 - DOMAIN-SUFFIX,api.amplitude.com,Proxy
@@ -9025,7 +9026,6 @@
 - DOMAIN-SUFFIX,nytstyle.com,Proxy
 - DOMAIN-SUFFIX,office365.com,Proxy
 - DOMAIN-SUFFIX,omnigroup.com,Proxy
-- DOMAIN-SUFFIX,onedrive.com,Proxy
 - DOMAIN-SUFFIX,onenote.com,Proxy
 - DOMAIN-SUFFIX,ooyala.com,Proxy
 - DOMAIN-SUFFIX,openvpn.net,Proxy
