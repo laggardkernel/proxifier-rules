@@ -1715,7 +1715,6 @@
 - DOMAIN-SUFFIX,b.aowugame.com,AdBlock
 - DOMAIN-SUFFIX,b.babylon.com,AdBlock
 - DOMAIN-SUFFIX,b.baiy.net,AdBlock
-- DOMAIN-SUFFIX,b.bdstatic.com,AdBlock
 - DOMAIN-SUFFIX,b.bst.126.net,AdBlock
 - DOMAIN-SUFFIX,b.clkservice.youdao.com,AdBlock
 - DOMAIN-SUFFIX,b.code.tanwanyx.com,AdBlock
@@ -8476,6 +8475,7 @@
 # - USER-AGENT,InstantVideo.US*,GlobalTV
 # - USER-AGENT,Prime%20Video*,GlobalTV
 - DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
+- DOMAIN-SUFFIX,amazonaws.co.uk,GlobalTV
 - DOMAIN-SUFFIX,amazonaws.com,GlobalTV
 - DOMAIN-SUFFIX,amazonvideo.com,GlobalTV
 - DOMAIN-SUFFIX,llnwd.net,GlobalTV
@@ -9272,6 +9272,7 @@
 - DOMAIN-SUFFIX,wn.com,Proxy
 - DOMAIN-SUFFIX,wordpress.com,Proxy
 - DOMAIN-SUFFIX,workflow.is,Proxy
+- DOMAIN-SUFFIX,workflowy.com,Proxy
 - DOMAIN-SUFFIX,worldcat.org,Proxy
 - DOMAIN-SUFFIX,wow.com,Proxy
 - DOMAIN-SUFFIX,wp.com,Proxy
@@ -9578,7 +9579,6 @@
 - DOMAIN-SUFFIX,iciba.com,Domestic
 - DOMAIN-SUFFIX,ifeng.com,Domestic
 - DOMAIN-SUFFIX,ifengimg.com,Domestic
-- DOMAIN-SUFFIX,images.unsplash.com,Domestic
 - DOMAIN-SUFFIX,images-amazon.com,Domestic
 - DOMAIN-SUFFIX,img4me.com,Domestic
 - DOMAIN-SUFFIX,ipify.org,Domestic
