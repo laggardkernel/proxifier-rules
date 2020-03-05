@@ -44,6 +44,11 @@ DOMAIN-SUFFIX,bbci.co.uk
 USER-AGENT,TwDramas*
 DOMAIN-SUFFIX,chocotv.com.tw
 
+# > DAZN
+DOMAIN-SUFFIX,dazn.com
+DOMAIN-SUFFIX,dazn-api.com
+DOMAIN-SUFFIX,indazn.com
+
 # > Disney Plus
 USER-AGENT,Disney*
 DOMAIN,cdn.registerdisney.go.com
