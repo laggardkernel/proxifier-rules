@@ -8592,6 +8592,8 @@
 
 # > SoundCloud
 # - USER-AGENT,SoundCloud*,GlobalTV
+- DOMAIN-SUFFIX,sndcdn.com,GlobalTV
+- DOMAIN-SUFFIX,soundcloud.com,GlobalTV
 
 # > viuTV
 - DOMAIN-SUFFIX,cloudfront.net,GlobalTV
