@@ -8615,6 +8615,7 @@
 - DOMAIN-SUFFIX,nflximg.net,Netflix
 - DOMAIN-SUFFIX,nflxso.net,Netflix
 - DOMAIN-SUFFIX,nflxvideo.net,Netflix
+- IP-CIDR,23.246.56.0/24,Netflix
 - IP-CIDR,23.246.57.0/24,Netflix
 
 # > Spotify
