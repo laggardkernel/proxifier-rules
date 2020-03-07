@@ -8661,9 +8661,6 @@
 
 
 
-# > Dler Cloud
-- DOMAIN,dler.cloud,DIRECT
-
 # > Google
 - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
