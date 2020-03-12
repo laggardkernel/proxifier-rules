@@ -8739,6 +8739,13 @@
 - DOMAIN-SUFFIX,office.net,Proxy
 - DOMAIN-SUFFIX,skype.com,Proxy
 
+# > Sony
+- DOMAIN-SUFFIX,playstation.com,Proxy
+- DOMAIN-SUFFIX,playstation.net,Proxy
+- DOMAIN-SUFFIX,playstationnetwork.com,Proxy
+- DOMAIN-SUFFIX,sony.com,Proxy
+- DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Proxy
+
 # > Spark
 - DOMAIN-SUFFIX,api.amplitude.com,Proxy
 - DOMAIN-SUFFIX,app.smartmailcloud.com,Proxy
@@ -9485,13 +9492,6 @@
 - DOMAIN,ip.bjango.com,Domestic
 - DOMAIN-SUFFIX,alphassl.com,Domestic
 - DOMAIN-SUFFIX,edu.cn,Domestic
-
-# > Sony
-- DOMAIN-SUFFIX,playstation.com,Domestic
-- DOMAIN-SUFFIX,playstation.net,Domestic
-- DOMAIN-SUFFIX,playstationnetwork.com,Domestic
-- DOMAIN-SUFFIX,sony.com,Domestic
-- DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Domestic
 
 # > TeamViewer
 - IP-CIDR,185.188.32.0/24,Domestic
