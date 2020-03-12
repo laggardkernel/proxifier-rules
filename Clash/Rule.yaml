@@ -8667,7 +8667,7 @@
 
 
 # > PayPal
-- USER-AGENT,PayPal*,PayPal
+# - USER-AGENT,PayPal*,PayPal
 - DOMAIN-KEYWORD,paypal,PayPal
 - DOMAIN-SUFFIX,paypal.com,PayPal
 - DOMAIN-SUFFIX,paypalobjects.com,PayPal
