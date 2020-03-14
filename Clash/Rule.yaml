@@ -8480,12 +8480,12 @@
 # - USER-AGENT,AppleNews*,GlobalTV
 # - USER-AGENT,com.apple.news*,GlobalTV
 - DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
-# # - USER-AGENT,News*,GlobalTV
-# DOMAIN,apple.comscoreresearch.com,GlobalTV
-# DOMAIN,gateway.icloud.com,GlobalTV
-# DOMAIN,news-client.apple.com,GlobalTV
-# DOMAIN,news-edge.apple.com,GlobalTV
-# DOMAIN,news-events.apple.com,GlobalTV
+# - USER-AGENT,News*,GlobalTV
+# - DOMAIN,apple.comscoreresearch.com,GlobalTV
+# - DOMAIN,gateway.icloud.com,GlobalTV
+# - DOMAIN,news-client.apple.com,GlobalTV
+# - DOMAIN,news-edge.apple.com,GlobalTV
+# - DOMAIN,news-events.apple.com,GlobalTV
 # - DOMAIN-SUFFIX,apple.news,GlobalTV
 
 # > Apple TV
