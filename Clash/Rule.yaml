@@ -8479,7 +8479,7 @@
 # > Apple News and Apple Map TOMTOM Version
 # - USER-AGENT,AppleNews*,GlobalTV
 # - USER-AGENT,com.apple.news*,GlobalTV
-DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
+- DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
 # # - USER-AGENT,News*,GlobalTV
 # DOMAIN,apple.comscoreresearch.com,GlobalTV
 # DOMAIN,gateway.icloud.com,GlobalTV
@@ -8489,8 +8489,8 @@ DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
 # - DOMAIN-SUFFIX,apple.news,GlobalTV
 
 # > Apple TV
-DOMAIN,np-edge.itunes.apple.com,GlobalTV
-DOMAIN,play-edge.itunes.apple.com,GlobalTV
+- DOMAIN,np-edge.itunes.apple.com,GlobalTV
+- DOMAIN,play-edge.itunes.apple.com,GlobalTV
 - DOMAIN-SUFFIX,tv.apple.com,GlobalTV
 
 # > Bahamut
@@ -8521,13 +8521,13 @@ DOMAIN,play-edge.itunes.apple.com,GlobalTV
 - DOMAIN-SUFFIX,dssott.com,GlobalTV
 - DOMAIN-SUFFIX,bamgrid.com,GlobalTV
 - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GlobalTV
-DOMAIN,cdn.registerdisney.go.com,GlobalTV
+- DOMAIN,cdn.registerdisney.go.com,GlobalTV
 
 # > encoreTVB
 # - USER-AGENT,encoreTVB*,GlobalTV
 - DOMAIN-SUFFIX,encoretvb.com,GlobalTV
-DOMAIN,content.jwplatform.com,GlobalTV
-DOMAIN,videos-f.jwpsrv.com,GlobalTV
+- DOMAIN,content.jwplatform.com,GlobalTV
+- DOMAIN,videos-f.jwpsrv.com,GlobalTV
 
 # > Fox Now
 # - USER-AGENT,FOX%20NOW*,GlobalTV
