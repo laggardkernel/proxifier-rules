@@ -8707,6 +8707,9 @@
 
 
 
+# > CN
+- DOMAIN-SUFFIX,cn
+
 # > Google
 - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
@@ -8808,6 +8811,7 @@
 - DOMAIN-SUFFIX,airtable.com,Proxy
 - DOMAIN-SUFFIX,alfredapp.com,Proxy
 - DOMAIN-SUFFIX,allconnected.co,Proxy
+- DOMAIN-SUFFIX,amazon.co,Proxy
 - DOMAIN-SUFFIX,amazon.com,Proxy
 - DOMAIN-SUFFIX,amazonaws.com,Proxy
 - DOMAIN-SUFFIX,ampproject.com,Proxy
@@ -9814,6 +9818,7 @@
 - DOMAIN-SUFFIX,Apple.news,Apple
 - DOMAIN-SUFFIX,cdn-apple.com,Apple
 - DOMAIN-SUFFIX,icloud.com,Apple
+- DOMAIN-SUFFIX,icloud.com.cn,Apple
 - DOMAIN-SUFFIX,icloud-content.com,Apple
 - DOMAIN-SUFFIX,itunes.com,Apple
 - DOMAIN-SUFFIX,me.com,Apple
