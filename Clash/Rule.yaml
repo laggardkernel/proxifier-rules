@@ -8708,7 +8708,7 @@
 
 
 # > CN
-- DOMAIN-SUFFIX,cn
+- DOMAIN-SUFFIX,cn,DIRECT
 
 # > Google
 - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
