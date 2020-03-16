@@ -9598,6 +9598,7 @@
 - DOMAIN-SUFFIX,digicert.com,Domestic
 - DOMAIN-SUFFIX,douban.com,Domestic
 - DOMAIN-SUFFIX,doubanio.com,Domestic
+- DOMAIN-SUFFIX,douyin.com,Domestic
 - DOMAIN-SUFFIX,douyu.com,Domestic
 - DOMAIN-SUFFIX,douyu.tv,Domestic
 - DOMAIN-SUFFIX,douyutv.com,Domestic
@@ -9788,10 +9789,30 @@
 
 
 # > Apple
+# - USER-AGENT,%E5%9C%B0%E5%9B%BE*,DIRECT
+# - USER-AGENT,%E8%AE%BE%E7%BD%AE*,DIRECT
+# - USER-AGENT,*com.apple.mobileme.fmip1,DIRECT
+# - USER-AGENT,*WeatherFoundation*,DIRECT
+# - USER-AGENT,DIRECTNews*,DIRECT
+# - USER-AGENT,AppStore*,DIRECT
+# - USER-AGENT,com.apple.appstored*,DIRECT
+# - USER-AGENT,com.apple.geod*,DIRECT
+# - USER-AGENT,com.apple.Maps,DIRECT
+# - USER-AGENT,com.apple.news*,DIRECT
+# - USER-AGENT,FindMyFriends*,DIRECT
+# - USER-AGENT,FindMyiPhone*,DIRECT
+# - USER-AGENT,FMDClient*,DIRECT
+# - USER-AGENT,FMFD*,DIRECT
+# - USER-AGENT,fmflocatord*,DIRECT
+# - USER-AGENT,geod*,DIRECT
+# - USER-AGENT,locationd*,DIRECT
+# - USER-AGENT,Maps*,DIRECT
+# - USER-AGENT,TestFlight*,DIRECT
 - DOMAIN,Apple.comscoreresearch.com,Apple
 - DOMAIN-SUFFIX,Apple.cn,Apple
 - DOMAIN-SUFFIX,Apple.com,Apple
 - DOMAIN-SUFFIX,Apple.news,Apple
+- DOMAIN-SUFFIX,cdn-apple.com,Apple
 - DOMAIN-SUFFIX,icloud.com,Apple
 - DOMAIN-SUFFIX,icloud-content.com,Apple
 - DOMAIN-SUFFIX,itunes.com,Apple
