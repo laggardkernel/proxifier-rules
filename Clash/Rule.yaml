@@ -9002,6 +9002,7 @@
 - DOMAIN-SUFFIX,homedepot.com,Proxy
 - DOMAIN-SUFFIX,hootsuite.com,Proxy
 - DOMAIN-SUFFIX,howtoforge.com,Proxy
+- DOMAIN-SUFFIX,i-cable.com,Proxy
 - DOMAIN-SUFFIX,iam.soy,Proxy
 - DOMAIN-SUFFIX,icoco.com,Proxy
 - DOMAIN-SUFFIX,icons8.com,Proxy
@@ -9127,6 +9128,7 @@
 - DOMAIN-SUFFIX,popo.tw,Proxy
 - DOMAIN-SUFFIX,potato.im,Proxy
 - DOMAIN-SUFFIX,redd.it,Proxy
+- DOMAIN-SUFFIX,rthk.hk,Proxy
 - DOMAIN-SUFFIX,prfct.co,Proxy
 - DOMAIN-SUFFIX,proxfree.com,Proxy
 - DOMAIN-SUFFIX,psiphon3.com,Proxy
