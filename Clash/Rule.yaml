@@ -8707,9 +8707,6 @@
 
 
 
-# > CN
-- DOMAIN-SUFFIX,cn,DIRECT
-
 # > Google
 - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
@@ -9791,6 +9788,9 @@
 - DOMAIN-SUFFIX,zmz002.com,Domestic
 
 - IP-CIDR,1.255.62.0/24,Domestic
+
+# > CN
+- DOMAIN-SUFFIX,cn,Domestic
 
 
 
