@@ -4803,6 +4803,7 @@
 - DOMAIN-SUFFIX,livep.l.ott.video.qq.com,AdBlock
 - DOMAIN-SUFFIX,lives.l.cp81.ott.cibntv.net,AdBlock
 - DOMAIN-SUFFIX,lives.l.ott.video.qq.com,AdBlock
+- DOMAIN-SUFFIX,lives.l.qq.com,AdBlock
 - DOMAIN-SUFFIX,liveupdate.mac.sandai.net,AdBlock
 - DOMAIN-SUFFIX,lixiangmo.com,AdBlock
 - DOMAIN-SUFFIX,ljrtb.cn,AdBlock
@@ -9510,6 +9511,8 @@
 - DOMAIN-KEYWORD,beplay,Domestic
 
 # > Blizzard
+# - USER-AGENT,hearthstone*,Domestic
+- DOMAIN,cdp.cloud.unity3d.com,Domestic
 - DOMAIN-SUFFIX,battle.net,Domestic
 - DOMAIN-SUFFIX,battlenet.com,Domestic
 - DOMAIN-SUFFIX,blizzard.com,Domestic
