@@ -8,7 +8,8 @@
 * [兼容](#application)
 	* Surge
 	* Shadowrocket
-	* Quantumult
+	* Surfboard
+    * Clash
 * [可实现功能](#function)
 * 导入方式
     * [URL](#remote-files)
