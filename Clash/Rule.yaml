@@ -8711,6 +8711,7 @@
 # > Google
 - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,dl.google.com,DIRECT
 
 # > Steam
 # - USER-AGENT,Steam*,DIRECT
