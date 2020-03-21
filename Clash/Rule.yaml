@@ -8964,7 +8964,6 @@
 - DOMAIN-SUFFIX,g.co,Proxy
 - DOMAIN-SUFFIX,gabia.net,Proxy
 - DOMAIN-SUFFIX,garena.com,Proxy
-- DOMAIN-SUFFIX,gameloft.com,Proxy
 - DOMAIN-SUFFIX,geni.us,Proxy
 - DOMAIN-SUFFIX,get.how,Proxy
 - DOMAIN-SUFFIX,getcloudapp.com,Proxy
@@ -9625,6 +9624,7 @@
 - DOMAIN-SUFFIX,firefox.com,Domestic
 - DOMAIN-SUFFIX,frdic.com,Domestic
 - DOMAIN-SUFFIX,fresh-ideas.cc,Domestic
+- DOMAIN-SUFFIX,gameloft.com,Domestic
 - DOMAIN-SUFFIX,geetest.com,Domestic
 - DOMAIN-SUFFIX,godic.net,Domestic
 - DOMAIN-SUFFIX,goodread.com,Domestic
