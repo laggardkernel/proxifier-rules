@@ -8811,6 +8811,7 @@
 - DOMAIN-SUFFIX,alfredapp.com,Proxy
 - DOMAIN-SUFFIX,allconnected.co,Proxy
 - DOMAIN-SUFFIX,amazon.co,Proxy
+- DOMAIN-SUFFIX,amazon.co.jp,Proxy
 - DOMAIN-SUFFIX,amazon.com,Proxy
 - DOMAIN-SUFFIX,amazonaws.com,Proxy
 - DOMAIN-SUFFIX,ampproject.com,Proxy
