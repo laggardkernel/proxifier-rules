@@ -603,6 +603,8 @@ DOMAIN-SUFFIX,zeutch.com
 DOMAIN-SUFFIX,zynamics.com
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
+USER-AGENT,WhatsApp*
+
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,blogspot

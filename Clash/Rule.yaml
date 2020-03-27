@@ -9386,6 +9386,8 @@
 - DOMAIN-SUFFIX,zynamics.com,Proxy
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
+# - USER-AGENT,WhatsApp*,Proxy
+
 - DOMAIN-KEYWORD,Appledaily,Proxy
 - DOMAIN-KEYWORD,beetalk,Proxy
 - DOMAIN-KEYWORD,blogspot,Proxy
