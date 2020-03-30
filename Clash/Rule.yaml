@@ -5725,7 +5725,6 @@
 - DOMAIN-SUFFIX,oask.xulizui6.com,AdBlock
 - DOMAIN-SUFFIX,obeyter.com,AdBlock
 - DOMAIN-SUFFIX,ocbv0.baiyangzs.com,AdBlock
-- DOMAIN-SUFFIX,ocsp.godaddy.com,AdBlock
 - DOMAIN-SUFFIX,odc.starwave.com,AdBlock
 - DOMAIN-SUFFIX,odin.goo.mx,AdBlock
 - DOMAIN-SUFFIX,officeme.cn,AdBlock
@@ -8897,6 +8896,7 @@
 - DOMAIN-SUFFIX,boxun.com,Proxy
 - DOMAIN-SUFFIX,cachefly.net,Proxy
 - DOMAIN-SUFFIX,cbc.ca,Proxy
+- DOMAIN-SUFFIX,cdn.angruo.com,Proxy
 - DOMAIN-SUFFIX,cdn.segment.com,Proxy
 - DOMAIN-SUFFIX,cdnst.net,Proxy
 - DOMAIN-SUFFIX,celestrak.com,Proxy
