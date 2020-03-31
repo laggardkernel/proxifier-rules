@@ -8723,6 +8723,8 @@
 - DOMAIN-SUFFIX,windows.com,Microsoft
 - DOMAIN-SUFFIX,windows.net,Microsoft
 - DOMAIN-SUFFIX,windowsupdate.com,Microsoft
+- DOMAIN-SUFFIX,xbox.com,Microsoft
+- DOMAIN-SUFFIX,xboxlive.com,Microsoft
 
 
 
