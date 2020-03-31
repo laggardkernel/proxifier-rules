@@ -8623,7 +8623,7 @@
 - DOMAIN-SUFFIX,viu.tv,GlobalTV
 - DOMAIN-SUFFIX,viu.now.com,GlobalTV
 
-# > Youtube_Music
+# > Youtube Music
 # - USER-AGENT,*YouTubeMusic*,GlobalTV
 # - USER-AGENT,*com.google.ios.youtubemusic*,GlobalTV
 
@@ -8741,6 +8741,9 @@
 - IP-CIDR,115.236.118.33/32,Netease Music,no-resolve
 - IP-CIDR,115.236.121.1/32,Netease Music,no-resolve
 - IP-CIDR,118.24.63.156/32,Netease Music,no-resolve
+- IP-CIDR,193.112.159.225/32,Netease Music,no-resolve
+- IP-CIDR,223.252.199.66/32,Netease Music,no-resolve
+- IP-CIDR,223.252.199.67/32,Netease Music,no-resolve
 - IP-CIDR,39.105.63.80/32,Netease Music,no-resolve
 - IP-CIDR,45.254.48.1/32,Netease Music,no-resolve
 - IP-CIDR,47.100.127.239/32,Netease Music,no-resolve
