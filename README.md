@@ -61,18 +61,18 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 
 ---
 
-### JSBox
+### Subscription Converter
 
 ````
-Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/lhie1/Rules/master/JSBox/Rules-lhie1.box
+https://sub.dleris.best
 ````
 
 ---
 
-### Remote Files
+### Shadowrocket (Remote Files)
 
 ````
-Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf
+https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf
 ````
 
 ---
