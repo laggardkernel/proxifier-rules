@@ -2384,7 +2384,6 @@ function makeConf(params) {
       testflight: 'https://raw.githubusercontent.com/lhie1/Rules/master/Surge/TestFlight.conf',
       host: 'https://raw.githubusercontent.com/lhie1/Rules/master/Auto/HOST.conf',
       urlrewrite: 'https://raw.githubusercontent.com/lhie1/Rules/master/Auto/URL%20Rewrite.conf',
-      urlreject: 'https://raw.githubusercontent.com/lhie1/Rules/master/Auto/URL%20REJECT.conf',
       headerrewrite: 'https://raw.githubusercontent.com/lhie1/Rules/master/Auto/Header%20Rewrite.conf',
       hostname: 'https://raw.githubusercontent.com/lhie1/Rules/master/Auto/Hostname.conf',
       mitm: 'https://raw.githubusercontent.com/lhie1/Rules/master/Surge/MITM.conf',
@@ -2490,9 +2489,8 @@ function makeConf(params) {
       rulesReplacement ? emptyPromise(onPgs) : getAutoRules(isQuan || testflight ? pu.quanextra : pu.direct, onPgs, '成功取回Direct规则'), // 4
       rulesReplacement ? emptyPromise(onPgs) : getAutoRules(pu.host, onPgs, '成功取回Host'), // 5
       rulesReplacement ? emptyPromise(onPgs) : getAutoRules(pu.urlrewrite, onPgs, '成功取回URL Rewrite'), // 6
-      !ads || rulesReplacement ? emptyPromise(onPgs) : getAutoRules(isQuan ? pu.quanrejection : pu.urlreject, onPgs, '成功取回URL Reject'), // 7
-      rulesReplacement ? emptyPromise(onPgs) : getAutoRules(pu.headerrewrite, onPgs, '成功取回Header Rewrite'), // 8
-      !ads || rulesReplacement ? emptyPromise(onPgs) : getAutoRules(pu.hostname, onPgs, '成功取回MITM Hostname'), // 9
+      rulesReplacement ? emptyPromise(onPgs) : getAutoRules(pu.headerrewrite, onPgs, '成功取回Header Rewrite'), // 7
+      !ads || rulesReplacement ? emptyPromise(onPgs) : getAutoRules(pu.hostname, onPgs, '成功取回MITM Hostname'), // 8
     ]
 
     // 获取RULE-SET
