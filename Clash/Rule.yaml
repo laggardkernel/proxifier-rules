@@ -8638,6 +8638,8 @@
 
 
 # > Netflix
+# - USER-AGENT,Argo*,Netflix
+- DOMAIN,netflix.com.edgesuite.net,Netflix
 - DOMAIN-SUFFIX,netflix.com,Netflix
 - DOMAIN-SUFFIX,netflix.net,Netflix
 - DOMAIN-SUFFIX,nflxext.com,Netflix
