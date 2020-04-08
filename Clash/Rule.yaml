@@ -18,6 +18,7 @@
 - DOMAIN-SUFFIX,ifacelog.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,mbdlog.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,msg.71.am,AdBlock
+- DOMAIN-SUFFIX,msg.qy.net,REJECT
 - DOMAIN-SUFFIX,msg.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,msg.video.qiyi.com,AdBlock
 - DOMAIN-SUFFIX,msg2.video.qiyi.com,AdBlock
@@ -29,7 +30,6 @@
 - DOMAIN-SUFFIX,noxagile.duapp.com,AdBlock
 - DOMAIN-SUFFIX,paopao.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,policy.video.iqiyi.com,AdBlock
-- DOMAIN-SUFFIX,qosp.msg.71.am,AdBlock
 - DOMAIN-SUFFIX,static.g.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,static.g.ppstream.com,AdBlock
 - DOMAIN-SUFFIX,store.iqiyi.com,AdBlock
