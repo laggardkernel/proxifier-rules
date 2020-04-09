@@ -17,6 +17,8 @@ dns:
      - 119.28.28.28
      - 1.2.4.8
   fallback:
-     - tls://dns.rubyfish.cn:853
-     - tls://1.0.0.1:853
+     - tls://dns.adguard.com:853
+     - tls://1.1.1.1:853
      - tls://dns.google:853
+  # experimental:
+  #   interface-name: WLAN
