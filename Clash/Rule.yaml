@@ -8734,9 +8734,6 @@
 - DOMAIN-SUFFIX,outlook.com,Microsoft
 - DOMAIN-SUFFIX,sharepoint.com,Microsoft
 - DOMAIN-SUFFIX,skype.com,Microsoft
-- DOMAIN-SUFFIX,windows.com,Microsoft
-- DOMAIN-SUFFIX,windows.net,Microsoft
-- DOMAIN-SUFFIX,windowsupdate.com,Microsoft
 - DOMAIN-SUFFIX,xbox.com,Microsoft
 - DOMAIN-SUFFIX,xboxlive.com,Microsoft
 
@@ -8778,6 +8775,11 @@
 # > Steam
 # - USER-AGENT,Steam*,DIRECT
 - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+
+# > Windows
+- DOMAIN-SUFFIX,windows.com,DIRECT
+- DOMAIN-SUFFIX,windows.net,DIRECT
+- DOMAIN-SUFFIX,windowsupdate.com,DIRECT
 
 # > Private Tracker
 - DOMAIN-SUFFIX,awesome-hd.me,DIRECT

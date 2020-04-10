@@ -10,6 +10,11 @@ DOMAIN-SUFFIX,dl.google.com
 USER-AGENT,Steam*
 DOMAIN-SUFFIX,steamcontent.com
 
+# > Windows
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+
 # > Private Tracker
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
