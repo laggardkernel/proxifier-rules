@@ -8781,6 +8781,11 @@
 - DOMAIN-SUFFIX,windows.net,DIRECT
 - DOMAIN-SUFFIX,windowsupdate.com,DIRECT
 
+# > Xunlei
+# - PROCESS-NAME,Thunder,DIRECT
+# - USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT
+- DOMAIN-SUFFIX,xunlei.com,DIRECT
+
 # > Private Tracker
 - DOMAIN-SUFFIX,awesome-hd.me,DIRECT
 - DOMAIN-SUFFIX,broadcasthe.net,DIRECT
@@ -9821,7 +9826,6 @@
 - DOMAIN-SUFFIX,xitek.com,Domestic
 - DOMAIN-SUFFIX,xmcdn.com,Domestic
 - DOMAIN-SUFFIX,xslb.net,Domestic
-- DOMAIN-SUFFIX,xunlei.com,Domestic
 - DOMAIN-SUFFIX,yach.me,Domestic
 - DOMAIN-SUFFIX,yeepay.com,Domestic
 - DOMAIN-SUFFIX,yhd.com,Domestic
