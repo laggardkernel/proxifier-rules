@@ -1,0 +1,7 @@
+#!name=YouTube
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com
+
+[Script]
+type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js
