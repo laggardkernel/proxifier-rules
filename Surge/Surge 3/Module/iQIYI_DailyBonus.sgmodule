@@ -3,8 +3,8 @@
 #!system=ios
 
 [Script]
-type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_GetCookie.js
-type=cron,cronexp="9 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js
+iQIYI_GetCookie.js = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_GetCookie.js
+iQIYI_DailyBonus.js = type=cron,cronexp="9 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js
 
 [MITM]
 hostname = %APPEND% *.iqiyi.com
