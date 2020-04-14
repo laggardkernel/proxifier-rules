@@ -2,8 +2,8 @@
 #!desc=Bahamut animation app removes ads.
 
 [Script]
-Bahamut.js = type=http-request,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
-Bahamut.js = type=http-response,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
+Bahamut.js = type=http-request,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
+Bahamut.js = type=http-response,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
 
 [MITM]
 hostname = %APPEND% api.gamer.com.tw
