@@ -9596,7 +9596,8 @@
 # > Fast
 - DOMAIN-SUFFIX,fast.com,Speedtest
 
-# > Speedtest
+# > Speedtest by Ookla
+# - USER-AGENT,SpeedTest*
 - DOMAIN-KEYWORD,speedtest,Speedtest
 - DOMAIN-SUFFIX,ooklaserver.net,Speedtest
 
