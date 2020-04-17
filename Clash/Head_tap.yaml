@@ -1,0 +1,24 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+dns:
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:53
+  enhanced-mode: fake-ip
+  nameserver:
+     - 119.29.29.29
+     - 119.28.28.28
+     - 1.2.4.8
+  fallback:
+     - tls://dns.adguard.com:853
+     - tls://1.1.1.1:853
+     - tls://dns.google:853
+  # experimental:
+  #   interface-name: WLAN
