@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxifierProfile version="102" platform="MacOSX" product_id="2" product_minver="212">
+    <Options>
+        <Resolve>
+            <AutoModeDetection enabled="false"/>
+            <ViaProxy enabled="false">
+                <TryLocalDnsFirst enabled="false"/>
+            </ViaProxy>
+            <ExclusionList ExcludeSimpleHostnames="true" ExcludeLocalhost="true" ExcludeSelfHostname="true" ExcludeLocalDomain="true">
+                localhost;%SimpleHostnames%;%ComputerName%;*.local;
+            </ExclusionList>
+        </Resolve>
+        <Encryption mode="basic"/>
+        <HttpProxiesSupport enabled="true"/>
+        <HandleDirectConnections enabled="false"/>
+        <ConnectionLoopDetection enabled="true"/>
+        <ProcessServices enabled="true"/>
+        <ProcessOtherUsers enabled="true"/>
+    </Options>
+    <ProxyList>
+        <Proxy id="100" type="SOCKS5">
+            <Address>localhost</Address>
+            <Port>1080</Port>
+            <Options>0</Options>
+        </Proxy>
+    </ProxyList>
+    <ChainList/>
+    <RuleList>
+        <Rule enabled="false">
+            <Name>Homepage: https://github.com/laggardkernel/proxifier-rules</Name>
+            <Applications>
+                "Proxifier"
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>LAN</Name>
+            <Targets>
+                localhost;
+                127.0.0.1;
+                0.0.0.0;
+                ::1;
+                %ComputerName%;
+                *.local;
+                *.test;
+                0:0:0:0:0:0:0:0-7fff:ffff:ffff:ffff:ffff:ffff:ffff:ffff;
+                127.0.0.0-127.255.255.255;
+                10.0.0.0-10.255.255.255;
+                172.16.0.0-172.31.255.255;
+                192.168.0.0-192.168.255.255;
+                100.64.0.0-100.127.255.255;
+                <!-- apple IP -->
+                <!-- 17.0.0.0-17.255.255.255; -->
+                captive.apple.com;
+                *.crashlytics.com;
+                1.0.0.1;
+
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <!-- Optional -->
+        <Rule enabled="true">
+            <Name>Network Tools</Name>
+            <Applications>
+                dig;
+                nslookup;
+                doh;
+                traceroute;
+                mtr;
+                mtr-packet;
+                besttrace;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <!-- Direct -->
+        <Rule enabled="true">
+            <Name>iTunes Direct</Name>
+            <Targets>
+                buy.itunes.apple.com;
+                *-buy.itunes.apple.com;
+                iosapps.itunes.apple.com;
+                osxapps.itunes.apple.com;
+                aod.itunes.apple.com;
+                mvod.itunes.apple.com;
+                streamingaudio.itunes.apple.com;
+
+            </Targets>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>iTunes in Browser</Name>
+            <Applications>
+                "Google Chrome";
+                firefox;
+                Safari;
+                com.apple.WebKit.Networking;
+                storeassetd;
+            </Applications>
+            <Targets>
+                itunes.apple.com;
+                *.itunes-apple.com.akadns.net;
+                *.akamaiedge.net;
+                itunes.apple.com.mwcloudcdn.com;
+            </Targets>
+            <Ports>
+                80;
+                443;
+            </Ports>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Apple App</Name>
+            <Applications>
+                storedownloadd;
+
+                <!-- map -->
+                com.apple.geod;
+                com.apple.WeatherKitService;
+
+                findmydeviced;
+                fmfd;
+                locationd;
+
+                trustd;
+
+                <!-- not merged -->
+                apsd;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Proxy Client</Name>
+            <Applications>
+                ss-local;
+                simple-obfs;
+                obfs-local;
+                v2ray;
+                GoAgentX;
+                cow;
+                cow-*;
+                meow;
+                shadowsocks*;
+                openconnect;
+                "Cisco AnyConnect";
+                com.avast.proxy;
+                privoxy;
+                polipo;
+                proxychains*;
+                Surge;
+                Mellow;
+                core;
+                tcproute*;
+                tincd;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>BT Client</Name>
+            <Applications>
+                Thunder;
+                DownloadService;
+                Transmission;
+                BitTorrent;
+                uTorrent;
+                qbittorrent;
+                deluge;
+                deluge-gtk;
+                deluged;
+                WebTorrent;
+                "Resilio Sync";
+
+                <!-- ENFI download files from proxy in US -->
+                "ENFI下载器 Helper";
+                aria2c_mac;
+                pcdn_mac;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Client Force Direct</Name>
+            <Applications>
+                "Paws for Trello";
+                MicroMessenger;
+                PayPal;
+                TeamViewer;
+                TIM;
+                WeChat;
+
+                <!-- remove UA cause incompatibility -->
+
+                Charles;
+
+            </Applications>
+            <Action type="Direct"/>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Client Force Proxy</Name>
+            <Applications>
+                "Backup and Sync";
+                "Day One";
+                Dropbox;
+                LINE;
+                node-webkit;
+                Spotify;
+                Tweetbot;
+                Twitter;
+                Twitterrific;
+
+                <!-- Media -->
+                News;
+                "YT Music";
+
+            </Applications>
+            <Action type="Proxy">100</Action>
+        </Rule>
+
