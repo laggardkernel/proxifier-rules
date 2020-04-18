@@ -8,7 +8,8 @@
 * [兼容](#application)
 	* Surge
 	* Shadowrocket
-	* Quantumult
+	* Surfboard
+    * Clash
 * [可实现功能](#function)
 * 导入方式
     * [URL](#remote-files)
@@ -20,7 +21,6 @@
 * [Q&A](#qa)
 * [客户端](#客户端有r标示表示支持-ssr)
 * [教程/说明](#教程--说明)
-* [配置文件样例](#配置文件样例)
 * [鸣谢](#鸣谢)
 * [License](#license)
 
@@ -61,23 +61,18 @@ Quantumult | [@Jacky Y](https://t.me/WatanabeMayu) | [Quantumult](https://t.me/q
 
 ---
 
-### JSBox
+### Subscription Converter
 
 ````
-Surge：https://xteko.com/redir?name=Rules-lhie1&url=https://raw.githubusercontent.com/Fndroid/jsbox_script/master/Rules-lhie1/.output/Rules-lhie1.box
+https://sub.dleris.best
 ````
 
 ---
 
-### Remote Files
+### Shadowrocket (Remote Files)
 
 ````
-Shadowrocket：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket.conf
-
-
-Quantumult_Filter：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
-
-Quantumult_Rejection：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf
 ````
 
 ---
@@ -194,7 +189,7 @@ Surge 在增加了代理共享模式，只需要开启就能让 Wi-Fi 网络中�
 
 #### Surge 2 提示激活过多设备
 ````
-Surge 2的防盗版策略为单次购买后，在最近 180 天内，若已激活的设备数量超过 10 台，则将拒绝激活新设备（家庭共享将共享购买者账号的 10 次限制）。如特殊情况请发送邮件联系作者重制。
+Surge 2的防盗版策略为单次购买后，在最近 180 天内，若已激活的设备数量超过 10 台，则将拒绝激活新设备（家庭共享将共享购买者账号的 10 次限制）。如特殊情况请发送邮件联系作者重置。
 ````
 
 #### Surge 3 提示规则过多
