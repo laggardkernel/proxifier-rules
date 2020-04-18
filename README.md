@@ -4,26 +4,6 @@ Rules for proxifier based on [lhie1/Rules][Rules].
 
 > A proxifier is a software program which can make other programs pass through a proxy server by intercepting and modifying their network requests.
 
-## Kitsunebi-Android, Mellow
-
-Raw files
-
-- [Kitsunebi-Android][kitsunebi-release]
-- [Kitsunebi-Android Lite][kitsunebi-lite-release], without ad block
-- [Mellow][mellow-release]
-- [Mellow Lite][mellow-lite-release]
-
-You need to change the proxy conf in the Mellow rule.
-
-**Caveats**
-
-- Rule syntax for Kitsunebi iOS and Android are different
-- only `;` is supported as comment mark in Mellow
-- only `#` is supported as comment mark in Kitsunebi-Android
-- Unsupported rules in Mellow: USER-AGENT
-- Unsupported rules in Kitsunebi-Android: Custom Endpoint, PROCESS-NAME, USER-AGENT, maybe IP-CIDR
-- Conf in Mellow is case sensitive, but not in Kitsunebi-Android
-
 ## Proxifier
 
 Raw files
@@ -61,7 +41,6 @@ Direct rules
 Proxy rules
 - Foreign IM applications
 - Common foreign domains
-- Blacklist from [gfwlist][gfwlist]
 - Top blocked domains
 - Amazon IP
 - Facebook IP
@@ -69,14 +48,35 @@ Proxy rules
 - Kakao Talk IP
 - Potato Chat IP
 - Telegram IP
+- Blacklist from [gfwlist][gfwlist]
 
-Block/Reject rules
+Block/Reject rules (Separated)
 - Ads domains in video apps
 - Huge list of ads domains
 - China Railcom
 
 URL related rules are dropped cause Proxifier doesn't support it. Luckily, these
 rules are used for redirection and ads block only.
+
+## Kitsunebi-Android, Mellow
+
+Raw files
+
+- [Kitsunebi-Android][kitsunebi-release]
+- [Kitsunebi-Android Lite][kitsunebi-lite-release], without ad block
+- [Mellow][mellow-release]
+- [Mellow Lite][mellow-lite-release]
+
+You need to change the proxy conf in the Mellow rule.
+
+**Caveats**
+
+- Rule syntax for Kitsunebi iOS and Android are different
+- only `;` is supported as comment mark in Mellow
+- only `#` is supported as comment mark in Kitsunebi-Android
+- Unsupported rules in Mellow: USER-AGENT
+- Unsupported rules in Kitsunebi-Android: Custom Endpoint, PROCESS-NAME, USER-AGENT, maybe IP-CIDR
+- Conf in Mellow is case sensitive, but not in Kitsunebi-Android
 
 ## How to Contribute
 Edit the source file named `proxifier/Proxifier.ppx`. `Proxifer.ppx` under project root
@@ -95,7 +95,7 @@ compressed to speedup config loading.
     - Merged Apple China domains
     - Merged Google China domains
     - Dropped China site domains cause it's so huge
-- [ ] Convert REJECT rules as confs for dnsmasq, unbound
+- [x] Convert REJECT rules as confs for dnsmasq, unbound
 - [x] Direct IRC connections cause proxy may close TCP connection after timeout
 
 ## F.A.Q.
@@ -151,7 +151,7 @@ Another drawback of Surge is that, HTTP**S** rules could NOT be used for proxy.
 
 GNU General Public License v2.0
 
-[proxifier-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/proxifier/Proxifier.ppx
+[proxifier-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/proxifier.ppx
 [kitsunebi-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/kitsunebi-android/rule.conf
 [kitsunebi-lite-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/kitsunebi-android/rule-lite.conf
 [mellow-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/mellow/rule.conf
