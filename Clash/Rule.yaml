@@ -8526,7 +8526,9 @@
 # > Disney Plus
 # - USER-AGENT,Disney*,GlobalTV
 - DOMAIN,cdn.registerdisney.go.com,GlobalTV
+- DOMAIN,cdn.cdn.unid.go.com,GlobalTV
 - DOMAIN-SUFFIX,bamgrid.com,GlobalTV
+- DOMAIN-SUFFIX,braze.com,GlobalTV
 - DOMAIN-SUFFIX,conviva.com,GlobalTV
 - DOMAIN-SUFFIX,disney.demdex.net,GlobalTV
 - DOMAIN-SUFFIX,disneyplus.com,GlobalTV
@@ -8630,7 +8632,14 @@
 
 # > ViuTV
 # - USER-AGENT,ViuTV*,GlobalTV
+- DOMAIN-SUFFIX,bootstrapcdn.com,GlobalTV
 - DOMAIN-SUFFIX,cloudfront.net,GlobalTV
+- DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,GlobalTV
+- DOMAIN-SUFFIX,firebaseio.com,GlobalTV
+- DOMAIN-SUFFIX,jwpcdn.com,GlobalTV
+- DOMAIN-SUFFIX,jwplayer.com,GlobalTV
+- DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,GlobalTV
+- DOMAIN-SUFFIX,nowe.com,GlobalTV
 - DOMAIN-SUFFIX,viu.com,GlobalTV
 - DOMAIN-SUFFIX,viu.tv,GlobalTV
 - DOMAIN-SUFFIX,viu.now.com,GlobalTV
