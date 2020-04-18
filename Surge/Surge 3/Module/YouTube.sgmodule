@@ -15,7 +15,7 @@ URL-REGEX,https?:\/\/youtubei.googleapis.com\/.+ad_break,REJECT
 URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log),REJECT
 
 [Script]
-YouTube = type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path=https://Choler.github.io/Surge/Script/YouTube.js
+http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
