@@ -1,5 +1,12 @@
 # Proxifier Rules
 
+**Unmaintained**, switched to Clash Premium, or Clash.Meta based GUIs like ClashX Pro,
+Clash for Windows, ClashDotNetFramework. Clash Premium has built-in support to handle
+GFW DNS pollution (which is not seen in Proxifier), `RULE-SET`, extra proxy
+protocols support like Shadowsocks(R), Vmess, Trojan. The only drawback of
+Clash I've known is that the Enhanced Mode is based on TUN and it makes `traceroute`
+fail to work.
+
 Rules for proxifier based on [lhie1/Rules][Rules].
 
 > A proxifier is a software program which can make other programs pass through a proxy server by intercepting and modifying their network requests.
@@ -11,25 +18,30 @@ Raw files
 - [Proxifier rule][proxifier-release]
 
 ### Anti DNS Pollution
+
 **Warning**: "Detect DNS settings automatically" and "Resolve hostnames through
 proxy" are not designed for handling DNS pollution. Please **use a clean DNS**.
 
-[shawn1m/overture][overture] is recommended if you wanna setup a local
+[IrineSistiana/mosdns][mosdns] is recommended if you wanna setup a local
 stub/forwarding DNS.
-> overture, A customized DNS forwarder written in Go
+> mosdns, A very flexible DNS forwarder written in Go
 
 Another setup with "dnsmasq/unbound + chinadns + dnsforwarder/cdns/..." is also
-popular, and may be lighter than overture.
+popular. But mosdns can support all these features in one app.
 
 ### Features
+
 Default conf
+
 - proxy: `socks5://127.0.0.1:1080`
 - Proxy rule as the fallback rule
 
 Optional rules, put at the top for quick switch
+
 - Direct network tool or not? (`nslookup`, `dig`, `traceroute`, `mtr`, etc)
 
 Direct rules
+
 - Apple services
 - Part of Google domains available in China
 - Proxy client applications
@@ -39,6 +51,7 @@ Direct rules
 - China IP list from [17mon/china_ip_list][china_ip_list] based on routing tables
 
 Proxy rules
+
 - Foreign IM applications
 - Common foreign domains
 - Top blocked domains
@@ -51,6 +64,7 @@ Proxy rules
 - Blacklist from [gfwlist][gfwlist]
 
 Block/Reject rules (Separated)
+
 - Ads domains in video apps
 - Huge list of ads domains
 - China Railcom
@@ -79,27 +93,31 @@ You need to change the proxy conf in the Mellow rule.
 - Conf in Mellow is case sensitive, but not in Kitsunebi-Android
 
 ## How to Contribute
+
 Edit the source file named `proxifier/Proxifier.ppx`. `Proxifer.ppx` under project root
 directory is used for release only. Besides, `Proxifier.ppx` under project root is
 compressed to speedup config loading.
 
 ## Todo
+
 - [x] Merge rules from [gfwlist][gfwlist]
 - [x] Use [17mon/china_ip_list][china_ip_list] instead of the delegated APNIC list
 - [x] Diff `*.ppx` within `proxifier/` as text, treat released `*.ppx` as binary
 - [x] ~~Merge [Jamesits/proxifier-profiles][jamesits-rules]~~
-    - Proxy client apps **ONLY**
-    - All the other app specific rules are useless, since there's huge domain
-	based rules already
+  - Proxy client apps **ONLY**
+  - All the other app specific rules are useless, since there's huge domain
+ based rules already
 - [x] Merge [felixonmars/dnsmasq-china-list][dnsmasq-china-list]
-    - Merged Apple China domains
-    - Merged Google China domains
-    - Dropped China site domains cause it's so huge
+  - Merged Apple China domains
+  - Merged Google China domains
+  - Dropped China site domains cause it's so huge
 - [x] Convert REJECT rules as confs for dnsmasq, unbound
 - [x] Direct IRC connections cause proxy may close TCP connection after timeout
 
-## F.A.Q.
+## F.A.Q
+
 ### Proxy Rules doesn't Work on macOS
+
 The DNS resolution feature from Proxifier macOS is not designed for handling DNS pollution.
 There's performance issue in real use for handling DNS pollution. In case that
 is causes problem for users, I disabled this feature in the config file.
@@ -116,6 +134,7 @@ supported, different kinds of rules could be chained together.
 This combination logical is not available in Surge until *Surge 3*.
 
 Besides, Surge 2 has some serious drawbacks/bugs in the *Enhanced Mode*:
+
 - Virtual machines need to be configured in bridged mode.
 - Many **unknown process** appearr in the monitor panel.
 
@@ -139,6 +158,7 @@ Another drawback of Surge is that, HTTP**S** rules could NOT be used for proxy.
 | Problems | DNS on macOS | Unknow process, bridged requirement for VM in Enhanced Mode | Not sure the problems from 2 are fixed or not |
 
 ## Credit
+
 - [Proxifier Documentation][proxifier-doc]
 - [lhie1/Rules][Rules]
 - [gfwlist][gfwlist]
@@ -158,7 +178,7 @@ GNU General Public License v2.0
 [mellow-lite-release]: https://github.com/laggardkernel/proxifier-rules/raw/master/mellow/rule-lite.conf
 
 [Rules]: https://github.com/lhie1/Rules
-[overture]: https://github.com/shawn1m/overture
+[mosdns]: https://github.com/IrineSistiana/mosdns
 [gfwlist]: https://github.com/gfwlist/gfwlist
 [gfwlist2dnsmasq]: https://github.com/cokebar/gfwlist2dnsmasq
 [china_ip_list]: https://github.com/17mon/china_ip_list
